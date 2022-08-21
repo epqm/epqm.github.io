@@ -2,6 +2,9 @@
 permalink: /what-is/
 layout: single
 title: More about EPQM
+excerpt: "*E*mergent *P*henomena in *Q*uantum *M*atter Group"
+header:
+    overlay_image: /assets/images/home.svg
 ---
 
 We are interested in exploring the *interplay of low-dimensionality, strong correlations and quantum fluctuations* in leading to novel emergent states of matter. By *emergence*, we mean that in a many-body system whose constituents interact with one another, we often find *complex collective behaviour* at low energies and long lengthscales that is qualitatively different from the behaviour of the constituent parts. Evidence of such emergent complexity can, for instance, be seen in the phase diagrams of materials like the cuprates, heavy fermion systems, manganites, pnictides etc. An outstanding feature of such phase diagrams is the competition (and sometimes even the coexistence!) of *various forms of charge and magnetically ordered* insulating states with superconducting order. Another is the existence of metallic states which show clear signatures of departure from Landau’s paradigm for the Fermi liquid. The recent explosion of interest in *topological states of matter* beyond the quantum Hall effects (integer and fractional) offer another fascinating playground, pointing the way towards strongly correlated forms of topological insulating and superconducting forms of matter.
