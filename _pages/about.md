@@ -1,5 +1,5 @@
 ---
-permalink: /what-is/
+permalink: /about/
 layout: single
 title: More about EPQM
 excerpt: "*E*mergent *P*henomena in *Q*uantum *M*atter Group"
