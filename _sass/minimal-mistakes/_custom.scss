@@ -11,6 +11,14 @@ a {
   font-weight: bold;
 }
 
+.people-head {
+    @include breakpoint($small) {
+    display: inline-block;
+    width: 100%;
+    float: center;
+    }
+}
+
 .people-head-img {
     margin: auto;
     width: 200px;
@@ -22,7 +30,7 @@ a {
 
 .people-head-name {
     font-weight: bold;
-    font-size: large;
+    font-size: larger;
     margin-bottom: 0.5em;
 }
 
