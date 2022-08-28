@@ -10,3 +10,29 @@ a {
   text-decoration: none;
   font-weight: bold;
 }
+
+.people-head-img {
+    margin: auto;
+    width: 200px;
+    @include breakpoint($small) {
+	float: left;
+	width: 200px;
+    }
+}
+
+.people-head-name {
+    font-weight: bold;
+    font-size: large;
+    margin-bottom: 0.5em;
+}
+
+.people-head-text {
+    margin: auto;
+    text-align: center;
+    @include breakpoint($small) {
+        text-align: left;
+	float: left;
+	margin-left: 2em;
+  }
+}
+
