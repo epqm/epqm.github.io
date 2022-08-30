@@ -28,6 +28,14 @@ a {
     }
 }
 
+.people-img {
+    margin: auto;
+    width: 200px;
+    @include breakpoint($small) {
+	width: 200px;
+    }
+}
+
 .people-head-name {
     font-weight: bold;
     font-size: larger;
@@ -44,3 +52,36 @@ a {
   }
 }
 
+.people-text-left {
+    text-align: justify;
+    width: 100%;
+    margin-bottom:2em;
+    float: center;
+    @include breakpoint($small) {
+	width: 45%;
+	float: left;
+  }
+}
+
+.people-text-right {
+    text-align: justify;
+    width: 100%;
+    margin-bottom:2em;
+    float: center;
+    @include breakpoint($small) {
+	width: 45%;
+	float: right;
+  }
+}
+
+.research-image {
+    @include breakpoint($small) {
+	width: 400px;
+	float: right;
+	margin-left: 2em;
+    }
+    width: 400px;
+    margin: auto;
+    margin-bottom: 2em;
+    display: block;
+}

@@ -26,13 +26,13 @@ Contact me at <a href="mailto:slal@iiserkol.ac.in">slal@iiserkol.ac.in</a><br>
 
 {% assign mod = forloop.index | modulo: 2 %}
 {% if mod == 1 %}
-<div style="width:45%;float:left;text-align:justify;margin-bottom:2em;" markdown=1>
+<div class="people-text-left" markdown=1>
 {% else %}
-<div style="width:45%;float:right;text-align:justify;margin-bottom:2em;" markdown=1>
+<div class="people-text-right" markdown=1>
 {% endif %}
-<div style="width:200px;margin: auto;">
-<img src="{{ person["img_path"] }}">
-</div>
+
+<img src="{{ person["img_path"] }}" class="people-img">
+
 **{{ person["name"] }}**<br>
 [{{ person["email"] }}](mailto:{{ person["email"] }})
 
@@ -51,9 +51,9 @@ Contact me at <a href="mailto:slal@iiserkol.ac.in">slal@iiserkol.ac.in</a><br>
 
 {% assign mod = forloop.index | modulo: 2 %}
 {% if mod == 1 %}
-<div style="width:45%;float:left;text-align:justify;margin-bottom:2em;" markdown=1>
+<div class="people-text-left" markdown=1>
 {% else %}
-<div style="width:45%;float:right;text-align:justify;margin-bottom:2em;" markdown=1>
+<div class="people-text-right" markdown=1>
 {% endif %}
 **{{ person["name"] }}**<br>
 [{{ person["email"] }}](mailto:{{ person["email"] }})
