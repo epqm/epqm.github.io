@@ -1,8 +1,7 @@
 ---
 permalink: /about/
 layout: single
-title: More about EPQM
-excerpt: "*E*mergent *P*henomena in *Q*uantum *M*atter Group"
+title: About EPQM
 header:
     image: /assets/images/home2.svg
 ---
@@ -13,4 +12,22 @@ The theoretical analysis of such phenomena is often challenging due to the absen
 
 In attempting an understanding of the emergent complexity in various materials, we often adopt a model-based approach. While several simplifying assumptions are typically made during the analysis, our aim is to identify the appropriate models and results that offer *universal insight* on the phenomena under investigation. We adopt a variety of analytic methods in this pursuit, including the development of *non-perturbative techniques* that can offer enhanced information on the low-energy quantum dynamics of the many-body interacting system.
 
-For more information, please visit the [research page](/research/).
+For more information, please visit the [research page](/research/) and the [publications page](/publications/).
+
+<div style="float:left;width:33%;" markdown=1>
+<img src="/assets/images/about/epqm-logo.svg" style="display:block;margin:auto;width:150px;" />
+</div>
+<div style="float:left;width:33%;" markdown=1>
+<img src="/assets/images/about/dps-logo.svg" style="display:block;margin:auto;width:258px;" />
+</div>
+<div style="float:left;width:33%;" markdown=1>
+<img src="/assets/images/about/IISER-K_Logo.png" style="display:block;margin:auto;width:150px;" />
+</div>
+
+<div style="font-weight:bold;text-align:center;margin-top:2em;">
+EPQM,<br>
+Dpt. of Physical Sciences,<br>
+Research Complex, IISER Kolkata,<br>
+Mohanpur-741246, West Bengal, India.
+</div>
+
