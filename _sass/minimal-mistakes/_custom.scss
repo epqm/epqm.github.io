@@ -112,11 +112,10 @@ a {
 	font-colour: black;
 }
 
-.home__post__summary {
+.home__post__summary, .all__post__summary {
     position: relative;
     float: left;
-    margin-left: 0;
-    margin-right: 0;
+    margin: auto;
     width: 100%;
     clear: both;
     font-size: 1.125em;
@@ -127,6 +126,7 @@ a {
 
     .archive__item-teaser {
       margin-bottom: 2em;
+      max-width: 600px;
     }
 
     a.btn::before {
@@ -138,13 +138,15 @@ a {
       bottom: 0;
     }
 
-    @include breakpoint($small) {
+    @include breakpoint($medium) {
       width: 80%;
+      max-width: 100%;
       margin-left: span(1.5 of 12);
       margin-right: span(1 of 12);
       .archive__item-teaser {
         float: left;
         width: span(6 of 12);
+        max-width: 100%;
       }
 
       .archive__item-body {
@@ -153,5 +155,14 @@ a {
         padding-right: gutter(1 of 12);
         width: span(6 of 12);
       }
+
+    }
+}
+
+.all__post__summary {
+    margin-left: 0;
+    margin-right: 0;
+    .archive__item-title {
+        margin-top: 0;
     }
 }

@@ -8,7 +8,16 @@
 
   {% for post in site.posts %}
 
-    <div class="home__post__summary">
+    {% if limit > 0 %}
+        {% assign mainclass = "home__post__summary" %} 
+	{% if forloop.index == limt %}
+ 	    {% break %}
+	{% endif %}
+    {% else %}
+        {% assign mainclass = "all__post__summary" %} 
+    {% endif %}
+
+    <div class="{{ mainclass }}">
       <div class="archive__item">
         {% if post.header.image %}
           <div class="archive__item-teaser">
