@@ -1,5 +1,6 @@
 ---
 title: "Example Post 3"
+excerpt: "This is the excerpt. It will appear on the home page."
 permalink: /post3/
 categories:
   - Post Formats
@@ -8,5 +9,6 @@ tags:
   - readability
   - standard
 header:
-    image: /assets/images/home2.svg
+    image: /assets/images/post_header.svg
+    caption: "This is a caption"
 ---
