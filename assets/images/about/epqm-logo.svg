@@ -3,8 +3,8 @@
 
 <svg
    width="665.18774mm"
-   height="698.61761mm"
-   viewBox="0 0 665.18774 698.61762"
+   height="703.70819mm"
+   viewBox="0 0 665.18774 703.7082"
    version="1.1"
    id="svg78346"
    inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
@@ -74,9 +74,11 @@
        clip-path="url(#clipPath78421)"
        transform="matrix(15.113195,0,0,15.113195,-1700.0456,-1528.7901)" /><text
        xml:space="preserve"
-       transform="matrix(0.5745763,0,0,0.5745763,-523.97275,-1386.7439)"
+       transform="matrix(0.5745763,0,0,0.5745763,-523.97275,-1413.2024)"
        id="text3317"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:257.871px;font-family:'Segoe Print';-inkscape-font-specification:'Segoe Print Bold';text-align:center;white-space:pre;shape-inside:url(#rect3319);display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:17.4041;stroke-dasharray:none;stroke-opacity:1"><tspan
-         x="582.26442"
-         y="3201.9473"
-         id="tspan4006">EPQM</tspan></text></g></svg>
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:306.99px;font-family:'Segoe Print';-inkscape-font-specification:'Segoe Print Bold';text-align:center;white-space:pre;shape-inside:url(#rect3319);display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1.74041;stroke-dasharray:none;stroke-opacity:1"><tspan
+         x="552.94042"
+         y="3251.7584"
+         id="tspan23195"><tspan
+           style="font-weight:normal;font-family:'Sitka Text';-inkscape-font-specification:'Sitka Text'"
+           id="tspan23193">EPQM</tspan></tspan></text></g></svg>
