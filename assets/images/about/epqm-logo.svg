@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="665.18774mm"
-   height="703.70819mm"
-   viewBox="0 0 665.18774 703.7082"
+   width="1167.2085mm"
+   height="708.79877mm"
+   viewBox="0 0 1167.2085 708.79878"
    version="1.1"
    id="svg78346"
    inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
@@ -25,9 +25,9 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="0.15794847"
-     inkscape:cx="990.82948"
-     inkscape:cy="2228.5749"
+     inkscape:zoom="0.093421594"
+     inkscape:cx="2033.791"
+     inkscape:cy="2665.3367"
      inkscape:window-width="1916"
      inkscape:window-height="1052"
      inkscape:window-x="0"
@@ -56,7 +56,13 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(289.07919,210.31921)"><rect
+     transform="translate(540.08954,215.40976)"><rect
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2.56233;stroke-opacity:1"
+       id="rect674"
+       width="1167.2085"
+       height="708.79871"
+       x="-540.08954"
+       y="-215.40976" /><rect
        style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:15.1132;stroke-dasharray:none;stroke-opacity:1"
        id="rect3109"
        width="665.18774"
@@ -79,6 +85,6 @@
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:306.99px;font-family:'Segoe Print';-inkscape-font-specification:'Segoe Print Bold';text-align:center;white-space:pre;shape-inside:url(#rect3319);display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1.74041;stroke-dasharray:none;stroke-opacity:1"><tspan
          x="552.94042"
          y="3251.7584"
-         id="tspan23195"><tspan
+         id="tspan1606"><tspan
            style="font-weight:normal;font-family:'Sitka Text';-inkscape-font-specification:'Sitka Text'"
-           id="tspan23193">EPQM</tspan></tspan></text></g></svg>
+           id="tspan1604">EPQM</tspan></tspan></text></g></svg>

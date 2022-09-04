@@ -20,6 +20,7 @@ header:
 <div class="feature__wrapper">
 {% include feature_row_posts %}
 </div>
+{% break %}
 {% endif %}
 {% endfor %}
 
@@ -29,3 +30,5 @@ header:
 {% include feature_row_posts %}
 {% endfor %}
 </div>
+
+{% include selected_publications.html %}

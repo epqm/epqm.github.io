@@ -94,19 +94,18 @@
 }
 
 
-.triplet {
-    float:left;
-    width:33%;
+.about-logos {
+    display: block;
+    width:100%;
     margin-bottom: 1em;
-}
 
-.triplet img {
-	display:block;
-	margin:auto;
+    img {
+	    width: 32%;
+    }
 }
-
 
 .bold-center-text {
+	display: block;
 	font-weight:bold;
 	text-align:center;
 }
@@ -196,4 +195,20 @@ a:after {
 a:hover:after {
   transform: scaleX(1);
   transform-origin: bottom middle;
+}
+
+.publications__item {
+    display:block;
+    margin: auto;
+    .publication__title {
+	    font-weight: bold;
+    }
+    .publication__subitem {
+	    margin-left: 0.5em;
+	    margin-right: 1.5em;
+    }
+    p {
+	    margin-bottom: 0.5em;
+    }
+    margin-bottom: 2em;
 }

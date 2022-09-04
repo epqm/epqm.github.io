@@ -20,14 +20,12 @@ In attempting an understanding of the emergent complexity in various materials, 
 
 For more information, please visit the [research page](/research/) and the [publications page](/publications/).
 
-<div class="triplet">
-<img src="/assets/images/about/epqm-logo.svg" style="width:150px;" />
-</div>
-<div class="triplet">
-<img src="/assets/images/about/dps-logo.svg" style="width:258px;" />
-</div>
-<div class="triplet">
-<img src="/assets/images/about/IISER-K_Logo.png" style="width:150px;" />
+{% include selected_publications.html %}
+
+<div class="about-logos">
+<img src="/assets/images/about/epqm-logo.svg"/>
+<img src="/assets/images/about/dps-logo.svg" />
+<img src="/assets/images/about/IISER-K_Logo.svg" />
 </div>
 
 <div class="bold-center-text">

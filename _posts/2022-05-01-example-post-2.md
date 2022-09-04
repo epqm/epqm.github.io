@@ -8,5 +8,4 @@ tags:
   - Post Formats
   - readability
   - standard
-pinned: true
 ---
