@@ -6,11 +6,6 @@
   text-align: justify;
 }
 
-a {
-  text-decoration: none;
-  font-weight: bold;
-}
-
 .people-head {
     @include breakpoint($small) {
     display: inline-block;
@@ -120,6 +115,9 @@ a {
     clear: both;
     font-size: 1.125em;
 
+    a {
+	    text-decoration: none;
+    }
     .archive__item {
       float: left;
     }
@@ -141,7 +139,7 @@ a {
     @include breakpoint($medium) {
       width: 80%;
       max-width: 100%;
-      margin-left: span(1.5 of 12);
+      margin-left: 0;
       margin-right: span(1 of 12);
       .archive__item-teaser {
         float: left;
@@ -160,4 +158,31 @@ a {
     .archive__item-title {
         margin-top: 0;
     }
+}
+
+a {
+  display: inline-block;
+  position: relative;
+  color: #0087ca;
+  text-decoration: none;
+  font-weight: bold;
+  text-decoration: none!important;
+}
+
+a:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 4px;
+  bottom: 0;
+  left: 0;
+  background-color: #0087ca;
+  transform-origin: bottom middle;
+  transition: transform 0.2s ease-in-out;
+}
+
+a:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom middle;
 }

@@ -1,4 +1,4 @@
-    <div class="feature__item{% if include.type %}--{{ include.type }}{% endif %}">
+    <div class="home__post__summary">
       <div class="archive__item">
         {% if post.header.image %}
           <div class="archive__item-teaser">
@@ -8,7 +8,9 @@
 
         <div class="archive__item-body">
           {% if post.title %}
-            <a href="{{ post.url }}"><h3 class="archive__item-title">{{ post.title }} </h3></a>
+
+            <h3 class="archive__item-title">
+	        <a href="{{ post.url }}">{{ post.title }}</a></h3>
           {% endif %}
 
           <div class="archive__item-excerpt">

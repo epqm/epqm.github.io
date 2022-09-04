@@ -13,13 +13,15 @@ header:
 {% for post in site.posts %}
 {% if post.pinned == true %}
 <h2> Pinned Post </h2>
-{% include recent_posts_feature_row %}
+<div class="feature__wrapper">
+{% include feature_row_posts %}
+</div>
 {% endif %}
 {% endfor %}
 
 <h2>Recent Posts</h2>
 
-<div class="feature__wrapper">
+<div class="feature__wrapper" >
 {% for post in site.posts limit:3 %}
 {% include feature_row_posts %}
 {% endfor %}
