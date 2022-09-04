@@ -115,9 +115,6 @@
     clear: both;
     font-size: 1.125em;
 
-    a {
-	    text-decoration: none;
-    }
     .archive__item {
       float: left;
     }
@@ -158,6 +155,9 @@
     .archive__item-title {
         margin-top: 0;
         margin-bottom: 1em;
+    }
+    .archive__item-excerpt {
+        margin-top: 1em;
     }
 }
 
