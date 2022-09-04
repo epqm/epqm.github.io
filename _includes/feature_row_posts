@@ -1,12 +1,4 @@
-{% if include.id %}
-  {% assign feature_row = page[include.id] %}
-{% else %}
-  {% assign feature_row = page.feature_row %}
-{% endif %}
-
-<div class="feature__wrapper">
-
-    <div class="home__post__summary">
+    <div class="feature__item{% if include.type %}--{{ include.type }}{% endif %}">
       <div class="archive__item">
         {% if post.header.image %}
           <div class="archive__item-teaser">
@@ -19,18 +11,16 @@
             <a href="{{ post.url }}"><h3 class="archive__item-title">{{ post.title }} </h3></a>
           {% endif %}
 
+          <div class="archive__item-excerpt">
+		<i class="far fa-calendar-alt"></i> <span>{{ post.date | date:"%B %d, %Y"  }} </span>
+          </div>
+
           {% if post.excerpt %}
             <div class="archive__item-excerpt">
               <p>{{ post.excerpt | markdownify }} </p>
             </div>
           {% endif %}
 
-          <div class="archive__item-excerpt">
-            <p> {{ post.date | date: "%Y-%m-%d" }} </p>
-          </div>
-
         </div>
       </div>
     </div>
-</div>
-

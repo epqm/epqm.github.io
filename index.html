@@ -10,7 +10,17 @@ header:
       url: /about/
 ---
 
+{% for post in site.posts %}
+{% if post.pinned == true %}
+<h2> Pinned Post </h2>
+{% include recent_posts_feature_row %}
+{% endif %}
+{% endfor %}
+
 <h2>Recent Posts</h2>
 
-{% assign limit = 5 %}
-{% include recent_posts_feature_row %}
+<div class="feature__wrapper">
+{% for post in site.posts limit:3 %}
+{% include feature_row_posts %}
+{% endfor %}
+</div>

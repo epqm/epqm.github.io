@@ -3,7 +3,11 @@ permalink: /posts/
 layout: single
 classes: wide
 title: All Posts
+
 ---
 
-{% assign limit = -1 %}
-{% include recent_posts_feature_row %}
+{% for post in site.posts %}
+{{ forloop.index }}. [**{{ post.title }}**]({{ post.url }})<br>
+{{ post.excerpt }}<br>
+<i class="far fa-calendar-alt"></i> <span>{{ post.date | date:"%B %d, %Y"  }} </span>
+{% endfor %}

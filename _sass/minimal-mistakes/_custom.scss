@@ -112,7 +112,7 @@ a {
 	font-colour: black;
 }
 
-.home__post__summary, .all__post__summary {
+.home__post__summary {
     position: relative;
     float: left;
     margin: auto;
@@ -145,7 +145,7 @@ a {
       margin-right: span(1 of 12);
       .archive__item-teaser {
         float: left;
-        width: span(6 of 12);
+        width: span(5 of 12);
         max-width: 100%;
       }
 
@@ -153,15 +153,10 @@ a {
         float: right;
         padding-left: gutter(0.5 of 12);
         padding-right: gutter(1 of 12);
-        width: span(6 of 12);
+        width: span(7 of 12);
       }
 
     }
-}
-
-.all__post__summary {
-    margin-left: 0;
-    margin-right: 0;
     .archive__item-title {
         margin-top: 0;
     }

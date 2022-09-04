@@ -11,4 +11,5 @@ tags:
 header:
     image: /assets/images/post_header.svg
     caption: "This is a caption"
+pinned: true
 ---
