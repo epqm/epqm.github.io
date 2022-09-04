@@ -79,8 +79,18 @@
     }
     max-width: 400px;
     margin: auto;
-    margin-bottom: 2em;
     display: block;
+}
+
+.about-image {
+    width: 100%;
+}
+
+.about-image-caption {
+    display:block;
+    color: gray;
+    margin-top: 0;
+    text-align: right;
 }
 
 

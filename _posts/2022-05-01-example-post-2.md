@@ -1,6 +1,6 @@
 ---
 title: "Example Post 2"
-excerpt: "This is the excerpt. It will appear on the home page."
+excerpt: "This post does not have any header image, so it displays the home page header image as a fallback."
 permalink: /post2/
 categories:
   - Post Formats
@@ -8,8 +8,5 @@ tags:
   - Post Formats
   - readability
   - standard
-header:
-    image: /assets/images/post_header.svg
-    caption: "This is a caption"
 pinned: true
 ---
