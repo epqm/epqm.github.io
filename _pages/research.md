@@ -35,9 +35,4 @@ We are interested in studying the interplay of strong correlations, low dimensio
 
 For more information, please visit the [about page](/about/) and the [publications page](/publications/).
 
-##  Some of Our Recent Works
-
-{% for work in site.data.publications limit:4 %}
-{% include publication_info.html %}
-<div style="display:block;height:2em;"></div>
-{% endfor %}
+{% include selected_publications.html %}
