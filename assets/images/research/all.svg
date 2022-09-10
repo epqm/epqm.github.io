@@ -200,9 +200,9 @@
          style="font-size:80px;font-family:'Sitka Text';-inkscape-font-specification:'Sitka Text';text-align:center;white-space:pre;shape-inside:url(#rect1176);display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:18.8976;stroke-dasharray:none;stroke-opacity:1"><tspan
            x="509.47363"
            y="15.922205"
-           id="tspan3617"><tspan
+           id="tspan3694"><tspan
              style="font-weight:bold;font-family:'Segoe Script';-inkscape-font-specification:'Segoe Script Bold'"
-             id="tspan3615">Topology</tspan></tspan></text>
+             id="tspan3692">Topology</tspan></tspan></text>
     </g>
     <ellipse
        style="fill:none;stroke:#300000;stroke-width:5;stroke-dasharray:none;stroke-opacity:1"
@@ -215,14 +215,14 @@
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,-85.36994,24.625195)"
        id="text1174-0"
-       style="font-size:53.33330221px;font-family:'Segoe Print';-inkscape-font-specification:'Segoe Print, Bold';text-align:center;white-space:pre;shape-inside:url(#rect1176-6);display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:11.3386;stroke-dasharray:none;stroke-opacity:1;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"><tspan
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:53.3333px;font-family:'Segoe Print';-inkscape-font-specification:'Segoe Print, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;white-space:pre;shape-inside:url(#rect1176-6);display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:11.3386;stroke-dasharray:none;stroke-opacity:1"><tspan
          x="602.45546"
          y="-8.9378766"
-         id="tspan3619">Strong
+         id="tspan3696">Strong
 </tspan><tspan
          x="532.28623"
          y="57.728749"
-         id="tspan3621">Correlations</tspan></text>
+         id="tspan3698">Correlations</tspan></text>
     <ellipse
        style="fill:none;stroke:#303030;stroke-width:5;stroke-dasharray:none;stroke-opacity:1"
        id="ellipse1489"
@@ -234,14 +234,14 @@
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,-244.84947,101.16622)"
        id="text1493"
-       style="font-size:53.33330221px;font-family:'Segoe Print';-inkscape-font-specification:'Segoe Print, Bold';text-align:center;white-space:pre;shape-inside:url(#rect1497);display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:11.3386;stroke-dasharray:none;stroke-opacity:1;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"><tspan
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:53.3333px;font-family:'Segoe Print';-inkscape-font-specification:'Segoe Print, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;white-space:pre;shape-inside:url(#rect1497);display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:11.3386;stroke-dasharray:none;stroke-opacity:1"><tspan
          x="562.39038"
          y="-8.9378766"
-         id="tspan3623">Fermionic
+         id="tspan3700">Fermionic
 </tspan><tspan
          x="561.25757"
          y="57.728749"
-         id="tspan3625">Criticality</tspan></text>
+         id="tspan3702">Criticality</tspan></text>
     <ellipse
        style="fill:none;stroke:#003030;stroke-width:5;stroke-dasharray:none;stroke-opacity:1"
        id="ellipse1489-4"
@@ -253,14 +253,14 @@
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,-217.19519,258.97676)"
        id="text1493-3"
-       style="font-size:53.33330221px;font-family:'Segoe Print';-inkscape-font-specification:'Segoe Print, Bold';text-align:center;white-space:pre;shape-inside:url(#rect1497-8);display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:11.3386;stroke-dasharray:none;stroke-opacity:1;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"><tspan
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:53.3333px;font-family:'Segoe Print';-inkscape-font-specification:'Segoe Print, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;white-space:pre;shape-inside:url(#rect1497-8);display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:11.3386;stroke-dasharray:none;stroke-opacity:1"><tspan
          x="551.41382"
          y="-8.9378766"
-         id="tspan3627">Frustrated
+         id="tspan3704">Frustrated
 </tspan><tspan
          x="548.32789"
          y="57.728749"
-         id="tspan3629">Magnetism</tspan></text>
+         id="tspan3706">Magnetism</tspan></text>
     <ellipse
        style="fill:none;stroke:#303000;stroke-width:5;stroke-dasharray:none;stroke-opacity:1"
        id="ellipse1489-4-4"
@@ -272,14 +272,14 @@
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,70.730328,246.6321)"
        id="text1493-3-9"
-       style="font-size:53.33330221px;font-family:'Segoe Print';-inkscape-font-specification:'Segoe Print, Bold';text-align:center;white-space:pre;shape-inside:url(#rect1497-8-1);display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:11.3386;stroke-dasharray:none;stroke-opacity:1;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"><tspan
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:53.3333px;font-family:'Segoe Print';-inkscape-font-specification:'Segoe Print, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;white-space:pre;shape-inside:url(#rect1497-8-1);display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:11.3386;stroke-dasharray:none;stroke-opacity:1"><tspan
          x="548.40601"
          y="-8.9378766"
-         id="tspan3631">Topological
+         id="tspan3708">Topological
 </tspan><tspan
          x="600.82785"
          y="57.728749"
-         id="tspan3633">Matter</tspan></text>
+         id="tspan3710">Matter</tspan></text>
     <ellipse
        style="fill:none;stroke:#300030;stroke-width:5;stroke-dasharray:none;stroke-opacity:1"
        id="ellipse1489-4-4-0"
@@ -291,14 +291,14 @@
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,103.70582,99.84898)"
        id="text1493-3-9-6"
-       style="font-size:53.33330221px;font-family:'Segoe Print';-inkscape-font-specification:'Segoe Print, Bold';text-align:center;white-space:pre;shape-inside:url(#rect1497-8-1-2);display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:11.3386;stroke-dasharray:none;stroke-opacity:1;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"><tspan
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:53.3333px;font-family:'Segoe Print';-inkscape-font-specification:'Segoe Print, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;white-space:pre;shape-inside:url(#rect1497-8-1-2);display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:11.3386;stroke-dasharray:none;stroke-opacity:1"><tspan
          x="562.53361"
          y="-8.9378766"
-         id="tspan3635">Low-dim.
+         id="tspan3712">Low-dim.
 </tspan><tspan
          x="585.71068"
          y="57.728749"
-         id="tspan3637">Systems</tspan></text>
+         id="tspan3714">Systems</tspan></text>
     <path
        style="fill:none;fill-opacity:1;stroke:#300000;stroke-width:5;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#RoundedArrow)"
        d="m 98.624249,133.73908 c -4.50008,-1.32881 -8.324236,-4.77737 -10.109561,-9.11662 -1.785325,-4.33924 -1.495333,-9.48051 0.766624,-13.59147 1.774309,-3.22469 4.619529,-5.72713 7.616301,-7.86399 2.996772,-2.13686 6.203947,-3.981027 9.075367,-6.283586 5.6947,-4.566519 9.93556,-10.919159 11.96935,-17.929607 2.0338,-7.010447 1.85114,-14.646387 -0.51551,-21.551576"
