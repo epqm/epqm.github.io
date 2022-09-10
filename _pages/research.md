@@ -4,6 +4,9 @@ layout: single
 title: Research Interests of EPQM
 ---
 
+![](/assets/images/research/all.png){: class="research-all-image" }
+
+
 ## Strong correlations and exotic superconductivity in low-dimensional systems
 
 [![](/assets/images/research/Supercon.png)](https://www.isis.stfc.ac.uk/Pages/SH22_UnconventionalSuperconductivity.aspx#){: class="research-image"}
