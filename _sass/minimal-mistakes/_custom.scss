@@ -72,14 +72,12 @@
 }
 
 .research-image {
-    @include breakpoint($small) {
-	width: 400px;
-	float: right;
-	margin-left: 2em;
-    }
-    max-width: 400px;
+    max-width: 800px;
     margin: auto;
+    margin-bottom: 1em;
     display: block;
+    overflow: hidden;
+    // text-align: center;
 }
 
 .about-image {
@@ -218,3 +216,4 @@ a:hover:after {
 	margin: auto;
 	display: block;
 }
+
