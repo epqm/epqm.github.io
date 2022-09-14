@@ -10,8 +10,8 @@ header:
       url: /about/
     - label: "Research"
       url: /research/
-    - label: "Publications"
-      url: /publications/
+    - label: "Recent posts"
+      url: /posts/
 ---
 
 {% for post in site.posts %}
@@ -24,7 +24,7 @@ header:
 {% endif %}
 {% endfor %}
 
-<h2><i style="margin-right: 0.5em;" class="fas fa-bell"></i> Recent Posts</h2>
+<h2><i style="margin-right: 0.5em;" class="fas fa-bell"></i><a href="/posts">Recent Posts</a></h2>
 <div class="feature__wrapper" >
 {% for post in site.posts limit:3 %}
 {% include feature_row_posts %}

@@ -72,14 +72,38 @@
 }
 
 .research-image {
-    max-width: 800px;
+    max-width: 500px;
+    width: 100%;
     margin: auto;
-    margin-bottom: 1em;
     display: block;
     overflow: hidden;
-    // text-align: center;
+    text-align: center;
+    @include breakpoint($medium) {
+	width: 500px;
+	float: right;
+	margin-left: 2em;
+  }
+
+  a {
+	color: black;
+	font-weight: bold;
 }
 
+}
+
+
+.research-image-caption {
+	border: 2px solid black;
+	padding-left: 5px;
+	padding-right: 5px;
+	position: relative;
+	top: -35px;
+	background-color: #eeeeee;
+	opacity: 0.8;
+	display: block;
+        overflow: hidden;
+	float: right;
+}
 .about-image {
     width: 100%;
 }

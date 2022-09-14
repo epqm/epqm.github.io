@@ -1,12 +1,8 @@
 # main links
 main:
-  - title: "Posts"
-    url: /posts/
   - title: "Research"
     url: /research/
   - title: "Publications"
     url: /publications/
   - title: "People"
     url: /people/
-  - title: "About"
-    url: /about/
