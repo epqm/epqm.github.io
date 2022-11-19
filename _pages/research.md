@@ -4,9 +4,6 @@ layout: single
 title: Research Interests of EPQM
 ---
 
-![](/assets/images/research/all.png){: class="research-all-image" }
-
-
 ## Strong correlations and exotic superconductivity in low-dimensional systems
 
 <div class="research-image" markdown=1>
@@ -59,3 +56,4 @@ We are interested in studying the interplay of strong correlations, low dimensio
 For more information, please visit the [about page](/about/) and the [publications page](/publications/).
 
 {% include selected_publications.html %}
+

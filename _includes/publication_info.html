@@ -1,14 +1,6 @@
 <div class="publications__item">
-	<p class="publication__title">{{ work["title"] }}</p>
-	<p><span class="fas fa-feather"></span> <span class="publication__subitem"> {{ work["authors"] }} </span></p>
+	<i class="fas fa-spinner"></i><span class="publication__title"> {{ work["title"] }} </span>
 	<p>
-	<span class="far fa-clock"></span> <span class="publication__subitem"> {{ work["date"] | date: "%d/%m/%y" }}</span> 
-	{% if work["journal"].size > 0 %}
-	<span class="fas fa-highlighter"></span> <span class="publication__subitem"><a href="{{ work["journal doi"] }}">{{ work["journal"] }}</a></span>
-	{% endif %}
-	<span class="fas fa-lock-open"></span> <span class="publication__subitem"><a href="{{ work["arxiv doi"] }}">{{ work["arxiv"] }}</a></span>
-	{% if work["permalink"].size > 0 %}
-	<span ><span class="fas fa-comment"></span> <span class="publication__subitem"><a href="{{ work["permalink"] }}">More</a></span>
-	{% endif %}
+	<span class="publication__subitem"> {{ work["date"] }}</span> <span class="publication__subitem"><a href="{{ work["DOI"] }}">{{ work["journal"] }}</a></span>
 	</p>
 </div>

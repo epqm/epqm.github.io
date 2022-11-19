@@ -1,6 +1,13 @@
-<h2> Selected Publications </h2>
-
-{% for work in site.data.selected_publications %}
+<h2 id="selected-publicatins"> <a href="#selected-publications" onClick="window.location.reload()">Random Sample of Publications</a></h2>
+<div id="my-list" style="height: 17em; overflow:hidden;">
+{% for work in site.data.publications %}
 {% include publication_info.html %}
 {% endfor %}
+</div>
 
+<script>
+var myList = document.querySelector('#my-list');
+for (var i = myList.children.length; i >= 0; i--) {
+    myList.appendChild(myList.children[Math.random() * i | 0]);
+}
+</script>
