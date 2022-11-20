@@ -1,66 +1,56 @@
 ---
 permalink: /people/
 layout: single
-title: "People in EPQM"
+title: "Team members of EPQM: the past and the present"
+excerpt: Research scholars, masters students and alumni of the group
+header:
+    overlay_image: ../assets/images/blob-haikei.svg
 
 ---
 
-<br>
-<div class="people-head">
-<div class="people-head-img">
-<img src="/assets/images/people/slal.jpg">
-</div>
-<div class="people-head-text">
-<div class="people-head-name"> Siddhartha Lal</div>
-PhD (IISc), <a href="https://www.iiserkol.ac.in/web/en/people/faculty/dps/slal/">Associate Professor, IISER Kolkata</a><br><br>
-<p>Interested in strongly correlated electrons, fermionic criticality, low-dim. quantum systems, etc.</p>
-Contact me at <a href="mailto:slal@iiserkol.ac.in">slal@iiserkol.ac.in</a><br>
-</div>
+## Group leader
+{% assign head = site.data.people.head %}
+
+<div class="people__desc" markdown=1>
+
+![](/assets/images/people/slal.jpg){: class="people__img" }
+
+**{{ head["name"] }}**
+
+<a href="https://www.iiserkol.ac.in/web/en/people/faculty/dps/slal/">{{ head["designation"] }}</a><br><br>
+{{ head["interests"] }}<br><br>
+Contact me at <a href="mailto:slal@iiserkol.ac.in">{{ head["email"] }}</a><br>
 </div>
 
 ## Research scholars
 
-<div class="people-head">
-{% for person in site.data.people.scholars %}
+{% for person in site.data.people.current %}
+<div class="people__desc" markdown=1>
 
-{% assign mod = forloop.index | modulo: 2 %}
-{% if mod == 1 %}
-<div class="people-text-left" markdown=1>
-{% else %}
-<div class="people-text-right" markdown=1>
+![]({{ person["img_path"] }}){: class="people__img" }
+**{{ person["name"] }}**
+
+{% if person["designation"] == nil %}
+    {{ person["designation"] }},
 {% endif %}
-
-<img src="{{ person["img_path"] }}" class="people-img">
-
-**{{ person["name"] }}**<br>
 [{{ person["email"] }}](mailto:{{ person["email"] }})
 
-{{ person["education"] }}
-
-{{ person["research"] }}
+{{ person["work"] }}
 
 </div>
 {% endfor %}
-</div>
 
-## Masters students
+## Alumni
 
-<div class="people-head">
-{% for person in site.data.people.masters %}
+{% for person in site.data.people.alumni %}
+<div class="people__desc" markdown=1>
 
-{% assign mod = forloop.index | modulo: 2 %}
-{% if mod == 1 %}
-<div class="people-text-left" markdown=1>
-{% else %}
-<div class="people-text-right" markdown=1>
-{% endif %}
-**{{ person["name"] }}**<br>
+![]({{ person["img_path"] }}){: class="people__img" }
+**{{ person["name"] }}**
+
 [{{ person["email"] }}](mailto:{{ person["email"] }})
 
-{{ person["education"] }}
-
-{{ person["research"] }}
+{{ person["work"] }}
 
 </div>
 {% endfor %}
-</div>

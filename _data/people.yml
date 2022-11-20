@@ -1,23 +1,32 @@
-scholars:
-  - name: "Santanu  Pal"
-    education: "BSc: Ramananda College (Burdwan University), MSc: Burdwan university"
-    research: "I am  mainly interested in geometrically frustrated system like spinel, kagome, pyrochlore etc. and searching for ground state  and excited state properties."
-    email: "santanu1720@gmail.com"
+head:
+  name: Siddhartha Lal
+  designation: "Associate Professor, IISER Kolkata"
+  interests: "Interested in strongly correlated electrons, fermionic criticality, low-dim. quantum systems, etc."
+  email: slal@iiserkol.ac.in
+  img_path: /assets/images/people/slal.jpg
+current:
+  - name: Abhirup Mukherjee
+    designation: "Int. PhD student"
+    work: "Working on quantum impurity models and their relation to the Mott MIT, as well as entanglement in metals."
+    email: mukherjeeabhirup44@gmail.com
     img_path: /assets/images/people/spal.jpg
-  - name: "Santanu  Pal"
-    education: "BSc: Ramananda College (Burdwan University), MSc: Burdwan university"
-    research: "I am  mainly interested in geometrically frustrated system like spinel, kagome, pyrochlore etc. and searching for ground state  and excited state properties."
-    email: "santanu1720@gmail.com"
-    img_path: /assets/images/people/spal.jpg
-  - name: "Santanu  Pal"
-    education: "BSc: Ramananda College (Burdwan University), MSc: Burdwan university"
-    research: "I am  mainly interested in geometrically frustrated system like spinel, kagome, pyrochlore etc. and searching for ground state  and excited state properties."
-    email: "santanu1720@gmail.com"
+  - name: Debraj Debata
+    designation: "Int. PhD student"
+    work: "very brief description of ongoing research"
+    email: mukherjeeabhirup44@gmail.com
     img_path: /assets/images/people/spal.jpg
 alumni:
-  - name: "Anirban Mukherjee"
-    research: ""
-    email: ""
+  - name: Santanu  Pal
+    work: "very brief description of research"
+    email: santanu1720@gmail.com
+    img_path: /assets/images/people/spal.jpg
+  - name: Anirban Mukherjee
+    work: "very brief description of research"
+    email: amukh1290@gmail.com
+    img_path: /assets/images/people/spal.jpg
+  - name: Siddhartha Patra
+    work: "very brief description of research"
+    email: siddharthaptr@gmail.com
     img_path: /assets/images/people/spal.jpg
 masters:
   - name: "Aditya Panigrahi"

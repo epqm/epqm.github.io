@@ -1,7 +1,10 @@
 ---
 permalink: /research/
 layout: single
-title: Research Interests of EPQM
+title: "Research areas of EPQM: Quantum condensed matter physics and within"
+excerpt: Emergence in strongly correlated systems and topological phases of matter
+header:
+    overlay_image: ../assets/images/layered-waves-haikei.svg
 ---
 
 ## Strong correlations and exotic superconductivity in low-dimensional systems
