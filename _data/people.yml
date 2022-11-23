@@ -1,21 +1,19 @@
-head:
-  name: Siddhartha Lal
-  designation: "Associate Professor, IISER Kolkata"
-  interests: "Interested in strongly correlated electrons, fermionic criticality, low-dim. quantum systems, etc."
-  email: slal@iiserkol.ac.in
-  img_path: /assets/images/people/slal.jpg
-current:
+Group leader:
+  - name: Siddhartha Lal
+    designation: "Associate Professor, IISER Kolkata"
+    work: "Interested in strongly correlated electrons, fermionic criticality, low-dim. quantum systems, etc."
+    email: slal@iiserkol.ac.in
+    img_path: /assets/images/people/slal.jpg
+Research scholars:
   - name: Abhirup Mukherjee
-    designation: "Int. PhD student"
     work: "Working on quantum impurity models and their relation to the Mott MIT, as well as entanglement in metals."
     email: mukherjeeabhirup44@gmail.com
     img_path: /assets/images/people/spal.jpg
   - name: Debraj Debata
-    designation: "Int. PhD student"
     work: "very brief description of ongoing research"
     email: mukherjeeabhirup44@gmail.com
     img_path: /assets/images/people/spal.jpg
-alumni:
+Alumni:
   - name: Santanu  Pal
     work: "very brief description of research"
     email: santanu1720@gmail.com
@@ -28,16 +26,16 @@ alumni:
     work: "very brief description of research"
     email: siddharthaptr@gmail.com
     img_path: /assets/images/people/spal.jpg
-masters:
+Masters students:
   - name: "Aditya Panigrahi"
-    research: "I am interested in understanding the process of  symmetry breaking in condensed matter systems  and it's repercussion using the topology of Hilbert spaces."
+    work: "I am interested in understanding the process of  symmetry breaking in condensed matter systems  and it's repercussion using the topology of Hilbert spaces."
     email: "xyz@gmail.com"
   - name: "Aditya Panigrahi"
-    research: "I am interested in understanding the process of  symmetry breaking in condensed matter systems  and it's repercussion using the topology of Hilbert spaces."
+    work: "I am interested in understanding the process of  symmetry breaking in condensed matter systems  and it's repercussion using the topology of Hilbert spaces."
     email: "xyz@gmail.com"
   - name: "Aditya Panigrahi"
-    research: "I am interested in understanding the process of  symmetry breaking in condensed matter systems  and it's repercussion using the topology of Hilbert spaces."
+    work: "I am interested in understanding the process of  symmetry breaking in condensed matter systems  and it's repercussion using the topology of Hilbert spaces."
     email: "xyz@gmail.com"
   - name: "Aditya Panigrahi"
-    research: "I am interested in understanding the process of  symmetry breaking in condensed matter systems  and it's repercussion using the topology of Hilbert spaces."
+    work: "I am interested in understanding the process of  symmetry breaking in condensed matter systems  and it's repercussion using the topology of Hilbert spaces."
     email: "xyz@gmail.com"
