@@ -1,17 +1,22 @@
 - title: "Superconductivity from repulsion in the doped 2D electronic Hubbard model: an entanglement perspective"
+  authors: "Anirban Mukherjee; Siddhartha Lal"
   journal: "Journal of Physics: Condensed Matter"
   date: "2022-07-06"
   DOI: "https://doi.org/10.1088/1361-648X/ac66b3"
+  permalink: /mott-merg-pub/
 
 - title: "Unveiling topological order through multipartite entanglement"
   journal: "Physical Review A"
-  date: "2022-05-19 "
+  date: "2022-05-19"
   DOI: "https://doi.org/10.1103/PhysRevA.105.052428"
+  permalink: /multip-ent-pub/
 
 - title: "Unveiling the Kondo cloud: Unitary renormalization-group study of the Kondo model"
+  authors: "Anirban Mukherjee, Abhirup Mukherjee, N. S. Vidhyadhiraja, A. Taraphder, and Siddhartha Lal"
   journal: "Physical Review B"
-  date: "2022-02-14 "
+  date: "2022-02-14"
   DOI: "https://doi.org/10.1103/PhysRevB.105.085119"
+  permalink: /kondo-cloud-pub/
 
 - title: "Origin of topological order in a Cooper-pair insulator"
   journal: "Physical Review B"

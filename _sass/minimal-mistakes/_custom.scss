@@ -58,23 +58,16 @@
         overflow: hidden;
 	float: right;
 }
-.about-image {
+.about_image {
+    @include breakpoint($medium) {
+    	width: 50%;
+    }
+    display: block;
     width: 100%;
     max-width: 500px;
     margin: auto;
     overflow: hidden;
-    @include breakpoint($medium) {
-        float: right;
-        width: 50%;
-        margin-left: 2em;
-        margin-bottom: -1em;
-    }
-
-.about-image-caption {
     text-align: center;
-    font-weight:bold;
-    font-style: italic;
-}
 }
 
 
@@ -229,4 +222,8 @@ a{
 	font-size: 130%;
 
 }
+}
+
+.masthead__menu-item {
+    font-size: smaller;
 }

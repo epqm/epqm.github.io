@@ -12,7 +12,7 @@
           {% if post.title %}
 
           <p class="archive__item-title">
-	        <i style="margin-right: 0.5em;" class="fas fa-check"></i> <a href="{{ post.url }}"> {{ post.title }}</a></p>
+	        <a href="{{ post.url }}"> {{ post.title }}</a></p>
           {% endif %}
 
           <div class="archive__item-excerpt">
