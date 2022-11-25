@@ -27,6 +27,10 @@ Contact me at [{{ person["email"] }}](mailto:{{ person["email"] }}).
 {{ person["work"] }}
 {: class="people__work" }
 
+{% if person["graduated"] != nil %}
+Graduated in {{ person["graduated"] }}
+{% endif %}
+
 </div>
 {% endfor %}
 {% endfor %}
