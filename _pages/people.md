@@ -4,7 +4,7 @@ layout: single
 title: "Team members of EPQM: the past and the present"
 excerpt: Research scholars, masters students and alumni of the group
 header:
-    overlay_image: ../assets/images/blob-haikei.svg
+    image: /assets/images/people.svg
 
 ---
 

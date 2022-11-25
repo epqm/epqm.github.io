@@ -3,7 +3,7 @@ permalink: /about/
 layout: single
 title: About EPQM
 header:
-    image: /assets/images/home2.svg
+    image: /assets/images/about.svg
 ---
 
 **Emergence**

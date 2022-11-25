@@ -2,6 +2,8 @@
 permalink: /publications/
 layout: single
 title: Research Publications
+header:
+    image: /assets/images/pubs.svg
 ---
 
 <div style="width: 48%;float:left;margin:auto;">
