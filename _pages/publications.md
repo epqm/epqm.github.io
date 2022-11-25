@@ -10,7 +10,7 @@ title: Research Publications
 {% if mod == 0 %}
 {% continue %}
 {% endif %}
-{% include publication_info.html %}
+{% include publication_info.html pre_text=forloop.index %}
 {% endfor %}
 </div>
 <div style="width: 48%;float:right;margin:auto;">
@@ -19,6 +19,6 @@ title: Research Publications
 {% if mod == 1 %}
 {% continue %}
 {% endif %}
-{% include publication_info.html %}
+{% include publication_info.html pre_text=forloop.index %}
 {% endfor %}
 </div>
