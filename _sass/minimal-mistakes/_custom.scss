@@ -232,3 +232,15 @@ a{
 .fontawesome__icon {
 	margin-right: 0.5em;
 }
+
+.home__post__summary {
+	width: 100%;
+	.archive__item-body {
+		margin-top: -1em;
+    		@include breakpoint($medium) {
+		margin-top: 0em;
+		margin-bottom: 2em;
+		}
+		margin-bottom: 4em;
+	}
+}
