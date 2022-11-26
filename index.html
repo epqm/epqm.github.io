@@ -1,7 +1,7 @@
 ---
 layout: splash
-title: "*E*mergent *P*henomena in *Q*uantum *M*atter"
-excerpt: "<br>You have reached the **EPQM website**.<br><br>We explore the interplay of low-dimensionality, strong correlations and quantum fluctuations in leading to novel emergent states..."
+title: Emergent Phenomena in Quantum Matter
+excerpt: You have reached the EPQM website.<br><br>We are a theoretical research group in the Department of Physics at IISER Kolkata, focusing on quantum condensed matter physics.
 header:
     overlay_image: /assets/images/home2.svg
     actions:
@@ -15,7 +15,7 @@ header:
 
 {% for post in site.posts %}
 {% if post.pinned == true %}
-<h2><i style="margin-right: 0.5em;" class="fas fa-thumbtack"></i> Pinned Post </h2>
+<h2><i class="fas fa-thumbtack fontawesome__icon"></i> Pinned Post </h2>
 <div class="feature__wrapper">
 {% include feature_row_posts %}
 </div>
@@ -23,7 +23,7 @@ header:
 {% endif %}
 {% endfor %}
 
-<h2><i style="margin-right: 0.5em;" class="fas fa-bell"></i><a href="/posts">Recent Posts</a></h2>
+<h2><i class="fas fa-bell fontawesome__icon"></i><a href="/posts">Recent Posts</a></h2>
 <div class="feature__wrapper" >
 {% for post in site.posts limit:3 %}
 {% include feature_row_posts %}

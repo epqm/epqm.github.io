@@ -16,12 +16,12 @@
       {% endif %}
 
       <div class="archive__item-excerpt">
-    	<i style="margin-right: 1em;" class="far fa-calendar-alt"></i> <span>{{ post.date | date:"%B %d, %Y"  }} </span>
+    	<i class="far fa-calendar-alt fontawesome__icon"></i> <span>{{ post.date | date:"%B %d, %Y"  }} </span>
       </div>
 
       {% if post.excerpt %}
         <div class="archive__item-excerpt">
-          <p><i style="margin-right: 0.8em;" class="fas fa-comment"></i> {{ post.excerpt }} </p>
+          <p><i class="fas fa-comment fontawesome__icon"></i> {{ post.excerpt }} </p>
         </div>
       {% endif %}
 
