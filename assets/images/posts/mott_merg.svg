@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="798.78931mm"
-   height="257.66986mm"
-   viewBox="0 0 798.78926 257.66986"
+   width="802.78931mm"
+   height="261.6698mm"
+   viewBox="0 0 802.78926 261.6698"
    version="1.1"
    id="svg25893"
    xml:space="preserve"
@@ -28,13 +28,13 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="0.26079027"
-     inkscape:cx="1819.4697"
-     inkscape:cy="1150.3497"
-     inkscape:window-width="1717"
-     inkscape:window-height="943"
-     inkscape:window-x="64"
-     inkscape:window-y="149"
+     inkscape:zoom="0.27222664"
+     inkscape:cx="1078.1458"
+     inkscape:cy="925.69927"
+     inkscape:window-width="1916"
+     inkscape:window-height="1048"
+     inkscape:window-x="0"
+     inkscape:window-y="28"
      inkscape:window-maximized="0"
      inkscape:current-layer="layer1" /><defs
      id="defs25890"><clipPath
@@ -91,7 +91,7 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-642.24111,-267.93063)"><g
+     transform="translate(-640.24109,-265.93063)"><g
        id="g49077"><image
          width="508"
          height="277.54791"
@@ -112,4 +112,10 @@
          x="537.16919"
          y="406.70459"
          clip-path="url(#clipPath43342)"
-         transform="translate(105.07192,-158.65198)" /></g></g></svg>
+         transform="translate(105.07192,-158.65198)" /></g><rect
+       style="fill:none;stroke:#000000;stroke-width:4;stroke-dasharray:none"
+       id="rect15332"
+       width="798.78931"
+       height="257.6698"
+       x="642.24109"
+       y="267.93063" /></g></svg>
