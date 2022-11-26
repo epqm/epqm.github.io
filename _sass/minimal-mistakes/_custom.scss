@@ -88,12 +88,6 @@
 	text-align:center;
 }
 
-.home-post-excerpt {
-	font-size: large;
-	font-weight: normal;
-	font-colour: black;
-}
-
 .home__post__summary {
     position: relative;
     float: left;
@@ -142,6 +136,7 @@
     .archive__item-title {
         margin-top: 0;
         margin-bottom: 1em;
+	font-size: large;
 
 	a {
 	  display: inline-block;
@@ -173,7 +168,6 @@
 	}
 	    .archive__item-excerpt {
 		margin-top: 1em;
-		font-size: 18px;
 	    }
 	}
 

@@ -1,9 +1,10 @@
 ---
 permalink: /about/
 layout: single
-title: About EPQM
+title: All About EPQM
 header:
-    overlay_image: /assets/images/about.svg
+    image: /assets/images/about.svg
+    caption: "[Source 1](https://csferrie.medium.com/everything-youve-heard-about-quantum-entanglement-is-wrong-21ba7c867f05), [Source 2](https://theconversation.com/what-is-quantum-entanglement-a-physicist-explains-the-science-of-einsteins-spooky-action-at-a-distance-191927)"
 ---
 
 **Emergence**
