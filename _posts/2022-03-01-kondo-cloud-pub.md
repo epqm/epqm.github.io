@@ -1,6 +1,6 @@
 ---
 title: "(Publication) Unitary renormalization-group study of the Kondo model"
-excerpt: "This is the excerpt. It will appear on the home page. This covers multiple lines so that we can see how lines wrap."
+excerpt: "We study the feedback effect of Kondo cloud screening on the conduction electrons, obtaining an effective Hamiltonian that describes its dynamics."
 permalink: /kondo-cloud-pub/
 categories:
   - publication-update

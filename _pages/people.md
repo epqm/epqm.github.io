@@ -1,10 +1,8 @@
 ---
 permalink: /people/
 layout: single
-title: "Team members of EPQM: the past and the present"
+title: Team members of EPQM
 excerpt: Research scholars, masters students and alumni of the group
-header:
-    image: /assets/images/people.svg
 
 ---
 
@@ -23,6 +21,10 @@ header:
 {{ person["designation"] }},
 {% endif %}
 Contact me at [{{ person["email"] }}](mailto:{{ person["email"] }}).
+{%- if person["website"] != nil %}
+Here's my [website.]({{ person["website"] }})
+{% endif %}
+
 
 {{ person["work"] }}
 {: class="people__work" }

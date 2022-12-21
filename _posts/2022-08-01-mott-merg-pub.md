@@ -1,6 +1,6 @@
 ---
 title: "(Publication) Superconductivity from repulsion in the 2D Hubbard model"
-excerpt: "This is the excerpt. It will appear on the home page. This covers multiple lines so that we can see how lines wrap."
+excerpt: "We cast the renormalization group flows of the 2D Hubbard model in terms of entanglement evolution, revealing holographic features along the way."
 permalink: /mott-merg-pub/
 categories:
   - publication-update
