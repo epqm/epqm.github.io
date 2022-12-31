@@ -1,7 +1,6 @@
 ---
 permalink: /publications/
 layout: single
-classes: wide
 title: Research Publications
 header:
     image: /assets/images/pubs.svg

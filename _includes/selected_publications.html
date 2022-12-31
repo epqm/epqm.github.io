@@ -1,7 +1,9 @@
-<h2 id="selected-publicatins"> Selected Publications <a href="#selected-publications" onClick="window.location.reload()"><i class="fas fa-retweet"></i></a></h2>
+<h2 id="selected-publications"> Selected Publications <a href="#selected-publications" class="btn" onClick="window.location.reload()">[Refresh]</a></h2>
 <div id="my-list" style="overflow:hidden;">
 {% for work in site.data.publications %}
-{% include publication_info.html pre_text='<i style="margin-right: 0.8em;" class="fas fa-comment"></i>' %}
+<ul>
+<li markdown=1>{% include publication_info.html %}</li>
+</ul>
 {% endfor %}
 </div>
 
@@ -10,7 +12,7 @@ var myList = document.querySelector('#my-list');
 for (var i = myList.children.length; i >= 0; i--) {
     myList.appendChild(myList.children[Math.random() * i | 0]);
 }
-while (myList.children.length > 5) {
+while (myList.children.length > 4) {
 myList.removeChild(myList.children[0]);
 }
 </script>

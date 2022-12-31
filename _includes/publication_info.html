@@ -1,8 +1,12 @@
-{%- if work["permalink"] != blank -%}
-**{{ work["title"] }}**
-{%- else -%}
-{{ work["title"] }}
-{%- endif -%}
+<b>{{ work["title"] }}</b>
+{%- for tag in work["tags"] -%}
+<span class="btn btn--inverse tag__highlight">{{ tag }}</span>
+{%- endfor -%}
 <br>
-{{ work["date"] | strip | date: "%B %-d, %Y" }}
-[{{ work["journal"] }}]({{ work["DOI"] }}){: .btn }{: .btn--primary }{: .tag__highlight }
+<span class='authors__text'>{{ work["authors"] | join:", " | replace: "Siddhartha Lal", "<b>Siddhartha Lal</b>" }}</span>
+<br>
+{{ work["submit_date"] | strip | date: "%B %-d, %Y" }}
+{%- if work["doi"] -%}
+<a href="{{ work["doi"] }}" class="btn btn--danger tag__highlight">{{ work["journal_ref_short"] }}</a>
+{%- endif -%}
+<a href="{{ work["arxiv_doi"] }}" class="btn btn--primary tag__highlight">{{ work["arxiv_ref"] }}</a>

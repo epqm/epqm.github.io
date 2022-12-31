@@ -108,9 +108,9 @@ author:
   location         : "India"
   email            : "slal@iiserkol.ac.in"
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:slal@iiserkol.ac.in"
+    - label: "Institute profile"
+      icon: "fas fa-fw fa-building"
+      url: "https://www.iiserkol.ac.in/web/en/people/faculty/dps/slal/"
     - label: "ResearchGate"
       icon: "fab fa-fw fa-researchgate"
       url: "https://www.researchgate.net/profile/Siddhartha-Lal-2"
@@ -277,6 +277,7 @@ defaults:
       type: posts
     values:
       layout: single
+      class: wide
       author_profile: true
       read_time: false
       comments: # true
@@ -287,6 +288,7 @@ defaults:
       type: pages
     values:
       layout: single
+      classes: wide
       author_profile: true
       read_time: false
       comments: # true
