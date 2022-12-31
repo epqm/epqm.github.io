@@ -2,13 +2,9 @@
 main:
   - title: "Updates"
     url: /posts/
-  - title: "Publications"
-    url: /publications/
   - title: "Teaching"
     url: /teaching/
-  - title: "Research"
-    url: /research/
-  - title: "People"
-    url: /people/
+  - title: "Publications"
+    url: /research/#publications
   - title: "About"
     url: /about/

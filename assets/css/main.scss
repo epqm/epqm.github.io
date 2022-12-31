@@ -24,14 +24,19 @@ a {
 
 
 // center align all images
-.body__img {
+p.body__img {
 	display: block;
 	margin: auto;
 	max-width: 700px;
-	text-align: center;
-	color: #00468B;
-	font-size: x-small;
+	text-align: left;
+	color: #1A526D;
 	font-weight: bold;
+	font-size: smaller;
+	> img {
+	width: 100%;
+	display: block;
+	margin: auto;
+	}
 }
 
 
@@ -60,4 +65,14 @@ a {
 
 .authors__text {
 	opacity: 0.8;
+}
+
+.publications {
+	width: 100%;
+	@include breakpoint($large) {
+		width: 120%;
+	}
+	@include breakpoint($x-large) {
+		width: 160%;
+	}
 }
