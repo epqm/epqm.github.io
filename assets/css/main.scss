@@ -24,9 +24,14 @@ a {
 
 
 // center align all images
-img {
+.body__img {
 	display: block;
 	margin: auto;
+	max-width: 700px;
+	text-align: center;
+	color: #00468B;
+	font-size: x-small;
+	font-weight: bold;
 }
 
 
