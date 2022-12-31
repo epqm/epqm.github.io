@@ -1,11 +1,12 @@
 ---
 permalink: /publications/
-layout: single
+layout: splash
 title: Research Publications
 header:
     image: /assets/images/pubs.svg
 ---
 
+<h1> {{ page.title }} </h1>
 <div style="width: 48%;float:left;margin:auto;">
 {% for work in site.data.publications %}
 {% assign mod = forloop.index | modulo: 2 %}

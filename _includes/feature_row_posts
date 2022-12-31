@@ -1,30 +1,32 @@
-<div class="home__post__summary">
-  <div class="archive__item">
-    <div class="archive__item-teaser">
-    {% if post.header.image %}
-        <a href="{{ post.url }}"> <img src="{{ post.header.image | relative_url }}"> </a>
-    {% else %}
-        <a href="{{ post.url }}"> <img src="/assets/images/home2.svg"> </a>
-    {% endif %}
-    </div>
+<div class="feature__wrapper">
 
-    <div class="archive__item-body">
-      {% if post.title %}
+  {% for f in site.posts limit:3 %}
+    <div class="feature__item{% if include.type %}--{{ include.type }}{% endif %}">
+      <div class="archive__item">
+        {% if f.header.image %}
+          <div class="archive__item-teaser">
+            <img src="{{ f.header.image | relative_url }}"
+                 alt="{% if f.alt %}{{ f.alt }}{% endif %}">
+            {% if f.image_caption %}
+              <span class="archive__item-caption">{{ f.image_caption | markdownify | remove: "<p>" | remove: "</p>" }}</span>
+            {% endif %}
+          </div>
+        {% endif %}
 
-      <p class="archive__item-title">
-            <a href="{{ post.url }}"> <span class="recent__posts__title">{{ post.title }}</span></a></p>
-      {% endif %}
+        <div class="archive__item-body">
+          {% if f.title %}
+            <b>{{ f.title }} </b> <a href="{{ f.url | relative_url }}" class="btn btn--primary btn--small">{{ f.btn_label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a>
+          {% endif %}
 
-      <div class="archive__item-excerpt">
-    	<i class="far fa-calendar-alt fontawesome__icon"></i> <span>{{ post.date | date:"%B %d, %Y"  }} </span>
-      </div>
-
-      {% if post.excerpt %}
-        <div class="archive__item-excerpt">
-          <p><i class="fas fa-comment fontawesome__icon"></i> {{ post.excerpt }} </p>
+          {% if f.excerpt %}
+            <div class="archive__item-excerpt">
+              {{ f.excerpt | markdownify }}
+            </div>
+          {% endif %}
         </div>
-      {% endif %}
-
+      </div>
     </div>
-  </div>
+	
+  {% endfor %}
+
 </div>
