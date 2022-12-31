@@ -103,29 +103,23 @@ analytics:
 # Site Author
 author:
   name   : "Siddhartha Lal"
-  avatar : "/assets/images/bio-photo.jpg"
+  avatar : "/assets/images/people/slal.jpg"
   bio    : "Associate Professor, IISER Kolkata"
   location         : "India"
   email            : "slal@iiserkol.ac.in"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
+      url: "mailto:slal@iiserkol.ac.in"
+    - label: "ResearchGate"
+      icon: "fab fa-fw fa-researchgate"
+      url: "https://www.researchgate.net/profile/Siddhartha-Lal-2"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
 
 # Site Footer
 footer:
@@ -283,8 +277,18 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: false
-      read_time: true
+      author_profile: true
+      read_time: false
+      comments: # true
+      share: true
+      related: true
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+      read_time: false
       comments: # true
       share: true
       related: true

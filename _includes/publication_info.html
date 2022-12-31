@@ -1,4 +1,8 @@
-<div class="publications__item">
-	<span class="publication__title">{{ include.pre_text }} {{ work["title"] }}</span>
-	<p><span class="publication__doi"><a href="{{ work["DOI"] }}">{{ work["journal"] }}</a></span><span class="publication__date"> {{ work["date"] | date: "%B, %Y" }}</span></p>
-</div>
+{%- if work["permalink"] != blank -%}
+**{{ work["title"] }}**
+{%- else -%}
+{{ work["title"] }}
+{%- endif -%}
+<br>
+{{ work["date"] | strip | date: "%B %-d, %Y" }}
+[{{ work["journal"] }}]({{ work["DOI"] }}){: .btn }{: .btn--primary }{: .tag__highlight }

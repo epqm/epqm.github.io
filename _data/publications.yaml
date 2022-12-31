@@ -1,0 +1,440 @@
+- arxiv_doi: https://arxiv.org/abs/2205.11123
+  arxiv_ref: arXiv:2205.11123
+  authors:
+  - Siddhartha Patra
+  - Anirban Mukherjee
+  - Siddhartha Lal
+  submit_date: 23 May, 2022
+  tags:
+  - cond-mat.str-el
+  - cond-mat.stat-mech
+  - cond-mat.supr-con
+  title: Universal entanglement signatures of quantum liquids as a guide to fermionic criticality
+- arxiv_doi: https://arxiv.org/abs/2205.00790
+  arxiv_ref: arXiv:2205.00790
+  authors:
+  - Siddhartha Patra
+  - Abhirup Mukherjee
+  - Anirban Mukherjee
+  - N. S. Vidhyadhiraja
+  - A. Taraphder
+  - Siddhartha Lal
+  submit_date: 2 May, 2022
+  tags:
+  - cond-mat.str-el
+  - cond-mat.mes-hall
+  - quant-ph
+  title: 'Frustration shapes multi-channel Kondo physics: a star graph perspective'
+- arxiv_doi: https://arxiv.org/abs/2111.10580
+  arxiv_ref: arXiv:2111.10580
+  authors:
+  - Anirban Mukherjee
+  - Abhirup Mukherjee
+  - N. S. Vidhyadhiraja
+  - A. Taraphder
+  - Siddhartha Lal
+  doi: https://doi.org/10.1103/PhysRevB.105.085119
+  journal_ref: Physical Review B 105, 085119 (2022)
+  journal_ref_short: PRB 105, 085119
+  submit_date: 2 February, 2022
+  tags:
+  - cond-mat.str-el
+  - cond-mat.mes-hall
+  title: 'Unveiling the Kondo cloud: unitary RG study of the Kondo model'
+- arxiv_doi: https://arxiv.org/abs/2112.02253
+  arxiv_ref: arXiv:2112.02253
+  authors:
+  - Siddhartha Patra
+  - Somnath Basu
+  - Siddhartha Lal
+  doi: https://doi.org/10.1103/PhysRevA.105.052428
+  journal_ref: Physical Review A 105, 052428 (2022)
+  journal_ref_short: PRA 105, 052428
+  submit_date: 4 December, 2021
+  tags:
+  - quant-ph
+  - cond-mat.str-el
+  title: Unveiling topological order through multipartite entanglement
+- arxiv_doi: https://arxiv.org/abs/2003.06118
+  arxiv_ref: arXiv:2003.06118
+  authors:
+  - Anirban Mukherjee
+  - Siddhartha Lal
+  doi: https://doi.org/10.1088/1361-648X/ac66b3
+  journal_ref: 'J. Phys.: Condens. Matter 34, 275601 (2022)'
+  journal_ref_short: JPCM. 34, 275601
+  submit_date: 5 March, 2021
+  tags:
+  - cond-mat.str-el
+  - hep-th
+  - quant-ph
+  title: Holographic entanglement renormalisation of topological order in a quantum liquid
+- arxiv_doi: https://arxiv.org/abs/2102.12193
+  arxiv_ref: arXiv:2102.12193
+  authors:
+  - Siddhartha Patra
+  - Siddhartha Lal
+  doi: https://doi.org/10.1103/PhysRevB.104.144514
+  journal_ref: Phys. Rev. B 104, 144514 (2021)
+  journal_ref_short: PRB 104, 144514
+  submit_date: 25 February, 2021
+  tags:
+  - cond-mat.str-el
+  - cond-mat.supr-con
+  title: Origin of Topological Order in a Cooper Pair Insulator
+- arxiv_doi: https://arxiv.org/abs/2004.06900
+  arxiv_ref: arXiv:2004.06900
+  authors:
+  - Anirban Mukherjee
+  - Siddhartha Lal
+  doi: https://doi.org/10.1016/j.nuclphysb.2020.115163
+  journal_ref: Nuclear Physics B 960, 115163 (2020)
+  journal_ref_short: Nuc. Phys. B 960, 115163
+  submit_date: 28 July, 2020
+  tags:
+  - cond-mat.str-el
+  - cond-mat.supr-con
+  - hep-th
+  title: 'Holographic unitary renormalization group for correlated electrons -- II: insights on fermionic criticality'
+- arxiv_doi: https://arxiv.org/abs/2004.06897
+  arxiv_ref: arXiv:2004.06897
+  authors:
+  - Anirban Mukherjee
+  - Siddhartha Lal
+  doi: https://doi.org/10.1016/j.nuclphysb.2020.115170
+  journal_ref: Nuclear Physics B 960, 115170 (2020)
+  journal_ref_short: Nuc. Phys. B 960, 115170
+  submit_date: 28 July, 2020
+  tags:
+  - cond-mat.str-el
+  - cond-mat.supr-con
+  - hep-th
+  title: 'Holographic unitary renormalization group for correlated electrons -- I: a tensor network approach'
+- arxiv_doi: https://arxiv.org/abs/2005.02332
+  arxiv_ref: arXiv:2005.02332
+  authors:
+  - Anirban Mukherjee
+  - Siddhartha Patra
+  - Siddhartha Lal
+  doi: https://doi.org/10.1007/JHEP04(2021)148
+  journal_ref: Journal of High Energy Physics 04,148 (2021)
+  journal_ref_short: JHEP 04,148
+  submit_date: 5 May, 2020
+  tags:
+  - cond-mat.str-el
+  - cond-mat.supr-con
+  - hep-th
+  title: 'Fermionic criticality is shaped by Fermi surface topology: a case study of the Tomonaga-Luttinger liquid'
+- arxiv_doi: https://arxiv.org/abs/1802.06528
+  arxiv_ref: arXiv:1802.06528
+  authors:
+  - Anirban Mukherjee
+  - Siddhartha Lal
+  doi: https://doi.org/10.1088/1367-2630/ab8831
+  journal_ref: New J. Phys. 22, 063007 (2020)
+  journal_ref_short: New J. Phys. 22, 063007
+  submit_date: 9 November, 2019
+  tags:
+  - cond-mat.str-el
+  - cond-mat.supr-con
+  title: Scaling theory for Mott-Hubbard transitions
+- arxiv_doi: https://arxiv.org/abs/1810.03935
+  arxiv_ref: arXiv:1810.03935
+  authors:
+  - Santanu Pal
+  - Anirban Mukherjee
+  - Siddhartha Lal
+  doi: https://doi.org/10.1088/1361-648X/ab670f
+  journal_ref: 'J. Phys.: Condens. Matter 32, 165805 (2020)'
+  journal_ref_short: JPCM. 32, 165805
+  submit_date: 10 October, 2019
+  tags:
+  - cond-mat.str-el
+  title: Non-perturbative approach to quantum liquid ground states on geometrically frustrated Heisenberg antiferromagnets
+- arxiv_doi: https://arxiv.org/abs/1902.06475
+  arxiv_ref: arXiv:1902.06475
+  authors:
+  - Santanu Pal
+  - Siddhartha Lal
+  doi: https://doi.org/10.1103/PhysRevB.100.104421
+  journal_ref: Phys. Rev. B 100, 104421 (2019)
+  journal_ref_short: PRB 100, 104421
+  submit_date: 18 February, 2019
+  tags:
+  - cond-mat.str-el
+  title: Magnetisation plateaux of the quantum pyrochlore Heisenberg antiferromagnet
+- arxiv_doi: https://arxiv.org/abs/1811.05222
+  arxiv_ref: arXiv:1811.05222
+  authors:
+  - Santanu Pal
+  - Anirban Mukherjee
+  - Siddhartha Lal
+  doi: https://doi.org/10.1088/1367-2630/ab05ff
+  journal_ref: New J. Phys. 21, 023019 (2019)
+  journal_ref_short: New J. Phys. 21, 023019
+  submit_date: 13 November, 2018
+  tags:
+  - cond-mat.str-el
+  title: 'Correlated spin liquids in the quantum kagome antiferromagnet at finite field: a renormalisation group analysis'
+- arxiv_doi: https://arxiv.org/abs/1704.06026
+  arxiv_ref: arXiv:1704.06026
+  authors:
+  - Santanu Pal
+  - Siddhartha Lal
+  doi: https://doi.org/10.1103/PhysRevB.96.075139
+  journal_ref: Phys. Rev. B 96, 075139 (2017)
+  journal_ref_short: PRB 96, 075139
+  submit_date: 20 April, 2017
+  tags:
+  - cond-mat.str-el
+  - cond-mat.mtrl-sci
+  title: Orbital and spin ordering physics of the Mn$_3$O$_4$ spinel
+- arxiv_doi: https://arxiv.org/abs/1610.09845
+  arxiv_ref: arXiv:1610.09845
+  authors:
+  - Somenath Jalal
+  - Rishabh Khare
+  - Siddhartha Lal
+  submit_date: 11 November, 2016
+  tags:
+  - cond-mat.stat-mech
+  - cond-mat.other
+  - cond-mat.supr-con
+  - hep-lat
+  title: Topological transitions in Ising models
+- arxiv_doi: https://arxiv.org/abs/1407.6539
+  arxiv_ref: arXiv:1407.6539
+  authors:
+  - N. Mohanta
+  - S. Bandopadhyay
+  - Siddhartha Lal
+  - A. Taraphder
+  submit_date: 22 November, 2014
+  tags:
+  - cond-mat.supr-con
+  - cond-mat.mes-hall
+  title: Emergent Spin Hall phase at a Lifshitz transition from competing orders
+- arxiv_doi: https://arxiv.org/abs/1204.4757
+  arxiv_ref: arXiv:1204.4757
+  authors:
+  - Wade DeGottardi
+  - Siddhartha Lal
+  - Smitha Vishveshwara
+  doi: https://doi.org/10.1103/PhysRevLett.110.026402
+  journal_ref: Phys. Rev. Lett. 110, 026402 (2013)
+  journal_ref_short: PRLett. 110, 026402
+  submit_date: 20 April, 2012
+  tags:
+  - cond-mat.str-el
+  - cond-mat.mes-hall
+  title: Charge Fractionalization in a Mesoscopic Ring
+- arxiv_doi: https://arxiv.org/abs/1005.2749
+  arxiv_ref: arXiv:1005.2749
+  authors:
+  - Travis Dirks
+  - Taylor L. Hughes
+  - Siddhartha Lal
+  - Bruno Uchoa
+  - Yung-Fu Chen
+  - Cesar Chialvo
+  - Paul M. Goldbart
+  - Nadya Mason
+  doi: https://doi.org/10.1038/nphys1911
+  journal_ref: Nature Physics 7, 386 (2011)
+  journal_ref_short: Nat. Phys. 7, 386
+  submit_date: 27 October, 2010
+  tags:
+  - cond-mat.supr-con
+  - cond-mat.str-el
+  title: Transport Through Andreev Bound States in a Graphene Quantum Dot
+- arxiv_doi: https://arxiv.org/abs/1007.2187
+  arxiv_ref: arXiv:1007.2187
+  authors:
+  - Akbar Jaefari
+  - Siddhartha Lal
+  - Eduardo Fradkin
+  doi: https://doi.org/10.1103/PhysRevB.82.144531
+  journal_ref: Physical Review B 82, 144531 (2010)
+  journal_ref_short: PRB 82, 144531
+  submit_date: 13 July, 2010
+  tags:
+  - cond-mat.supr-con
+  - cond-mat.str-el
+  title: Charge-Density-Wave and Superconductor Competition in Stripe Phases of High Temperature Superconductors
+- arxiv_doi: https://arxiv.org/abs/0911.0619
+  arxiv_ref: arXiv:0911.0619
+  authors:
+  - James C. T. Lee
+  - Shi Yuan
+  - Siddhartha Lal
+  - Young Il Joe
+  - Yu Gan
+  - Serban Smadici
+  - Ken Finkelstein
+  - Yejun Feng
+  - Andrivo Rusydi
+  - Paul M. Goldbart
+  - S. Lance Cooper
+  - Peter Abbamonte
+  doi: https://doi.org/10.1038/NPHYS2117
+  journal_ref: Nature Physics, Vol. 8, 63 (2012)
+  journal_ref_short: Nat. Phys., Vol. 8, 63
+  submit_date: 3 November, 2009
+  tags:
+  - cond-mat.str-el
+  title: Two-step stabilization of orbital order and the dynamical frustration of spin in the model charge-transfer insulator KCuF3
+- arxiv_doi: https://arxiv.org/abs/0910.1579
+  arxiv_ref: arXiv:0910.1579
+  authors:
+  - Siddhartha Lal
+  - Sarang Gopalakrishnan
+  - Paul M. Goldbart
+  doi: https://doi.org/10.1103/PhysRevB.81.245314
+  journal_ref: Phys. Rev. B 81, 245314 (2010)
+  journal_ref_short: PRB 81, 245314
+  submit_date: 8 October, 2009
+  tags:
+  - cond-mat.mes-hall
+  - cond-mat.quant-gas
+  title: 'Approaching multichannel Kondo physics using correlated bosons: Quantum phases and how to realize them'
+- arxiv_doi: https://arxiv.org/abs/0709.3164
+  arxiv_ref: arXiv:0709.3164
+  authors:
+  - Siddhartha Lal
+  doi: https://doi.org/10.1103/PhysRevB.77.035331
+  journal_ref: Phys. Rev. B 77, 035331 (2008)
+  journal_ref_short: PRB 77, 035331
+  submit_date: 20 September, 2007
+  tags:
+  - cond-mat.mes-hall
+  title: 'Transport through constricted quantum Hall edge systems: beyond the quantum point contact'
+- arxiv_doi: https://arxiv.org/abs/0708.2156
+  arxiv_ref: arXiv:0708.2156
+  authors:
+  - Siddhartha Lal
+  - Mukul S. Laad
+  submit_date: 16 August, 2007
+  tags:
+  - cond-mat.str-el
+  title: Ordering from frustration in a strongly correlated one-dimensional system
+- arxiv_doi: https://arxiv.org/abs/0708.2159
+  arxiv_ref: arXiv:0708.2159
+  authors:
+  - Siddhartha Lal
+  - Mukul S. Laad
+  submit_date: 16 August, 2007
+  tags:
+  - cond-mat.str-el
+  title: 'From frustrated insulators to correlated anisotropic metals: charge ordering and quantum criticality in coupled chain systems'
+- arxiv_doi: https://arxiv.org/abs/cond-mat/0611218
+  arxiv_ref: arXiv:cond-mat/0611218
+  authors:
+  - Siddhartha Lal
+  doi: https://doi.org/10.1209/0295-5075/80/17003
+  journal_ref: Europhysics Letters, Vol. 80, 17003 (2007).
+  journal_ref_short: Europhys.Lett., Vol. 80, 17003.
+  submit_date: 8 November, 2006
+  tags:
+  - cond-mat.mes-hall
+  - cond-mat.str-el
+  title: On transport in quantum Hall systems with constrictions
+- arxiv_doi: https://arxiv.org/abs/cond-mat/0511458
+  arxiv_ref: arXiv:cond-mat/0511458
+  authors:
+  - Siddhartha Lal
+  - Mukul S. Laad
+  submit_date: 18 November, 2005
+  tags:
+  - cond-mat.str-el
+  title: Charge ordering in quasi-one-dimensional systems with frustrating interactions
+- arxiv_doi: https://arxiv.org/abs/cond-mat/0510016
+  arxiv_ref: arXiv:cond-mat/0510016
+  authors:
+  - M. S. Laad
+  - Siddhartha Lal
+  submit_date: 6 October, 2005
+  tags:
+  - cond-mat.str-el
+  title: On charge and spin ordering in a one-dimensional model with frustrating interactions
+- arxiv_doi: https://arxiv.org/abs/cond-mat/0206259
+  arxiv_ref: arXiv:cond-mat/0206259
+  authors:
+  - Siddhartha Lal
+  - Sumathi Rao
+  - Diptiman Sen
+  doi: https://doi.org/10.1103/PhysRevB.66.165327
+  journal_ref: Phys. Rev. B 66 (2002) 165327
+  journal_ref_short: PRB 66 165327
+  submit_date: 14 June, 2002
+  tags:
+  - cond-mat.str-el
+  - cond-mat.mes-hall
+  title: 'Junction of several weakly interacting quantum wires: a renormalization group study'
+- arxiv_doi: https://arxiv.org/abs/cond-mat/0104402
+  arxiv_ref: arXiv:cond-mat/0104402
+  authors:
+  - Siddhartha Lal
+  - Sumathi Rao
+  - Diptiman Sen
+  submit_date: 21 April, 2001
+  tags:
+  - cond-mat.str-el
+  - cond-mat.mes-hall
+  title: Conductance through contact barriers of a finite length quantum wire
+- arxiv_doi: https://arxiv.org/abs/cond-mat/0012097
+  arxiv_ref: arXiv:cond-mat/0012097
+  authors:
+  - Siddhartha Lal
+  - Sumathi Rao
+  - Diptiman Sen
+  doi: https://doi.org/10.1103/PhysRevLett.87.026801
+  journal_ref: Phys. Rev. Lett. 87 (2001) 026801
+  journal_ref_short: PRLett. 87 026801
+  submit_date: 29 December, 2000
+  tags:
+  - cond-mat.str-el
+  - cond-mat.mes-hall
+  title: 'Transport through quasi-ballistic quantum wires: the role of contacts'
+- arxiv_doi: https://arxiv.org/abs/cond-mat/9905165
+  arxiv_ref: arXiv:cond-mat/9905165
+  authors:
+  - Diptiman Sen
+  - Siddhartha Lal
+  doi: https://doi.org/10.1103/PhysRevB.61.9001
+  journal_ref: Phys. Rev. B 61 (2000) 9001 - 9013
+  journal_ref_short: PRB 61 9001 - 9013
+  submit_date: 12 May, 1999
+  tags:
+  - cond-mat.str-el
+  - cond-mat.stat-mech
+  title: One-dimensional fermions with incommensuration
+- arxiv_doi: https://arxiv.org/abs/cond-mat/9806111
+  arxiv_ref: arXiv:cond-mat/9806111
+  authors:
+  - Kunj Tandon
+  - Siddhartha Lal
+  - Swapan K. Pati
+  - S. Ramasesha
+  - Diptiman Sen
+  doi: https://doi.org/10.1103/PhysRevB.59.396
+  journal_ref: Phys. Rev. B 59 (1999) 396 - 410
+  journal_ref_short: PRB 59 396 - 410
+  submit_date: 24 February, 1999
+  tags:
+  - cond-mat.str-el
+  - cond-mat.stat-mech
+  title: Magnetization Properties of Some Quantum Spin Ladders
+- arxiv_doi: https://arxiv.org/abs/cond-mat/9811330
+  arxiv_ref: arXiv:cond-mat/9811330
+  authors:
+  - Diptiman Sen
+  - Siddhartha Lal
+  doi: https://doi.org/10.1209/epl/i2000-00444-0
+  journal_ref: Europhys.Lett. 52 (2000) 337-343
+  journal_ref_short: Europhys.Lett. 52 337-343
+  submit_date: 24 November, 1998
+  tags:
+  - cond-mat.stat-mech
+  - cond-mat.str-el
+  - hep-th
+  title: One-dimensional fermions with incommensurate hopping close to dimerization

@@ -1,27 +1,12 @@
 ---
 permalink: /publications/
-layout: splash
+layout: single
+classes: wide
 title: Research Publications
 header:
     image: /assets/images/pubs.svg
 ---
 
-<h1> {{ page.title }} </h1>
-<div style="width: 48%;float:left;margin:auto;">
 {% for work in site.data.publications %}
-{% assign mod = forloop.index | modulo: 2 %}
-{% if mod == 0 %}
-{% continue %}
-{% endif %}
-{% include publication_info.html pre_text=forloop.index %}
+- {% include publication_info.html %}
 {% endfor %}
-</div>
-<div style="width: 48%;float:right;margin:auto;">
-{% for work in site.data.publications %}
-{% assign mod = forloop.index | modulo: 2 %}
-{% if mod == 1 %}
-{% continue %}
-{% endif %}
-{% include publication_info.html pre_text=forloop.index %}
-{% endfor %}
-</div>

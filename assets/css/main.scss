@@ -9,6 +9,48 @@ search: false
 @import "minimal-mistakes"; // main partials
 
 
+// remove the footer
 .page__footer {
 	display: none;
 }
+
+
+// remove permanent underline on links, 
+// now underline only shows on hover
+a {
+	font-weight: bold;
+	text-decoration: none;
+}
+
+
+// center align all images
+img {
+	display: block;
+	margin: auto;
+}
+
+
+// add class for tag alert boxes
+// and add space between the boxes
+.tag__highlight {
+	margin-left: 3%;
+
+}
+
+
+// reduce padding inside the tag
+// alert boxes
+.btn {
+	padding: 0.3em;
+	padding-top: 0.1em;
+	padding-bottom: 0.1em;
+}
+
+
+// remove the translucent feature
+// of the author profile
+.sidebar {
+	opacity: 1;
+}
+
+
