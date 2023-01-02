@@ -1,6 +1,7 @@
 ---
 permalink: /people/
-layout: single
+layout: splash
+author_profile: false
 title: Team members of EPQM
 excerpt: Research scholars, masters students and alumni of the group
 
@@ -10,29 +11,6 @@ excerpt: Research scholars, masters students and alumni of the group
 
 ## {{ class[0] }}
 
-{% for person in class[1] %}
+{% include feature_row_people.html %}
 
-<div class="people__desc" markdown=1>
-
-![]({{ person["img_path"] }}){: class="people__img" }
-**{{ person["name"] }}**
-
-{% if person["designation"] != nil %}
-{{ person["designation"] }},
-{% endif %}
-Contact me at [{{ person["email"] }}](mailto:{{ person["email"] }}).
-{%- if person["website"] != nil %}
-Here's my [website.]({{ person["website"] }})
-{% endif %}
-
-
-{{ person["work"] }}
-{: class="people__work" }
-
-{% if person["graduated"] != nil %}
-Graduated in {{ person["graduated"] }}
-{% endif %}
-
-</div>
-{% endfor %}
 {% endfor %}

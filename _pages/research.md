@@ -5,7 +5,8 @@ title: "EPQM's research: Areas of focus and publications"
 excerpt: "From strongly-correlated electronic systems to topological states of matter"
 toc: true
 header:
-    overlay_image: ../assets/images/layered-waves-haikei.svg
+    overlay_image: /assets/images/about.svg
+    overlay_filter: 0.6
     actions:
     - label: "Publications"
       url: /research/#publications

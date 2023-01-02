@@ -1,0 +1,26 @@
+<div class="people_class">
+{% for f in class[1] %}
+<div class="people_entry">
+    <img class="people_entry_img" src="{{ f.image_path | relative_url }}">
+
+    <p class="people_entry_name">{{ f.title }}</p>
+
+    {% if f.joined %}
+    Joined: {{ f.joined }}
+    {%- endif -%}
+    {%- if f.graduated -%}
+    Graduated: {{ f.graduated }}
+    {%- endif -%}
+    {%- if f.designation -%}
+    <i>{{ f.designation }}</i>
+    {%- endif -%}
+    <a href="mailto:{{ f.email }}" class="btn btn--success tag__highlight">Email Id</a>
+  {%- if f.website -%}
+    <a href="{{ f.website }}" class="btn btn--info tag__highlight">Website</a>
+  {%- endif -%}
+
+    <p class="people_entry_desc">{{ f.excerpt | markdownify }}</p>
+
+</div>
+{% endfor %}
+</div>
