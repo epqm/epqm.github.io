@@ -77,37 +77,7 @@ p.body__img {
 	}
 }
 
-.people_entry {
-
-	width: 100%;
-	max-width: 400px;
-	overflow: hidden;
-	text-align: justify;
-	margin: auto;
-	@include breakpoint($small) {
-		float: left;
-		width: 40%;
-		margin-right: 10%;
-	}
-	@include breakpoint($large) {
-		width: 30%;
-		float: left;
-		margin-right: 3%;
-	}
-	> .people_entry_name {
-		font-weight: bold;
-		font-size: 110%;
-		margin-top: 0.5em;
-		margin-bottom: 0.5em;
-	}
-
-	> img {
-		height: 250px;
-		display: block;
-	}
-}
-
-.people_class {
-	width: 100%;
-	overflow: hidden;
+img.people_img {
+	height: 250px;
+	float: left;
 }
