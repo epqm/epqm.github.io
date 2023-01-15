@@ -1,7 +1,7 @@
 ---
 title: "(Publication) Superconductivity from repulsion in the 2D Hubbard model"
 excerpt: "We cast the renormalization group flows of the 2D Hubbard model in terms of entanglement evolution, revealing holographic features along the way."
-permalink: /mott-merg-pub/
+permalink: /2003.06118/
 categories:
   - publication-update
 tags:
@@ -13,7 +13,12 @@ header:
 
 ---
 
-{% include publication_info_post.html %}
+{% for work in site.data.publications %}
+{% if page.permalink == work["permalink"] %}
+{% include publication_info.html %}
+{% endif %}
+{% endfor %}
+
 
 We employ the momentum space entanglement renormalization group (MERG) scheme developed in references (Mukherjee et al 2021 J. High Energy Phys. JHEP04(2021)148; Patra and Lal 2021 Phys. Rev. B 104 144514) for the study of various insulating, superconducting and normal phases of the doped and the undoped 2D Hubbard model on a square lattice found recently by us (Mukherjee and Lal 2020 New J. Phys. 22 063007; Mukherjee and Lal 2020 New J. Phys. 22 063008). At each MERG step, disentanglement of particular degrees of freedom, transforms the tensor network representation of the many-particle states. 
 

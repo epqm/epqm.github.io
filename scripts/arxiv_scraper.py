@@ -27,11 +27,11 @@ for result in soup.findAll('li', attrs={'class': 'arxiv-result'}):
         pub_data[-1]['journal_ref_short'] = pub_data[-1]['journal_ref_short'].replace('Journal of High Energy Physics', 'JHEP')
         pub_data[-1]['journal_ref_short'] = pub_data[-1]['journal_ref_short'].replace('Nuclear Physics B', 'Nuc. Phys. B')
         pub_data[-1]['journal_ref_short'] = pub_data[-1]['journal_ref_short'].replace('Europhysics Letters', 'Europhys.Lett.')
-        print (pub_data[-1]['journal_ref_short'])
         pub_data[-1]['doi'] = result.findChild('span', string='doi').find_next('a')['href']
     except:
          pass
     pub_data[-1]['tags'] = [tag.text for tag in result.findChild('div', attrs={'class': 'tags is-inline-block'}).findChildren('span')]
     pub_data[-1]['arxiv_ref'] = result.find('p', attrs={'class': 'list-title is-inline-block'}).findChild('a').text.strip()
+    pub_data[-1]['permalink'] = "/" + pub_data[-1]['arxiv_ref'].replace("arXiv:","") + "/"
     pub_data[-1]['arxiv_doi'] = result.find('p', attrs={'class': 'list-title is-inline-block'}).findChild('a')['href']
 yaml.dump(pub_data, open(output_file, 'w'), width=float("inf"))

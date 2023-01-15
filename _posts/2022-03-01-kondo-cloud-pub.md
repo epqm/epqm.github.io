@@ -1,7 +1,7 @@
 ---
 title: "(Publication) Unitary renormalization-group study of the Kondo model"
 excerpt: "We study the feedback effect of Kondo cloud screening on the conduction electrons, obtaining an effective Hamiltonian that describes its dynamics."
-permalink: /kondo-cloud-pub/
+permalink: /2111.10580/
 categories:
   - publication-update
 tags:
@@ -13,7 +13,11 @@ header:
 
 ---
 
-{% include publication_info_post.html %}
+{% for work in site.data.publications %}
+{% if page.permalink == work["permalink"] %}
+{% include publication_info.html %}
+{% endif %}
+{% endfor %}
 
 We analyze the single-channel Kondo model using the recently developed unitary renormalization-group (URG) method and obtain a comprehensive understanding of the Kondo screening cloud. The fixed-point low-energy Hamiltonian enables the computation of a plethora of thermodynamic quantities (specific heat, susceptibility, Wilson ratio, etc.) as well as spectral functions, all of which are found to be in good agreement with known results. By integrating out the impurity, we obtain an effective Hamiltonian for the excitations of the electrons comprising the Kondo cloud. This is found to contain both k-space number diagonal (Fermi liquid) and off-diagonal four-fermion scattering terms. Our conclusions are reinforced by a URG study of the two-particle entanglement and many-body correlations among members of the Kondo cloud and impurity.
 

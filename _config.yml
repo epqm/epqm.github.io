@@ -283,6 +283,7 @@ defaults:
       comments: # true
       share: true
       related: true
+      mathjax: true
   - scope:
       path: ""
       type: pages
@@ -293,3 +294,4 @@ defaults:
       comments: # true
       share: true
       related: true
+      mathjax: true
