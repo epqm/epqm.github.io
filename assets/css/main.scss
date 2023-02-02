@@ -71,21 +71,42 @@ p.body__img {
 	}
 }
 
-// .publications {
-// 	width: 100%;
-// 	@include breakpoint($large) {
-// 		width: 120%;
-// 	}
-// 	@include breakpoint($x-large) {
-// 		width: 160%;
-// 	}
-// }
-
-img.people_img {
-	height: 250px;
-	float: left;
+.people_row {
+	width:100%;
+	display: block; 
+	overflow:hidden; 
+	margin-bottom: 1em;
 }
 
+.people_img {
+	width:200px;
+	display: block;
+	margin: auto;
+	margin-bottom: 1em;
+	@include breakpoint($small) {
+		float:left; 
+		overflow: hidden; 
+		margin-right: 1em;
+	}
+}
+
+
+.people_links {
+	display: none;
+	@include breakpoint($small) {
+		display: inline;
+	}
+}
+
+.people_divider {
+	width: 100%;
+	border-top: 0.2em solid #999;
+	padding-bottom: 1.5em;
+	display: block;
+	@include breakpoint($small) {
+		display: none;
+	}
+}
 
 .page__content {
   text-align: justify;

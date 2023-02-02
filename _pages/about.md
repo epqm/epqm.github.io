@@ -23,11 +23,11 @@ Research Complex, IISER Kolkata,<br>
 Mohanpur-741246, West Bengal, India.**
 {: .text-center}
 
-## Group members
+# Group members
 
 {% for class in site.data.people %}
 
-## {{ class[0] }}
+# {{ class[0] }}
 
 {% include feature_row_people.html %}
 

@@ -1,25 +1,27 @@
 {% for f in class[1] %}
 
-<div style="width:100%; display: block; overflow:hidden; margin-bottom: 1em;" markdown=1>
-<img style="width:200px; float:left; overflow:hidden; margin-right: 1em;" src="{{ f.image_path }}">
-<b>{{ f.title }}</b><a href="mailto:{{ f.email }}" class="btn btn--success tag__highlight">Email Id</a>
+<div class="people_row" markdown=1>
+<img class="people_img" src="{{ f.image_path }}">
+**{{ f.title }}**
+<span class="people_links"><a href="mailto:{{ f.email }}" class="btn btn--success tag__highlight">Email Id</a>
 {%- if f.website -%}
 <a href="{{ f.website }}" class="btn btn--info tag__highlight">Website</a>
-{% endif %}
-
-{% if f.joined %}
+{%- endif -%}</span>
+<br>
+{%- if f.joined -%}
 Joined: {{ f.joined }}
 {%- endif -%}
 {%- if f.graduated -%}
 Graduated: {{ f.graduated }}
-{% endif %}
-
-{% if f.designation %}
-<i>{{ f.designation }}</i>
-{% endif %}
-
-{{ f.excerpt }}
+{%- endif -%}
+{%- if f.designation -%}
+{{ f.designation }}
+{%- endif -%}
+<br>
+<br>
+*{{ f.excerpt }}*
 
 </div>
+<span class="people_divider"></span>
 
 {% endfor %}
