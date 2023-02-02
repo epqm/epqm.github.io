@@ -2,6 +2,7 @@
 permalink: /about/
 layout: single
 classes: wide
+author_profile: false
 title: About EPQM
 gallery:
     - image_path: /assets/images/about/epqm-logo.svg
