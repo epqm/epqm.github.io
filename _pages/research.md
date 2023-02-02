@@ -110,10 +110,10 @@ Correlated quantum impurity models serve as fertile grounds for the emergence of
 
 For more information, please visit the [about page](/about/) and the [publications page](/publications/).
 
-## Publications
+## Publications & Preprints
 
-<div class="publications" markdown=1>
+<!-- <div class="publications" markdown=1> -->
 {% for work in site.data.publications %}
 - {% include publication_info.html %}
 {% endfor %}
-</div>
+<!-- </div> -->

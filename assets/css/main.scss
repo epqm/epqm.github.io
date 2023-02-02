@@ -65,17 +65,21 @@ p.body__img {
 
 .authors__text {
 	opacity: 0.8;
+	display: none;
+	@include breakpoint($small) {
+		display: inline-block;
+	}
 }
 
-.publications {
-	width: 100%;
-	@include breakpoint($large) {
-		width: 120%;
-	}
-	@include breakpoint($x-large) {
-		width: 160%;
-	}
-}
+// .publications {
+// 	width: 100%;
+// 	@include breakpoint($large) {
+// 		width: 120%;
+// 	}
+// 	@include breakpoint($x-large) {
+// 		width: 160%;
+// 	}
+// }
 
 img.people_img {
 	height: 250px;
