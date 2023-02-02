@@ -15,7 +15,7 @@ header:
 
 ---
 
-The full list of publications are available [here](/research/#publications). 
+The full list of publications is available [here](/research/#publications). 
 
 ## Broad areas of research
 
@@ -111,7 +111,7 @@ Correlated quantum impurity models serve as fertile grounds for the emergence of
 For more information, please visit the [about page](/about/) and the [publications page](/publications/).
 
 ## Publications & Preprints
-
+{: #publications }
 <!-- <div class="publications" markdown=1> -->
 {% for work in site.data.publications %}
 - {% include publication_info.html %}
