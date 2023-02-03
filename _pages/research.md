@@ -4,12 +4,13 @@ layout: single
 title: "EPQM's research: Areas of focus and publications"
 excerpt: "From strongly-correlated electronic systems to topological states of matter"
 toc: true
+toc_sticky: true
 header:
     overlay_image: /assets/images/about.svg
     overlay_filter: 0.6
     actions:
     - label: "Publications"
-      url: /research/#publications
+      url: /publications/
     - label: "ResearchGate"
       url: "https://www.researchgate.net/profile/Siddhartha-Lal-2"
 
