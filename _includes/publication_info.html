@@ -1,3 +1,4 @@
+<div class="pub__global" markdown=1>
 <b>{{ work["title"] }}</b>
 {%- if include.show_tags -%}
 {%- for tag in work["tags"] -%}
@@ -5,7 +6,7 @@
 {%- endfor -%}
 {%- endif -%}
 <br>
-<span class='authors__text'>{{ work["authors"] | join:", " | replace: "Siddhartha Lal", "<b>Siddhartha Lal</b>" }}</span>
+<span class='pub__authors'>{{ work["authors"] | join:", " | replace: "Siddhartha Lal", "<b>Siddhartha Lal</b>" }}</span>
 <br>
 {{ work["submit_date"] | strip | date: "%B %-d, %Y" }}
 {%- if work["doi"] -%}

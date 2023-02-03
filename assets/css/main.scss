@@ -63,9 +63,13 @@ p.body__img {
 	opacity: 1;
 }
 
-.authors__text {
-	display: none;
+.pub__global {
 	font-size: smaller;
+}
+
+.pub__authors {
+	display: none;
+	color: gray;
 	@include breakpoint($small) {
 		display: inline-block;
 	}
