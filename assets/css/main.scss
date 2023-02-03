@@ -133,3 +133,15 @@ p.body__img {
 .site-subtitle {
 	font-size: 70%;
 }
+
+.masthead__inner-wrap {
+	padding-top: 0.4em;
+	padding-bottom: 0.4em;
+}
+
+.greedy-nav .visible-links a {
+	font-size: normal;
+	@include breakpoint($small) {
+		font-size: smaller;
+	}
+}
