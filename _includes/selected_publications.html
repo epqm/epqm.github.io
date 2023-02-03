@@ -1,11 +1,9 @@
 <h2 id="selected-publications"> Selected Publications <a href="#selected-publications" class="btn" onClick="window.location.reload()">[Refresh]</a></h2>
-<div id="my-list" style="overflow:hidden;">
+<ul id="my-list" markdown=1>
 {% for work in site.data.publications %}
-<ul>
-<li markdown=1>{% include publication_info.html %}</li>
-</ul>
+<li>{%- include publication_info.html -%}
 {% endfor %}
-</div>
+</ul>
 
 <script>
 var myList = document.querySelector('#my-list');

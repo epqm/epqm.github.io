@@ -71,7 +71,7 @@ p.body__img {
 	display: none;
 	color: gray;
 	@include breakpoint($small) {
-		display: inline-block;
+		display: block;
 	}
 }
 
@@ -112,9 +112,9 @@ p.body__img {
 	}
 }
 
-.page__content {
-  text-align: justify;
-}
+// .page__content {
+//   text-align: justify;
+// }
 
 .archive__item {
 	margin-bottom: 2em;

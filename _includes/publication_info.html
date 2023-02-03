@@ -7,7 +7,6 @@
 {%- endif -%}
 <br>
 <span class='pub__authors'>{{ work["authors"] | join:", " | replace: "Siddhartha Lal", "<b>Siddhartha Lal</b>" }}</span>
-<br>
 {{ work["submit_date"] | strip | date: "%B %-d, %Y" }}
 {%- if work["doi"] -%}
 <a href="{{ work["doi"] }}" class="btn btn--danger tag__highlight">{{ work["journal_ref_short"] }}</a>

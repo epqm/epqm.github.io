@@ -15,7 +15,7 @@ header:
 
 {% for post in site.posts %}
 {% if post.pinned == true %}
-<h2><i class="fas fa-thumbtack fontawesome__icon"></i> Pinned Post </h2>
+## <i class="fas fa-thumbtack fontawesome__icon"></i> Pinned Post
 <div class="feature__wrapper">
 {% include feature_row_posts %}
 </div>
@@ -23,7 +23,7 @@ header:
 {% endif %}
 {% endfor %}
 
-<h2> Recent Posts </h2>
+## Recent Posts
 {% include feature_row_posts type="left" %}
 
 {% include selected_publications.html %}
