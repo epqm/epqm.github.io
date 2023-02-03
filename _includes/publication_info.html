@@ -1,4 +1,9 @@
 <b>{{ work["title"] }}</b>
+{%- if include.show_tags -%}
+{%- for tag in work["tags"] -%}
+<span class="btn btn--success tag__highlight">{{ tag }}</span>
+{%- endfor -%}
+{%- endif -%}
 <br>
 <span class='authors__text'>{{ work["authors"] | join:", " | replace: "Siddhartha Lal", "<b>Siddhartha Lal</b>" }}</span>
 <br>
