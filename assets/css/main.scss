@@ -115,3 +115,17 @@ p.body__img {
 .page__content {
   text-align: justify;
 }
+
+.archive__item {
+	margin-bottom: 2em;
+	@include breakpoint($small) {
+		margin-bottom: 0.5em;
+	}
+}
+
+.feature__item--left .archive__item-teaser {
+	margin-bottom: 0.5em;
+	@include breakpoint($small) {
+		margin-bottom: 2em;
+	}
+}
