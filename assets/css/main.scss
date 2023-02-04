@@ -106,6 +106,9 @@ p.body__img {
 
 .page__content {
   text-align: justify;
+  > ul {
+	  text-align: left;
+  }
 }
 
 .archive__item {
