@@ -3,7 +3,7 @@ layout: splash
 title: Emergent Phenomena in Quantum Matter
 excerpt: You have reached the website of *EPQM*, a theoretical condensed matter research group at IISER Kolkata, led by *Siddhartha Lal*.
 header:
-    overlay_image: /assets/images/stacked-steps-haikei.svg
+    overlay_image: /assets/images/layered-waves-haikei.svg
     actions:
     - label: "About"
       url: /about/
