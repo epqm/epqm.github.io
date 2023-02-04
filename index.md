@@ -10,7 +10,7 @@ header:
     - label: "Research"
       url: /research/
     - label: "People"
-      url: /people/
+      url: /about/#group-members
 ---
 
 {% for post in site.posts %}
