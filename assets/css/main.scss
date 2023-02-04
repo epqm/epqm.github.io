@@ -94,14 +94,6 @@ p.body__img {
 	}
 }
 
-
-.people_links {
-	display: none;
-	@include breakpoint($small) {
-		display: inline;
-	}
-}
-
 .people_divider {
 	width: 100%;
 	border-top: 0.2em solid #999;
@@ -112,9 +104,9 @@ p.body__img {
 	}
 }
 
-// .page__content {
-//   text-align: justify;
-// }
+.page__content {
+  text-align: justify;
+}
 
 .archive__item {
 	margin-bottom: 2em;
