@@ -2,7 +2,6 @@
 permalink: /about/
 layout: single
 classes: wide
-author_profile: false
 title: About EPQM
 gallery:
     - image_path: /assets/images/about/epqm-logo.svg
@@ -22,13 +21,12 @@ For more information, please take a look at our [research work](/research/) and 
 Department of Physical Sciences,<br>
 Research Complex, IISER Kolkata,<br>
 Mohanpur-741246, West Bengal, India.**
-{: .text-center}
 
 # Group members
 
 {% for class in site.data.people %}
 
-# {{ class[0] }}
+## {{ class[0] }}
 
 {% include feature_row_people.html %}
 

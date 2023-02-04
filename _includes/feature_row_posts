@@ -5,22 +5,21 @@
       <div class="archive__item">
         {% if f.header.image %}
           <div class="archive__item-teaser">
+	  <a href="{{ f.url | relative_url }}">
             <img src="{{ f.header.image | relative_url }}"
                  alt="{% if f.alt %}{{ f.alt }}{% endif %}">
-            {% if f.image_caption %}
-              <span class="archive__item-caption">{{ f.image_caption | markdownify | remove: "<p>" | remove: "</p>" }}</span>
-            {% endif %}
+	  </a>
           </div>
         {% endif %}
 
         <div class="archive__item-body">
           {% if f.title %}
-            <b>{{ f.title }} </b> <a href="{{ f.url | relative_url }}" class="btn btn--primary btn--small">{{ f.btn_label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a>
+            <b>{{ f.title }}</b><a href="{{ f.url | relative_url }}" class="btn btn--primary btn--small tag__highlight">Learn More</a>
           {% endif %}
 
           {% if f.excerpt %}
             <div class="archive__item-excerpt">
-              {{ f.excerpt | markdownify }}
+              {{ f.excerpt | markdownify | rstrip }}
             </div>
           {% endif %}
         </div>

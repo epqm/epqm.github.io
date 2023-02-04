@@ -1,0 +1,30 @@
+<script type="text/javascript">
+var anchorTags = document.querySelectorAll('.u-email');
+for (var i = 0; i < anchorTags.length; i++) {
+    anchorTags[i].onclick = function() {
+        try {
+            navigator.clipboard.writeText(String(event.currentTarget).replace('mailto:',''));
+            this.getElementsByTagName( 'span' )[0].innerHTML = "Copied!"
+        }
+        finally {
+            event.preventDefault();
+        }
+    }
+    anchorTags[i].onmouseover = function() {
+        try {
+            this.getElementsByTagName( 'span' )[0].innerHTML = "Click to copy"
+        }
+        finally {
+            event.preventDefault();
+        }
+    }
+    anchorTags[i].onmouseout = function() {
+        try {
+            this.getElementsByTagName( 'span' )[0].innerHTML = "Email"
+        }
+        finally {
+            event.preventDefault();
+        }
+    }
+}
+</script>
