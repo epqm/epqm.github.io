@@ -4,9 +4,15 @@
     <div class="feature__item{% if include.type %}--{{ include.type }}{% endif %}">
       <div class="archive__item">
         {% if f.header.image %}
+		{% assign image_path = f.header.image %}
+	{% endif %}
+        {% if f.header.overlay_image %}
+		{% assign image_path = f.header.overlay_image %}
+	{% endif %}
+        {% if image_path != blank  %}
           <div class="archive__item-teaser">
 	  <a href="{{ f.url | relative_url }}">
-            <img src="{{ f.header.image | relative_url }}"
+            <img src="{{ image_path | relative_url }}"
                  alt="{% if f.alt %}{{ f.alt }}{% endif %}">
 	  </a>
           </div>

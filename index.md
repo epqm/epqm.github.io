@@ -24,6 +24,7 @@ header:
 {% endfor %}
 
 ## Recent Posts
+
 {% include feature_row_posts type="left" %}
 
 {% include selected_publications.html %}
