@@ -1,12 +1,14 @@
 # main links
 main:
-  - title: "Updates"
+  - title: Updates
     url: /posts/
-  - title: "Teaching"
+  - title: Teaching
     url: /teaching/
-  - title: "Research"
+  - title: Research
     url: /research/
-  - title: "Publications"
+  - title: Publications
     url: /publications/
-  - title: "People"
+  - title: People
     url: /people/
+  - title: About
+    url: /about/

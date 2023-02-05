@@ -5,11 +5,13 @@ excerpt: You have reached the website of *EPQM*, a theoretical condensed matter 
 header:
     overlay_image: /assets/images/layered-waves-haikei.svg
     actions:
-    - label: "About"
+    - label: About
       url: /about/
-    - label: "Research"
+    - label: Research
       url: /research/
-    - label: "People"
+    - label: Publications
+      url: /publications/
+    - label: People
       url: /about/#group-members
 ---
 
@@ -23,7 +25,7 @@ header:
 {% endif %}
 {% endfor %}
 
-## Recent Posts
+## Recent Posts [[see all]](/posts/){:.btn}
 
 {% include feature_row_posts type="left" %}
 
