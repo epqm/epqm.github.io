@@ -25,8 +25,22 @@ header:
 {% endif %}
 {% endfor %}
 
-## Recent Posts [[see all]](/posts/){:.btn}
+## Recent Updates [[see all]](/posts/){:.btn}
 
 {% include feature_row_posts type="left" %}
 
+{% assign post = site.posts[0] %} 
+{% assign work = site.data.publications[0] %}
+
+<div class="home__column" markdown=1>
+## Highlight: [{{ work["title"] }}]({{ post.url }})
+
+{% assign show_publication_title = 'False' %}
+{% include publication_info.html show_tags=1 %}
+{% assign show_publication_title = nil %}
+
+{{ post.content }}
+</div>
+<div class="home__column" markdown=1>
 {% include selected_publications.html %}
+</div>

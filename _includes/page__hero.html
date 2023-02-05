@@ -34,15 +34,13 @@
 	{% for work in site.data.publications %}
 	{% if page.permalink == work["permalink"] %}
 	<p class="page__lead">
-	{%- if include.show_tags -%}
 	{%- for tag in work["tags"] -%}
 	<span class="btn btn--success tag__highlight">{{ tag }}</span>
 	{%- endfor -%}
-	{%- endif -%}
 	<br>
 	<i class="fas fa-user-injured"></i> <span>{{ work["authors"] | join:", " | replace: "Siddhartha Lal", "<b>Siddhartha Lal</b>" }}</span>
 	<br>
-	{{ work["submit_date"] | strip | date: "%B %-d, %Y" }}
+	{{ work["submit_date"] | strip | date: "%B %-d, %Y" }}&nbsp;&nbsp;&nbsp;
 	{%- if work["doi"] -%}
 	<a href="{{ work["doi"] }}" class="btn btn--danger tag__highlight">{{ work["journal_ref_short"] }}</a>
 	{%- endif -%}

@@ -20,7 +20,7 @@
 
         <div class="archive__item-body">
           {% if f.title %}
-            <b>{{ f.title }}</b><a href="{{ f.url | relative_url }}" class="btn btn--primary btn--small tag__highlight">Learn More</a>
+            <b>{{ f.title }}</b>&nbsp;&nbsp;&nbsp;<a href="{{ f.url | relative_url }}" class="btn btn--primary btn--small tag__highlight">Learn More</a>
           {% endif %}
 
           {% if f.excerpt %}

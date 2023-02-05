@@ -43,7 +43,7 @@ p.body__img {
 // add class for tag alert boxes
 // and add space between the boxes
 .tag__highlight {
-	margin-left: 3%;
+	margin-right: 3%;
 
 }
 
@@ -134,5 +134,22 @@ p.body__img {
 	font-size: normal;
 	@include breakpoint($small) {
 		font-size: smaller;
+	}
+}
+
+.home__column {
+	display: block;
+	width: 100%;
+	margin: auto;
+	@include breakpoint($medium) {
+		width:48%;
+		float:left;
+		margin-top:-2em;
+	}
+}
+
+.home__column + .home__column {
+	@include breakpoint($medium) {
+		margin-left: 4%;
 	}
 }
