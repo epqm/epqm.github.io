@@ -4,7 +4,7 @@
 {%- endunless -%}
 {%- if include.show_tags -%}
 {%- for tag in work["tags"] -%}
-<span class="btn btn--success tag__highlight">{{ tag }}</span>
+<span class="btn btn--success tag__highlight">{{ tag | replace: "cond-mat.","" }}</span>
 {%- endfor -%}
 {%- endif -%}
 <br>

@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="412.70929mm"
-   height="107.76468mm"
-   viewBox="0 0 412.70929 107.76468"
+   width="410.9003mm"
+   height="106.08297mm"
+   viewBox="0 0 410.9003 106.08297"
    version="1.1"
    id="svg4026"
    xml:space="preserve"
@@ -26,8 +26,8 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="0.70672824"
-     inkscape:cx="950.86054"
-     inkscape:cy="483.9201"
+     inkscape:cx="970.67014"
+     inkscape:cy="500.89975"
      inkscape:window-width="1916"
      inkscape:window-height="1048"
      inkscape:window-x="0"
@@ -102,7 +102,7 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(674.58428,-305.08203)"><g
+     transform="translate(673.67979,-305.92288)"><g
        id="g9437"
        transform="matrix(0.4565559,0,0,0.35360991,-673.67979,305.92288)"><path
          d="m 809,300 h 36 v -13 h -45 v -13 h 9 v -13 h -18 v -13 h 45 v -13 h -27 v -13 h 9 v -13 h -9 v -13 h 27 v -13 h -9 v -13 h 27 v -13 h -18 v -14 h -18 v -13 h 36 v -13 h -36 v -13 h 45 V 91 H 827 V 78 H 809 V 65 h 18 V 52 h 9 V 39 h -9 V 26 H 800 V 13 h 36 V 0 h 64 v 13 0 13 0 13 0 13 0 13 0 13 0 13 0 13 0 13 0 13 0 13 0 14 0 13 0 13 0 13 0 13 0 13 0 13 0 13 0 13 0 13 0 13 0 13 0 z"

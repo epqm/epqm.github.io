@@ -8,7 +8,7 @@ header:
     overlay_image: /assets/images/posts/mott_MERG.svg
     overlay_filter: 0.5
     actions:
-    - label: "research interests"
+    - label: "Research Interests"
       url: /research/
     - label: "ResearchGate"
       url: "https://www.researchgate.net/profile/Siddhartha-Lal-2"
