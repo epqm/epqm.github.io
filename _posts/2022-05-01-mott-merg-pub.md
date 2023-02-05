@@ -5,11 +5,11 @@ permalink: /2003.06118/
 categories:
   - publication
 tags:
-  - unconventional-superconductivity
-  - gapped quantum liquids
+  - unconv. superc.
+  - gapped liquids
   - entanglement
   - MERG
-  - Hubbard model
+  - Hubbard
 header:
   overlay_image: /assets/images/posts/mott_MERG.svg
   overlay_filter: 0.7
