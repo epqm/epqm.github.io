@@ -24,14 +24,18 @@ header:
 {% endif %}
 {% endfor %}
 
+<div class="home__column" markdown=1>
 ## Recent Updates [[see all]](/posts/){:.btn}
 
-{% include feature_row_posts type="left" %}
+{% for post in site.posts limit: 3 %}
+{% include feature_row_posts type="center" %}
+{% endfor %}
 
+{% include selected_publications.html %}
+</div>
+<div class="home__column" markdown=1>
 {% assign post = site.posts[0] %} 
 {% assign work = site.data.publications[0] %}
-
-<div class="home__column" markdown=1>
 ## Highlight: [{{ work["title"] }}]({{ post.url }})
 
 {% assign show_publication_title = 'False' %}
@@ -39,7 +43,4 @@ header:
 {% assign show_publication_title = nil %}
 
 {{ post.content }}
-</div>
-<div class="home__column" markdown=1>
-{% include selected_publications.html %}
 </div>

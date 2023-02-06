@@ -63,10 +63,16 @@ p.body__img {
 	opacity: 1;
 }
 
+// makes the overall font-size of the publication entries 
+// slightly smaller, appears in publications page, and 
+// random publications part of home page
 .pub__global {
 	font-size: smaller;
 }
 
+// makes the author list font colour slightly gray in the
+// publication entries (to distinguish it from the rest).
+// also makes the author list disappear on small screens
 .pub__authors {
 	display: none;
 	color: gray;
@@ -75,6 +81,8 @@ p.body__img {
 	}
 }
 
+// makes each entry on the people page occupy
+// the whole line. Also sets the gap from the next.
 .people_row {
 	width:100%;
 	display: block; 
@@ -82,6 +90,8 @@ p.body__img {
 	margin-bottom: 1em;
 }
 
+// sets width, margin and left float for people images,
+// and makes it center float and block for small screens.
 .people_img {
 	width:200px;
 	display: block;
@@ -94,6 +104,8 @@ p.body__img {
 	}
 }
 
+// styles the horizontal line that 
+// separates a people entry from the next entry
 .people_divider {
 	width: 100%;
 	border-top: 0.2em solid #999;
@@ -104,13 +116,18 @@ p.body__img {
 	}
 }
 
+
+// justifies all the text in the page body, 
+// except lists
 .page__content {
   text-align: justify;
-  > ul {
+  > ul, ol {
 	  text-align: left;
   }
 }
 
+// sets margin to set spacing between
+// the recent posts on the home page 
 .archive__item {
 	margin-bottom: 2em;
 	@include breakpoint($small) {
@@ -118,18 +135,24 @@ p.body__img {
 	}
 }
 
-.feature__item--left .archive__item-teaser {
-	margin-bottom: 0.5em;
-	@include breakpoint($small) {
-		margin-bottom: 2em;
-	}
-}
 
+// .feature__item--left .archive__item-teaser {
+// 	margin-bottom: 0.5em;
+// 	@include breakpoint($small) {
+// 		margin-bottom: 2em;
+// 	}
+// }
+
+// reduces the whitespace between the text on the 
+// topmost panel and the boundaries of the panel
 .masthead__inner-wrap {
 	padding-top: 0.4em;
 	padding-bottom: 0.4em;
 }
 
+
+// makes the font of the top panel 
+// navigation links slightly smaller
 .greedy-nav .visible-links a {
 	font-size: normal;
 	@include breakpoint($small) {
@@ -137,25 +160,48 @@ p.body__img {
 	}
 }
 
+
+// styles each column of the two-column layout on the home page.
+// makes the width of each column ~50% on large screens and 
+// 100% on small screens. sets the float accordingly.
 .home__column {
-	display: block;
-	width: 100%;
 	margin: auto;
 	@include breakpoint($medium) {
-		width:48%;
+		width:44%;
 		float:left;
-		margin-top:-2em;
 	}
 }
 
+// sets the spacing between the two columns on the home page.
 .home__column + .home__column {
 	@include breakpoint($medium) {
-		margin-left: 4%;
+		width:50%;
+		margin-left: 6%;
 	}
 }
 
+.home__column__main {
+	width: 100%;
+	overflow: hidden;
+	display: block;
+}
+
+// styles the "Full image" indicator 
+// on overlay_images
 .page__hero-caption2 {
 	top: 0;
 	width: fit-content; 
 	height: fit-content;
+}
+
+.feature__item--center .archive__item-teaser, .feature__item--center .archive__item-body {
+	width: 100%;
+	margin-bottom: 1em;
+	text-align: left;
+	font-size: 90%;
+}
+
+.sel_pubs {
+	width: 100%;
+	display: block;
 }
