@@ -7,12 +7,11 @@ header:
     actions:
     - label: About
       url: /about/
-    - label: Research
-      url: /research/
     - label: Publications
       url: /publications/
-    - label: People
-      url: /about/#group-members
+    - label: Openings
+      url: /openings/
+
 ---
 
 {% for post in site.posts %}
