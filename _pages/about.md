@@ -1,8 +1,9 @@
 ---
 permalink: /about/
 layout: single
-classes: wide
 title: "All About EPQM"
+toc: true
+toc_sticky: true
 excerpt: "EPQM is a research group at IISER Kolkata lead by Dr. **Siddhartha Lal** in the Department of Physical Sciences at IISER Kolkata."
 gallery:
     - image_path: /assets/images/about/epqm-logo.svg
@@ -15,7 +16,7 @@ header:
     overlay_image: /assets/images/about/about.svg
     caption: "[Source](https://phdcomics.com/comics.php?f=1760)"
     actions:
-    - label: Research Interests
+    - label: Research
       url: /research/
     - label: Publications
       url: /publications/
@@ -23,6 +24,8 @@ header:
       url: /about/#people
 
 ---
+
+# What is EPQM?
 
 **EPQM** (Emergent Phenomena in Quantum Matter) is a research group at IISER Kolkata lead by Dr. **Siddhartha Lal** in the Department of Physical Sciences at the Indian Institute of Science Education and Research (IISER) Kolkata, India. We engage in theoretical research on various topics in **quantum condensed matter physics**, ranging from strongly-correlated electronic systems and quantum magnetism to topological phases of matter and non-Fermi liquids.
 
@@ -42,6 +45,10 @@ For more information, please take a look at our [research work](/research/) and 
 {% endfor %}
 
 {% include gallery %}
+
+# Openings
+
+Presently there are no open positions.
 
 **EPQM,<br>
 Department of Physical Sciences,<br>

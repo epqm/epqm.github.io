@@ -6,21 +6,21 @@
 <a href="mailto:{{ f.email }}" class="btn btn--success tag__highlight u-email"><span>Email</span></a>
 {%- if f.website -%}
 <a href="{{ f.website }}" class="btn btn--info tag__highlight">Web</a>
-{%- endif -%}
-<br>
-{%- if f.joined -%}
-Joined: {{ f.joined }}
-{%- endif -%}
-{%- if f.graduated -%}
-Graduated: {{ f.graduated }}
-{%- endif -%}
-{%- if f.designation -%}
-{{ f.designation }}
-{%- endif -%}
-<br>
-<br>
-*{{ f.excerpt }}*
+{% endif %}
 
+<div class="people_row_excerpt">
+{% if f.joined %}
+<i class="far fa-calendar-alt"></i>&nbsp;&nbsp;Joined: {{ f.joined }}
+{% endif %}
+{% if f.graduated %}
+<i class="far fa-calendar-alt"></i>&nbsp;&nbsp;Graduated: {{ f.graduated }}
+{% endif %}
+{% if f.designation %}
+<i class="fas fa-user-tie"></i>&nbsp;&nbsp;{{ f.designation }}
+{% endif %}
+<br>
+<i class="fab fa-researchgate"></i>&nbsp;&nbsp;{{ f.excerpt }}
+</div>
 </div>
 <span class="people_divider"></span>
 
