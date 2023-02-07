@@ -210,3 +210,12 @@ p.body__img {
 .people_row_excerpt {
 	font-size: smaller;
 }
+
+.seminar__comments {
+	display: none;
+	@include breakpoint($small) {
+		display: block;
+		font-size: smaller;
+	}
+}
+

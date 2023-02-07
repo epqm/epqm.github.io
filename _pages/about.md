@@ -16,12 +16,12 @@ header:
     overlay_image: /assets/images/about/about.svg
     caption: "[Source](https://phdcomics.com/comics.php?f=1760)"
     actions:
-    - label: Research
-      url: /research/
     - label: Publications
       url: /publications/
     - label: People
       url: /about/#people
+    - label: Openings
+      url: /about/#openings
 
 ---
 
@@ -48,7 +48,7 @@ For more information, please take a look at our [research work](/research/) and 
 
 # Openings
 
-Presently there are no open positions.
+There are no open positions in the group at the moment.
 
 **EPQM,<br>
 Department of Physical Sciences,<br>

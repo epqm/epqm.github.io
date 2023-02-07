@@ -10,7 +10,7 @@ header:
     - label: Publications
       url: /publications/
     - label: Openings
-      url: /openings/
+      url: /about/#openings
 
 ---
 
