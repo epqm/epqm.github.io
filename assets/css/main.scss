@@ -24,19 +24,20 @@ a {
 
 
 // center align all images
+.page img {
+	width: 100%;
+	max-width: 500px;
+	display: block;
+	margin: auto;
+}
+
 p.body__img {
 	display: block;
 	margin: auto;
-	max-width: 700px;
-	text-align: left;
-	color: #1A526D;
 	font-weight: bold;
 	font-size: smaller;
-	> img {
-	width: 100%;
-	display: block;
-	margin: auto;
-	}
+	max-width: 500px;
+	line-height: 1.3em;
 }
 
 
@@ -92,7 +93,7 @@ p.body__img {
 
 // sets width, margin and left float for people images,
 // and makes it center float and block for small screens.
-.people_img {
+.people_row .people_img {
 	width:200px;
 	display: block;
 	margin: auto;

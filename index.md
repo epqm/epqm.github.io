@@ -36,7 +36,7 @@ header:
 <div class="home__column" markdown=1>
 {% assign post = site.posts[0] %} 
 {% assign work = site.data.publications[0] %}
-## Highlight: [{{ work["title"] }}]({{ post.url }})
+## Highlight: {{ work["title"] }}
 
 {% assign show_publication_title = 'False' %}
 {% include publication_info.html show_tags=1 %}

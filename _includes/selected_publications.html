@@ -2,13 +2,11 @@
 	<a href="#selected-publications" class="btn" onClick="window.location.reload()">[Refresh]</a>
 	[[see all]](/publications/){:.btn}
 </h2>
-<ul id="my-list" markdown=1>
+<div id="my-list" markdown=1>
 {% for work in site.data.publications %}
-<li>
-	{% include publication_info.html %}
-</li>
+{% include publication_info.html %}
 {% endfor %}
-</ul>
+</div>
 
 <script>
 var myList = document.querySelector('#my-list');
