@@ -3,6 +3,15 @@ permalink: /seminars/
 layout: single
 classes: wide
 title: "Siddhartha Lal: Seminars"
+excerpt: "Includes slides and video when available"
+header:
+    overlay_image: /assets/images/seminars.svg
+    caption: "[Source](https://phdcomics.com/comics/archive.php/archive/archive_print.php?comicid=942)"
+    actions:
+    - label: Publications
+      url: /publications/
+    - label: About
+      url: /about/
 
 ---
 
