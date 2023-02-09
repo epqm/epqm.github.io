@@ -16,7 +16,7 @@ header:
 
 {% for post in site.posts %}
 {% if post.pinned == true %}
-## <i class="fas fa-thumbtack fontawesome__icon"></i> Pinned Post
+### <i class="fas fa-thumbtack fontawesome__icon"></i> Pinned Post
 <div class="feature__wrapper">
 {% include feature_row_posts %}
 </div>
@@ -25,7 +25,7 @@ header:
 {% endfor %}
 
 <div class="home__column" markdown=1>
-## [Recent Publications/Preprints](/posts/)
+## <i class="fas fa-bookmark"></i>&nbsp;&nbsp;[Recent Articles & Preprints](/posts/)
 
 {% assign counter = 0 %}
 {% for post in site.posts %}
@@ -38,7 +38,7 @@ header:
 {% endif %}
 {% endfor %}
 
-## [Recent Updates](/posts/)
+## <i class="fas fa-bolt"></i>&nbsp;&nbsp;[Recent Updates](/posts/)
 
 {% assign counter = 0 %}
 {% for post in site.posts %}
@@ -55,6 +55,8 @@ header:
 </div>
 
 <div class="home__column" markdown=1>
-## Highlights
+
+<h2 markdown=1 id="highlights"><i class="fas fa-bullhorn"></i>&nbsp;&nbsp;Some Highlights</h2>
+
 {% include highlights.html %}
 </div>
