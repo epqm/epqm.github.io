@@ -1,3 +1,17 @@
+- arxiv_doi: https://arxiv.org/abs/2302.02328
+  arxiv_ref: arXiv:2302.02328
+  authors:
+  - Abhirup Mukherjee
+  - N. S. Vidhyadhiraja
+  - Arghya Taraphder
+  - Siddhartha Lal
+  permalink: /2302.02328/
+  submit_date: 5 Feb, 2023
+  tags:
+  - cond-mat.str-el
+  - cond-mat.mes-hall
+  - quant-ph
+  title: "Kondo frustration via charge fluctuations: a route to Mott localisation"
 - arxiv_doi: https://arxiv.org/abs/2205.11123
   arxiv_ref: arXiv:2205.11123
   authors:
@@ -10,7 +24,7 @@
   - cond-mat.str-el
   - cond-mat.stat-mech
   - cond-mat.supr-con
-  title: Universal entanglement signatures of quantum liquids as a guide to fermionic criticality
+  title: "Universal entanglement signatures of quantum liquids as a guide to fermionic criticality"
 - arxiv_doi: https://arxiv.org/abs/2205.00790
   arxiv_ref: arXiv:2205.00790
   authors:
