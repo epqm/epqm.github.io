@@ -16,6 +16,11 @@ Research scholars:
     email: dd20ip014@iiserkol.ac.in
     image_path: /assets/images/people/debraj.png
     joined: 2022
+  - title: Arnabesh Sammader
+    excerpt: "Doing coursework"
+    email: as22rs063@iiserkol.ac.in
+    image_path: /assets/images/people/arnabesh_sammader.jpg
+    joined: 2023    
 Alumni:
   - title: Santanu  Pal
     excerpt: "Worked on quantum spin systems (with frustration) like the Heisenberg and XXZ models on the pyrochlore, kagome and triangular lattices."
