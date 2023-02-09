@@ -1,6 +1,6 @@
 ---
-title: "(Publication) Superconductivity from repulsion in the doped 2D electronic Hubbard model: an entanglement perspective"
-excerpt: "We cast the renormalization group flows of the 2D Hubbard model in terms of entanglement evolution, revealing holographic features along the way."
+title: "Our work on the entanglement of the doped 2D Hubbard model got published in J. Phys. Cond. Mat."
+excerpt: "In this work, we cast the renormalization group flows of the 2D Hubbard model in terms of entanglement evolution, revealing holographic features along the way."
 permalink: /2003.06118/
 categories:
   - publication
@@ -12,7 +12,11 @@ tags:
   - Hubbard
 header:
   overlay_image: /assets/images/posts/mott_MERG.svg
-  overlay_filter: 0.7
+  overlay_filter: 0.4
+
+---
+
+{% include insert_publication_info.html %}
 
 ---
 

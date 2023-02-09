@@ -31,26 +31,6 @@
           {{ page.title | default: site.title | markdownify | remove: "<p>" | remove: "</p>" }}
         {% endif %}
       </h1>
-      {% if page.categories contains "publication" or page.categories contains "preprint" %}
-	{% for work in site.data.publications %}
-	{% if page.permalink == work["permalink"] %}
-	<p class="page__lead">
-	{%- for tag in work["tags"] -%}
-	<span class="btn btn--success tag__highlight">{{ tag }}</span>
-	{%- endfor -%}
-	<br>
-	<i class="fas fa-user-injured"></i> <span>{{ work["authors"] | join:", " | replace: "Siddhartha Lal", "<b>Siddhartha Lal</b>" }}</span>
-	<br>
-	{{ work["submit_date"] | strip | date: "%B %-d, %Y" }}&nbsp;&nbsp;&nbsp;
-	{%- if work["doi"] -%}
-	<a href="{{ work["doi"] }}" class="btn btn--danger tag__highlight">{{ work["journal_ref_short"] }}</a>
-	{%- endif -%}
-	<a href="{{ work["arxiv_doi"] }}" class="btn btn--primary tag__highlight">{{ work["arxiv_ref"] }}</a>
-	</p>
-	{% break %}
-	{% endif %}
-	{% endfor %}
-      {% endif %}
       {% if page.tagline %}
         <p class="page__lead">{{ page.tagline | markdownify | remove: "<p>" | remove: "</p>" }}</p>
       {% elsif page.header.show_overlay_excerpt != false and page.excerpt %}

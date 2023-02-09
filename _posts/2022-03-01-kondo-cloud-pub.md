@@ -1,6 +1,6 @@
 ---
-title: "(Publication) Unveiling the Kondo cloud: Unitary renormalization-group study of the Kondo model"
-excerpt: "We study the feedback effect of Kondo cloud screening on the conduction electrons, obtaining an effective Hamiltonian that describes its dynamics."
+title: "Our work on the single-channel Kondo problem has been published in Phys. Rev. B"
+excerpt: "In the work, we study the feedback effect of Kondo cloud screening on the conduction electrons, obtaining an effective Hamiltonian that describes its dynamics."
 permalink: /2111.10580/
 categories:
   - publication
@@ -9,7 +9,11 @@ tags:
   - impurity models
 header:
     overlay_image: /assets/images/posts/kondo.svg
-    overlay_filter: 0.7
+    overlay_filter: 0.4
+
+---
+
+{% include insert_publication_info.html %}
 
 ---
 
