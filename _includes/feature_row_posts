@@ -1,13 +1,15 @@
 <div class="feature__wrapper">
     <div class="feature__item{% if include.type %}--{{ include.type }}{% endif %}">
       <div class="archive__item">
+        {% assign image_path = nil %}
         {% if post.header.image %}{% assign image_path = post.header.image %}{% endif %}
         {% if post.header.overlay_image %}{% assign image_path = post.header.overlay_image %}{% endif %}
-        {% if image_path != blank  %}
+        {% if image_path %}
           <div class="archive__item-teaser">
 	  <a href="{{ post.url | relative_url }}"><img src="{{ image_path | relative_url }}"></a>
           </div>
         {% endif %}
+	{% assign image_path = nil %}
 
         <div class="archive__item-body">
             <b>{{ post.title }}</b>

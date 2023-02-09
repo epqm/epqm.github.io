@@ -25,22 +25,35 @@ header:
 {% endfor %}
 
 <div class="home__column" markdown=1>
-## Recent Updates [[see all]](/posts/){:.btn}
+## [Recent Publications/Preprints](/posts/)
 
-{% for post in site.posts limit: 3 %}
+{% assign counter = 0 %}
+{% for post in site.posts %}
+{% if post.categories contains "publication" or post.categories contains "preprint" %}
 {% include feature_row_posts type="center" %}
+{% assign counter = counter | plus:1 %}
+{% if counter == 3 %}
+{% break %}
+{% endif %}
+{% endif %}
 {% endfor %}
 
-{% include selected_publications.html %}
+## [Recent Updates](/posts/)
+
+{% assign counter = 0 %}
+{% for post in site.posts %}
+{% unless post.categories contains "publication" or post.categories contains "preprint" %}
+{{ post.header }}
+{% include feature_row_posts type="center" %}
+{% assign counter = counter | plus:1 %}
+{% if counter == 3 %}
+{% break %}
+{% endif %}
+{% endunless %}
+{% endfor %}
+
 </div>
+
 <div class="home__column" markdown=1>
-{% assign post = site.posts[0] %} 
-{% assign work = site.data.publications[0] %}
-## Highlight: {{ work["title"] }}
-
-{% assign show_publication_title = 'False' %}
-{% include publication_info.html show_tags=1 %}
-{% assign show_publication_title = nil %}
-
-{{ post.content }}
+{% include highlights.html %}
 </div>
