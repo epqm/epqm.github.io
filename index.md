@@ -55,5 +55,6 @@ header:
 </div>
 
 <div class="home__column" markdown=1>
+## Highlights
 {% include highlights.html %}
 </div>
