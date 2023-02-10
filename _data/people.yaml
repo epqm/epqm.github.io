@@ -3,38 +3,38 @@ Principal Investigator:
     designation: "Associate Professor, IISER Kolkata."
     excerpt: "Interested in strongly correlated systems, criticality in fermions, quantum systems in low dimensions, quantum magnetism, etc."
     email: slal@iiserkol.ac.in
-    image_path: /assets/images/people/slal.jpg
+    image_path: /assets/images/about/people/slal.jpg
 Research scholars:
   - title: Abhirup Mukherjee
     excerpt: "Working on quantum impurity models in relation to Mott MIT, and as auxiliary models. Also holographic nature of entanglement in metals ."
     email: mukherjeeabhirup44@gmail.com
     website: https://abhirup-m.github.io
-    image_path: /assets/images/people/abhirup.png
+    image_path: /assets/images/about/people/abhirup.png
     joined: 2020
   - title: Debraj Debata
     excerpt: "Studying the effects of projective/symmetry-breaking terms on quantum systems, in terms of phase transitions and entanglement"
     email: dd20ip014@iiserkol.ac.in
-    image_path: /assets/images/people/debraj.png
+    image_path: /assets/images/about/people/debraj.png
     joined: 2022
   - title: Arnabesh Sammader
     excerpt: "Doing coursework"
     email: as22rs063@iiserkol.ac.in
-    image_path: /assets/images/people/arnabesh_sammader.jpg
+    image_path: /assets/images/about/people/arnabesh_sammader.jpg
     joined: 2023    
 Alumni:
   - title: Santanu  Pal
     excerpt: "Worked on quantum spin systems (with frustration) like the Heisenberg and XXZ models on the pyrochlore, kagome and triangular lattices."
     email: santanu1720@gmail.com
-    image_path: /assets/images/people/spal.jpg
+    image_path: /assets/images/about/people/spal.jpg
     graduated: 2020
   - title: Anirban Mukherjee
     excerpt: "Created a non-perturbative framework for strongly-correlated electrons; obtained fresh insight on several models (notably 2D Hubbard)."
     email: amukh1290@gmail.com
-    image_path: /assets/images/people/anirban.png
+    image_path: /assets/images/about/people/anirban.png
     graduated: 2021
   - title: Siddhartha Patra
     excerpt: "Studied the nature of entanglement in various gapped and gapless phases, leading to better understanding of topological entanglement entropy."
     email: siddharthaptr@gmail.com
     website: https://siddharthaptr.wixsite.com/mysite/
-    image_path: /assets/images/people/spatra.jpg
+    image_path: /assets/images/about/people/spatra.jpg
     graduated: 2022

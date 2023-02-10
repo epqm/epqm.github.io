@@ -2,10 +2,11 @@
 permalink: /posts/
 layout: single
 classes: wide
+author_profile: false
 title: "EPQM: All Updates and Notifications from the group"
 excerpt: All news regarding publications, conferences and other activity in the group
 header:
-    overlay_image: /assets/images/updates.svg
+    overlay_image: /assets/images/updates/updates.svg
     caption: "[Source](https://phdcomics.com/comics/archive.php/archive/archive_print.php?comicid=1366)"
     actions:
     - label: Publications

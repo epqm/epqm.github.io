@@ -6,8 +6,7 @@ excerpt: "From strongly-correlated electronic systems to topological states of m
 toc: true
 toc_sticky: true
 header:
-    overlay_image: /assets/images/about.svg
-    overlay_filter: 0.6
+    overlay_image: /assets/images/research/research_header.svg
     actions:
     - label: "Publications"
       url: /publications/

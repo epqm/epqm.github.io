@@ -3,7 +3,7 @@ permalink: /teaching/
 layout: single
 title: "Siddhartha Lal<br><br>Courses taught in the<br>Department of Physics,<br>at IISER Kolkata."
 header:
-    overlay_image: /assets/images/teaching.svg
+    overlay_image: /assets/images/teaching/teaching_header.svg
     caption: "[Source](https://phdcomics.com/comics.php?f=1598)"
     actions:
     - label: "research interests"

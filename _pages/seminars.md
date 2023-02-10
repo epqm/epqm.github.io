@@ -5,7 +5,7 @@ classes: wide
 title: "Siddhartha Lal: Seminars"
 excerpt: "Includes slides and video when available"
 header:
-    overlay_image: /assets/images/seminars.svg
+    overlay_image: /assets/images/seminars/seminars_header.svg
     caption: "[Source](https://phdcomics.com/comics/archive.php/archive/archive_print.php?comicid=942)"
     actions:
     - label: Publications
