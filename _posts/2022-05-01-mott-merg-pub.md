@@ -11,8 +11,7 @@ tags:
   - MERG
   - Hubbard
 header:
-  overlay_image: /assets/images/posts/mott_MERG.svg
-  overlay_filter: 0.4
+  overlay_image: /assets/images/posts/mott_MERG.jpg
 
 ---
 

@@ -2,14 +2,17 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="238.125mm"
-   height="79.375mm"
-   viewBox="0 0 238.125 79.375"
+   width="338.66666mm"
+   height="105.83334mm"
+   viewBox="0 0 338.66666 105.83333"
    version="1.1"
    id="svg658"
    xml:space="preserve"
    inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
    sodipodi:docname="esiam.svg"
+   inkscape:export-filename="esiam.jpg"
+   inkscape:export-xdpi="192"
+   inkscape:export-ydpi="192"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -24,9 +27,9 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="0.26508394"
-     inkscape:cx="-75.447799"
-     inkscape:cy="505.50025"
+     inkscape:zoom="0.75423377"
+     inkscape:cx="668.89076"
+     inkscape:cy="192.24809"
      inkscape:window-width="1916"
      inkscape:window-height="1048"
      inkscape:window-x="0"
@@ -956,7 +959,7 @@
      id="layer1"
      transform="translate(23.755078,-416.30828)"><g
        id="g1680"
-       transform="matrix(0.26458333,0,0,0.26458333,-23.755078,416.30828)"><path
+       transform="matrix(0.3762963,0,0,0.35277778,-23.755078,416.30828)"><path
          d="m 809,300 h 36 v -13 h -45 v -13 h 9 v -13 h -18 v -13 h 45 v -13 h -27 v -13 h 9 v -13 h -9 v -13 h 27 v -13 h -9 v -13 h 27 v -13 h -18 v -14 h -18 v -13 h 36 v -13 h -36 v -13 h 45 V 91 H 827 V 78 H 809 V 65 h 18 V 52 h 9 V 39 h -9 V 26 H 800 V 13 h 36 V 0 h 64 v 13 0 13 0 13 0 13 0 13 0 13 0 13 0 13 0 13 0 13 0 13 0 14 0 13 0 13 0 13 0 13 0 13 0 13 0 13 0 13 0 13 0 13 0 13 0 z"
          fill="#009473"
          id="path1639" /><path
@@ -994,7 +997,7 @@
          fill="#009473"
          id="path1661" /></g><g
        id="g7085"
-       transform="matrix(0.57260219,0,0,0.48994001,141.79736,109.16271)"
+       transform="matrix(0.57260219,0,0,0.48994001,230.03041,130.65054)"
        style="mix-blend-mode:normal;stroke-width:3.49283;stroke-dasharray:none;filter:url(#filter9165)"><path
          fill="none"
          stroke-width="2.11667"

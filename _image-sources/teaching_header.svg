@@ -2,17 +2,17 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="410.9003mm"
-   height="106.08297mm"
-   viewBox="0 0 410.9003 106.08297"
+   width="338.66666mm"
+   height="105.83334mm"
+   viewBox="0 0 338.66666 105.83334"
    version="1.1"
    id="svg4026"
    xml:space="preserve"
    inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
-   sodipodi:docname="teaching.svg"
-   inkscape:export-filename="teaching.png"
-   inkscape:export-xdpi="118.69"
-   inkscape:export-ydpi="118.69"
+   sodipodi:docname="teaching_header.svg"
+   inkscape:export-filename="teaching_header.jpg"
+   inkscape:export-xdpi="192"
+   inkscape:export-ydpi="192"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -29,12 +29,12 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="0.70672824"
-     inkscape:cx="723.05021"
-     inkscape:cy="502.31472"
-     inkscape:window-width="1920"
-     inkscape:window-height="1019"
-     inkscape:window-x="1920"
-     inkscape:window-y="151"
+     inkscape:cx="712.43792"
+     inkscape:cy="359.40265"
+     inkscape:window-width="1916"
+     inkscape:window-height="1048"
+     inkscape:window-x="0"
+     inkscape:window-y="28"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1" /><defs
      id="defs4023"><clipPath
@@ -107,7 +107,7 @@
      id="layer1"
      transform="translate(673.67979,-305.92288)"><g
        id="g68990"
-       transform="matrix(0.45655589,0,0,0.3536099,-673.67979,305.92288)"><path
+       transform="matrix(0.3762963,0,0,0.35277778,-673.67979,305.92288)"><path
          d="m 827,300 h 63 v -14 h -81 v -13 h 45 v -14 h 18 v -14 h -45 v -13 h 63 v -14 h -36 v -13 h -45 v -14 h -9 v -14 h 63 v -13 h -9 v -14 0 -14 h 36 v -13 0 -14 H 800 V 95 h 45 V 82 H 809 V 68 h 54 V 55 h 9 V 41 H 800 V 27 h 63 V 14 H 845 V 0 h 55 v 14 0 13 0 14 0 14 0 13 0 14 0 13 0 14 0 14 0 13 0 14 0 14 0 13 0 14 0 14 0 13 0 14 0 13 0 14 0 14 0 13 0 14 0 z"
          fill="#ff0066"
          id="path68949" /><path
@@ -152,7 +152,7 @@
        x="-491.95465"
        y="318.79605"
        clip-path="url(#clipPath10196)"
-       transform="matrix(0.76803451,0,0,0.76803451,-40.319105,65.216951)" /><image
+       transform="matrix(0.68549308,0,0,0.68549308,-153.19104,96.782067)" /><image
        width="185.53497"
        height="80.336639"
        preserveAspectRatio="none"
@@ -161,4 +161,4 @@
        x="-491.95465"
        y="318.79605"
        clip-path="url(#clipPath10192)"
-       transform="matrix(0.79744051,0,0,0.79744051,-41.496157,100.07076)" /></g></svg>
+       transform="matrix(0.71173879,0,0,0.71173879,-154.24159,127.8901)" /></g></svg>
