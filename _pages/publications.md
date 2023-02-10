@@ -2,15 +2,15 @@
 permalink: /publications/
 layout: single
 classes: wide
-title: "Our Publications and Preprints: Complete List"
-excerpt: "Click on the journal DOI or the arxiv link of the work to learn more about it."
+title: "EPQM: Publications and Preprints"
+excerpt: "Click on the journal DOI or the arxiv link of the work to access the manuscript."
 header:
-    overlay_image: /assets/images/posts/mott_MERG.svg
-    overlay_filter: 0.5
+    overlay_image: /assets/images/publications/publications.jpg
+    overlay_filter: 0.3
     actions:
-    - label: "Research Interests"
+    - label: "Research"
       url: /research/
-    - label: "ResearchGate"
+    - label: "RGate"
       url: "https://www.researchgate.net/profile/Siddhartha-Lal-2"
 
 ---
