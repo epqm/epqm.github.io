@@ -1,9 +1,11 @@
 <div class="slideshow-container" markdown=1>
 
 <div class="dot__sliding" id="dot__sliding" markdown=1>
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
 <a href="{{ page.permalink }}#highlights" class="dot" onclick="currentSlide(1)"></a>
 <a href="{{ page.permalink }}#highlights" class="dot" onclick="currentSlide(2)"></a>
 <a href="{{ page.permalink }}#highlights" class="dot" onclick="currentSlide(3)"></a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
 </div>
 
 {% assign counter = 0 %}
@@ -25,7 +27,9 @@
 
 <!-- The dots/circles -->
 <div class="dot__sliding" markdown=1>
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
 <a href="{{ page.permalink }}#highlights" class="dot" onclick="currentSlide(1)"></a>
 <a href="{{ page.permalink }}#highlights" class="dot" onclick="currentSlide(2)"></a>
 <a href="{{ page.permalink }}#highlights" class="dot" onclick="currentSlide(3)"></a>
+<a href="{{ page.permalink }}#highlights" class="next" onclick="plusSlides(1)">&#10095;</a>
 </div>
