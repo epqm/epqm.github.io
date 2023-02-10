@@ -303,3 +303,20 @@ p.body__img {
 .prev:hover, .next:hover {
 	opacity: 1;
 }
+
+.publications__rest_main {
+	display: none;
+}
+.publications__rest__hover:hover~.publications__rest_main {
+	display: block;
+}
+
+.publications__rest_main:hover {
+	display: block;
+}
+
+.dot_caption {
+	display: block;
+	margin: 0;
+	text-align: center;
+}
