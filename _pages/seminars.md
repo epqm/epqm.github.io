@@ -6,7 +6,7 @@ title: "Siddhartha Lal: Seminars"
 excerpt: "Includes slides and video when available"
 header:
     overlay_image: /assets/images/seminars/seminars_header.jpg
-    caption: "[Source](https://phdcomics.com/comics/archive.php/archive/archive_print.php?comicid=942)"
+    caption: "[Source](https://phdcomics.com/comics/archive.php/archive_print.php?comicid=1630)"
     actions:
     - label: Publications
       url: /publications/

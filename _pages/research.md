@@ -1,12 +1,13 @@
 ---
 permalink: /research/
 layout: single
-title: "EPQM's research: Areas of focus and publications"
+title: "EPQM: Areas of research"
 excerpt: "From strongly-correlated electronic systems to topological states of matter"
 toc: true
 toc_sticky: true
 header:
     overlay_image: /assets/images/research/research_header.jpg
+    caption: "[Source](https://phdcomics.com/comics/archive.php?comicid=1648)"
     actions:
     - label: "Publications"
       url: /publications/

@@ -8,7 +8,7 @@ tags:
   - Kondo model
   - impurity models
 header:
-    overlay_image: /assets/images/posts/kondo.svg
+    overlay_image: /assets/images/posts/kondo.jpg
     overlay_filter: 0.4
 
 ---

@@ -1,12 +1,12 @@
 ---
 permalink: /teaching/
 layout: single
-title: "Siddhartha Lal<br><br>Courses taught in the<br>Department of Physics,<br>at IISER Kolkata."
+title: "Siddhartha Lal:<br>Courses taught at IISER Kolkata"
 header:
     overlay_image: /assets/images/teaching/teaching_header.jpg
     caption: "[Source](https://phdcomics.com/comics.php?f=1598)"
     actions:
-    - label: "research interests"
+    - label: "Research"
       url: /research/
     - label: "ResearchGate"
       url: "https://www.researchgate.net/profile/Siddhartha-Lal-2"
