@@ -46,6 +46,10 @@ For more information, please take a look at our [research work](/research/) and 
 
 {% include gallery %}
 
+# Contact Details
+
+The easiest way to reach out is to send an [email](mailto:slal@iiserkol.ac.in).
+
 # Openings
 
 There are no open positions in the group at the moment.
