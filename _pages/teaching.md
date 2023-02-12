@@ -2,6 +2,7 @@
 permalink: /teaching/
 layout: single
 title: "Siddhartha Lal:<br>Courses taught at IISER Kolkata"
+author_profile: true
 header:
     overlay_image: /assets/images/teaching/teaching_header.jpg
     caption: "[Source](https://phdcomics.com/comics.php?f=1598)"

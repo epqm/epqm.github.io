@@ -3,6 +3,7 @@ permalink: /research/
 layout: single
 title: "EPQM: Areas of research"
 excerpt: "From strongly-correlated electronic systems to topological states of matter"
+author_profile: true
 toc: true
 toc_sticky: true
 header:

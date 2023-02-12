@@ -3,6 +3,7 @@ permalink: /about/
 layout: single
 title: "About EPQM: Purpose, People, Contact Details and Openings"
 excerpt: ""
+author_profile: true
 toc: true
 toc_sticky: true
 excerpt: "EPQM is a research group at IISER Kolkata lead by Dr. **Siddhartha Lal** in the Department of Physical Sciences at IISER Kolkata."
@@ -16,13 +17,6 @@ gallery:
 header:
     overlay_image: /assets/images/about/about_header.jpg
     caption: "[Source](https://phdcomics.com/comics.php?f=1760)"
-    actions:
-    - label: Publications
-      url: /publications/
-    - label: People
-      url: /about/#people
-    - label: Openings
-      url: /about/#openings
 
 ---
 

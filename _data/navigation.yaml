@@ -2,13 +2,27 @@
 main:
   - title: Updates
     url: /posts/
-  - title: Teaching
-    url: /teaching/
   - title: Research
     url: /research/
+  - title: Publications
+    url: /publications/
+  - title: About
+    url: /about/
   - title: Seminars
     url: /seminars/
+  - title: Teaching
+    url: /teaching/
+
+# sidebar
+sidebar:
   - title: People
     url: /about/#people
   - title: Openings
     url: /about/#openings
+  - title: Contacts
+    url: /about/#contact-details
+  - title: Seminars
+    url: /seminars/
+  - title: Teaching
+    url: /teaching/
+
