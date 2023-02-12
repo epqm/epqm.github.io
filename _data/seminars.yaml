@@ -1,9 +1,9 @@
-- date: "March 1, 2022"
-  title: "Unitary RG study of the Kondo model"
-  location: "Department of Theoretical Physics, TIFR"
-  yt_id: C0cPoWahzLA
+- date: "Nov 10, 2022"
+  title: "Revisiting the impurity Metal-Insulator transition at the heart of DMFT: what lies behind the veil of self-consistency?"
+  location: "Grad Program in Physics- Federal University of Uberlândia"
+  yt_id: JuPtebPgxtQ
   slides_url: "/assets/pdfs/kondo_presentation.pdf"
-  comments: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  comments: "DMFT offers an exact solution to the metal-insulator transition of the half-filled Hubbard model on the Bethe lattice in infinite dimensions."
 - date: "March 1, 2022"
   title: "Unitary RG study of the Kondo model"
   location: "Department of Theoretical Physics, TIFR"
