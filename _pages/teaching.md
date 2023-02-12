@@ -1,16 +1,12 @@
 ---
 permalink: /teaching/
 layout: single
-title: "Siddhartha Lal:<br>Courses taught at IISER Kolkata"
+title: "Siddhartha Lal: Courses taught at IISER Kolkata"
 author_profile: true
 header:
     overlay_image: /assets/images/teaching/teaching_header.jpg
     caption: "[Source](https://phdcomics.com/comics.php?f=1598)"
-    actions:
-    - label: "Research"
-      url: /research/
-    - label: "ResearchGate"
-      url: "https://www.researchgate.net/profile/Siddhartha-Lal-2"
+
 ---
 
 ## Advanced Condensed Matter Physics 

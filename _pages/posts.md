@@ -8,12 +8,6 @@ excerpt: All news regarding publications, conferences and other activity in the 
 header:
     overlay_image: /assets/images/updates/updates.svg
     caption: "[Source](https://phdcomics.com/comics/archive.php/archive/archive_print.php?comicid=1366)"
-    actions:
-    - label: Publications
-      url: /publications/
-    - label: About
-      url: /about/
-
 
 ---
 

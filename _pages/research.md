@@ -9,11 +9,6 @@ toc_sticky: true
 header:
     overlay_image: /assets/images/research/research_header.jpg
     caption: "[Source](https://phdcomics.com/comics/archive.php?comicid=1648)"
-    actions:
-    - label: "Publications"
-      url: /publications/
-    - label: "ResearchGate"
-      url: "https://www.researchgate.net/profile/Siddhartha-Lal-2"
 
 ---
 

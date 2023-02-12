@@ -277,9 +277,34 @@ p.body__img {
 }
 
 .page__hero--overlay {
-	min-height: 25em;
-
+	@include breakpoint($small) {
+		height: 25em;
+	}
 }
+
+.page__hero--overlay .wrapper {
+	@include breakpoint($small) {
+		position: relative;
+		top: 30%;
+		transform: translateY(-50%);
+	}
+}
+
+.page__hero--overlay .wrapper .page__title, .page__hero--overlay .wrapper .page__lead {
+	@include breakpoint($small) {
+		width: 65%;
+		margin-top: 1em;
+		margin-bottom: 1em;
+		font-weight: bold;
+	}
+}
+
+.page__hero--overlay .wrapper a {
+	@include breakpoint($small) {
+		margin-top: 1em;
+	}
+}
+
 
 .prev, .next {
   cursor: pointer;
