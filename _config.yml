@@ -274,16 +274,10 @@ defaults:
       mathjax: true
       header:
         actions:
-        - label: People
-          url: /about/#people
         - label: Openings
           url: /about/#openings
         - label: Contacts
           url: /about/#contact-details
-        - label: Seminars
-          url: /seminars/
-        - label: Teaching
-          url: /teaching/
       sidebar:
         title: "Quick links"
         nav: main

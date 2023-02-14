@@ -28,22 +28,11 @@ Our work often involves the development of non-perturbative methods like a novel
 
 For more information, please take a look at our [research work](/research/) and our [publications](/research/#publications).
 
-# Group members
-{:id="people"}
-
-{% for class in site.data.people %}
-
-## {{ class[0] }}
-
-{% include feature_row_people.html %}
-
-{% endfor %}
-
-{% include gallery %}
-
 # Contact Details
 
 The easiest way to reach out is to send an [email](mailto:slal@iiserkol.ac.in).
+
+A list of past and present members of EPQM can be found [here](/people/).
 
 # Openings
 
@@ -53,3 +42,6 @@ There are no open positions in the group at the moment.
 Department of Physical Sciences,<br>
 Research Complex, IISER Kolkata,<br>
 Mohanpur-741246, West Bengal, India.**
+
+{% include gallery %}
+

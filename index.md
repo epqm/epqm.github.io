@@ -5,12 +5,10 @@ excerpt: "EPQM is a condensed matter group at IISER Kolkata, led by Siddhartha L
 header:
     overlay_image: /assets/images/home/layered-waves-haikei.svg
     actions:
-    - label: About
-      url: /about/
-    - label: Publications
-      url: /publications/
     - label: Openings
       url: /about/#openings
+    - label: Contacts
+      url: /about/#contact-details
 
 ---
 
