@@ -9,6 +9,8 @@ header:
       url: /about/#openings
     - label: Contacts
       url: /about/#contact-details
+    - label: EPQM in a Nutshell
+      url: /about/#what-is-epqm
 
 ---
 
