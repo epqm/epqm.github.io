@@ -1,7 +1,7 @@
 ---
 layout: splash
 title: "Emergent Phenomena in Quantum Matter (EPQM)"
-excerpt: "EPQM is a condensed matter group at IISER Kolkata, led by Siddhartha Lal. We explore ideas of topological order, entanglement and fermionic criticality, in the field of strongly correlated electrons."
+excerpt: "EPQM is a condensed matter group at IISER Kolkata, led by Siddhartha Lal. We explore ideas related to quantum matter in the fields of strongly correlated electrons, quantum magnetism, topological states of matter and low-dimensional systems."
 header:
     overlay_image: /assets/images/home/layered-waves-haikei.svg
     actions:
