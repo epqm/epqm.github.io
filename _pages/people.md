@@ -1,7 +1,7 @@
 ---
 permalink: /people/
 layout: single
-title: "Members of EPQM"
+title: "EPQM Members: Present Team and Alumni"
 classes: wide
 header:
     overlay_image: /assets/images/people/people_header.jpg

@@ -1,12 +1,11 @@
 ---
 permalink: /about/
 layout: single
-title: "About EPQM: Purpose, People, Contact Details and Openings"
-excerpt: ""
+title: "All About EPQM: Purpose, Members, Contacts Details, etc"
+excerpt: "For those who are interested in finding out more about who we are and what we do."
 author_profile: true
 toc: true
 toc_sticky: true
-excerpt: "EPQM is a research group at IISER Kolkata lead by Dr. **Siddhartha Lal** in the Department of Physical Sciences at IISER Kolkata."
 gallery:
     - image_path: /assets/images/about/epqm_logo.svg
       url: /
@@ -20,7 +19,7 @@ header:
 
 ---
 
-# What is EPQM?
+## What is EPQM?
 
 **EPQM** (Emergent Phenomena in Quantum Matter) is a research group at IISER Kolkata lead by Dr. **Siddhartha Lal** in the Department of Physical Sciences at the Indian Institute of Science Education and Research (IISER) Kolkata, India. We engage in theoretical research on various topics in the **condensed matter physics of quantum matter**, ranging from strongly-correlated electronic systems, quantum magnetism, topological phases of matter, non-Fermi liquids and low-dimensional systems.
 
@@ -30,24 +29,27 @@ But this is far from being a simple task: we seek to understand the quantum phys
 
 In keeping with this, our work has often involved the development of non-perturbative methods like a novel **renormalisation group method**, twist operator-based techniques and momentum-space entanglement renormalisation group approaches. We also use familiar field-theoretic, many-body theoretic and quantum statistical mechanical methods in conjunction with those we build. Many of our results derive ideas from areas of mathematics such as **topology**, number theory, graph theory as well as quantum information theory, non-linear dynamics and even machine learning.
 
-For more information, please take a look at our [research work](/research/) and our [publications](/research/#publications).
+For more information, please take a look at our [research work](/research/) and our [publications](/publications/).
 
-# Contact Details
+## Contact Details
 
 The easiest way to reach out is to send an [email](mailto:slal@iiserkol.ac.in).
 
+## Members of EPQM
+
 A list of past and present members of EPQM can be found [here](/people/).
 
-# Openings
+## Openings
 EPQM is a family, and we take joy and pride in working together and helping one another's growth in their pursuits. If you think you will enjoy being part of EPQM, we want to hear from you. So please read and follow the instructions (relevant to you) given below. 
 
-**BS-MS students at IISER Kolkata looking for a 5th-year Research Project:** Please contact me during the winter break between your 7th and 8th semesters, or sometime during your 8th semester (the sooner the better). That way, we can have enough time to discuss common interests, share background reading material and converge on something to work on. The best way to contact me is to drop by my office (RC 112-O, next door to the DPS Office) for a chat.
+- **BS-MS students at IISER Kolkata looking for a 5th-year Research Project:**
+Please contact me during the winter break between your 7th and 8th semesters, or sometime during your 8th semester (the sooner the better). That way, we can have enough time to discuss common interests, share background reading material and converge on something to work on. The best way to contact me is to drop by my office (RC 112-O, next door to the DPS Office) for a chat.
 
-**Integrated PhD students at IISER Kolkata looking for a M.S. Research Project:** Please contact me during the winter break between your 1st and 2nd semesters, or sometime during your 2nd semester (the sooner the better). That way, we can have enough time to discuss common interests, share background reading material and converge on something to work on. The best way to contact me is to drop by my office (RC 112-O, next door to the DPS Office) for a chat.
+- **Integrated PhD students at IISER Kolkata looking for a M.S. Research Project:** Please contact me during the winter break between your 1st and 2nd semesters, or sometime during your 2nd semester (the sooner the better). That way, we can have enough time to discuss common interests, share background reading material and converge on something to work on. The best way to contact me is to drop by my office (RC 112-O, next door to the DPS Office) for a chat.
 
-**Post-M.Sc. students looking to join EPQM for their Ph.D.** Please contact me by email to check whether EPQM has an opening. For your candidature to be considered, please include your **complete CV** (detailing your academic background along with grades, marks etc.) and a **Statement of Purpose** that details your motivation for wanting to work with me. Applicants who have their own fellowship (e.g., valid JRF fellowship from CSIR or UGC) will be preferred.  
+- **Post-M.Sc. students looking to join EPQM for their Ph.D.** Please contact me by email to check whether EPQM has an opening. For your candidature to be considered, please include your **complete CV** (detailing your academic background along with grades, marks etc.) and a **Statement of Purpose** that details your motivation for wanting to work with me. Applicants who have their own fellowship (e.g., valid JRF fellowship from CSIR or UGC) will be preferred.  
 
-**Post-doctoral candidates looking to join EPQM upon completing their Ph.D.** Please contact me by email to check whether EPQM has an opening. For your candidature to be considered, please include your **complete CV** (detailing your academic background, your publications etc.) and a **Statement of Purpose** that details your doctoral research and your motivation for wanting to work with me. IISER Kolkata's own Post-doctoral fellowships are advertised occasionally, so please check the IISER Kolkata website for details (or check with me). If I have extramural funding for a Post-doctoral fellowship, I will advertise it here; at present, I do not have any such funding. If you'd like to apply for a National Post-Doctoral Fellowship (NPDF) from the Science and Engineering Research Board (SERB) to work with me, please write to me well ahead of time. That way, we can have enough time to discuss common interests, share background reading material, converge on something to work on and write a proposal. 
+- **Post-doctoral candidates looking to join EPQM upon completing their Ph.D.** Please contact me by email to check whether EPQM has an opening. For your candidature to be considered, please include your **complete CV** (detailing your academic background, your publications etc.) and a **Statement of Purpose** that details your doctoral research and your motivation for wanting to work with me. IISER Kolkata's own Post-doctoral fellowships are advertised occasionally, so please check the IISER Kolkata website for details (or check with me). If I have extramural funding for a Post-doctoral fellowship, I will advertise it here; at present, I do not have any such funding. If you'd like to apply for a National Post-Doctoral Fellowship (NPDF) from the Science and Engineering Research Board (SERB) to work with me, please write to me well ahead of time. That way, we can have enough time to discuss common interests, share background reading material, converge on something to work on and write a proposal. 
 
 **EPQM<br>
 Research Complex, Office 112-O,<br>

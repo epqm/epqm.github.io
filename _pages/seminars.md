@@ -2,7 +2,7 @@
 permalink: /seminars/
 layout: single
 classes: wide
-title: "Siddhartha Lal: Seminars"
+title: "EPQM: Seminars and Other Presentations"
 excerpt: "Includes slides and video when available"
 header:
     overlay_image: /assets/images/seminars/seminars_header.jpg
