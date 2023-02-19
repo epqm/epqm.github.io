@@ -37,7 +37,7 @@ The easiest way to reach out is to send an [email](mailto:slal@iiserkol.ac.in).
 
 ## Members of EPQM
 
-A list of past and present members of EPQM can be found [here](/people/).
+A list of past and present members of EPQM can be found [here](/people/#group-members).
 
 ## Openings
 EPQM is a family, and we take joy and pride in working together and helping one another's growth in their pursuits. If you think you will enjoy being part of EPQM, we want to hear from you. So please read and follow the instructions (relevant to you) given below. 

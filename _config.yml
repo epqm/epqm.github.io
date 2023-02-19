@@ -278,6 +278,10 @@ defaults:
           url: /about/#openings
         - label: Contacts
           url: /about/#contact-details
+        - label: EPQM in a nutshell
+          url: /about/#what-is-epqm
+        - label: Research overview
+          url: /research/#overview-of-our-research
       sidebar:
         title: "Quick links"
-        nav: main
+        nav: sidebar
