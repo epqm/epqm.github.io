@@ -12,7 +12,17 @@ header:
 
 ---
 
-The full list of publications is available [here](/publications). 
+The full list of our publications is available [here](/publications). 
+
+## Overview of our Research
+
+What does **EPQM** stand for? Condensed matter physics involves the study of **emergent phenomena**. This refers to states of matter that are obtained in systems with a large number of constituents that are interaction with one another, affect the constituents within certain scales (energy, length, momentum etc.) and in particular circumstances. 
+
+Superconductivity is an excellent example: when a system of interacting electrons in a metal are cooled sufficiently, they form (typically loosely bound) pairs (called Cooper pairs) and condense into a ground state that is protected by an energy gap. This ground state shows the phenomenon of superconductivity: the flow of a charge current without any resistance. In most commonly available superconductors, the formation of the Cooper pairs needs lattice vibrations that mediate an effective attraction between the electrons (and to overcome the screened Coulomb repulsion that they experience otherwise). 
+
+Emergent phenomena are usually not easy to anticipate, and appear when the interacting system undergoes a phase transition of some kind. Understanding the physics of the thermal or quantum fluctuations that drive the phase transition typically holds the key towards understanding the ordered nature of the emergent ground state. The onset of order is quantified through an order parameter. Very often, the order parameter is governed by the symmetries enjoyed by, and the spatial dimensionality of, the system. Emergent orders described by the Ginzburg-Landau-Wilson paradigm arise from the spontaneous breaking of symmetries as external conditions are changed (consider how ferromagnetism arises below the Curie temperature). 
+
+More recently, a lot of attention has been given to how transitions can involve the emergence of states where no symmetries of the system are broken.     
 
 ## Broad areas of research
 
