@@ -22,28 +22,40 @@ Superconductivity is an excellent example: when a system of interacting electron
 
 Emergent phenomena are usually not easy to anticipate, and appear when the interacting system undergoes a phase transition of some kind. Understanding the physics of the thermal or quantum fluctuations that drive the phase transition typically holds the key towards understanding the ordered nature of the emergent ground state. The onset of order is quantified through an order parameter. Very often, the order parameter is governed by the symmetries enjoyed by, and the spatial dimensionality of, the system. Emergent orders described by the Ginzburg-Landau-Wilson paradigm arise from the spontaneous breaking of symmetries as external conditions are changed (consider how ferromagnetism arises below the Curie temperature). 
 
-More recently, a lot of attention has been given to how transitions can involve the emergence of states where no symmetries of the system are broken.     
+The order parameters describing the ordered state are experimental measurables (e.g., the local magnetisation, which is equivalent to the global magntisation due to translation invariance). The phase transition from the disordered state (with vanishing order parameter) to the ordered state (with non-zero order parameter) manifests in some singular behaviour in some quantity that can be obtained from the free energy. For instance, a first order (or discontinuous) transition is obtained in the form of a jump in the order parameter, i.e., the first derivative of the free energy with respect to temperature or a field. Continuous transitions show up as divergences in the second derivative (i.e., a response function) onwards.
+
+More recently, a lot of attention has been given to how transitions can involve the emergence of states where no symmetries of the system are broken. The order parameter here could correspond to a topological property of the system (e.g., the way the wavefunctions of the system wind around the momentum-space Brillouin zone, a degeneracy of the ground state that is manifested upon changing the boundary conditions of the system etc.). A lot remains to be learnt about these states, and how they are obtained. 
+
+Very generally, understanding the emergent ordered states of a system of interacting **quantum matter** (e.g., electrons or quantum spins) is a very hard problem. The same is true for the phase transitions that lead to them. The physics of an Avogradro number of quantum constituents that are interacting with one another very often lies in a regime where the electronic potential energy (e.g., due to electron repulsion) is of the same order as their kinetic energy. Thus, approaches that rely on perturbation theory or mean-field theory do not work, and non-perturbative approaches are called for. This is where EPQM's work often lies.
 
 ## Broad areas of research
 
-We work in the domain of strongly correlated electrons studying emergent properties in various systems of interacting fermions. We focus on the following areas in our research:
+We work in the domain of strongly correlated electrons studying emergent properties in various systems of interacting fermions. 
+We focus on the following areas in our research:
 
+- Strongly correlated electron systems, 
 - Frustrated quantum magnetism, 
-- Fermionic Criticality and Many-particle entanglement
-- Unconventional Superconductivity and Search for quantum materials
-- Topological Order and Low-dimensional systems
+- Non-Fermi liquids,
+- Unconventional superconductivity,
+- Topological states of matter and Topological order,
+- Fermionic Criticality, 
+- Many-particle entanglement,
+- Low-dimensional quantum systems,
+- Quantum transport,
+- Search for quantum materials
 
 ![](/assets/images/research/epqm-research.png)
 
-As a research group, EPQM is keenly interested in systems of interacting fermionic matter, their criticality and the associated emergent forms of quantum matter. This includes systems of strongly correlated electrons, as well as quantum spin systems. We are working towards understanding how quantum fluctuations in such systems, and the long-range entanglement they give rise to, arises from the interplay of the pauli exclusion principle, kinetic energies and inter-particle interactions. This involves the creation of a new language (i.e., new tools and techniques) for fermionic criticality. Also, testing how well this new language describes experimentally observed phenomena.
+As a research group, EPQM is keenly interested in systems of interacting fermionic matter, their criticality and the associated emergent forms of quantum matter. This includes systems of strongly correlated electrons, as well as quantum spin systems. We are working towards understanding how quantum fluctuations in such systems, and the long-range entanglement they give rise to, arises from the interplay of the Pauli exclusion principle, kinetic energies and inter-particle interactions. This involves the creation of a new language (i.e., new tools and techniques) for fermionic criticality. Also, testing how well this new language describes experimentally observed phenomena.
 
 ## Methods we use (and develop)
 
 We employ, as well as develop, analytic and numerical methods to find answers to our questions. This includes
-- Variety of RG methods to determine quantum phase diagrams (critical, saddle and stable fixed points). Have developed an RG scheme that leads to stable fixed points at intermediate coupling.
-- Methods by which to identify the appropriate quantum order parameters for topological states of matter. These are composite objects that lead to quantum ordered ground states. They are represented by operators that exploit emergent symmetries and lead to topological quantum dynamics.
-- Understood how to use quantum interference criteria (e.g. OYA) in determining creation of gap or not. Employed ideas from graph theory, algebraic topology, number theory etc. creatively to our advantage.
-- Probing topological features of sum rules that govern spectral weight transfer (e.g., Luttinger’s count of the Fermi volume, Friedel sum rule)
+- Variety of renormalisation group (RG) methods to determine quantum phase diagrams (critical, saddle and stable fixed points). We have developed a non-perturbative RG scheme based purely on many-particle unitary transformations that leads to stable fixed points for the evolution of the Hamiltonian and its couplings. We have also extended this to obtain the RG evolution of the many-particle entanglement content of the ground state, and low-lying excited states, of interacting fermionic matter.
+- Methods by which to identify the appropriate quantum order parameters for topological states of matter. These are composite objects (e.g., Wilson loops) that lead to quantum ordered ground states. They are represented by operators that exploit emergent symmetries and lead to topological quantum dynamics.
+- Spectral flow-based criteria in determining the existence of a spectral gap. 
+- Employ ideas from graph theory, algebraic topology, number theory, quantum information theory, non-linear dynamics, machine learning etc. creatively to our advantage.
+- Probe topological features of sum rules that govern spectral weight transfer (e.g., Luttinger’s count of the Fermi volume, Friedel sum rule)
 
 ## Questions we have worked on
 
