@@ -35,7 +35,6 @@ p.body__img {
 	display: block;
 	margin: auto;
 	font-weight: bold;
-	font-size: smaller;
 	max-width: 500px;
 	line-height: 1.3em;
 }
@@ -67,9 +66,9 @@ p.body__img {
 // makes the overall font-size of the publication entries 
 // slightly smaller, appears in publications page, and 
 // random publications part of home page
-.pub__global {
-	font-size: smaller;
-}
+// .pub__global {
+// 	font-size: smaller;
+// }
 
 // makes the author list font colour slightly gray in the
 // publication entries (to distinguish it from the rest).
@@ -131,6 +130,10 @@ p.body__img {
   text-align: justify;
   > ul, ol {
 	  text-align: left;
+  }
+  line-height: 140%;
+  @include breakpoint($medium) {
+	  font-size: smaller;
   }
 }
 
@@ -229,7 +232,6 @@ p.body__img {
 	display: none;
 	@include breakpoint($small) {
 		display: block;
-		font-size: smaller;
 	}
 }
 
