@@ -16,14 +16,14 @@ The full list of our publications is available [here](/publications).
 
 ## Overview of our Research
 
+<div class="topic" markdown=1>
 We engage in theoretical research on various topics in the condensed matter physics of quantum matter, ranging from strongly-correlated electronic systems, quantum magnetism, topological phases of matter, non-Fermi liquids and low-dimensional systems. One of our primary goals is to understand the fascinating and complex phenomenology displayed by many materials studied in the laboratory. But this is no simple task: we seek to understand the quantum physics of a macroscopic number of electrons that are interacting with one another. And their physics appears to lie in a regime where the electronic potential energy (due to electron repulsion) is of the same order as their kinetic energy. In keeping with this, our work has often involved the development of non-perturbative methods (e.g., a novel renormalisation group method based purely on many-particle unitary transformations) and applying them towards understanding some challenging open questions and problems (e.g., the origin of high-temperature superconductivity from electrons that face strongly repulsive interactions).
 
+<div class="secondary__part" markdown=1>
+<span class="hide__show" id="overview" onclick="readmore()">Read More</span>
+<span class="hide__show dummy">Read More</span>
 
-<details markdown=1>
-<summary markdown=1>
-**Click on the small arrow above for a more detailed explanation.**
-</summary>
-    
+<div class="hidden_details" id="overview__hidden" markdown=1>
 Condensed matter physics involves the study of **emergent phenomena** in **quantum matter** (thats what the acronym **EPQM** stands for). This refers to states of matter that are obtained in systems with a large number of constituents that obey the rules of the quantum world and are interacting with one another, within certain scales (energy, length, momentum etc.) and in particular circumstances. 
 
 Superconductivity is an excellent example: when a system of interacting electrons in a metal are cooled sufficiently, they form (typically loosely bound) pairs (called Cooper pairs) and condense into a ground state that is protected by an energy gap. This ground state shows the phenomenon of superconductivity: the flow of a charge current without any resistance. In most commonly available superconductors, the formation of the Cooper pairs needs lattice vibrations that mediate an effective attraction between the electrons (and to overcome the screened Coulomb repulsion that they experience otherwise). 
@@ -39,7 +39,9 @@ More recently, a lot of attention has been given to how transitions can involve 
 Very generally, understanding the emergent ordered states of a system of interacting **quantum matter** (e.g., electrons or quantum spins) is a very hard problem. The same is true for the phase transitions that lead to them. The physics of an Avogradro number of quantum constituents that are interacting with one another very often lies in a regime where the electronic potential energy (e.g., due to electron repulsion) is of the same order as their kinetic energy. Strongly interacting quantum matter possesses quantum fluctuations that lead to enhanced many-particle entanglement among the constituents of the system, in contrast to the poorly entangled forms of emergent matter arising from spontaneous symmetry breaking. 
 
 All of this means that approaches that rely on perturbation theory or mean-field theory often do not work when dealing with strongly interacting quantum matter (especially fermions and quantum spins!), and non-perturbative approaches are called for. This is where EPQM's work often lies. Much of our effort has involved the creation of a new language (i.e., new tools and techniques) for fermionic criticality. Also, testing how well this new language describes experimentally observed phenomena, as this could well hold the key to the discovery of novel quantum materials (think room temperature superconductivity!) and the development of quantum devices and technology (think quantum circuitry and quantum computers!). 
-</details>
+</div>
+</div>
+</div>
 
 ## Broad areas of research
 

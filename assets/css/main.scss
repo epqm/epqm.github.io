@@ -368,3 +368,30 @@ p.body__img {
 	display: block;
 	text-align: center;
 }
+
+.hidden_details {
+	display: none;
+	overflow: hidden;
+}
+
+.hide__show {
+	display: block;
+	text-align: center;
+	height: 3em;
+	padding-top: 2em;
+	font-weight: bold;
+	background-image: linear-gradient(to bottom, rgba(255,255,255,0.3), $background-color);
+}
+
+.dummy {
+	display: none;
+}
+
+.secondary__part {
+	position: relative;
+	bottom: 4em;
+}
+
+.topic {
+	position: relative;
+}

@@ -61,3 +61,21 @@ function showSlides(n) {
   dots[slideIndex + slides.length - 1].className += " active__dot";
 }
 </script>
+
+
+<script>
+function readmore() {
+    var parentid = event.target.getAttribute('id');
+    var hiddenelement = document.getElementById(parentid + "__hidden");
+    if (event.target.innerText === "Read More") {
+        event.target.textContent="Read Less";
+	event.target.style.backgroundImage = 'linear-gradient(to bottom, transparent, transparent)';
+        hiddenelement.style.display = "block";
+    } else {
+        event.target.textContent="Read More";
+	var bgi = document.getElementsByClassName('dummy')[0].style.backgroundImage;
+	event.target.style.backgroundImage = bgi;
+        hiddenelement.style.display = "none";
+    }
+}
+</script>

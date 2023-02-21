@@ -10,7 +10,7 @@ header:
 
 ---
 
-<span class="pub__external__links">[ARXIV]({{ site.author["links"][2]["url"] }}){: .btn .btn--warning } [ORCID]({{ site.author["links"][3]["url"] }}){: .btn .btn--success } [G. SCHOLAR]({{ site.author["links"][4]["url"] }}){: .btn .btn--danger }</span>
+<span class="pub__external__links">[ARXIV LINK]({{ site.author["links"][2]["url"] }}){: .btn .btn--warning } [G. SCHOLAR]({{ site.author["links"][3]["url"] }}){: .btn .btn--success }</span>
 
 <div class="slideshow-container" markdown=1>
 
