@@ -10,6 +10,8 @@ header:
 
 ---
 
+[Arxiv list](https://arxiv.org/search/?query=Lal%2C+Siddhartha&searchtype=author&abstracts=hide&order=-announced_date_first&size=50){: .btn .btn--warning } [Google Scholar](https://scholar.google.co.in/citations?user=QRSxh6kAAAAJ&hl=en){: .btn .btn--success } [ORCID](https://orcid.org/0000-0002-5387-6044#:~:text=expand_more-,Works%20(31),-sort){: .btn .btn--danger }
+
 <div class="slideshow-container" markdown=1>
 
 <div class="dot__sliding" id="dot__sliding" markdown=1>
