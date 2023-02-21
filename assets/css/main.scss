@@ -94,6 +94,7 @@ p.body__img {
 // sets width, margin and left float for people images,
 // and makes it center float and block for small screens.
 .people_row .people_img {
+	position: relative;
 	width:200px;
 	display: block;
 	margin: auto;
@@ -103,6 +104,12 @@ p.body__img {
 		overflow: hidden; 
 		margin-right: 1em;
 	}
+}
+
+
+.people_row .people_img a {
+	position: absolute;
+	top: 0;
 }
 
 // styles the horizontal line that 

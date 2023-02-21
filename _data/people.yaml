@@ -4,6 +4,7 @@ Principal Investigator:
     excerpt: "Interested in strongly correlated systems, criticality in fermions, quantum systems in low dimensions, quantum magnetism, etc."
     email: slal@iiserkol.ac.in
     image_path: /assets/images/about/people/slal.jpg
+    arxiv: "https://arxiv.org/search/cond-mat?query=%22Siddhartha+Lal%22&searchtype=author&abstracts=hide&order=-announced_date_first&size=200"
 Research scholars:
   - title: Abhirup Mukherjee
     excerpt: "Working on quantum impurity models in relation to Mott MIT, and as auxiliary models. Also holographic nature of entanglement in metals ."
@@ -11,6 +12,7 @@ Research scholars:
     website: https://abhirup-m.github.io
     image_path: /assets/images/about/people/abhirup.png
     time: "2020 - "
+    arxiv: "https://arxiv.org/search/cond-mat?query=%22Abhirup+Mukherjee%22&searchtype=author&abstracts=hide&order=-announced_date_first&size=200"
   - title: Debraj Debata
     excerpt: "Studying the effects of projective/symmetry-breaking terms on quantum systems, in terms of phase transitions and entanglement"
     email: dd20ip014@iiserkol.ac.in
@@ -27,12 +29,14 @@ Alumni:
     email: santanu1720@gmail.com
     image_path: /assets/images/about/people/spal.jpg
     time: "2014 - 2020"
+    arxiv: "https://arxiv.org/search/cond-mat?query=%22Santanu+Pal%22&searchtype=author&abstracts=hide&order=-announced_date_first&size=200"
   - title: Anirban Mukherjee
     excerpt: "Created a non-perturbative framework for strongly-correlated electrons; obtained fresh insight on several models (notably 2D Hubbard)."
     email: amukh1290@gmail.com
     image_path: /assets/images/about/people/anirban.png
     time: "2014 - 2021"
     thesis: "Unitary renormalization group for correlated electrons"
+    arxiv: "https://arxiv.org/search/cond-mat?query=%22Anirban+Mukherjee%22&searchtype=author&abstracts=hide&order=-announced_date_first&size=200"
   - title: Siddhartha Patra
     excerpt: "Studied the nature of entanglement in various gapped and gapless phases, leading to better understanding of topological entanglement entropy."
     email: siddharthaptr@gmail.com
@@ -40,3 +44,4 @@ Alumni:
     image_path: /assets/images/about/people/spatra.jpg
     time: "2016 - 2022"
     thesis: "Entanglement signatures of correlated electron systems"
+    arxiv: "https://arxiv.org/search/cond-mat?query=%22Siddhartha+Patra%22&searchtype=author&abstracts=hide&order=-announced_date_first&size=200"
