@@ -2,24 +2,17 @@
 
 <div class="people_row" markdown=1>
 <img class="people_img" src="{{ f.image_path }}">
-**{{ f.title }}**
+**{{ f.title | upcase }}**{% if f.time %}&nbsp;&nbsp;[{{ f.time }}]{% endif %}
 &nbsp;&nbsp;<a href="mailto:{{ f.email }}" class="btn btn--success tag__highlight u-email"><span>Email</span></a>
-{%- if f.website -%}
-<a href="{{ f.website }}" class="btn btn--info tag__highlight">Web</a>
-{%- endif -%}
+{%- if f.website -%}<a href="{{ f.website }}" class="btn btn--info tag__highlight">Web</a>{%- endif -%}
 <br>
-{%- if f.joined -%}
-<i class="fas fa-hourglass-start"></i>&nbsp;&nbsp;Joined: {{ f.joined }}
-{%- endif -%}
-{%- if f.graduated -%}
-<i class="fas fa-hourglass-end"></i>&nbsp;&nbsp;Graduated: {{ f.graduated }}
-{%- endif -%}
-{%- if f.designation -%}
-<i class="fas fa-user-tie"></i>&nbsp;&nbsp;{{ f.designation }}
-{% endif %}
-<div class="people_row_excerpt">
-<i class="fas fa-flask"></i>&nbsp;&nbsp;{{ f.excerpt }}
-</div>
+{%- if f.designation -%}<i class="fas fa-user-tie"></i>&nbsp;&nbsp;{{ f.designation }}{% endif %}
+
+{% if f.thesis %}<span class="people_row_excerpt" markdown=1>**Thesis title**: {{ f.thesis }}</span>{% endif %}
+
+<div class="people_row_excerpt">{{ f.excerpt }}</div>
+
+
 </div>
 <span class="people_divider"></span>
 

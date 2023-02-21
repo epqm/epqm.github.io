@@ -10,31 +10,33 @@ Research scholars:
     email: mukherjeeabhirup44@gmail.com
     website: https://abhirup-m.github.io
     image_path: /assets/images/about/people/abhirup.png
-    joined: 2020
+    time: "2020 - "
   - title: Debraj Debata
     excerpt: "Studying the effects of projective/symmetry-breaking terms on quantum systems, in terms of phase transitions and entanglement"
     email: dd20ip014@iiserkol.ac.in
     image_path: /assets/images/about/people/debraj.png
-    joined: 2022
+    time: "2022 - "
   - title: Arnabesh Samadder
     excerpt: "Currently engaged in coursework and background reading."
     email: as22rs063@iiserkol.ac.in
     image_path: /assets/images/about/people/arnabesh_sammader.jpg
-    joined: 2023    
+    time: "2023 - "
 Alumni:
   - title: Santanu  Pal
     excerpt: "Worked on quantum spin systems (with frustration) like the Heisenberg and XXZ models on the pyrochlore, kagome and triangular lattices."
     email: santanu1720@gmail.com
     image_path: /assets/images/about/people/spal.jpg
-    graduated: 2020
+    time: "2014 - 2020"
   - title: Anirban Mukherjee
     excerpt: "Created a non-perturbative framework for strongly-correlated electrons; obtained fresh insight on several models (notably 2D Hubbard)."
     email: amukh1290@gmail.com
     image_path: /assets/images/about/people/anirban.png
-    graduated: 2021
+    time: "2014 - 2021"
+    thesis: "Unitary renormalization group for correlated electrons"
   - title: Siddhartha Patra
     excerpt: "Studied the nature of entanglement in various gapped and gapless phases, leading to better understanding of topological entanglement entropy."
     email: siddharthaptr@gmail.com
     website: https://siddharthaptr.wixsite.com/mysite/
     image_path: /assets/images/about/people/spatra.jpg
-    graduated: 2022
+    time: "2016 - 2022"
+    thesis: "Entanglement signatures of correlated electron systems"
