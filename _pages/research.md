@@ -18,8 +18,10 @@ The full list of our publications is available [here](/publications).
 
 We engage in theoretical research on various topics in the condensed matter physics of quantum matter, ranging from strongly-correlated electronic systems, quantum magnetism, topological phases of matter, non-Fermi liquids and low-dimensional systems. One of our primary goals is to understand the fascinating and complex phenomenology displayed by many materials studied in the laboratory. But this is no simple task: we seek to understand the quantum physics of a macroscopic number of electrons that are interacting with one another. And their physics appears to lie in a regime where the electronic potential energy (due to electron repulsion) is of the same order as their kinetic energy. In keeping with this, our work has often involved the development of non-perturbative methods (e.g., a novel renormalisation group method based purely on many-particle unitary transformations) and applying them towards understanding some challenging open questions and problems (e.g., the origin of high-temperature superconductivity from electrons that face strongly repulsive interactions).
 
-**For non-specialists, here are things explained in a slightly simpler language.** 
 
+<details>
+  <summary markdown=1>
+      **For non-specialists, here are things explained in a slightly simpler language.** </summary>
 Condensed matter physics involves the study of **emergent phenomena** in **quantum matter** (thats what the acronym **EPQM** stands for). This refers to states of matter that are obtained in systems with a large number of constituents that obey the rules of the quantum world and are interacting with one another, within certain scales (energy, length, momentum etc.) and in particular circumstances. 
 
 Superconductivity is an excellent example: when a system of interacting electrons in a metal are cooled sufficiently, they form (typically loosely bound) pairs (called Cooper pairs) and condense into a ground state that is protected by an energy gap. This ground state shows the phenomenon of superconductivity: the flow of a charge current without any resistance. In most commonly available superconductors, the formation of the Cooper pairs needs lattice vibrations that mediate an effective attraction between the electrons (and to overcome the screened Coulomb repulsion that they experience otherwise). 
@@ -35,6 +37,7 @@ More recently, a lot of attention has been given to how transitions can involve 
 Very generally, understanding the emergent ordered states of a system of interacting **quantum matter** (e.g., electrons or quantum spins) is a very hard problem. The same is true for the phase transitions that lead to them. The physics of an Avogradro number of quantum constituents that are interacting with one another very often lies in a regime where the electronic potential energy (e.g., due to electron repulsion) is of the same order as their kinetic energy. Strongly interacting quantum matter possesses quantum fluctuations that lead to enhanced many-particle entanglement among the constituents of the system, in contrast to the poorly entangled forms of emergent matter arising from spontaneous symmetry breaking. 
 
 All of this means that approaches that rely on perturbation theory or mean-field theory often do not work when dealing with strongly interacting quantum matter (especially fermions and quantum spins!), and non-perturbative approaches are called for. This is where EPQM's work often lies. Much of our effort has involved the creation of a new language (i.e., new tools and techniques) for fermionic criticality. Also, testing how well this new language describes experimentally observed phenomena, as this could well hold the key to the discovery of novel quantum materials (think room temperature superconductivity!) and the development of quantum devices and technology (think quantum circuitry and quantum computers!). 
+</details>
 
 ## Broad areas of research
 
@@ -95,12 +98,13 @@ Topological states of matter are known to be governed by rules that depart from 
 "In entanglement, the properties of two particles are intertwined even if they are separated by great distances from each other." [[Source]](https://www.nist.gov/blogs/taking-measure/local-realism-bells-inequality-and-t-shirts-entangled-tale)
 {:.body__img }
 
-### Fermionic criticality and correlated 1D models
+### Fermionic criticality and models of correlated electrons
 
 Quantum criticality associated with correlated electrons likely require order parameters that describe the geometry and topology of the Fermi surface. We are interested in investigating quantum phase transitions that involve drastic changes in the exchange statistics of excitations lying above the ground state and changes in the topology of the Fermi surface (Lifshitz transitions).
 
 - How does Fermi surface topology shape the criticality of a system of interacting fermions? 
-- Can this be tested in a (relatively) simple model such as the 1D Hubbard model?
+- Can answers be learnt in (relatively) simple models such as the Hubbard model?
+- What insights can be gathered on these questions by lowering the spatial dimensionality of the system of interacting electrons (i.e., with a reduced Fermi surface, and enhanced quantum fluctuations)?
 
 ![](/assets/images/research/carbon-nanotube.webp)
 Carbon nanotubes are one-dimensional structures with special properties, rendering them with unlimited potential in nanotechnology-associated applications. [[Source]](https://www.britannica.com/science/carbon-nanotube)
@@ -131,5 +135,30 @@ Correlated quantum impurity models serve as fertile grounds for the emergence of
 ![](/assets/images/research/kondo.webp)
 "To model the Kondo effect, a QD is connected by means of quantum tunnelling to two electron reservoirs through electrodes that form electron-transport channels." [[Source]](https://www.nature.com/articles/526203a)
 {:.body__img }
+
+### Many-particle entanglement & holography
+
+In the last few decades, quantum entanglement has become very important for studying the nature of quantum condensed matter systems. For instance, gapped interacting many-body systems typically display an area-law scaling of the subsystem entanglement entropy with subsystem size, while quantum critical systems are expected to display a volume law scaling of the same. Further, a subdominant topological term in the entanglement entropy quantifies the long-ranged nature of correlations in topologically ordered insulating states of matter. Much less is known on the entanglement features of gapless metallic systems. Further, the holographic principle posits that the renormalisation group evolution of the many-particle entanglement of an interacting quantum field theory can be visualised as the emergence of an emergent spatial dimension. 
+
+- Can various states of quantum matter (metals, insulators, superconductors and superfluids, topological phases, quantum critical states etc.) be characterised and classified by their many-particle entanglement? 
+- Can topological entanglement entropy (TEE) of a topologically ordered ground state in 2 spatial dimensions can be detected via multi-particle information (MPI) and quantum correlation measures?
+- Can a first principles calculation of entanglement renormalisation in a relatively simple system demonstrate the holographic emergence of a spatial geometry?
+- How do the field theoretic parameters (e.g., the RG beta function) relate to the geometry quantifiers (e.g., distances and curvature) in this emergence dimension? 
+- Spectral flow operations on metallic systems lead to a flux-dependent piece in the entanglement entropy. Is this term topological in nature? 
+- If so, is there a correspondence between the topological terms in metallic systems and those obtained in the above-mentioned insulating systems?
+
+### Quantum transport
+
+While transport in quantum systems is a vast field in itself, we are keenly interested in understanding how it is shaped by inter-particle interactions, low-dimensionality and the geometry & topology of the system. Systems of interest include transport on the edge states of 2D topological insulators (e.g., quantum Hall systems, graphene), quantum wires of interacting electrons (described by the 1D Tomonaga-Luttinger liquid), quantum dots of various kinds etc. Very often, our questions are shaped by state-of-the-art experiments.
+
+- How do the Andreev bound states induced in a graphene quantum dot by the proximity effect affect the electronic transport through it?
+- Can one find a universal theory for transport in fractional quantum Hall systems with constrictions that dractically affect the filling factor in their neighbourhood? 
+- How does a junction linking several interacting quantum wires affect the transport?
+- How is electron transport affected to the connections of an interacting quantum wire to its reservoirs?
+- Is it possible to simulate the transport in a multichannel Kondo problem in a cold atomic system?
+
+### Quantum materials
+
+There are many surprises thrown up by experiments on strongly interacting quantum matter. For instance, the cuprate family of Mott insulators turn superconducting upon doping with holes. Indeed, many such puzzling observations abound in several families of materials. Over the years, EPQM has studied many of them, including the cuprates, organic conductors, perovskites, halides, spinels, insulators with active magnetic moments and orbitals degrees of freedom, materials that are effectively low-dimensional spin systems. Questions of interest involve the nature of various phases shown by these materials, as well as the transitions (e.g., metal-insulator etc.) that lead to them. Many of these materials are of vital importance for the design of future quantum technologies, and also in the search for novel quantum materials with exotic functional properties.   
 
 For more information, please visit the [about page](/about/) and the [publications page](/publications/).
