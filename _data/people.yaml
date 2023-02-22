@@ -30,6 +30,7 @@ Alumni:
     image_path: /assets/images/about/people/spal.jpg
     time: "2014 - 2020"
     arxiv: "https://arxiv.org/search/cond-mat?query=%22Santanu+Pal%22&searchtype=author&abstracts=hide&order=-announced_date_first&size=200"
+    thesis: "Orbital and spin dynamics in geometrically frustrated lattices"
   - title: Anirban Mukherjee
     excerpt: "Created a non-perturbative renormalisation group-based framework for the study of strongly correlated electronic systems. Obtained fresh insight from this framework on challenging open questions in several important models, e.g., d-wave superconducitvity in the hole-doped 2D Hubbard, how Fermi surface topology shapes fermionic criticality, a theory for the Kondo screening cloud etc."
     email: amukh1290@gmail.com
