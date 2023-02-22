@@ -375,10 +375,6 @@ body{
 	background-image: linear-gradient(to bottom, rgba(255,255,255,0.3), $background-color);
 }
 
-.dummy {
-	display: none;
-}
-
 .readmore, .readless {
 	margin: auto;
 	display: block;
@@ -392,7 +388,7 @@ body{
 }
 
 .readless {
-	bottom: 0;
+	bottom: 1em;
 	display: none;
 }
 

@@ -68,7 +68,6 @@ function readmore() {
     var buttonid = event.target.parentElement.getAttribute('id');
     var hiddenelement = document.getElementById(buttonid + "__hidden");
     var readlesselement = document.getElementById(buttonid + "__less");
-    event.target.parentElement.style.backgroundImage = 'linear-gradient(to bottom, transparent, transparent)';
     hiddenelement.style.display = "block";
     hiddenelement.style.animation="opac 0.5s linear";
     readlesselement.style.display = "block";
@@ -80,11 +79,9 @@ function readless() {
     var hiddenelement = document.getElementById(buttonid.replace("__less","") + "__hidden");
     var readmoreelement = document.getElementById(buttonid.replace("__less",""));
     readmoreelement.style.display = "block";
-    readmoreelement.scrollIntoView({behavior: 'smooth', block: "center"});
+    readmoreelement.scrollIntoView({block: "center"});
     hiddenelement.style.display = "none";
     event.target.style.display = "none";
-    var bgi = document.getElementsByClassName('dummy')[0].style.backgroundImage;
-    readmoreelement.style.backgroundImage = bgi;
 }
 </script>
 
