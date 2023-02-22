@@ -4,7 +4,7 @@ layout: single
 title: "EPQM Members: Present Team and Alumni"
 classes: wide
 header:
-    overlay_image: /assets/images/people/people_header.jpg
+    overlay_image: /assets/images/people/people_header.svg
     caption: "[Source](https://phdcomics.com/comics.php?f=1760)"
 
 ---

@@ -4,7 +4,7 @@ layout: single
 title: "Siddhartha Lal: Courses taught at IISER Kolkata"
 author_profile: true
 header:
-    overlay_image: /assets/images/teaching/teaching_header.jpg
+    overlay_image: /assets/images/teaching/teaching_header.svg
     caption: "[Source](https://phdcomics.com/comics.php?f=1598)"
 
 ---

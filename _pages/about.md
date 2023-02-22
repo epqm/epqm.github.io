@@ -14,7 +14,7 @@ gallery:
     - url: https://physics.iiserkol.ac.in/
       image_path: /assets/images/about/dps-logo.svg
 header:
-    overlay_image: /assets/images/about/about_header.jpg
+    overlay_image: /assets/images/about/about_header.svg
     caption: "[Source](https://phdcomics.com/comics.php?f=1760)"
 
 ---
