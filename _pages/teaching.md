@@ -10,17 +10,18 @@ header:
 ---
 
 ## Advanced Condensed Matter Physics 
-- Fermi Liquid Theory
-- Disorder and Localization Physics
-- Superconductivity
+- Fermi Liquid Theory (many-body perturbation theory, RG approach, Luttinger's theorem and some insights on non-Fermi liquids)
+- Disorder and Localization Physics (weak localisation, scaling theory of gang-of-four)
+- Superconductivity (Ginzburg-Landau phenomenology and BCS theory)
 
 [[details]](https://www.iiserkol.ac.in/teaching-plan/course/2022/Autumn/PH5103/){:.btn}
 
 ## Advanced Statistical Mechanics 
-- Phase Transitions, and Solvable models
-- Partition function and etc.
+- Introduction to Phase Transitions, Classification and some popular models that are studied
+- Mean Field theory (Curie-Weiss, Bogolyubov, Exact solution in infinite dimensions, Ginzurg-Landau)
+- A tour of some exactly solvable models
 - Symmetry breaking, and Fluctuations
-- Applications
+- Anomalous dimensions and Scaling
 
 [[details]](https://www.iiserkol.ac.in/teaching-plan/course/2022/Spring/PH4202/){:.btn}
 
