@@ -4,8 +4,8 @@
 <img class="people_img" src="{{ f.image_path }}">
 **{{ f.title | upcase }}**{% if f.time %}&nbsp;&nbsp;[{{ f.time }}]{% endif %}
 &nbsp;&nbsp;<a href="mailto:{{ f.email }}" class="btn btn--success u-email"><span>EMAIL</span></a>
-{%- if f.website -%}&nbsp;&nbsp;<a href="{{ f.website }}" class="btn btn--info">WEB</a>{%- endif -%}
-{%- if f.arxiv -%}&nbsp;&nbsp;[ARXIV]({{ f.arxiv }}){: .btn .btn--danger }{%- endif -%}
+{%- if f.website -%}<a href="{{ f.website }}" class="btn btn--info">WEB</a>{%- endif -%}
+{%- if f.arxiv -%}[ARXIV]({{ f.arxiv }}){: .btn .btn--danger }{%- endif -%}
 <br>
 {%- if f.designation -%}<i class="fas fa-user-tie"></i>&nbsp;&nbsp;{{ f.designation }}{% endif %}
 

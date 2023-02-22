@@ -17,7 +17,7 @@ header:
 {%- unless post.excerpt == "" -%}
 {{ post.excerpt }}<br>
 {%- endunless -%}
-<i class="fas fa-tags"></i>{%- for tag in post.tags -%}&nbsp;&nbsp;&nbsp;<span class="btn btn--primary tag__highlight">{{ tag }}</span>{%- endfor -%}<br></span>
-<i class="far fa-calendar-alt"></i> &nbsp;&nbsp;&nbsp;<span>{{ post.date | date:"%B %d, %Y"  }}</span>
+<i class="fas fa-tags"></i>&nbsp;&nbsp;{%- for tag in post.tags -%}<span class="btn btn--primary tag__highlight">{{ tag }}</span>{%- endfor -%}<br></span>
+<i class="far fa-calendar-alt"></i> &nbsp;&nbsp;<span>{{ post.date | date:"%B %d, %Y"  }}</span>
 <br>
 {% endfor %}
