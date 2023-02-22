@@ -65,19 +65,27 @@ function showSlides(n) {
 
 <script>
 function readmore() {
-    var buttonid = event.target.getAttribute('id');
+    var buttonid = event.target.parentElement.getAttribute('id');
     var hiddenelement = document.getElementById(buttonid + "__hidden");
-    if (event.target.innerText === "Read More") {
-        event.target.textContent="Read Less";
-	event.target.parentElement.style.backgroundImage = 'linear-gradient(to bottom, transparent, transparent)';
-	event.target.style.bottom = "0";
-        hiddenelement.style.display = "block";
-        hiddenelement.style.top = "0";
-    } else {
-        event.target.textContent="Read More";
-	var bgi = document.getElementsByClassName('dummy')[0].style.backgroundImage;
-	event.target.parentElement.style.backgroundImage = bgi;
-        hiddenelement.style.display = "none";
-    }
+    var readlesselement = document.getElementById(buttonid + "__less");
+    event.target.parentElement.style.backgroundImage = 'linear-gradient(to bottom, transparent, transparent)';
+    hiddenelement.style.display = "block";
+    readlesselement.style.display = "block";
+    event.target.parentElement.style.display = "none";
+}
+
+function readless() {
+    var buttonid = event.target.getAttribute('id');
+    var hiddenelement = document.getElementById(buttonid.replace("__less","") + "__hidden");
+    var readmoreelement = document.getElementById(buttonid.replace("__less",""));
+    hiddenelement.style.display = "none";
+    event.target.style.display = "none";
+    readmoreelement.style.display = "block";
+
+    var bgi = document.getElementsByClassName('dummy')[0].style.backgroundImage;
+    readmoreelement.style.backgroundImage = bgi;
+    readmoreelement.scrollIntoView({behavior: 'smooth', block: "center"});
 }
 </script>
+
+

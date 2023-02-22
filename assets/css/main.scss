@@ -366,11 +366,12 @@ body{
 	overflow: hidden;
 }
 
-.hide__show {
+.covering {
 	display: block;
 	text-align: center;
-	height: 3em;
-	padding-top: 2em;
+	position: relative;
+	top: -3.5em;
+	height: 2.5em;
 	background-image: linear-gradient(to bottom, rgba(255,255,255,0.3), $background-color);
 }
 
@@ -378,7 +379,19 @@ body{
 	display: none;
 }
 
+.readmore, .readless {
+	margin: auto;
+	display: block;
+	width: 8em;
+	position: relative;
+	bottom: -2.5em;
+}
+
 .secondary__part {
 	position: relative;
-	bottom: 4em;
+}
+
+.readless {
+	bottom: 0;
+	display: none;
 }
