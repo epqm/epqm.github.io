@@ -36,7 +36,6 @@ p.body__img {
 	margin: auto;
 	font-weight: bold;
 	max-width: 500px;
-	line-height: 1.3em;
 }
 
 
@@ -131,10 +130,13 @@ p.body__img {
   > ul, ol {
 	  text-align: left;
   }
-  line-height: 140%;
   @include breakpoint($medium) {
 	  font-size: smaller;
   }
+}
+
+body{
+  line-height: 1.2;
 }
 
 // sets margin to set spacing between
