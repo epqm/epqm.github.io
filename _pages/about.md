@@ -31,9 +31,6 @@ In keeping with this, our work has often involved the development of non-perturb
 
 For more information, please take a look at our [research work](/research/) and our [publications](/publications/).
 
-## Contact Details
-
-The easiest way to reach out is to send an [email](mailto:slal@iiserkol.ac.in).
 
 ## Members of EPQM
 
@@ -53,8 +50,11 @@ Please contact me by email to check whether EPQM has an opening. For your candid
 
 ### Post-doctoral candidates looking to join EPQM upon completing their Ph.D.
 Please contact me by email to check whether EPQM has an opening. For your candidature to be considered, please include your **complete CV** (detailing your academic background, your publications etc.) and a **Statement of Purpose** that details your doctoral research and your motivation for wanting to work with me. IISER Kolkata's own Post-doctoral fellowships are advertised occasionally, so please check the IISER Kolkata website for details (or check with me). If I have extramural funding for a Post-doctoral fellowship, I will advertise it here; at present, I do not have any such funding. If you'd like to apply for a National Post-Doctoral Fellowship (NPDF) from the Science and Engineering Research Board (SERB) to work with me, please write to me well ahead of time. That way, we can have enough time to discuss common interests, share background reading material, converge on something to work on and write a proposal. 
+## Contact Details
 
----
+**Email**: slal@iiserkol.ac.in
+
+**Telephone**: +91-33-25873020
 
 EPQM<br>
 Research Complex, Office 112-O,<br>
