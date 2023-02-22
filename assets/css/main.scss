@@ -41,7 +41,7 @@ p.body__img {
 
 // reduce padding inside the tag
 // alert boxes
-.btn + .btn {
+.btn:not(.btn--large) + .btn:not(.btn--large) {
 	margin-left: 1.5em;
 }
 
@@ -126,7 +126,7 @@ p.body__img {
 }
 
 body{
-  line-height: 1.2;
+  line-height: 1.4;
 }
 
 // sets margin to set spacing between
@@ -397,4 +397,8 @@ body{
 }
 @keyframes opac_rev { 0% { opacity: 1; }
 		100% { opacity: 0; }
+}
+
+.btn--large {
+	padding: 0.4em;
 }

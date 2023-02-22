@@ -11,6 +11,7 @@ tags:
   - renormalisation group
 header:
     overlay_image: /assets/images/posts/metals_holgphy.jpg
+    overlay_filter: 0.5
 
 ---
 
