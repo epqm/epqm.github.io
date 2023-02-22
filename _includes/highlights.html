@@ -8,19 +8,13 @@
 <a class="next" onclick="plusSlides(1)">&#10095;</a>
 </div>
 
-{% assign counter = 0 %}
-{% for post in site.posts %}
-{% if post.categories contains "publication" or post.categories contains "preprint" %}
-{% assign counter = counter | plus:1 %}
+{% for work in site.data.publications limit:3 %}
 
 <div class="mySlides fade" markdown=1>
-{{ post.content }}
+{% include publication_info.html %}
+{{ work["abstract"] }}
 </div>
 
-{% if counter == 3 %}
-{% break %}
-{% endif %}
-{% endif %}
 {% endfor %}
 
 </div>
