@@ -5,7 +5,7 @@ Principal Investigator:
     email: slal@iiserkol.ac.in
     image_path: /assets/images/about/people/slal.jpg
     arxiv: "https://arxiv.org/search/cond-mat?query=%22Siddhartha+Lal%22&searchtype=author&abstracts=hide&order=-announced_date_first&size=200"
-    CV_url: "/assets/pdfs/CV_SLal.pdf
+    CV_url: "/assets/pdfs/CV_SLal.pdf"
 Research scholars:
   - title: Abhirup Mukherjee
     excerpt: "Working on quantum impurity models in relation to Mott MIT, and as auxiliary models. Also holographic nature of entanglement in metals."
