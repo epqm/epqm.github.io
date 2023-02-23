@@ -11,8 +11,14 @@
 {% for work in site.data.publications limit:3 %}
 
 <div class="mySlides fade" markdown=1>
+<div style="display: block; overflow:hidden;">
 {% include publication_info.html %}
+<div class="home__column_skewed" markdown=1>
 {{ work["abstract"] }}
+</div>
+<div class="home__column_skewed" markdown=1>
+</div>
+</div>
 </div>
 
 {% endfor %}

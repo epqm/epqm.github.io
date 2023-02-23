@@ -3,7 +3,7 @@ title: "We welcome Arnabesh Samadder, our new PhD student, into the group."
 excerpt: ""
 permalink: /arnabesh-welcome/
 categories:
-  - update
+  - updates
 tags:
   - new-member
 ---

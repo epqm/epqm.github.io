@@ -1,9 +1,9 @@
 ---
-title: "Our work on holographic entanglement renormalisation in metals is now available on the arxiv."
+title: "Our work on holographic renormalisation of entanglement in metals is now available on the arxiv."
 excerpt: "This work provides an ab initio demonstration of the holographic principle in a prototypical condensed matter system, and sheds new light on geometrical and topological aspects of entanglement in metals."
 permalink: /2302.10590/
 categories:
-  - preprint
+  - publications and preprints
 tags:
   - metals
   - entanglement

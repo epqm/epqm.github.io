@@ -7,39 +7,43 @@ header:
 
 ---
 
+# <i class="fas fa-bookmark"></i>&nbsp;&nbsp;[Recent Articles & Preprints](/posts/)
+<div style="display: block; overflow:hidden;">
 <div class="home__column" markdown=1>
-## <i class="fas fa-bookmark"></i>&nbsp;&nbsp;[Recent Articles & Preprints](/posts/)
-
-{% assign counter = 0 %}
-{% for post in site.posts %}
-{% if post.categories contains "publication" or post.categories contains "preprint" %}
+{% assign post = site.categories["publications and preprints"][0] %}
 {% include feature_row_posts type="center" %}
-{% assign counter = counter | plus:1 %}
-{% if counter == 3 %}
-{% break %}
-{% endif %}
-{% endif %}
-{% endfor %}
-
-## <i class="fas fa-bolt"></i>&nbsp;&nbsp;[Recent Updates](/posts/)
-
-{% assign counter = 0 %}
-{% for post in site.posts %}
-{% unless post.categories contains "publication" or post.categories contains "preprint" %}
-{{ post.header }}
+</div>
+<div class="home__column" markdown=1>
+{% assign post = site.categories["publications and preprints"][2] %}
 {% include feature_row_posts type="center" %}
-{% assign counter = counter | plus:1 %}
-{% if counter == 3 %}
-{% break %}
-{% endif %}
-{% endunless %}
-{% endfor %}
-
+</div>
+</div>
+<div style="display: block; overflow:hidden;">
+<div class="home__column" markdown=1>
+{% assign post = site.categories["publications and preprints"][1] %}
+{% include feature_row_posts type="center" %}
+</div>
+<div class="home__column" markdown=1>
+{% assign post = site.categories["publications and preprints"][3] %}
+{% include feature_row_posts type="center" %}
+</div>
 </div>
 
-<div class="home__column" markdown=1>
+# <i class="fas fa-bolt"></i>&nbsp;&nbsp;[Recent Updates](/posts/)
 
-<h2 markdown=1 id="highlights"><i class="fas fa-bullhorn"></i>&nbsp;&nbsp;Some Highlights</h2>
+<div style="display: block; overflow:hidden;">
+<div class="home__column" markdown=1>
+{% assign post = site.categories["updates"][0] %}
+{% include feature_row_posts type="center" %}
+</div>
+<div class="home__column" markdown=1>
+{% if site.categories["updates"].size > 1 %}
+{% assign post = site.categories["updates"][1] %}
+{% include feature_row_posts type="center" %}
+{% endif %}
+</div>
+</div>
+
+<h1 markdown=1 id="highlights"><i class="fas fa-bullhorn"></i>&nbsp;&nbsp;Some Highlights</h1>
 
 {% include highlights.html %}
-</div>

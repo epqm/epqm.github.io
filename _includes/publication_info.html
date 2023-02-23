@@ -1,6 +1,6 @@
 <div class="pub__global" markdown=1>
 {%- unless show_publication_title -%}
-<b>{{ work["title"] }}&nbsp;&nbsp;&nbsp;</b>
+<b>{{ work["title"] | upcase }}&nbsp;&nbsp;&nbsp;</b>
 {%- endunless -%}
 {%- if include.show_tags -%}
 {%- for tag in work["tags"] -%}

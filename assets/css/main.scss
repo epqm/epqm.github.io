@@ -170,7 +170,7 @@ body{
 .home__column {
 	margin: auto;
 	@include breakpoint($medium) {
-		width:44%;
+		width:47%;
 		float:left;
 	}
 }
@@ -178,10 +178,27 @@ body{
 // sets the spacing between the two columns on the home page.
 .home__column + .home__column {
 	@include breakpoint($medium) {
-		width:50%;
 		margin-left: 6%;
 	}
 }
+
+
+.home__column_skewed {
+	margin: auto;
+	@include breakpoint($medium) {
+		width:60%;
+		float:left;
+	}
+}
+
+.home__column_skewed + .home__column_skewed {
+	@include breakpoint($medium) {
+		width:35%;
+		margin-left: 5%;
+	}
+}
+
+home__column_skewed
 
 .home__column__main {
 	width: 100%;
@@ -216,9 +233,16 @@ body{
 	display: block;
 }
 
-.people_row_excerpt {
+.people_row_excerpt, .archive__item-excerpt+p {
 	font-size: 90%;
+	opacity: 0.8;
 }
+
+.archive__item-excerpt+p:hover {
+	font-size: 110%;
+	opacity: 1;
+}
+
 
 .seminar__comments {
 	display: none;
@@ -401,4 +425,8 @@ body{
 
 .btn--large {
 	padding: 0.4em;
+}
+
+.feature__wrapper::after {
+	display: none;
 }

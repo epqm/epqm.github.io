@@ -1,21 +1,38 @@
-<div class="feature__wrapper">
-    <div class="feature__item{% if include.type %}--{{ include.type }}{% endif %}">
-      <div class="archive__item">
-        {% assign image_path = nil %}
-        {% if post.header.image %}{% assign image_path = post.header.image %}{% endif %}
-        {% if post.header.overlay_image %}{% assign image_path = post.header.overlay_image %}{% endif %}
-        {% if image_path %}
-          <div class="archive__item-teaser">
-	  <a href="{{ post.url | relative_url }}"><img src="{{ image_path | relative_url }}"></a>
-          </div>
-        {% endif %}
-	{% assign image_path = nil %}
+{% if include.id %}
+  {% assign feature_row = page[include.id] %}
+{% else %}
+  {% assign feature_row = page.feature_row %}
+{% endif %}
 
-        <div class="archive__item-body">
-            <b>{{ post.title }}</b>
-	    <br>
-	    <i class="far fa-calendar-alt"></i> &nbsp;&nbsp;<span>{{ post.date | date:"%b %d, %Y" }}</span> &nbsp;&nbsp;&nbsp;<a href="{{ post.url | relative_url }}" class="btn btn--primary btn--small tag__highlight">Learn More</a>
-        </div>
-      </div>
-    </div>
+<div class="feature__wrapper">
+
+<div class="feature__item{% if include.type %}--{{ include.type }}{% endif %}">
+<div class="archive__item">
+{% if post.categories[0] != "updates" %}
+{% if post.header.overlay_image %}
+  <div class="archive__item-teaser">
+    <img src="{{ post.header.overlay_image | replace:".jpg", "_small.jpg" | relative_url }}">
+  </div>
+{% else %}
+  <div class="archive__item-teaser">
+    <img src="/assets/images/posts/default_header.jpg">
+  </div>
+{% endif %}
+{% endif %}
+
+<div class="archive__item-body">
+  {% if post.title %}
+    <b class="archive__item-title">{{ post.title | upcase }}</b>
+  {% endif %}
+
+
+  {% if post.excerpt %}
+      <p class="archive__item-excerpt">{{ post.excerpt | markdownify }}</p>
+  {% endif %}
+  <b>{{ post.date | date: "%B %d, %Y" | upcase }}</b>&nbsp;&nbsp;<a href="{{ post.url | relative_url }}" class="btn btn--primary">{{ post.btn_label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a>
+
+</div>
+</div>
+</div>
+
 </div>
