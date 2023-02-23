@@ -31,9 +31,7 @@ header:
 - Angular momentum: orbital angular momentum, commutation relations and compatibility. Solution of 3D Schrdinger equation, the hydrogen atom, Spin angular momentum.
 - A few extra topics (e.g., two spin Heisenberg problem, particle on a circle, particle in a double well, the Landau problem).
 
-[[details]](https://www.iiserkol.ac.in/teaching-plan/course/2023/Spring/PH2201/){:.btn}
-
-[[Lecture Notes]](/assets/pdfs/QMLectures.pdf){:.btn}
+[[details]](https://www.iiserkol.ac.in/teaching-plan/course/2023/Spring/PH2201/){:.btn} [[Lecture Notes]](/assets/pdfs/QMLectures.pdf){:.btn}
 
 ## Physics Laboratory IV 
 - Modern Physics
