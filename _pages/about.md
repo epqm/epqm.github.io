@@ -62,7 +62,7 @@ Please contact me by email to check whether EPQM has an opening. For your candid
 
 **Email**: slal@iiserkol.ac.in
 
-**Telephone**: +91-33-25873020
+**Telephone**: +91-33-61360000  Extn.:1290
 
 EPQM<br>
 Research Complex, Office 112-O,<br>
