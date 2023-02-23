@@ -8,13 +8,13 @@
 {%- if f.arxiv -%}[ARXIV]({{ f.arxiv }}){: .btn .btn--danger }{%- endif -%}
 <br>
 {%- if f.designation -%}<i class="fas fa-user-tie"></i>&nbsp;&nbsp;{{ f.designation }}{% endif %}
-  
-{%- if f.CV_url -%}[My CV]({{ f.CV_url }}){% endif %}
 
 {% if f.thesis %}<span class="people_row_excerpt" markdown=1>**THESIS TITLE**: {{ f.thesis }}</span>{% endif %}
 
 <div class="people_row_excerpt" markdown=1>{{ f.excerpt }}
 </div>
+  
+{% if f.CV_url %}[My CV]({{ f.CV_url }}){% endif %}
 
 
 </div>
