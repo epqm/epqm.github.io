@@ -28,9 +28,12 @@ header:
 ## Introductory Quantum Mechanics 
 - The concept of wave function, Postulates of quantum mechanics, introduction to operators and eigenvalues. Simple solvable problems
 - Calculation of probabilities and expectation values, Heisenberg's uncertainty principle. Wave packets and motion in quantum mechanics, free particle wave packets, Scattering and tunneling.
-- Angular momentum: orbital angular momentum, commutation relations and compatibility. Solution of 3D Schrdinger equation, the hydrogen atom.
+- Angular momentum: orbital angular momentum, commutation relations and compatibility. Solution of 3D Schrdinger equation, the hydrogen atom, Spin angular momentum.
+- A few extra topics (e.g., two spin Heisenberg problem, particle on a circle, particle in a double well, the Landau problem).
 
 [[details]](https://www.iiserkol.ac.in/teaching-plan/course/2023/Spring/PH2201/){:.btn}
+
+[[Lecture Notes]](/assets/pdfs/QMLectures.pdf){:.btn}
 
 ## Physics Laboratory IV 
 - Modern Physics
