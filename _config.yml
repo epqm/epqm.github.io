@@ -94,7 +94,7 @@ author:
       url: "https://www.researchgate.net/profile/Siddhartha-Lal-2"
     - label: "ARXIV"
       icon: "fas fa-dna"
-      url: "https://arxiv.org/search/cond-mat?query=%22Siddhartha+Lal%22&searchtype=author&abstracts=hide&order=-announced_date_first&size=200"
+      url: "https://arxiv.org/search/?searchtype=author&query=Lal%2C+Siddhartha"
     - label: "G. Scholar"
       icon: "fas fa-graduation-cap"
       url: "https://scholar.google.co.in/citations?user=QRSxh6kAAAAJ&hl=en"
