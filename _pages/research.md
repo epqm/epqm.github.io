@@ -239,7 +239,7 @@ For more information, please visit the [about page](/about/) and the [publicatio
 
 ## Some of our Codes are open-source
 
-Some of the numerical implementations of our methods, e.g., the unitary Renormalisation Group (URG) and the momentum-space entanglement renormalisation group (MERG) are available on [GitHub Codes](https://github.com/anirban-m/anirban-m.github.io) and [Zenodo Codes](https://zenodo.org/record/5641456#.Y_cnNiZBy5c). Please do share your feedback with us if you use/modify our codes. 
+Some of the numerical implementations of our methods, e.g., the unitary Renormalisation Group (URG) and the momentum-space entanglement renormalisation group (MERG) are available on [GitHub](https://github.com/anirban-m/anirban-m.github.io) and [Zenodo](https://zenodo.org/record/5641456#.Y_cnNiZBy5c). Please do share your feedback with us if you use/modify our codes. 
 
 ## Thanks to our Funders
 
