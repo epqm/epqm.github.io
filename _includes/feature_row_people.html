@@ -1,7 +1,8 @@
 {% for f in class[1] %}
 
 <div class="people_row" markdown=1>
-<img class="people_img" src="{{ f.image_path }}">
+<div class="people_img"><img src="{{ f.image_path }}"></div>
+<div style="overflow: hidden;" markdown=1>
 **{{ f.title | upcase }}**{% if f.time %}&nbsp;&nbsp;[{{ f.time }}]{% endif %}
 &nbsp;&nbsp;<a href="mailto:{{ f.email }}" class="btn btn--success u-email"><span>EMAIL</span></a>
 {%- if f.website -%}<a href="{{ f.website }}" class="btn btn--info">WEB</a>{%- endif -%}
@@ -9,14 +10,11 @@
 <br>
 {%- if f.designation -%}<i class="fas fa-user-tie"></i>&nbsp;&nbsp;{{ f.designation }}{% endif %}
 
-{% if f.thesis %}<span class="people_row_excerpt" markdown=1>**THESIS TITLE**: {{ f.thesis }}</span>{% endif %}
-
+{% if f.thesis %}<span markdown=1>**THESIS TITLE**: {{ f.thesis }}</span>{% endif %}
 <div class="people_row_excerpt" markdown=1>{{ f.excerpt }}
 </div>
-  
-{% if f.CV_url %}[My CV]({{ f.CV_url }}){% endif %}
-
-
+{% if f.CV_url %}[[Curriculum vitae]]({{ f.CV_url }}){: .btn .btn--large}{% endif %}
+</div>
 </div>
 <span class="people_divider"></span>
 

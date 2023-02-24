@@ -94,10 +94,9 @@ p.body__img {
 	}
 }
 
-
-.people_row .people_img a {
-	position: absolute;
-	top: 0;
+.people_img:hover {
+	transform: scale(1.4);
+	transition: transform 1s
 }
 
 // styles the horizontal line that 
@@ -222,10 +221,24 @@ home__column_skewed
 
 .feature__item--center .archive__item-teaser, .feature__item--center .archive__item-body {
 	width: 100%;
+}
+
+.feature__wrapper .archive__item-teaser, .feature__wrapper .archive__item-body {
 	margin-bottom: 1em;
 	text-align: left;
-	font-size: 90%;
 }
+
+.feature__wrapper .archive__item-teaser {
+	:hover {
+		transform: scale(1.4);
+		transition: transform 1s
+	}
+}
+
+.feature__wrapper .archive__item-body .archive__item-title {
+	font-size: 80%;
+}
+
 
 .yt__embed {
 	max-width: 700px;
@@ -233,14 +246,9 @@ home__column_skewed
 	display: block;
 }
 
-.people_row_excerpt, div .archive__item-excerpt {
-	font-size: 80%;
-	opacity: 0.8;
-}
-
-div .archive__item-excerpt:hover {
-	font-size: 100%;
-	opacity: 1;
+.people_row_excerpt, .archive__item-excerpt {
+	font-size: 85%;
+	color: gray;
 }
 
 
@@ -320,8 +328,11 @@ div .archive__item-excerpt:hover {
 		width: 65%;
 		margin-top: 1em;
 		margin-bottom: 1em;
-		font-weight: bold;
 	}
+}
+
+.page__hero--overlay .wrapper .page__lead {
+	font-style: italic;
 }
 
 .page__hero--overlay .wrapper a {
