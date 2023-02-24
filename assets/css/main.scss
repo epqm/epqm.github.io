@@ -233,13 +233,13 @@ home__column_skewed
 	display: block;
 }
 
-.people_row_excerpt, .archive__item-excerpt+p {
-	font-size: 90%;
+.people_row_excerpt, div .archive__item-excerpt {
+	font-size: 80%;
 	opacity: 0.8;
 }
 
-.archive__item-excerpt+p:hover {
-	font-size: 110%;
+div .archive__item-excerpt:hover {
+	font-size: 100%;
 	opacity: 1;
 }
 

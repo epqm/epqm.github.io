@@ -2,17 +2,17 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="200mm"
+   width="250mm"
    height="100mm"
-   viewBox="0 0 200 99.999983"
+   viewBox="0 0 250 99.999983"
    version="1.1"
    id="svg658"
    xml:space="preserve"
    inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
    sodipodi:docname="metals_holography_small.svg"
    inkscape:export-filename="../assets/images/posts/metals_holgphy_small.jpg"
-   inkscape:export-xdpi="76.199997"
-   inkscape:export-ydpi="76.199997"
+   inkscape:export-xdpi="60.959999"
+   inkscape:export-ydpi="60.959999"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -28,12 +28,12 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="0.74681912"
-     inkscape:cx="285.87913"
-     inkscape:cy="381.61851"
-     inkscape:window-width="1916"
-     inkscape:window-height="1048"
-     inkscape:window-x="0"
-     inkscape:window-y="28"
+     inkscape:cx="365.55036"
+     inkscape:cy="377.60147"
+     inkscape:window-width="1920"
+     inkscape:window-height="1019"
+     inkscape:window-x="1920"
+     inkscape:window-y="151"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1" /><defs
      id="defs655"><inkscape:path-effect
@@ -3513,9 +3513,9 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-108.70279,-416.30829)"><g
+     transform="translate(-87.536119,-417.36663)"><g
        id="g69995"
-       transform="matrix(0.22222222,0,0,0.33333333,108.70279,416.30829)"><path
+       transform="matrix(0.27777778,0,0,0.33333333,87.536119,417.36663)"><path
          d="m 827,300 h 63 v -14 h -81 v -13 h 45 v -14 h 18 v -14 h -45 v -13 h 63 v -14 h -36 v -13 h -45 v -14 h -9 v -14 h 63 v -13 h -9 v -14 0 -14 h 36 v -13 0 -14 H 800 V 95 h 45 V 82 H 809 V 68 h 54 V 55 h 9 V 41 H 800 V 27 h 63 V 14 H 845 V 0 h 55 v 14 0 13 0 14 0 14 0 13 0 14 0 13 0 14 0 14 0 13 0 14 0 14 0 13 0 14 0 14 0 13 0 14 0 13 0 14 0 14 0 13 0 14 0 z"
          fill="#888277"
          id="path69954" /><path

@@ -2,17 +2,17 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="200mm"
+   width="250mm"
    height="100mm"
-   viewBox="0 0 200 99.999987"
+   viewBox="0 0 250 99.999987"
    version="1.1"
    id="svg658"
    xml:space="preserve"
    inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
    sodipodi:docname="esiam_small.svg"
    inkscape:export-filename="../assets/images/posts/esiam_small.jpg"
-   inkscape:export-xdpi="192"
-   inkscape:export-ydpi="192"
+   inkscape:export-xdpi="76.199997"
+   inkscape:export-ydpi="76.199997"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -28,12 +28,12 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="0.75262648"
-     inkscape:cx="39.19607"
-     inkscape:cy="275.03683"
-     inkscape:window-width="1916"
-     inkscape:window-height="1048"
-     inkscape:window-x="0"
-     inkscape:window-y="28"
+     inkscape:cx="345.45689"
+     inkscape:cy="276.36551"
+     inkscape:window-width="1920"
+     inkscape:window-height="1019"
+     inkscape:window-x="1920"
+     inkscape:window-y="151"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1" /><defs
      id="defs655"><inkscape:path-effect
@@ -947,9 +947,9 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-126.12163,-422.32086)"><g
+     transform="translate(-101.28884,-421.86334)"><g
        id="g6653"
-       transform="matrix(0.59055119,0,0,0.94488192,140.15022,28.95868)"><path
+       transform="matrix(0.73818899,0,0,0.94488192,118.82458,28.501159)"><path
          d="m 290.8345,522.14162 h -6.61458 v -4.49791 h 20.37291 v -4.7625 H 287.6595 v -4.49792 h 26.9875 v -4.7625 h -20.37292 v -4.49792 0 -4.49791 h -6.61458 v -4.7625 h 20.10833 v -4.49792 h 3.43958 v -4.7625 h 3.43959 v -4.49792 h -13.49375 v -4.49791 h -3.43959 v -4.7625 h 6.87917 v -4.49792 h -3.43958 v -4.49792 h -6.87917 v -4.7625 h -10.05416 v -4.49791 h 16.93333 v -4.7625 h -3.43959 v -4.49792 h 13.49375 v -4.49792 h -16.93333 v -4.7625 H 314.647 v -4.49791 h -13.49375 v -4.7625 h 10.05416 v -4.49792 h 3.70417 v 4.49792 0 4.7625 0 4.49791 0 4.7625 0 4.49792 0 4.49792 0 4.7625 0 4.49791 0 4.7625 0 4.49792 0 4.49792 0 4.7625 0 4.49791 0 4.49792 0 4.7625 0 4.49792 0 4.7625 0 4.49791 0 4.49792 0 4.7625 0 4.49792 0 4.7625 0 4.49791 0 z"
          fill="#009473"
          id="path4404"

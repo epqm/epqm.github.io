@@ -2,17 +2,17 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="224mm"
-   height="113.12726mm"
-   viewBox="0 0 224 113.12726"
+   width="250mm"
+   height="100mm"
+   viewBox="0 0 250 100"
    version="1.1"
    id="svg658"
    xml:space="preserve"
    inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
    sodipodi:docname="mott_MERG_small.svg"
    inkscape:export-filename="../assets/images/posts/mott_MERG_small.jpg"
-   inkscape:export-xdpi="68.035713"
-   inkscape:export-ydpi="68.035713"
+   inkscape:export-xdpi="60.959999"
+   inkscape:export-ydpi="60.959999"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -29,12 +29,12 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="0.92690049"
-     inkscape:cx="383.53632"
-     inkscape:cy="166.14513"
-     inkscape:window-width="1916"
-     inkscape:window-height="1048"
-     inkscape:window-x="0"
-     inkscape:window-y="28"
+     inkscape:cx="524.32813"
+     inkscape:cy="419.67828"
+     inkscape:window-width="1920"
+     inkscape:window-height="1019"
+     inkscape:window-x="1920"
+     inkscape:window-y="151"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1" /><defs
      id="defs655"><inkscape:path-effect
@@ -154,9 +154,9 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-12.019255,-389.88038)"><g
+     transform="translate(52.121525,-230.96152)"><g
        id="g11048"
-       transform="matrix(0.175,0,0,0.2821475,12.019255,390.14864)"><path
+       transform="matrix(0.1953125,0,0,0.25,-52.121525,230.96152)"><path
          d="M 1189,400 H 933 v -17 h 128 v -18 h 141 v -17 h -102 v -18 h 128 v -17 h -13 V 296 H 793 v -18 h 140 v -17 h 13 v -18 h 77 v -17 h -26 v -17 h 13 V 191 H 857 v -17 h 243 V 157 H 959 v -18 h 179 v -17 h 64 V 104 H 1061 V 87 H 895 V 70 H 882 V 52 h 141 V 35 h 256 V 17 h -51 V 0 h 52 v 17 0 18 0 17 0 18 0 17 0 17 0 18 0 17 0 18 0 17 0 17 0 18 0 17 0 17 0 18 0 17 0 18 0 17 0 17 0 18 0 17 0 18 0 17 0 z"
          fill="#ff6f61"
          id="path11007" /><path
@@ -201,4 +201,4 @@
        x="66.773598"
        y="495.68329"
        clip-path="url(#clipPath11658)"
-       transform="matrix(0.49677769,0.50298753,-0.49677769,0.50298753,303.24409,60.047662)" /></g></svg>
+       transform="matrix(0.49677769,0.50298753,-0.49677769,0.50298753,242.7384,-105.47705)" /></g></svg>
