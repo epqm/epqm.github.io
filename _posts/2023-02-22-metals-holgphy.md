@@ -12,6 +12,8 @@ tags:
 header:
     overlay_image: /assets/images/posts/metals_holgphy.jpg
     overlay_filter: 0.5
+gallery1:
+    - image_path: /assets/images/holog-renorm/bulk_boundary.png
 
 ---
 
@@ -20,6 +22,8 @@ header:
 ---
 
 In the last few decades, quantum entanglement has become very important for studying the nature of quantum condensed matter systems. For instance, gapped interacting many-body systems typically display an area-law scaling of the subsystem entanglement entropy with subsystem size, while quantum critical systems are expected to display a volume law scaling of the same. Further, a subdominant topological term in the entanglement entropy quantifies the long-ranged nature of correlations in topologically ordered insulating states of matter. Much less is known on the entanglement features of gapless metallic systems. Further, the holographic principle posits that the renormalisation group evolution of the many-particle entanglement of an interacting quantum field theory can be visualised as the emergence of an emergent spatial dimension. 
+
+{% include gallery caption="Renormalisation flows of the boundary theory lead to the emergence of an additional spatial dimension." id="gallery1" %}
 
 ![](/assets/images/posts/dim-reduc.svg)
 
