@@ -9,4 +9,4 @@ tags:
 ---
 
 
-Welcome. That's all.
+Welcome to the EPQM family. We wish you a very happy and productive time with us.
