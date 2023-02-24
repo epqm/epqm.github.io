@@ -55,6 +55,20 @@
   - cond-mat.mes-hall
   - quant-ph
   title: 'Frustration shapes multi-channel Kondo physics: a star graph perspective'
+- arxiv_doi: https://arxiv.org/abs/2204.13876
+  arxiv_ref: arXiv:2204.13876
+  authors:
+  - Somnath Basu
+  - Dhruv Bhasin
+  - Siddhartha Lal
+  - Siddhartha Patra
+  permalink: /2204.13876/
+  submit_date: 29 April, 2022
+  tags:
+  - math.CO) 
+  - math-ph 
+  - math.AT
+  title: 'Graph Polynomial for Colored Embedded Graphs: A Topological Approach'
 - arxiv_doi: https://arxiv.org/abs/2111.10580
   arxiv_ref: arXiv:2111.10580
   authors:
