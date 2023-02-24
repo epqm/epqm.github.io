@@ -12,13 +12,18 @@
 
 <div class="mySlides fade" markdown=1>
 <div style="display: block; overflow:hidden;">
-{% include publication_info.html %}
 <div class="home__column_skewed" markdown=1>
-{{ work["abstract"] }}
+{% include publication_info.html %}
+{{ work["abstract"] }}&nbsp;&nbsp;[Learn More]({{ work["permalink"] }}){: .btn .btn--danger }
 </div>
 <div class="home__column_skewed" markdown=1>
-[Learn More]({{ work["permalink"] }}){: .btn .btn--danger }
-
+{% for post in site.posts %}
+{% if post.permalink == work["permalink"] %}
+<a href="{{ post.url }}"><img src="{{ post.images[0]["path"]}}"></a>
+{{ post.images[0]["caption"] }}
+{:.body__img }
+{% endif %}
+{% endfor %}
 </div>
 </div>
 </div>

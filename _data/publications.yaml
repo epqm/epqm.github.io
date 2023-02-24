@@ -9,7 +9,7 @@
   tags:
   - cond-mat.str-el
   title: "Holographic entanglement renormalisation for fermionic quantum matter: geometrical and topological aspects"
-  abstract: "On performing a sequence of renormalisation group (RG) transformations on a system of two-dimensional non-interacting Dirac fermions placed on a torus, we demonstrate the emergence of an additional spatial dimension arising out of the scaling of multipartite entanglement. Geometric measures defined in this emergent space, such as distances and curvature, can be related to the RG beta function of the coupling $$g$$ responsible for the spectral gap. In the presence of an Aharonov-Bohm flux, the entanglement gains a geometry-independent piece which is shown to be topological. We show instead that the entanglement contains a term that can be related to the Chern numbers of the quantum Hall states"
+  abstract: "On performing a sequence of renormalisation group (RG) transformations on a system of two-dimensional non-interacting Dirac fermions placed on a torus, we demonstrate the emergence of an additional spatial dimension arising out of the scaling of multipartite entanglement. Geometric measures defined in this emergent space, such as distances and curvature, can be related to the RG beta function of the coupling $$g$$ responsible for the spectral gap. In the presence of an Aharonov-Bohm flux, we relate the topological part of the entanglement with the Chern numbers of quantum Hall states."
 - arxiv_doi: https://arxiv.org/abs/2302.02328
   arxiv_ref: arXiv:2302.02328
   authors:
