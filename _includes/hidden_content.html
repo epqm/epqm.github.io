@@ -1,0 +1,6 @@
+<div class="readmore btn btn--danger" id="{{ include.id }}" onclick="readmore()">Show More</div>
+<div class="hidden_details" id="{{ include.id }}__hidden" markdown=1>
+{{ include.content }}
+
+<span class="readless btn btn--warning" id="{{ include.id }}__less" onclick="readless()">Show Less</span>
+</div>

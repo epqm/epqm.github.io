@@ -393,32 +393,21 @@ body{
 .hidden_details {
 	display: none;
 	overflow: hidden;
-}
-
-.covering {
-	display: block;
-	text-align: center;
-	position: relative;
-	top: -3.5em;
-	height: 2.5em;
-	background-image: linear-gradient(to bottom, rgba(255,255,255,0.3), $background-color);
+	margin-top: -1em;
 }
 
 .readmore, .readless {
-	margin: auto;
-	display: block;
-	width: 8em;
 	position: relative;
-	bottom: -2.5em;
-}
-
-.secondary__part {
-	position: relative;
+	left: 0;
+	// transform: translate(-50%, 0);
+	top: -1.5em;
 }
 
 .readless {
-	bottom: 1em;
-	display: none;
+	top: 0;
+}
+.secondary__part {
+	position: relative;
 }
 
 @keyframes opac { 0% { opacity: 0; }
