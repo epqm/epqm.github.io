@@ -10,10 +10,5 @@ header:
 ---
 
 {% for post in site.posts %}
-{% assign rem = forloop.index | modulo: 2 %}
-{% if rem == 0 %}
 {% include feature_row_posts type="left" %}
-{% else %}
-{% include feature_row_posts type="right" %}
-{% endif %}
 {% endfor %}

@@ -14,7 +14,7 @@
   </div>
 {% else %}
   <div class="archive__item-teaser">
-    <a href="{{ post.url | relative_url }}"><img src="/assets/images/posts/default_header.jpg"></a>
+    <a href="{{ post.url | relative_url }}"><img src="/assets/images/posts/default_header.svg"></a>
   </div>
 {% endif %}
 

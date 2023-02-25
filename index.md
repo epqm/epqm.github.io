@@ -3,7 +3,8 @@ layout: splash
 
 ---
 
-[![]({{ site.categories["publications and preprints"][0].header["overlay_image"] }})]({{ site.categories["publications and preprints"][0].url }})
+<a href="{{ site.categories["publications and preprints"][0].url }}"><img src="{{ site.categories["publications and preprints"][0].header["overlay_image"] }}"><a>
+
 <div class="home__column__main" markdown=1>
  <div class="home__column_skewed" markdown=1>
   <div class="home__banner__title" markdown=1>
@@ -29,21 +30,11 @@ layout: splash
 ## <i class="fas fa-bookmark"></i>&nbsp;&nbsp;[Recent Articles/Preprints](/posts/)
 <div class="home__column__main" markdown=1>
  <div class="home__column" markdown=1>
- {% assign post = site.categories["publications and preprints"][0] %}
- {% include feature_row_posts type="center" %}
- </div>
- <div class="home__column" markdown=1>
- {% assign post = site.categories["publications and preprints"][2] %}
- {% include feature_row_posts type="center" %}
- </div>
-</div>
-<div class="home__column__main" markdown=1>
- <div class="home__column" markdown=1>
  {% assign post = site.categories["publications and preprints"][1] %}
  {% include feature_row_posts type="center" %}
  </div>
  <div class="home__column" markdown=1>
- {% assign post = site.categories["publications and preprints"][3] %}
+ {% assign post = site.categories["publications and preprints"][2] %}
  {% include feature_row_posts type="center" %}
  </div>
 </div>
