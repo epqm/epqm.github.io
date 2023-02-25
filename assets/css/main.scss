@@ -115,10 +115,6 @@ p.body__img {
 // justifies all the text in the page body, 
 // except lists
 .page__content {
-  text-align: justify;
-  > ul, ol {
-	  text-align: left;
-  }
   @include breakpoint($medium) {
 	  font-size: smaller;
   }
@@ -185,19 +181,17 @@ body{
 .home__column_skewed {
 	margin: auto;
 	@include breakpoint($medium) {
-		width:60%;
+		width:57%;
 		float:left;
 	}
 }
 
 .home__column_skewed + .home__column_skewed {
 	@include breakpoint($medium) {
-		width:35%;
-		margin-left: 5%;
+		width:40%;
+		margin-left: 3%;
 	}
 }
-
-home__column_skewed
 
 .home__column__main {
 	width: 100%;
@@ -236,7 +230,7 @@ home__column_skewed
 }
 
 .feature__wrapper .archive__item-body .archive__item-title {
-	font-size: 80%;
+	font-size: 120%;
 }
 
 
@@ -440,4 +434,38 @@ home__column_skewed
 
 .feature__wrapper::after {
 	display: none;
+}
+
+.home__banner__title {
+	margin-top: -0.5em;
+	margin-bottom: -1em;
+	font-weight: bold;
+	font-size: large;
+	@include breakpoint($medium) {
+		font-size: xx-large;
+	}
+}
+
+.home__banner__title .first-letter {
+	font-size: 150%;
+	font-style: italic;
+}
+
+.epqm_description {
+	font-style: italic;
+	opacity: 0.8;
+}
+
+.home__banner__abstract {
+	opacity: 0.8;
+	font-style: italic;
+	@include breakpoint($medium) {
+		// margin-top: 1em;
+	}
+	margin-top: 0;
+}
+
+.home__column_skewed h2 {
+	margin-top: 0;
+	font-size: 150%;
 }

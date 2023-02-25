@@ -4,9 +4,10 @@
 <div class="people_img"><img src="{{ f.image_path }}"></div>
 <div style="overflow: hidden;" markdown=1>
 **{{ f.title | upcase }}**{% if f.time %}&nbsp;&nbsp;[{{ f.time }}]{% endif %}
-&nbsp;&nbsp;<a href="mailto:{{ f.email }}" class="btn btn--success u-email"><span>EMAIL</span></a>
-{%- if f.website -%}<a href="{{ f.website }}" class="btn btn--info">WEB</a>{%- endif -%}
-{%- if f.arxiv -%}[ARXIV]({{ f.arxiv }}){: .btn .btn--danger }{%- endif -%}
+&nbsp;&nbsp;
+[EMAIL]("mailto:{{ f.email }}"){: .btn .btn--primary .u-email}
+{%- if f.website -%}[WEB]("{{ f.website }}"){: .btn .btn--primary }{%- endif -%}
+{%- if f.arxiv -%}[ARXIV]({{ f.arxiv }}){: .btn .btn--primary }{%- endif -%}
 <br>
 {%- if f.designation -%}<i class="fas fa-user-tie"></i>&nbsp;&nbsp;{{ f.designation }}{% endif %}
 
