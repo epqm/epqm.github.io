@@ -3,7 +3,9 @@ layout: splash
 
 ---
 
-<a href="{{ site.categories["publications and preprints"][0].url }}"><img src="{{ site.categories["publications and preprints"][0].header["overlay_image"] }}"><a>
+<div class="home_banner_image">
+<a href="{{ site.categories["publications and preprints"][0].url }}"><img src="{{ site.categories["publications and preprints"][0].header["overlay_image"] }}"></a>
+</div>
 
 <div class="home__column__main" markdown=1>
  <div class="home__column_skewed" markdown=1>

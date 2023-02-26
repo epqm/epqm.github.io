@@ -447,3 +447,11 @@ body{
 	margin-top: 0;
 	font-size: 150%;
 }
+
+.home_banner_image {
+	@include breakpoint($x-large) {
+		margin-left: calc(-0.5*(100vw - #{$max-width}));
+		width: 98vw;
+	}
+	margin-bottom: 1em;
+}
