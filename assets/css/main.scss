@@ -10,7 +10,7 @@ search: false
 
 
 // remove the footer
-.page__footer {
+.page__footer-follow {
 	display: none;
 }
 
@@ -170,17 +170,18 @@ body{
 
 
 .home__column_skewed {
+	text-align: left;
 	margin: auto;
 	@include breakpoint($medium) {
-		width:57%;
+		width:60%;
 		float:left;
 	}
 }
 
 .home__column_skewed + .home__column_skewed {
 	@include breakpoint($medium) {
-		width:40%;
-		margin-left: 3%;
+		width:35%;
+		margin-left: 5%;
 	}
 }
 
@@ -443,9 +444,9 @@ body{
 	margin-top: 0;
 }
 
-.home__column_skewed h2 {
+.home__column_skewed strong {
 	margin-top: 0;
-	font-size: 150%;
+	font-size: x-large;
 }
 
 .home_banner_image {
@@ -454,4 +455,8 @@ body{
 		width: 98vw;
 	}
 	margin-bottom: 1em;
+}
+
+h2 {
+	font-size: 130%;
 }

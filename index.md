@@ -18,7 +18,7 @@ layout: splash
   </span> &nbsp;&nbsp;[Learn More]({{ site.categories["publications and preprints"][0].url }}){: .btn .btn--danger }
  </div>
  <div class="home__column_skewed" markdown=1>
-  <h2>Who are we?</h2>
+  **Who are we?**
   <span class="epqm_description">{{ site.description }}</span>
 
   [EPQM in a nutshell](/about/#what-is-epqm){: .btn .btn--primary }
@@ -49,3 +49,11 @@ layout: splash
 </div>
 {% endfor %}
 </div>
+
+## <i class="fas fa-heart"></i>&nbsp;&nbsp;The good stuff
+
+- Check out the [gallery](/gallery/) for some photographs of our group as well as the IISER Kolkata campus.
+
+- Take a look at our recommended [external resources](/external-resources/) for funny/interesting/useful links pertaining to academia in general or (condensed matter) physics in particular.
+
+- To pique your artistic side, each EPQM member has provided their recommendation for a single work of fiction which they believe should be experienced by everyone at least once. [Check them out!](/fiction-recommendations/)
