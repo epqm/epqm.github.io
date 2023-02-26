@@ -168,6 +168,10 @@ Further, a subdominant topological term in the entanglement entropy quantifies t
 - How do the field theoretic parameters (e.g., the RG beta function) relate to the geometry quantifiers (e.g., distances and curvature) in this emergence dimension? 
 - Spectral flow operations on metallic systems lead to a flux-dependent piece in the entanglement entropy. Is this term topological in nature? 
 - If so, is there a correspondence between the topological terms in metallic systems and those obtained in the above-mentioned insulating systems?
+
+![](/assets/images/research/Emergent-Geometry.jpg)
+'Quantum particles entangled in a “tree-like” structure correspond to various configurations of space-time.'[[Source]](https://naranglab.ucla.edu/research/quantum-materials/)
+{:.body__img }
 " %}
 {% include hidden_content.html content=content id="holography" %}
 
@@ -182,12 +186,20 @@ Very often, our questions are shaped by state-of-the-art experiments.
 - How does a junction linking several interacting quantum wires affect the transport?
 - How is electron transport affected to the connections of an interacting quantum wire to its reservoirs?
 - Is it possible to simulate the transport in a multichannel Kondo problem in a cold atomic system?
+
+![](/assets/images/research/graphene-nanoribbons.jpg)
+'Conceptual drawing of an electronic circuit comprised of interconnected graphene nanoribbons (black atoms) that are epitaxially grown on steps etched in silicon carbide (yellow atoms). Electrons (blue) travel ballistically along the ribbon and then from one ribbon to the next via the metal contacts.'[[Source]](https://news.gatech.edu/news/2014/02/05/ballistic-transport-graphene-suggests-new-type-electronic-device)
+{:.body__img }
 " %}
 {% include hidden_content.html content=content id="qtrans" %}
 
 ### Quantum materials
 
 There are many surprises thrown up by experiments on strongly interacting quantum matter. For instance, the cuprate family of Mott insulators turn superconducting upon doping with holes. Indeed, many such puzzling observations abound in several families of materials. Over the years, EPQM has studied many of them, including the cuprates, organic conductors, perovskites, halides, spinels, insulators with active magnetic moments and orbitals degrees of freedom, materials that are effectively low-dimensional spin systems. Questions of interest involve the nature of various phases shown by these materials, as well as the transitions (e.g., metal-insulator etc.) that lead to them. Many of these materials are of vital importance for the design of future quantum technologies, and also in the search for novel quantum materials with exotic functional properties. 
+
+![](/assets/images/research/Quantum-Materials.png)
+[[Source]](https://naranglab.ucla.edu/research/quantum-materials/)
+{:.body__img }
 
 For more information, please visit the [about page](/about/) and the [publications page](/publications/).
 
