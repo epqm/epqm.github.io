@@ -22,7 +22,6 @@ a {
 	text-decoration: none;
 }
 
-
 // center align all images
 .page img {
 	width: 100%;
@@ -52,9 +51,9 @@ p.body__img {
 // makes the overall font-size of the publication entries 
 // slightly smaller, appears in publications page, and 
 // random publications part of home page
-// .pub__global {
-// 	font-size: smaller;
-// }
+.pub__global {
+	text-align: left;
+}
 
 // makes the author list font colour slightly gray in the
 // publication entries (to distinguish it from the rest).
@@ -112,9 +111,11 @@ p.body__img {
 // justifies all the text in the page body, 
 // except lists
 .page__content {
-  @include breakpoint($medium) {
-	  font-size: smaller;
-  }
+	text-align: justify;
+	@include breakpoint($medium) {
+		// text-align: justify;
+		font-size: smaller;
+	}
 }
 
 body{
@@ -130,13 +131,6 @@ body{
 	}
 }
 
-
-// .feature__item--left .archive__item-teaser {
-// 	margin-bottom: 0.5em;
-// 	@include breakpoint($small) {
-// 		margin-bottom: 2em;
-// 	}
-// }
 
 // reduces the whitespace between the text on the 
 // topmost panel and the boundaries of the panel
@@ -423,6 +417,7 @@ body{
 }
 
 .home__banner__title {
+	text-align: left;
 	margin-top: -0.5em;
 	margin-bottom: -1em;
 	font-weight: bold;
