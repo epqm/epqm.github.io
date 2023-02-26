@@ -52,7 +52,10 @@ We focus on the following areas in our research:
 - Quantum transport,
 - Search for quantum materials
 
-![](/assets/images/research/epqm-research.png)
+![](/assets/images/research/epqm_research.svg)
+[See full image.](/assets/images/research/epqm_research.svg)
+{:.body__img }
+
 
 ## Methods we use (and develop)
 

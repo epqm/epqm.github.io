@@ -26,18 +26,15 @@ a {
 // center align all images
 .page img {
 	width: 100%;
-	max-width: 500px;
 	display: block;
 	margin: auto;
 }
 
 p.body__img {
-	display: block;
-	margin: auto;
+	width: 100%;
 	font-weight: bold;
-	max-width: 500px;
+	text-align: center;
 }
-
 
 // reduce padding inside the tag
 // alert boxes
