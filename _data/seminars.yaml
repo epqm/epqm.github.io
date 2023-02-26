@@ -1,3 +1,9 @@
+- date: "Dec 15, 2022"
+  title: "What makes the Quantum Computer different?"
+  location: "Winter School on Quantum Computing at IISER Kolkata"
+  video_url: 
+  slides_url: "/assets/pdfs/EntanglementQCshort.pdf"
+  comments: "Various features of Quantum mechanics make the quantum computer different. We discuss each of them in turn."
 - date: "Nov 10, 2022"
   title: "Revisiting the impurity Metal-Insulator transition at the heart of DMFT: what lies behind the veil of self-consistency?"
   location: "Grad Program in Physics- Federal University of Uberlândia"
