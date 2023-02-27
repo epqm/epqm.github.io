@@ -4,7 +4,10 @@ layout: splash
 ---
 
 <div class="home_banner_image">
-<a href="{{ site.categories["publications and preprints"][0].url }}"><img src="{{ site.categories["publications and preprints"][0].header["overlay_image"] }}"></a>
+<a href="{{ site.categories["publications and preprints"][0].url }}">
+{% assign post = site.categories["publications and preprints"][0] %}
+{% if post.header["overlay_image"] %}<img src="{{ post.header["overlay_image"] }}">{% else %}<img src="{{ post.header["image"] }}">{% endif %}
+</a>
 </div>
 
 <div class="home__column__main" markdown=1>

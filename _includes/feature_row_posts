@@ -12,6 +12,10 @@
   <div class="archive__item-teaser">
     <a href="{{ post.url | relative_url }}"><img src="{{ post.header.overlay_image | relative_url }}"></a>
   </div>
+{% elsif post.header.image %}
+  <div class="archive__item-teaser">
+    <a href="{{ post.url | relative_url }}"><img src="{{ post.header.image | relative_url }}"></a>
+  </div>
 {% else %}
   <div class="archive__item-teaser">
     <a href="{{ post.url | relative_url }}"><img src="/assets/images/posts/default_header.svg"></a>

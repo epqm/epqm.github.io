@@ -1,8 +1,9 @@
 <div class="pub__global" markdown=1>
 {%- unless show_publication_title -%}
-<b>{{ work["title"] | upcase }}&nbsp;&nbsp;&nbsp;</b>
+*{{ work["title"] }}*
 {%- endunless -%}
 {%- if include.show_tags -%}
+&nbsp;&nbsp;&nbsp;
 {%- for tag in work["tags"] -%}
 <span class="btn btn--success tag__highlight">{{ tag | replace: "cond-mat.","" }}</span>
 {%- endfor -%}
