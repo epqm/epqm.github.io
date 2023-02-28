@@ -5,8 +5,8 @@ permalink: /2003.06118/
 categories:
   - publications and preprints
 tags:
-  - unconventional superconductivity
-  - gapped liquids
+  - unconventional-sc
+  - gapped-liquids
   - entanglement
   - MERG
   - Hubbard

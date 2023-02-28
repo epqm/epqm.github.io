@@ -9,6 +9,8 @@ gallery_campus:
 gallery_milestones1:
   - image_path: /assets/images/gallery/spal_thesis.jpeg
   - image_path: /assets/images/gallery/spa_presub.jpeg
+gallery_milestones2:
+  - image_path: /assets/images/gallery/anirban-defence.png
 
 gallery_general1:
   - image_path: /assets/images/gallery/gen1.png
@@ -21,6 +23,7 @@ gallery_general1:
 
 ## Milestones for EPQM 
 {% include gallery id="gallery_milestones1" layout="third" caption="Left: Santanu Pal receives his doctorate degree. Right: Thesis presubmission seminar of Siddhartha Patra"%}
+{% include gallery id="gallery_milestones2" layout="" caption="Thesis defence presentation of Anirban Mukherjee."%}
 
 ## Some other snapshots of our group
 {% include gallery id="gallery_general1" layout="third" caption="Left: EPQM at the research complex. Right: Dinner outing in celebration of Santanu Pal's thesis defence."%}

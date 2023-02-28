@@ -10,5 +10,5 @@ header:
 ---
 
 {% for post in site.posts %}
-{% include feature_row_posts type="left" %}
+{% include feature_row_posts type="left" show_tags="true" %}
 {% endfor %}

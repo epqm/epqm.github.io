@@ -5,8 +5,8 @@ permalink: /2111.10580/
 categories:
   - publications and preprints
 tags:
-  - Kondo effect
-  - impurity models
+  - Kondo-effect
+  - impurity-models
 header:
     overlay_image: /assets/images/posts/kondo.jpg
     overlay_filter: 0.4

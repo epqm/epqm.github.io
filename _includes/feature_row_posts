@@ -26,8 +26,12 @@
   {% if post.title %}
     <b class="archive__item-title">{{ post.title }}</b>
   {% endif %}
+
   <div class="archive__item-excerpt">
-  {{ post.date | date: "%b %Y" | upcase }}&nbsp;&nbsp;<a href="{{ post.url | relative_url }}" class="btn btn--danger">{{ post.btn_label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a>
+  {% if include.show_tags == "true" %}
+  {% for tag in post.tags limit:3 %}<a href="/tags/#{{ tag }}" class="btn btn--primary btn--small">{{ tag }}</a>{% endfor %}
+  {% endif %}
+  <div>{{ post.date | date: "%b %Y" | upcase }}&nbsp;&nbsp;<a href="{{ post.url | relative_url }}" class="btn btn--danger">{{ post.btn_label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a></div>
   {% if post.excerpt %}
       {{ post.excerpt | truncate:200 | markdownify }}
   {%- endif -%}

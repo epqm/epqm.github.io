@@ -5,12 +5,12 @@ toc: true
 toc_sticky: true
 permalink: /2302.10590/
 categories:
-  - publications and preprints
+  - publications-and-preprints
 tags:
   - metals
   - entanglement
   - holography
-  - renormalisation group
+  - renormalisation-group
 header:
     image: /assets/images/posts/metals_holgphy.jpg
     overlay_filter: 0
