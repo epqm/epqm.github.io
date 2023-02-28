@@ -195,7 +195,7 @@ Very often, our questions are shaped by state-of-the-art experiments.
 
 ### Quantum materials
 
-There are many surprises thrown up by experiments on strongly interacting quantum matter. For instance, the cuprate family of Mott insulators turn superconducting upon doping with holes. Indeed, many such puzzling observations abound in several families of materials. Over the years, EPQM has studied many of them, including the cuprates, organic conductors, perovskites, halides, spinels, insulators with active magnetic moments and orbitals degrees of freedom, materials that are effectively low-dimensional spin systems. 
+There are many surprises thrown up by experiments on strongly interacting quantum matter. For instance, the cuprate family of Mott insulators turn superconducting upon doping with holes. Indeed, many such puzzling observations abound in several families of materials. Over the years, EPQM has studied many of them, including the cuprates, organic conductors, perovskites, halides, spinels, insulators with active magnetic moments and orbitals degrees of freedom, materials that are effectively low-dimensional spin systems.
 {% assign content = "
 Questions of interest involve the nature of various phases shown by these materials, as well as the transitions (e.g., metal-insulator etc.) that lead to them. Many of these materials are of vital importance for the design of future quantum technologies, and also in the search for novel quantum materials with exotic functional properties. 
 
@@ -203,7 +203,7 @@ Questions of interest involve the nature of various phases shown by these materi
 [[Source]](https://naranglab.ucla.edu/research/quantum-materials/)
 {:.body__img }
 " %}
-{% include hidden_content.html content=content id="qtrans" %}
+{% include hidden_content.html content=content id="qmatt" %}
 
 For more information, please visit the [about page](/about/) and the [publications page](/publications/).
 
