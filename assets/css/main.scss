@@ -395,7 +395,6 @@ body{
 .readmore, .readless {
 	position: relative;
 	left: 0;
-	// transform: translate(-50%, 0);
 	top: -1.5em;
 }
 
@@ -470,8 +469,13 @@ h2 {
 	display: none;
 }
 
-#current_abstract {
-	font-size: 90%;
-	opacity: 0.7;
-	// font-style: italic;
+
+#readless_abstract,#readmore_abstract {
+	margin-left: 0;
+	margin-top: 1em;
+}
+
+.page .body_img img {
+	max-width: 300px;
+	margin: auto;
 }
