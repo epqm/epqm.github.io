@@ -195,11 +195,15 @@ Very often, our questions are shaped by state-of-the-art experiments.
 
 ### Quantum materials
 
-There are many surprises thrown up by experiments on strongly interacting quantum matter. For instance, the cuprate family of Mott insulators turn superconducting upon doping with holes. Indeed, many such puzzling observations abound in several families of materials. Over the years, EPQM has studied many of them, including the cuprates, organic conductors, perovskites, halides, spinels, insulators with active magnetic moments and orbitals degrees of freedom, materials that are effectively low-dimensional spin systems. Questions of interest involve the nature of various phases shown by these materials, as well as the transitions (e.g., metal-insulator etc.) that lead to them. Many of these materials are of vital importance for the design of future quantum technologies, and also in the search for novel quantum materials with exotic functional properties. 
+There are many surprises thrown up by experiments on strongly interacting quantum matter. For instance, the cuprate family of Mott insulators turn superconducting upon doping with holes. Indeed, many such puzzling observations abound in several families of materials. Over the years, EPQM has studied many of them, including the cuprates, organic conductors, perovskites, halides, spinels, insulators with active magnetic moments and orbitals degrees of freedom, materials that are effectively low-dimensional spin systems. 
+{% assign content = "
+Questions of interest involve the nature of various phases shown by these materials, as well as the transitions (e.g., metal-insulator etc.) that lead to them. Many of these materials are of vital importance for the design of future quantum technologies, and also in the search for novel quantum materials with exotic functional properties. 
 
 ![](/assets/images/research/Quantum-Materials.png)
 [[Source]](https://naranglab.ucla.edu/research/quantum-materials/)
 {:.body__img }
+" %}
+{% include hidden_content.html content=content id="qtrans" %}
 
 For more information, please visit the [about page](/about/) and the [publications page](/publications/).
 
@@ -209,4 +213,4 @@ Some of the numerical implementations of our methods, e.g., the unitary Renormal
 
 ## Thanks to our Funders
 
-We are thankful for research funding from SERB and IISER Kolkata for implementing our projects. Also, to CSIR and IISER Kolkata for the research fellowships for several of EPQM's research scholars. None of this would have been possible but for the honest taxpayers of the Republic of India.
+We are thankful for research funding from [SERB](https://www.serbonline.in/SERB/HomePage) and [IISER Kolkata](https://www.iiserkol.ac.in/) for implementing our projects. Also, to [CSIR](https://www.csir.res.in/) and [IISER Kolkata](https://www.iiserkol.ac.in/) for the research fellowships for several of EPQM's research scholars. None of this would have been possible but for the honest taxpayers of the Republic of India.
