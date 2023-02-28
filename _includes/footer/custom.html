@@ -84,3 +84,22 @@ function readless() {
 </script>
 
 
+<script>
+function readmore_abstract() {
+    var oldabstract = document.getElementById("current_abstract");
+    var newabstract = document.getElementById("full_abstract");
+    oldabstract.textContent = newabstract.innerText;
+    event.target.style.display = "none";
+    var readlesselement = document.getElementById("readless_abstract");
+    readlesselement.style.display = "inline-block";
+}
+
+function readless_abstract() {
+    var oldabstract = document.getElementById("current_abstract");
+    var newabstract = document.getElementById("short_abstract");
+    oldabstract.textContent = "";
+    event.target.style.display = "none";
+    var readmoreelement = document.getElementById("readmore_abstract");
+    readmoreelement.style.display = "inline-block";
+}
+</script>

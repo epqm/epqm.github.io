@@ -1,6 +1,6 @@
 ---
 title: "Our latest work on holographic renormalisation of entanglement in metals is now available on the arxiv."
-excerpt: "We provide a demonstration of the holographic principle in a prototypical condensed matter system, and shed new light on geometrical and topological aspects of entanglement in metals."
+excerpt: "On performing a sequence of renormalisation group (RG) transformations on a system of two-dimensional non-interacting Dirac fermions placed on a torus, we demonstrate the emergence of an additional spatial dimension arising out of the scaling of multipartite entanglement. Geometric measures defined in this emergent space, such as distances and curvature, can be related to the RG beta function of the coupling \\(g\\) responsible for the spectral gap. In the presence of an Aharonov-Bohm flux, we relate the topological part of the entanglement with the Chern numbers of quantum Hall states."
 toc: true
 toc_sticky: true
 permalink: /2302.10590/
@@ -16,6 +16,8 @@ header:
     overlay_filter: 0
 
 ---
+
+{% include show_abstract.html %}
 
 ## A bit of background
 

@@ -464,3 +464,14 @@ body{
 h2 {
 	font-size: 130%;
 }
+
+
+#readless_abstract,#short_abstract,#full_abstract {
+	display: none;
+}
+
+#current_abstract {
+	font-size: 90%;
+	opacity: 0.7;
+	// font-style: italic;
+}
