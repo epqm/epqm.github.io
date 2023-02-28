@@ -1,6 +1,8 @@
 ---
 title: "Our latest work on holographic renormalisation of entanglement in metals is now available on the arxiv."
 excerpt: "We provide a demonstration of the holographic principle in a prototypical condensed matter system, and shed new light on geometrical and topological aspects of entanglement in metals."
+toc: true
+toc_sticky: true
 permalink: /2302.10590/
 categories:
   - publications and preprints
@@ -15,11 +17,11 @@ header:
 
 ---
 
-**Background**
+## A bit of background
 
 In the last few decades, quantum entanglement has become very important for studying the nature of quantum condensed matter systems. For instance, gapped interacting many-body systems typically display an area-law scaling of the subsystem entanglement entropy with subsystem size, while quantum critical systems are expected to display a volume law scaling of the same. Further, a subdominant topological term in the entanglement entropy quantifies the long-ranged nature of correlations in topologically ordered insulating states of matter. Much less is known on the entanglement features of gapless metallic systems. Further, the holographic principle posits that the renormalisation group evolution of the many-particle entanglement of an interacting quantum field theory can be visualised as the emergence of an emergent spatial dimension. 
 
-**Questions addressed**
+## Questions addressed
 
 The present work is thus devoted towards addressing the following questions:
 - Can a first principles calculation of entanglement renormalisation in a relatively simple system demonstrate the holographic emergence of a spatial geometry? 
@@ -27,7 +29,7 @@ The present work is thus devoted towards addressing the following questions:
 - Spectral flow operations on metallic systems lead to a flux-dependent piece in the entanglement entropy. Is this term topological in nature? 
 - If so, is there a correspondence between the topological terms in metallic systems and those obtained in the above-mentioned insulating systems?
 
-**Results**
+## Main results of our work
 
 Towards achieving these goals, we study a model of two-dimensional massive non-interacting Dirac fermions placed on a torus, and apply scaling transformations on the associated Hilbert space. The resultant renormalisation of multipartite measures of entanglement exhibits a hierarchy that exists across energy scales as well as across the number of parties. As our demonstration constitutes an exact holographic mapping, we argue that the scaling of the multipartite entanglement leads to the emergence of an additional spatial dimension. Geometric measures defined in this emergent space, such as distances and curvature, can be related to the RG beta function of the coupling g responsible for the spectral mass gap. Depending on the anomalous dimension of g, three classes of spaces (bounded, unbounded and flat) are generated from the RG: changing between classes involves  a topological transition. 
 
@@ -35,6 +37,6 @@ In order to study the boundary condition sensitivity of the multipartite entangl
 
 Thus, our work offers an ab initio demonstration of the holographic principle in a prototypical condensed matter system, and sheds new light on geometrical and topological aspects of entanglement in metals.
 
----
+## Link to publication/preprint
 
 {% include insert_publication_info.html %}
