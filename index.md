@@ -13,8 +13,7 @@ layout: splash
 <div class="home__column__main" markdown=1>
  <div class="home__column_skewed" markdown=1>
   <div class="home__banner__title" markdown=1>
-  {% assign letters = site.categories["publications and preprints"][0].title | split:"" %}
-  <span class="first-letter">{{ letters[0] }}</span>{{ letters | shift}}
+  {{ site.categories["publications and preprints"][0].title }}
   </div> 
   <span class="home__banner__abstract" markdown=1> 
   {{ site.data.publications[0]["abstract"] | truncate:300 }}

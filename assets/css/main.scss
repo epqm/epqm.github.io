@@ -431,7 +431,7 @@ body{
 	}
 }
 
-.home__banner__title .first-letter {
+.home__banner__title::first-letter, .page__title::first-letter {
 	font-size: 150%;
 	font-style: italic;
 }
@@ -478,9 +478,4 @@ h2 {
 .page .body_img img {
 	max-width: 300px;
 	margin: auto;
-}
-
-::first-letter {
-  font-size: 200%;
-  color: #8A2BE2;
 }
