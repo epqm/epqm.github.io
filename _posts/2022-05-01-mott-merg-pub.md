@@ -11,11 +11,11 @@ tags:
   - MERG
   - Hubbard
 header:
-  overlay_image: /assets/images/posts/mott_MERG.jpg
+  image: /assets/images/posts/mott_MERG.jpg
 
 ---
 
-{% include insert_publication_info.html %}
+{% include show_abstract.html %}
 
 ---
 

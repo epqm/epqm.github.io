@@ -8,12 +8,11 @@ tags:
   - Kondo-effect
   - impurity-models
 header:
-    overlay_image: /assets/images/posts/kondo.jpg
-    overlay_filter: 0.4
+    image: /assets/images/posts/kondo.jpg
 
 ---
 
-{% include insert_publication_info.html %}
+{% include show_abstract.html %}
 
 ---
  The Kondo problem has a special place in the history of quantum condensed matter physics. While it was first discovered as an intriguing minimum in the resistivity of certain metallic samples at very low temperatures by people like de Haas in the 1930s, a concrete theoretical explanation was first offered by Jun Kondo in 1964 using many-body techniques. Kondo showed that the upturn in the resistivity was caused by spin-flip scattering of conduction electrons from magnetic impurities. Several landmark studies were carried out in the 1970s for the simplest setting of a single spin-1/2 magnetic impurity, and showed that the spin-flip scattering leads eventually to the binding of some of the conduction electrons together with the impurity into a spin singlet at low-energies. This emergent screening of the magnetic impurity then ensures that the other conduction electrons (i.e., those not participating in the screening) in the metallic host no longer suffer spin-flip scattering from the impurity. The conduction electrons that participate in the screening, and the formation of the singlet state, are collectively called the Kondo cloud. 
