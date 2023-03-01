@@ -51,6 +51,8 @@ layout: splash
 {% endfor %}
 </div>
 
+<div class="home__column__main" markdown=1>
+<div class="home__column" markdown=1>
 ## <i class="fas fa-heart"></i>&nbsp;&nbsp;The good stuff
 
 - Check out the [gallery](/gallery/) for some photographs of our group as well as the IISER Kolkata campus.
@@ -58,3 +60,14 @@ layout: splash
 - Take a look at our recommended [external resources](/external-resources/) for funny/interesting/useful links pertaining to academia in general or (condensed matter) physics in particular.
 
 - To pique your artistic side, each EPQM member has provided their recommendation for a single work of fiction which they believe should be experienced by everyone at least once. [Check them out!](/fiction-recommendations/)
+</div>
+<div class="home__column" markdown=1>
+## <i class="fas fa-mug-hot"></i>&nbsp;&nbsp;Like what you see?
+- Take a look at our [research interests](/research/) and [publications](/publications/) to get a better idea of what we do. 
+
+- We have also put up a number of our [seminars](/seminars/) (slides/videos) on various topics in quantum condensed matter physics.
+
+- If you want to get in touch with us for any reason, here are out [contact details](/about/#contact-details).
+
+- Students who are interested in joining us can take a look at our [openings](/about/#openings).
+</div>
