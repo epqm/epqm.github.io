@@ -5,9 +5,9 @@
 <div style="overflow: hidden;" markdown=1>
 **{{ f.title | upcase }}**{% if f.time %}
 [{{ f.time }}]{% endif %}
-<span>[EMAIL]("mailto:{{ f.email }}"){: .btn .btn--primary .u-email}</span>
-<span>{%- if f.website -%}[WEB]("{{ f.website }}"){: .btn .btn--primary }{%- endif -%}</span>
-<span>{%- if f.arxiv -%}[ARXIV]({{ f.arxiv }}){: .btn .btn--primary }{%- endif -%}</span>
+<span>[EMAIL]("mailto:{{ f.email }}"){: .btn .btn--info .u-email}</span>
+<span>{%- if f.website -%}[WEB]("{{ f.website }}"){: .btn .btn--info }{%- endif -%}</span>
+<span>{%- if f.arxiv -%}[ARXIV]({{ f.arxiv }}){: .btn .btn--info }{%- endif -%}</span>
 
 {% if f.designation %}<i class="fas fa-user-tie"></i>&nbsp;&nbsp;{{ f.designation }}{% endif %}
 

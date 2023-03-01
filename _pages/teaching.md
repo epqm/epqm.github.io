@@ -14,7 +14,7 @@ header:
 - Disorder and Localization Physics (weak localisation, scaling theory of gang-of-four)
 - Superconductivity (Ginzburg-Landau phenomenology and BCS theory)
 
-[[details]](https://www.iiserkol.ac.in/teaching-plan/course/2022/Autumn/PH5103/){:.btn}
+[[Details]](https://www.iiserkol.ac.in/teaching-plan/course/2022/Autumn/PH5103/){:.btn .btn--large }
 
 ## Advanced Statistical Mechanics 
 - Introduction to Phase Transitions, Classification and some popular models that are studied
@@ -23,7 +23,7 @@ header:
 - Symmetry breaking, and Fluctuations
 - Anomalous dimensions and Scaling
 
-[[details]](https://www.iiserkol.ac.in/teaching-plan/course/2022/Spring/PH4202/){:.btn}
+[[Details]](https://www.iiserkol.ac.in/teaching-plan/course/2017/Spring/PH4202/){:.btn .btn--large }
 
 ## Introductory Quantum Mechanics 
 - The concept of wave function, Postulates of quantum mechanics, introduction to operators and eigenvalues. Simple solvable problems
@@ -31,11 +31,11 @@ header:
 - Angular momentum: orbital angular momentum, commutation relations and compatibility. Solution of 3D Schrdinger equation, the hydrogen atom, Spin angular momentum.
 - A few extra topics (e.g., two spin Heisenberg problem, particle on a circle, particle in a double well, the Landau problem).
 
-[[details]](https://www.iiserkol.ac.in/teaching-plan/course/2023/Spring/PH2201/){:.btn} [[Lecture Notes]](/assets/pdfs/QMLectures.pdf){:.btn}
+[[Details]](https://www.iiserkol.ac.in/teaching-plan/course/2021/Spring/PH2201/){:.btn .btn--large } [[Lecture Notes]](/assets/pdfs/QMLectures.pdf){:.btn .btn--large }
 
 ## Physics Laboratory IV 
 - Modern Physics
 - Electrical and Electronics
 - Optics
 
-[[details]](https://www.iiserkol.ac.in/teaching-plan/course/2023/Spring/PH2203/){:.btn}
+[[Details]](https://www.iiserkol.ac.in/teaching-plan/course/2023/Spring/PH2203/){:.btn .btn--large }

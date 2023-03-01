@@ -23,9 +23,9 @@ layout: splash
 # *E*mergent *P*henomena in *Q*uantum *M*atter
 <span class="epqm_description">{{ site.description }}</span>
 
-[EPQM in a nutshell](/about/#what-is-epqm){: .btn .btn--primary }
-[Research](/research/#overview-of-our-research){: .btn .btn--primary }
-[Openings](/about/#openings){: .btn .btn--primary }
+[EPQM in a nutshell](/about/#what-is-epqm){: .btn .btn--info }
+[Research](/research/#overview-of-our-research){: .btn .btn--info }
+[Openings](/about/#openings){: .btn .btn--info }
 </div>
 </div>
 

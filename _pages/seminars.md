@@ -15,9 +15,9 @@ header:
 {{ forloop.index }}.&nbsp;&nbsp;**{{ seminar.title }}**<br>
 <i class="fas fa-paper-plane"></i>&nbsp;&nbsp;{{ seminar.location }}<br>
 <i class="far fa-calendar-alt"></i>&nbsp;&nbsp;{{ seminar.date | date:"%b %d, %Y" }}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-{%- if seminar.video_url -%}[Video]({{ seminar.video_url }}){:.btn .btn--primary}{% endif %}
+{%- if seminar.video_url -%}[Video]({{ seminar.video_url }}){:.btn .btn--danger}{% endif %}
 {% if seminar.slides_url -%}
-[Slides]({{ site.url }}{{ site.baseurl }}{{ seminar.slides_url }}){:.btn .btn--warning .tag__highlight}
+[Slides]({{ site.url }}{{ site.baseurl }}{{ seminar.slides_url }}){:.btn .btn--info .tag__highlight}
 <span class="pdf__preload"><img src="{{ site.url }}{{ site.baseurl }}{{ seminar.slides_url }}"></span>
 {%- endif -%}
 
