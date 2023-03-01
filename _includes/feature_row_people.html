@@ -3,13 +3,13 @@
 <div class="people_row" markdown=1>
 <div class="people_img"><img src="{{ f.image_path }}"></div>
 <div style="overflow: hidden;" markdown=1>
-**{{ f.title | upcase }}**{% if f.time %}&nbsp;&nbsp;[{{ f.time }}]{% endif %}
-&nbsp;&nbsp;
-[EMAIL]("mailto:{{ f.email }}"){: .btn .btn--primary .u-email}
-{%- if f.website -%}[WEB]("{{ f.website }}"){: .btn .btn--primary }{%- endif -%}
-{%- if f.arxiv -%}[ARXIV]({{ f.arxiv }}){: .btn .btn--primary }{%- endif -%}
-<br>
-{%- if f.designation -%}<i class="fas fa-user-tie"></i>&nbsp;&nbsp;{{ f.designation }}{% endif %}
+**{{ f.title | upcase }}**{% if f.time %}
+[{{ f.time }}]{% endif %}
+<span>[EMAIL]("mailto:{{ f.email }}"){: .btn .btn--primary .u-email}</span>
+<span>{%- if f.website -%}[WEB]("{{ f.website }}"){: .btn .btn--primary }{%- endif -%}</span>
+<span>{%- if f.arxiv -%}[ARXIV]({{ f.arxiv }}){: .btn .btn--primary }{%- endif -%}</span>
+
+{% if f.designation %}<i class="fas fa-user-tie"></i>&nbsp;&nbsp;{{ f.designation }}{% endif %}
 
 {% if f.thesis %}<span markdown=1>**THESIS TITLE**: {{ f.thesis }}</span>{% endif %}
 <div class="people_row_excerpt" markdown=1>{{ f.excerpt }}

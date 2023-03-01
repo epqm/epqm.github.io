@@ -11,23 +11,22 @@ layout: splash
 </div>
 
 <div class="home__column__main" markdown=1>
- <div class="home__column_skewed" markdown=1>
-  <div class="home__banner__title" markdown=1>
-  {{ site.categories["publications-and-preprints"][0].title }}
-  </div> 
-  <span class="home__banner__abstract" markdown=1> 
-  {{ site.data.publications[0]["abstract"] | truncate:300 }}
-  </span> &nbsp;&nbsp;[Learn More]({{ site.categories["publications-and-preprints"][0].url }}){: .btn .btn--danger }
- </div>
- <div class="home__column_skewed" markdown=1>
-  **Who are we?**
-  <span class="epqm_description">{{ site.description }}</span>
+<div class="home__column_skewed" markdown=1>
+<div class="home__banner__title" markdown=1>
+{{ site.categories["publications-and-preprints"][0].title }}
+</div> 
+<span class="home__banner__abstract" markdown=1> 
+{{ site.categories["publications-and-preprints"][0].excerpt | truncate:300 }}
+</span> &nbsp;&nbsp;[Learn More]({{ site.categories["publications-and-preprints"][0].url }}){: .btn .btn--danger }
+</div>
+<div class="home__column_skewed" markdown=1>
+# *E*mergent *P*henomena in *Q*uantum *M*atter
+<span class="epqm_description">{{ site.description }}</span>
 
-  [EPQM in a nutshell](/about/#what-is-epqm){: .btn .btn--primary }
-  [Research](/research/#overview-of-our-research){: .btn .btn--primary }
-
-  [Openings](/about/#openings){: .btn .btn--primary }
- </div>
+[EPQM in a nutshell](/about/#what-is-epqm){: .btn .btn--primary }
+[Research](/research/#overview-of-our-research){: .btn .btn--primary }
+[Openings](/about/#openings){: .btn .btn--primary }
+</div>
 </div>
 
 

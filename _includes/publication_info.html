@@ -11,8 +11,6 @@
 <br>
 <span class='pub__authors'>{{ work["authors"] | join:", " | replace: "Siddhartha Lal", "<b>Siddhartha Lal</b>" }}</span>
 {{ work["submit_date"] | strip | date: "%b %-d, %Y" }}&nbsp;&nbsp;&nbsp;
-{%- if work["doi"] -%}
-<a href="{{ work["doi"] }}" class="btn btn--danger tag__highlight">{{ work["journal_ref_short"] }}</a>
-{%- endif -%}
+{%- if work["doi"] -%}<a href="{{ work["doi"] }}" class="btn btn--danger tag__highlight">{{ work["journal_ref_short"] }}</a>{% endif %}
 <a href="{{ work["arxiv_doi"] }}" class="btn btn--primary tag__highlight">{{ work["arxiv_ref"] | replace: "cond-mat/","" }}</a>
 </div>

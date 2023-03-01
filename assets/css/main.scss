@@ -35,12 +35,6 @@ p.body__img {
 	text-align: center;
 }
 
-// reduce padding inside the tag
-// alert boxes
-.btn:not(.btn--large) + .btn:not(.btn--large) {
-	margin-left: 1.5em;
-}
-
 
 // remove the translucent feature
 // of the author profile
@@ -445,11 +439,6 @@ body{
 	opacity: 0.8;
 	font-style: italic;
 	margin-top: 0;
-}
-
-.home__column_skewed strong {
-	margin-top: 0;
-	font-size: x-large;
 }
 
 .home_banner_image {
