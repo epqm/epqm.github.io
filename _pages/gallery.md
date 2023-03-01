@@ -11,10 +11,12 @@ gallery_milestones1:
   - image_path: /assets/images/gallery/spa_presub.jpeg
 gallery_milestones2:
   - image_path: /assets/images/gallery/anirban-defence.png
-
 gallery_general1:
   - image_path: /assets/images/gallery/gen1.png
   - image_path: /assets/images/gallery/gen2.jpeg
+  - image_path: /assets/images/gallery/gen4.jpeg
+header:
+    overlay_image: /assets/images/gallery/gallery_header.svg
 
 ---
 
@@ -26,4 +28,4 @@ gallery_general1:
 {% include gallery id="gallery_milestones2" layout="" caption="Thesis defence presentation of Anirban Mukherjee."%}
 
 ## Some other snapshots of our group
-{% include gallery id="gallery_general1" layout="third" caption="Left: EPQM at the research complex. Right: Dinner outing in celebration of Santanu Pal's thesis defence."%}
+{% include gallery id="gallery_general1" layout="third" caption="Left: EPQM at the research complex. Middle: Dinner outing in celebration of Santanu Pal's thesis defence. Right: Another dinner, at the same restaurant coincidentally."%}
