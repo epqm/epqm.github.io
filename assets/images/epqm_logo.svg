@@ -2,13 +2,13 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="42.317894mm"
-   height="37.478722mm"
-   viewBox="0 0 42.317893 37.478721"
+   width="38.764954mm"
+   height="34.16917mm"
+   viewBox="0 0 38.764953 34.16917"
    version="1.1"
    id="svg78346"
    inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
-   sodipodi:docname="epqm_logo_home.svg"
+   sodipodi:docname="epqm_logo.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -26,8 +26,8 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="1.2361357"
-     inkscape:cx="-2.426918"
-     inkscape:cy="82.515213"
+     inkscape:cx="-10.516645"
+     inkscape:cy="75.234458"
      inkscape:window-width="1920"
      inkscape:window-height="1019"
      inkscape:window-x="1920"
@@ -63,7 +63,7 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-94.483597,-86.930634)">
+     transform="translate(-96.460808,-88.725311)">
     <image
        width="43.371586"
        height="43.356953"
@@ -74,12 +74,5 @@
        x="93.972855"
        y="84.698929"
        clip-path="url(#clipPath2827)" />
-    <rect
-       style="fill:none;fill-opacity:1;stroke:#606060;stroke-width:1.5;stroke-dasharray:none;stroke-opacity:1"
-       id="rect2803-6"
-       width="40.817894"
-       height="35.978722"
-       x="95.233597"
-       y="87.680634" />
   </g>
 </svg>
