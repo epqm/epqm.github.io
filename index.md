@@ -4,8 +4,8 @@ layout: splash
 ---
 
 <div class="home_banner_image">
-<a href="{{ site.categories["publications and preprints"][0].url }}">
-{% assign post = site.categories["publications and preprints"][0] %}
+<a href="{{ site.categories["publications-and-preprints"][0].url }}">
+{% assign post = site.categories["publications-and-preprints"][0] %}
 {% if post.header["overlay_image"] %}<img src="{{ post.header["overlay_image"] }}">{% else %}<img src="{{ post.header["image"] }}">{% endif %}
 </a>
 </div>
@@ -13,11 +13,11 @@ layout: splash
 <div class="home__column__main" markdown=1>
  <div class="home__column_skewed" markdown=1>
   <div class="home__banner__title" markdown=1>
-  {{ site.categories["publications and preprints"][0].title }}
+  {{ site.categories["publications-and-preprints"][0].title }}
   </div> 
   <span class="home__banner__abstract" markdown=1> 
   {{ site.data.publications[0]["abstract"] | truncate:300 }}
-  </span> &nbsp;&nbsp;[Learn More]({{ site.categories["publications and preprints"][0].url }}){: .btn .btn--danger }
+  </span> &nbsp;&nbsp;[Learn More]({{ site.categories["publications-and-preprints"][0].url }}){: .btn .btn--danger }
  </div>
  <div class="home__column_skewed" markdown=1>
   **Who are we?**
@@ -34,11 +34,11 @@ layout: splash
 ## <i class="fas fa-bookmark"></i>&nbsp;&nbsp;[Recent Articles/Preprints](/posts/)
 <div class="home__column__main" markdown=1>
  <div class="home__column" markdown=1>
- {% assign post = site.categories["publications and preprints"][1] %}
+ {% assign post = site.categories["publications-and-preprints"][1] %}
  {% include feature_row_posts type="center" %}
  </div>
  <div class="home__column" markdown=1>
- {% assign post = site.categories["publications and preprints"][2] %}
+ {% assign post = site.categories["publications-and-preprints"][2] %}
  {% include feature_row_posts type="center" %}
  </div>
 </div>
