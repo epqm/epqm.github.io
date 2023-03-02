@@ -9,11 +9,9 @@ header:
 
 ---
 
-# Group members
-
 {% for class in site.data.people %}
 
-## {{ class[0] }}
+# {{ class[0] }}
 
 {% include feature_row_people.html %}
 

@@ -30,19 +30,20 @@ layout: splash
 </div>
 
 
-## <i class="fas fa-bookmark"></i>&nbsp;&nbsp;[Recent Articles/Preprints](/posts/)
+## <i class="fas fa-bookmark"></i>&nbsp;&nbsp;Recent Articles/Preprints[[see all]](/posts/){: .btn .btn--small }
 <div class="home__column__main" markdown=1>
- <div class="home__column" markdown=1>
- {% assign post = site.categories["publications-and-preprints"][1] %}
- {% include feature_row_posts type="center" %}
- </div>
- <div class="home__column" markdown=1>
- {% assign post = site.categories["publications-and-preprints"][2] %}
- {% include feature_row_posts type="center" %}
- </div>
+<div class="home__column" markdown=1>
+{% assign post = site.categories["publications-and-preprints"][1] %}
+{% include feature_row_posts type="center" %}
+</div>
+<div class="home__column" markdown=1>
+{% assign post = site.categories["publications-and-preprints"][2] %}
+{% include feature_row_posts type="center" %}
 </div>
 
-## <i class="fas fa-bolt"></i>&nbsp;&nbsp;[Recent Updates](/posts/)
+</div>
+
+## <i class="fas fa-bolt"></i>&nbsp;&nbsp;Recent Updates[[see all]](/posts/){: .btn .btn--small }
 <div class="home__column__main" markdown=1>
 {% for post in site.categories["updates"] limit:2 %}
 <div class="home__column" markdown=1>

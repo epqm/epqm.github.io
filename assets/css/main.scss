@@ -299,22 +299,6 @@ body{
 	}
 }
 
-.page__hero--overlay .wrapper {
-	@include breakpoint($small) {
-		position: relative;
-		top: 30%;
-		transform: translateY(-50%);
-	}
-}
-
-// .page__hero--overlay .wrapper .page__title, .page__hero--overlay .wrapper .page__lead {
-// 	@include breakpoint($small) {
-// 		width: 65%;
-// 		margin-top: 1em;
-// 		margin-bottom: 1em;
-// 	}
-// }
-
 .page__title {
 	line-height: 1.4;
 }
@@ -472,4 +456,12 @@ h2 {
 .page .body_img img {
 	max-width: 300px;
 	margin: auto;
+}
+
+
+.btn--info {
+	background-color: $link-color;
+}
+.btn--info:visited {
+	background-color: $link-color;
 }

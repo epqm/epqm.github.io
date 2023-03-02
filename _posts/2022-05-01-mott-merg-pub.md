@@ -17,8 +17,6 @@ header:
 
 {% include show_abstract.html %}
 
----
-
 The paradigm of high-temperature superconductivity displayed by the doped Mott insulating cuprate family of materials serves up several outstanding challenges to our understanding of quantum condensed matter systems. One of these pertains to the very origin of superconductivity in these materials: can superconductivity arise purely from a system that has repulsive interactions among the electrons? Recall that the pairing of electrons is essential to the phenomenon of superconductivity, and that this can only happen when electrons attract one another. Instead, in metals and insulators, the electrons suffer repulsion.
 
 ![](/assets/images/mott-merg/superconductivity.jpg)

@@ -1,7 +1,7 @@
 <div class="post_abstract">
 <div id="current_abstract" class="archive__item-excerpt">{{ page.excerpt | truncate:300 }}</div>
-<div id="readmore_abstract" class="btn btn--primary" onclick="readmore_abstract()">Show excerpt</div>
-<div id="readless_abstract" class="btn btn--primary" onclick="readless_abstract()">Hide excerpt</div>
+<div id="readmore_abstract" class="btn btn--info" onclick="readmore_abstract()">Show excerpt</div>
+<div id="readless_abstract" class="btn btn--info" onclick="readless_abstract()">Hide excerpt</div>
 </div>
 <div id="short_abstract">
 {{ page.excerpt | truncate:300 }}
@@ -9,3 +9,5 @@
 <div id="full_abstract">
 {{ page.excerpt }}
 </div>
+
+---
