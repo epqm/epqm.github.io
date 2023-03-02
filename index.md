@@ -15,44 +15,54 @@ layout: splash
 <div class="home__banner__title" markdown=1>
 {{ site.categories["publications-and-preprints"][0].title }}
 </div> 
-<span class="home__banner__abstract" markdown=1> 
-{{ site.categories["publications-and-preprints"][0].excerpt | truncate:300 }}
-</span>
-<br>
+{% for pub in site.data.publications %}
+{% if pub["permalink"] == site.categories["publications-and-preprints"][0].permalink %}
+**{{ site.categories["publications-and-preprints"][0].date | date: "%b %d, %Y" | upcase }}**. <span class="home__banner__abstract">{{ pub["abstract"] | split:". " | slice: 0,3 | join: ". " | append: "." }}</span>
 [Learn More]({{ site.categories["publications-and-preprints"][0].url }}){: .btn .btn--danger }
+{% endif %}
+{% endfor %}
 </div>
 <div class="home__column_skewed" markdown=1>
 # *Emergent Phenomena in Quantum Matter*
 <span class="home__banner__abstract">*{{ site.description }}*</span>
 
 [EPQM in a nutshell](/about/#what-is-epqm){: .btn .btn--info }
+
 [Research](/research/#overview-of-our-research){: .btn .btn--info }
-[Openings](/about/#openings){: .btn .btn--info }
+
+[Members](/people){: .btn .btn--info }
 </div>
 </div>
 
 
-## <i class="fas fa-bookmark"></i>&nbsp;&nbsp;Recent Articles/Preprints[[see all]](/posts/){: .btn .btn--small }
+## <i class="fas fa-bookmark"></i>&nbsp;&nbsp;Recent Articles/Preprints[[see all]](/posts/#publication-and-preprint-updates){: .btn .btn--small }
 <div class="home__column__main" markdown=1>
 <div class="home__column" markdown=1>
 {% assign post = site.categories["publications-and-preprints"][1] %}
 {% include feature_row_posts type="center" %}
 </div>
 <div class="home__column" markdown=1>
+{% assign post = site.categories["publications-and-preprints"][3] %}
+{% include feature_row_posts type="center" %}
+</div>
+<div class="home__column__main" markdown=1>
+<div class="home__column" markdown=1>
 {% assign post = site.categories["publications-and-preprints"][2] %}
 {% include feature_row_posts type="center" %}
 </div>
-
-</div>
-
-## <i class="fas fa-bolt"></i>&nbsp;&nbsp;Recent Updates[[see all]](/posts/){: .btn .btn--small }
-<div class="home__column__main" markdown=1>
-{% for post in site.categories["updates"] limit:2 %}
 <div class="home__column" markdown=1>
+{% assign post = site.categories["publications-and-preprints"][4] %}
 {% include feature_row_posts type="center" %}
 </div>
-{% endfor %}
+
 </div>
+
+## <i class="fas fa-bolt"></i>&nbsp;&nbsp;Miscellaneous News[[see all]](/posts/#miscellaneous-news){: .btn .btn--small }
+
+{% for post in site.categories["updates"] limit:2 %}
+- {{ post.date | date: "%b %d, %Y" | upcase }}. **{{ post.title }}**&nbsp;&nbsp;<a href="{{ post.url | relative_url }}" class="btn btn--danger">{{ post.btn_label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a>
+{% endfor %}
+<br>
 
 <div class="home__column__main" markdown=1>
 <div class="home__column" markdown=1>
