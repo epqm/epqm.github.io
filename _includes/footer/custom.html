@@ -85,19 +85,18 @@ function readless() {
 
 
 <script>
+var shortabstract = document.getElementById("short_abstract");
+var fullabstract = document.getElementById("full_abstract");
 function readmore_abstract() {
-    var oldabstract = document.getElementById("current_abstract");
-    var newabstract = document.getElementById("full_abstract");
-    oldabstract.textContent = newabstract.innerText;
+    shortabstract.style.display = "none";
+    fullabstract.style.display = "inline-block";
     event.target.style.display = "none";
     var readlesselement = document.getElementById("readless_abstract");
     readlesselement.style.display = "inline-block";
 }
 
 function readless_abstract() {
-    var oldabstract = document.getElementById("current_abstract");
-    var newabstract = document.getElementById("short_abstract");
-    oldabstract.textContent = "";
+    fullabstract.style.display = "none";
     event.target.style.display = "none";
     var readmoreelement = document.getElementById("readmore_abstract");
     readmoreelement.style.display = "inline-block";

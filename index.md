@@ -17,11 +17,13 @@ layout: splash
 </div> 
 <span class="home__banner__abstract" markdown=1> 
 {{ site.categories["publications-and-preprints"][0].excerpt | truncate:300 }}
-</span> &nbsp;&nbsp;[Learn More]({{ site.categories["publications-and-preprints"][0].url }}){: .btn .btn--danger }
+</span>
+<br>
+[Learn More]({{ site.categories["publications-and-preprints"][0].url }}){: .btn .btn--danger }
 </div>
 <div class="home__column_skewed" markdown=1>
-# *E*mergent *P*henomena in *Q*uantum *M*atter
-<span class="epqm_description">{{ site.description }}</span>
+# *Emergent Phenomena in Quantum Matter*
+<span class="home__banner__abstract">*{{ site.description }}*</span>
 
 [EPQM in a nutshell](/about/#what-is-epqm){: .btn .btn--info }
 [Research](/research/#overview-of-our-research){: .btn .btn--info }
@@ -63,7 +65,7 @@ layout: splash
 - To pique your artistic side, each EPQM member has provided their recommendation for a single work of fiction which they believe should be experienced by everyone at least once. [Check them out!](/fiction-recommendations/)
 </div>
 <div class="home__column" markdown=1>
-## <i class="fas fa-mug-hot"></i>&nbsp;&nbsp;Like what you see?
+## <i class="fas fa-mug-hot"></i>&nbsp;&nbsp;Like what you see so far?
 - Take a look at our [research interests](/research/) and [publications](/publications/) to get a better idea of what we do. 
 
 - We have also put up a number of our [seminars](/seminars/) (slides/videos) on various topics in quantum condensed matter physics.

@@ -1,6 +1,6 @@
 ---
 title: "Our work on the single-channel Kondo problem has been published in Phys. Rev. B"
-excerpt: "In the work, we study the feedback effect of Kondo cloud screening on the conduction electrons, obtaining an effective Hamiltonian that describes its dynamics."
+excerpt: "We analyze the single-channel Kondo model using the recently developed unitary renormalization-group (URG) method and obtain a comprehensive understanding of the Kondo screening cloud."
 permalink: /2111.10580/
 categories:
   - publications-and-preprints

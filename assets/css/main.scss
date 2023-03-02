@@ -418,14 +418,9 @@ body{
 	font-style: italic;
 }
 
-.epqm_description {
-	font-style: italic;
-	opacity: 0.8;
-}
-
 .home__banner__abstract {
-	opacity: 0.8;
 	font-style: italic;
+	color: #666;
 	margin-top: 0;
 }
 
@@ -443,7 +438,7 @@ h2 {
 }
 
 
-#readless_abstract,#short_abstract,#full_abstract {
+#readless_abstract,#full_abstract {
 	display: none;
 }
 
