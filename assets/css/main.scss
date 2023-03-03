@@ -208,7 +208,6 @@ body{
 }
 
 .feature__wrapper .archive__item-teaser, .feature__wrapper .archive__item-body {
-	margin-bottom: 1em;
 	text-align: left;
 }
 
@@ -219,8 +218,14 @@ body{
 	}
 }
 
-.feature__wrapper .archive__item-body .archive__item-title {
-	font-size: 120%;
+.feature__item--left .feature__wrapper .archive__item-body {
+	margin-top: -2em;
+	@include breakpoint($small) {
+		margin-top: -0.2em;
+	}
+	> .archive__item-title {
+		font-size: 120%;
+	}
 }
 
 
@@ -398,9 +403,12 @@ body{
 	padding: 0.4em;
 }
 
-.feature__wrapper::after {
-	display: none;
+
+.feature__wrapper {
+	border-bottom: 0;
+	margin-bottom: 0;
 }
+
 
 .home__banner__title {
 	text-align: left;
@@ -459,4 +467,9 @@ h2 {
 }
 .btn--info:visited {
 	background-color: $link-color;
+}
+
+.page__content h2 {
+	padding-bottom: 0.3em;
+	margin-bottom: 0.5em;
 }

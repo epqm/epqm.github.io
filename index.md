@@ -35,27 +35,22 @@ layout: splash
 </div>
 
 
-## <i class="fas fa-bookmark"></i>&nbsp;&nbsp;Recent Articles/Preprints[[see all]](/posts/#publication-and-preprint-updates){: .btn .btn--small }
+## <i class="fas fa-bookmark"></i>&nbsp;&nbsp;Recent Articles/Preprints[[see all]](/posts/#publication-and-preprint-updates){: .btn }
 <div class="home__column__main" markdown=1>
-<div class="home__column" markdown=1>
-{% assign post = site.categories["publications-and-preprints"][1] %}
-{% include feature_row_posts type="center" %}
-</div>
-<div class="home__column" markdown=1>
-{% assign post = site.categories["publications-and-preprints"][3] %}
-{% include feature_row_posts type="center" %}
+{% for post in site.categories["publications-and-preprints"] limit:2 %}
+  <div class="home__column" markdown=1>
+  {% include feature_row_posts type="center" %}
+  </div>
+  {% endfor %}
 </div>
 <div class="home__column__main" markdown=1>
-<div class="home__column" markdown=1>
-{% assign post = site.categories["publications-and-preprints"][2] %}
-{% include feature_row_posts type="center" %}
-</div>
-<div class="home__column" markdown=1>
-{% assign post = site.categories["publications-and-preprints"][4] %}
-{% include feature_row_posts type="center" %}
+  {% for post in site.categories["publications-and-preprints"] offset:2 limit:2 %}
+  <div class="home__column" markdown=1>
+  {% include feature_row_posts type="center" %}
+  </div>
+  {% endfor %}
 </div>
 
-</div>
 
 ## <i class="fas fa-bolt"></i>&nbsp;&nbsp;Miscellaneous News[[see all]](/posts/#miscellaneous-news){: .btn .btn--small }
 
