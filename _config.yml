@@ -86,24 +86,12 @@ author:
   location         : "India"
   email            : "slal@iiserkol.ac.in"
   links:
-    - label: "Institute profile"
-      icon: "fas fa-fw fa-building"
-      url: "https://www.iiserkol.ac.in/web/en/people/faculty/dps/slal/"
-    - label: "ResearchGate"
-      icon: "fab fa-fw fa-researchgate"
-      url: "https://www.researchgate.net/profile/Siddhartha-Lal-2"
-    - label: "ARXIV"
-      icon: "fas fa-dna"
+    - label: "Arxiv"
+      icon: "fas fa-vector-square"
       url: "https://arxiv.org/search/?searchtype=author&query=Lal%2C+Siddhartha"
-    - label: "G. Scholar"
-      icon: "fas fa-graduation-cap"
-      url: "https://scholar.google.co.in/citations?user=QRSxh6kAAAAJ&hl=en"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
     - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
+      icon: "fab fa-fw fa-facebook-messenger"
+      url: "https://www.facebook.com/epqmgroup/"
 
 # Site Footer
 footer:
@@ -291,3 +279,5 @@ defaults:
       sidebar:
         title: "Quick links"
         nav: sidebar
+
+github: [metadata]
