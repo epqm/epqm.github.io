@@ -22,11 +22,11 @@ header:
 
 <div class="publication_slider">
 <div class="slider__dots">
-<a class="slide__arrow" id="slide__arrow__1"><i class="fas fa-chevron-left" onclick="switch_slide(-1)"></i></a>&nbsp;
+<a class="slide__arrow" id="slide__prev__1"><i class="fas fa-chevron-left" onclick="switch_slide(-1)"></i></a>&nbsp;
 {% for i in (1..num_slides) %}
 <a class="slider__dot" id="slider__dot__{{ forloop.index }}" onclick="show_slide()"></a>
 {% endfor %}
-&nbsp;<a class="slide__arrow" id="slide__arrow__1"><i class="fas fa-chevron-right" onclick="switch_slide(1)"></i></a>
+&nbsp;<a class="slide__arrow" id="slide__next__1"><i class="fas fa-chevron-right" onclick="switch_slide(1)"></i></a>
 </div>
 {% for i in (1..num_slides) %}
 {% assign off_set = forloop.index | minus:1 | times: slides_per_page %}
