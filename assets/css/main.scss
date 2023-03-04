@@ -29,10 +29,17 @@ a {
 	margin: auto;
 }
 
-p.body__img {
-	width: 100%;
-	font-weight: bold;
-	text-align: center;
+.body__img {
+	// font-weight: bold;
+	// font-style: italic;
+	color: #444;
+	text-align: justify;
+	// margin-top: -2em;
+	padding: 1em;
+	background-color: #dde;
+	// background-image: linear-gradient(#ccc, $background-color);
+	// border-bottom: 0.1em solid gray;
+	// border-top: 0.2em solid #ddd;
 }
 
 
@@ -107,7 +114,6 @@ p.body__img {
 .page__content {
 	text-align: justify;
 	@include breakpoint($medium) {
-		// text-align: justify;
 		font-size: smaller;
 	}
 }
@@ -473,3 +479,5 @@ h2 {
 	padding-bottom: 0.3em;
 	margin-bottom: 0.5em;
 }
+
+
