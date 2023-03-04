@@ -3,22 +3,40 @@ layout: splash
 
 ---
 
+{% assign num_slides = 6 %}
+<div class="publication_slider">
+{% for post in site.categories["publications-and-preprints"] limit:num_slides %}
+{% assign next_slide_num = forloop.index | plus:1 %}
+{% assign prev_slide_num = forloop.index | minus:1 %}
+{% if forloop.index == num_slides %}
+{% assign next_slide_num = 1 %}
+{% endif %}
+{% if forloop.index == 1 %}
+{% assign prev_slide_num = num_slides %}
+{% endif %}
+
+<div class="pub_slide" id="pub_slide_{{ forloop.index }}" markdown=1>
 <div class="home_banner_image">
-<a href="{{ site.categories["publications-and-preprints"][0].url }}">
-{% assign post = site.categories["publications-and-preprints"][0] %}
+<a href="{{ post.url }}">
 {% if post.header["overlay_image"] %}<img src="{{ post.header["overlay_image"] }}">{% else %}<img src="{{ post.header["image"] }}">{% endif %}
 </a>
+
 </div>
 
 <div class="home__column__main" markdown=1>
 <div class="home__column_skewed" markdown=1>
-<div class="home__banner__title" markdown=1>
-{{ site.categories["publications-and-preprints"][0].title }}
-</div> 
+<span class="btn btn--success" onclick="show_highlight({{ prev_slide_num }})"><span class="fa-solid fa-chevron-left"></span>&nbsp;&nbsp;Prev</span>&nbsp;&nbsp;<span class="btn btn--success" onclick="show_highlight({{ next_slide_num }})">Next&nbsp;&nbsp;<span class="fa-solid fa-chevron-right"></span></span>
+
+<div class="home__banner__title" markdown=1>{{ post.title }}
+</div>
+ 
 {% for pub in site.data.publications %}
-{% if pub["permalink"] == site.categories["publications-and-preprints"][0].permalink %}
-**{{ site.categories["publications-and-preprints"][0].date | date: "%b %d, %Y" | upcase }}**. <span class="home__banner__abstract">{{ pub["abstract"] | split:". " | slice: 0,2 | join: ". " | append: "." }}</span>
-[Learn More]({{ site.categories["publications-and-preprints"][0].url }}){: .btn .btn--danger }
+{% if pub["permalink"] == post.permalink %}
+<strong style="inline; float: left;">{{ post.date | date: "%b %d, %Y" | upcase }}.</strong>
+<div class="home__banner__abstract" style="inline; float: left;">{{ pub["abstract"] | split:". " | slice: 0,2 | join: ". " | append: "." }}
+</div>
+[Learn More]({{ post.url }}){: .btn .btn--danger }
+
 {% endif %}
 {% endfor %}
 </div>
@@ -32,10 +50,11 @@ layout: splash
 [Research](/research/#overview-of-our-research){: .btn .btn--info }
 [Members](/people){: .btn .btn--info }
 </div>
-
 </div>
 </div>
-
+</div>
+{% endfor %}
+</div>
 
 ## <i class="fas fa-bookmark"></i>&nbsp;&nbsp;Recent Articles [[see all]](/posts/#publication-and-preprint-updates){: .btn }
 <div class="home__column__main" markdown=1>
