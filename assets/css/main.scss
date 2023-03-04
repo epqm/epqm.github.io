@@ -20,6 +20,7 @@ search: false
 a {
 	font-weight: bold;
 	text-decoration: none;
+	cursor: pointer;
 }
 
 // center align all images
@@ -30,16 +31,10 @@ a {
 }
 
 .body__img {
-	// font-weight: bold;
-	// font-style: italic;
 	color: #444;
 	text-align: justify;
-	// margin-top: -2em;
 	padding: 1em;
 	background-color: #dde;
-	// background-image: linear-gradient(#ccc, $background-color);
-	// border-bottom: 0.1em solid gray;
-	// border-top: 0.2em solid #ddd;
 }
 
 
@@ -47,13 +42,6 @@ a {
 // of the author profile
 .sidebar {
 	opacity: 1;
-}
-
-// makes the overall font-size of the publication entries 
-// slightly smaller, appears in publications page, and 
-// random publications part of home page
-.pub__global {
-	text-align: left;
 }
 
 // makes the author list font colour slightly gray in the
@@ -116,14 +104,6 @@ a {
 	@include breakpoint($medium) {
 		font-size: smaller;
 	}
-}
-
-li {
-	text-align: left;
-}
-
-body{
-  line-height: 1.4;
 }
 
 // sets margin to set spacing between
@@ -213,7 +193,7 @@ body{
 	width: 100%;
 }
 
-.feature__wrapper .archive__item-teaser, .feature__wrapper .archive__item-body {
+.feature__wrapper .archive__item-teaser, .feature__wrapper .archive__item-body, .pub__global, li {
 	text-align: left;
 }
 
@@ -310,7 +290,7 @@ body{
 	}
 }
 
-.page__title {
+.page__title body {
 	line-height: 1.4;
 }
 
@@ -322,47 +302,6 @@ body{
 	@include breakpoint($small) {
 		margin-top: 1em;
 	}
-}
-
-
-.prev, .next {
-  cursor: pointer;
-  position: relative;
-  color: black;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-  opacity: 0.5;
-}
-
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-	opacity: 1;
-}
-
-.publications__rest_main {
-	display: none;
-}
-.publications__rest__hover:hover~.publications__rest_main {
-	display: block;
-}
-
-.publications__rest_main:hover {
-	display: block;
-}
-
-.dot_caption {
-	display: block;
-	margin: 0;
-	text-align: center;
 }
 
 .sidebar .nav__title {
@@ -436,6 +375,7 @@ body{
 	font-style: italic;
 	color: #666;
 	margin-top: 0;
+	font-size: x-small;
 }
 
 .home_banner_image {
@@ -444,11 +384,6 @@ body{
 		width: 98vw;
 	}
 	margin-bottom: 1em;
-}
-
-h2 {
-	font-size: 130%;
-	margin: 0 0 0;
 }
 
 
@@ -462,12 +397,6 @@ h2 {
 	margin-top: 1em;
 }
 
-.page .small_img img {
-	max-width: 300px;
-	margin: auto;
-}
-
-
 .btn--info {
 	background-color: $link-color;
 }
@@ -478,6 +407,48 @@ h2 {
 .page__content h2 {
 	padding-bottom: 0.3em;
 	margin-bottom: 0.5em;
+	font-size: 130%;
+	margin: 0 0 0;
 }
 
+.slider__dots {
+	text-align: center;
+}
 
+.slider__dot {
+	height: 25px;
+	aspect-ratio: 1 / 1;
+	background-color: #555;
+	border-radius: 50%;
+	display: inline-block;
+	opacity: 0.3;
+}
+
+#slider__dot__1 {
+	opacity: 1;
+}
+
+.slider__dot:hover {
+	transform: scale(1.4);
+}
+
+.slider__dot + .slider__dot {
+	margin-left: 0.6em;
+}
+
+.slide__arrow {
+	font-size: xx-large;
+	color: gray;
+}
+
+a {
+}
+
+.pub_slide {
+	margin-top: 1em;
+	display: none;
+}
+
+#pub_slide_1 {
+	display: block;
+}

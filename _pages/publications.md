@@ -12,32 +12,28 @@ header:
 
 <span class="pub__external__links">[ARXIV LINK]({{ site.author["links"][2]["url"] }}){: .btn .btn--warning } [G. SCHOLAR]({{ site.author["links"][3]["url"] }}){: .btn .btn--success }</span>
 
-<div class="slideshow-container" markdown=1>
+{% assign slides_per_page = 6 %}
+{% assign rem = site.data.publications.size | modulo:slides_per_page %}
+{% if rem == 0 %}
+{% assign num_slides = site.data.publications.size | divided_by:slides_per_page %}
+{% else %}
+{% assign num_slides = site.data.publications.size | divided_by:slides_per_page | plus: 1 %}
+{% endif %}
 
-<div class="dot__sliding" id="dot__sliding" markdown=1>
-<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-{%- for i in (1..6) -%}
-&nbsp;<a href="{{ page.permalink }}#highlights" class="dot" onclick="currentSlide({{ i }})"></a>&nbsp;
-{%- endfor -%}
-<a class="next" onclick="plusSlides(1)">&#10095;</a>
-</div>
-{% assign pages = site.data.publications | size | divided_by: 6 %}
-{% for page in (0..pages) %}
-{% assign first = page | times: 6 %}
-<div class="mySlides fade" markdown=1>
-<span class="dot_caption"><b>{{ first | plus: 1 }} - {{ first | plus: 6 }}</b></span>
-{% for work in site.data.publications offset: first limit: 6 %}
-{% include publication_info.html %}
+<div class="publication_slider">
+<div class="slider__dots">
+<a class="slide__arrow" id="slide__arrow__1"><i class="fas fa-chevron-left" onclick="switch_slide(-1)"></i></a>&nbsp;
+{% for i in (1..num_slides) %}
+<a class="slider__dot" id="slider__dot__{{ forloop.index }}" onclick="show_slide()"></a>
 {% endfor %}
+&nbsp;<a class="slide__arrow" id="slide__arrow__1"><i class="fas fa-chevron-right" onclick="switch_slide(1)"></i></a>
+</div>
+{% for i in (1..num_slides) %}
+{% assign off_set = forloop.index | minus:1 | times: slides_per_page %}
+<div class="pub_slide" id="pub_slide_{{ forloop.index }}" markdown=1>
+[ **{{ off_set | plus:1 }} - {{ off_set | plus:slides_per_page }}** ]
+{: .text-center }
+{% for work in site.data.publications offset:off_set limit:slides_per_page %}<hr>{% include publication_info.html %}{% endfor %}
 </div>
 {% endfor %}
-
-</div>
-
-<div class="dot__sliding" markdown=1>
-<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-{%- for i in (1..6) -%}
-&nbsp;<a href="{{ page.permalink }}#highlights" class="dot" onclick="currentSlide({{ i }})"></a>&nbsp;
-{%- endfor -%}
-<a href="{{ page.permalink }}#highlights" class="next" onclick="plusSlides(1)">&#10095;</a>
 </div>

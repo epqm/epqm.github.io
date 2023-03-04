@@ -17,20 +17,22 @@ layout: splash
 </div> 
 {% for pub in site.data.publications %}
 {% if pub["permalink"] == site.categories["publications-and-preprints"][0].permalink %}
-**{{ site.categories["publications-and-preprints"][0].date | date: "%b %d, %Y" | upcase }}**. <span class="home__banner__abstract">{{ pub["abstract"] | split:". " | slice: 0,3 | join: ". " | append: "." }}</span>
+**{{ site.categories["publications-and-preprints"][0].date | date: "%b %d, %Y" | upcase }}**. <span class="home__banner__abstract">{{ pub["abstract"] | split:". " | slice: 0,2 | join: ". " | append: "." }}</span>
 [Learn More]({{ site.categories["publications-and-preprints"][0].url }}){: .btn .btn--danger }
 {% endif %}
 {% endfor %}
 </div>
 <div class="home__column_skewed" markdown=1>
-# *Emergent Phenomena in Quantum Matter*
-<span class="home__banner__abstract">*{{ site.description }}*</span>
+
+---
+# Emergent Phenomena in Quantum Matter
+<span class="home__banner__abstract">{{ site.description }}</span>
 
 [EPQM in a nutshell](/about/#what-is-epqm){: .btn .btn--info }
-
 [Research](/research/#overview-of-our-research){: .btn .btn--info }
-
 [Members](/people){: .btn .btn--info }
+
+---
 </div>
 </div>
 

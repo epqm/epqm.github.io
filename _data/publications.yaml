@@ -10,7 +10,21 @@
   tags:
   - cond-mat.str-el
   title: 'Holographic entanglement renormalisation for fermionic quantum matter: geometrical and topological aspects'
-- abstract: We propose a minimal effective impurity model that captures the phenomenology of the Mott-Hubbard metal-insulator transition (MIT) of the half-filled Hubbard model on the Bethe lattice in infinite dimensions as observed by dynamical mean field theory (DMFT). This involves extending the standard Anderson impurity model Hamiltonian to include an explicit Kondo coupling $J$, as well as a local on-site correlation $U_b$ on the conduction bath site connected directly to the impurity. For the case of attractive local bath correlations ($U_{b}<0$), the extended Anderson impurity model (e-SIAM) sheds new light on several aspects of the DMFT phase diagram. For example, the $T=0$ metal-to-insulator quantum phase transition (QPT) is preceded by an excited state quantum phase transition (ESQPT) where the local moment eigenstates are emergent in the low-lying spectrum. Long-ranged fluctuations are observed near both the QPT and ESQPT, suggesting that they are the origin of the quantum critical scaling observed recently at high temperatures in DMFT simulations. The $T=0$ gapless excitations at the QCP display particle-hole interconversion processes, and exhibit power-law behaviour in self-energies and two-particle correlations. These are signatures of non-Fermi liquid behaviour that emerge from the partial breakdown of the Kondo screening.
+- abstract: "An outstanding challenge involves understanding the many-particle entanglement of liquid states of quantum matter that arise in systems of interacting electrons. The Fermi liquid (FL) in \\(D\\) spatial dimensions shows a violation of the area-law in real-space entanglement entropy of a subsystem (of length \\(L\\)), \\(S_{EE} \\sim L^{D-1}\\ln L\\), widely believed to be a hallmark signature of the ground state of a gapless quantum critical system of interacting fermions. In this work, we apply a \\(T=0\\) renormalisation group approach to a prototype of the FL in momentum (or, \\(k\\))-space, unveiling thereby the RG relevant quantum fluctuations (due to forward and tangential scattering) from which long-range entanglement arises. A similar analysis of non-Fermi liquids such as the 2D marginal Fermi liquid (MFL) and the 1D Tomonaga-Luttinger liquid (TLL) reveals a universal logarithmic violation of the area-law in gapless electronic liquids for a subsystem defined within a \\(k\\)-space window (of size \\(\u039B\\)) proximate to the Fermi surface, with a proportionality constant that depends on the nature of the underlying Fermi surface. We extend this analysis to the gapped quantum liquids emergent from the destabilisation of the Fermi surface by quantum fluctuations arising from backscattering processes. Indeed, we find that the \\(k\\)-space entanglement signatures of gapped quantum liquids appear to be governed by the nature of the Fermi surface (e.g., nested or not) from which they emerge, as well as the nature of their parent gapless metallic liquid (e.g., FL, MFL etc.). This is confirmed by our finding an enhanced entanglement entropy for the nodal MFL present at the quantum critical point recently discovered in the 2D Hubbard model at optimal hole-doping. Our work thus paves the way for an entanglement based classification of quantum liquids emergent from the criticality of interacting fermionic matter."
+  arxiv_doi: https://arxiv.org/abs/2205.11123
+  arxiv_ref: arXiv:2205.11123
+  authors:
+  - Siddhartha Patra
+  - Anirban Mukherjee
+  - Siddhartha Lal
+  permalink: /2205.11123/
+  submit_date: 12 February, 2023
+  tags:
+  - cond-mat.str-el
+  - cond-mat.stat-mech
+  - cond-mat.supr-con
+  title: Universal entanglement signatures of quantum liquids as a guide to fermionic criticality
+- abstract: We propose a minimal effective impurity model that captures the phenomenology of the Mott-Hubbard metal-insulator transition (MIT) of the half-filled Hubbard model on the Bethe lattice in infinite dimensions as observed by dynamical mean field theory (DMFT). This involves extending the standard Anderson impurity model Hamiltonian to include an explicit Kondo coupling \(J\), as well as a local on-site correlation \(U_b\) on the conduction bath site connected directly to the impurity. For the case of attractive local bath correlations (\(U_{b}<0\)), the extended Anderson impurity model (e-SIAM) sheds new light on several aspects of the DMFT phase diagram. For example, the \(T=0\) metal-to-insulator quantum phase transition (QPT) is preceded by an excited state quantum phase transition (ESQPT) where the local moment eigenstates are emergent in the low-lying spectrum. Long-ranged fluctuations are observed near both the QPT and ESQPT, suggesting that they are the origin of the quantum critical scaling observed recently at high temperatures in DMFT simulations. The \(T=0\) gapless excitations at the QCP display particle-hole interconversion processes, and exhibit power-law behaviour in self-energies and two-particle correlations. These are signatures of non-Fermi liquid behaviour that emerge from the partial breakdown of the Kondo screening.
   arxiv_doi: https://arxiv.org/abs/2302.02328
   arxiv_ref: arXiv:2302.02328
   authors:
@@ -25,20 +39,6 @@
   - cond-mat.mes-hall
   - quant-ph
   title: 'Kondo frustration via charge fluctuations: a route to Mott localisation'
-- abstract: "An outstanding challenge involves understanding the many-particle entanglement of liquid states of quantum matter that arise in systems of interacting electrons. The Fermi liquid (FL) in $D$ spatial dimensions shows a violation of the area-law in real-space entanglement entropy of a subsystem (of length $L$), $S_{EE} \\sim L^{D-1}\\ln L$, widely believed to be a hallmark signature of the ground state of a gapless quantum critical system of interacting fermions. In this work, we apply a $T=0$ renormalisation group approach to a prototype of the FL in momentum (or, $k$)-space, unveiling thereby the RG relevant quantum fluctuations (due to forward and tangential scattering) from which long-range entanglement arises. A similar analysis of non-Fermi liquids such as the 2D marginal Fermi liquid (MFL) and the 1D Tomonaga-Luttinger liquid (TLL) reveals a universal logarithmic violation of the area-law in gapless electronic liquids for a subsystem defined within a $k$-space window (of size $\u039B$) proximate to the Fermi surface, with a proportionality constant that depends on the nature of the underlying Fermi surface. We extend this analysis to the gapped quantum liquids emergent from the destabilisation of the Fermi surface by quantum fluctuations arising from backscattering processes. Indeed, we find that the $k$-space entanglement signatures of gapped quantum liquids appear to be governed by the nature of the Fermi surface (e.g., nested or not) from which they emerge, as well as the nature of their parent gapless metallic liquid (e.g., FL, MFL etc.). This is confirmed by our finding an enhanced entanglement entropy for the nodal MFL present at the quantum critical point recently discovered in the 2D Hubbard model at optimal hole-doping. Our work thus paves the way for an entanglement based classification of quantum liquids emergent from the criticality of interacting fermionic matter."
-  arxiv_doi: https://arxiv.org/abs/2205.11123
-  arxiv_ref: arXiv:2205.11123
-  authors:
-  - Siddhartha Patra
-  - Anirban Mukherjee
-  - Siddhartha Lal
-  permalink: /2205.11123/
-  submit_date: 12 February, 2023
-  tags:
-  - cond-mat.str-el
-  - cond-mat.stat-mech
-  - cond-mat.supr-con
-  title: Universal entanglement signatures of quantum liquids as a guide to fermionic criticality
 - abstract: We study the overscreened multi-channel Kondo (MCK) model using the recently developed unitary renormalization group (URG) technique. Our results display the importance of ground state degeneracy in explaining various important properties like the breakdown of screening and the presence of local non-Fermi liquids. The impurity susceptibility of the intermediate coupling fixed point Hamiltonian in the zero-bandwidth (or star graph) limit shows a power-law divergence at low temperature, signalling its critical nature. Despite the absence of inter-channel coupling in the MCK fixed point Hamiltonian, the study of mutual information between any two channels shows non-zero correlation between them. A spectral flow analysis of the star graph reveals that the degenerate ground state manifold possesses topological quantum numbers. The low energy effective Hamiltonian obtained upon adding a finite non-zero conduction bath dispersion to the star graph Hamiltonian for both the two and three-channel cases displays the presence of local non-Fermi liquids arising from inter-channel quantum fluctuations. Discontinuous behaviour is observed in several measures of ground state entanglement, signalling the underlying orthogonality catastrophe associated with the degenerate ground state manifold. We extend our results to underscreened and perfectly screened MCK models through duality arguments. A study of channel anisotropy under renormalisation flow reveals a series of quantum phase transitions due to the change in ground state degeneracy. Our work thus presents a template for the study of how a degenerate ground state manifold arising from symmetry and duality properties in a multichannel quantum impurity model can lead to novel multicritical phases at intermediate coupling.
   arxiv_doi: https://arxiv.org/abs/2205.00790
   arxiv_ref: arXiv:2205.00790
@@ -71,22 +71,6 @@
   - math-ph
   - math.AT
   title: 'Graph Polynomial for Colored Embedded Graphs: A Topological Approach'
-- abstract: "It is well known that the topological entanglement entropy ($S_{topo}$) of a topologically ordered ground state in 2 spatial dimensions can be captured efficiently by measuring the tripartite quantum information ($I^{3}$) of a specific annular arrangement of three subsystems. However, the nature of the general N-partite information ($I^{N}$) and quantum correlation of a topologically ordered ground state remains unknown. In this work, we study such $I^N$ measure and its nontrivial dependence on the arrangement of $N$ subsystems. For the collection of subsystems (CSS) forming a closed annular structure, the $I^{N}$ measure ($N\\geq 3$) is a topological invariant equal to the product of $S_{topo}$ and the Euler characteristic of the CSS embedded on a planar manifold, $|I^{N}|=\u03C7S_{topo}$. Importantly, we establish that $I^{N}$ is robust against several deformations of the annular CSS, such as the addition of holes within individual subsystems and handles between nearest-neighbour subsystems. For a general CSS with multiple holes ($n_{h}>1$), we find that the sum of the distinct, multipartite informations measured on the annular CSS around those holes is given by the product of $S_{topo}$, $\u03C7$ and $n_{h}$, $\\sum^{n_{h}}_{\u03BC_{i}=1}|I^{N_{\u03BC_{i}}}_{\u03BC_{i}}| = n_{h}\u03C7S_{topo}$. The $N^{th}$ order irreducible quantum correlations for an annular CSS of $N$ subsystems is also found to be bounded from above by $|I^{N}|$, which shows the presence of correlations among subsystems arranged in the form of closed loops of all sizes. Our results offer important insight into the nature of the many-particle entanglement and correlations within a topologically ordered state of matter."
-  arxiv_doi: https://arxiv.org/abs/2112.02253
-  arxiv_ref: arXiv:2112.02253
-  authors:
-  - Siddhartha Patra
-  - Somnath Basu
-  - Siddhartha Lal
-  doi: https://doi.org/10.1103/PhysRevA.105.052428
-  journal_ref: Physical Review A 105, 052428 (2022)
-  journal_ref_short: PRA 105, 052428
-  permalink: /2112.02253/
-  submit_date: 4 December, 2021
-  tags:
-  - quant-ph
-  - cond-mat.str-el
-  title: Unveiling topological order through multipartite entanglement
 - abstract: We analyze the single-channel Kondo model using the recently developed unitary renormalization group (URG) method, and obtain a comprehensive understanding of the Kondo screening cloud. The fixed-point low-energy Hamiltonian enables the computation of a plethora of thermodynamic quantities (specific heat, susceptibility, Wilson ratio, etc.) as well as spectral functions, all of which are found to be in excellent agreement with known results. By integrating out the impurity, we obtain an effective Hamiltonian for the excitations of the electrons comprising the Kondo cloud. This is found to contain both k-space number-diagonal (Fermi liquid) as well off-diagonal four-fermion scattering terms. Our conclusions are reinforced by a URG study of the two-particle entanglement and many-body correlations among members of the Kondo cloud and impurity. The entanglement between the impurity and a cloud electron, as well as between any two cloud electrons, is found to increase under flow towards the singlet ground state at the strong-coupling fixed point. Both the number-diagonal and off-diagonal correlations within the conduction cloud are also found to increase as the impurity is screened under the flow, and the latter are found to be responsible for the macroscopic entanglement of the Kondo-singlet ground state. The unitary RG flow enables an analytic computation of the phase shifts suffered by the conduction electrons at the strong-coupling fixed point. This reveals an orthogonality catastrophe between the local moment and strong-coupling ground states, and is related to a change in the Luttinger volume of the conduction bath. Our results offer fresh insight on the nature of the emergent many-particle entanglement within the Kondo cloud, and pave the way for further investigations in more exotic contexts such as the fixed point of the over-screened multi-channel Kondo problem.
   arxiv_doi: https://arxiv.org/abs/2111.10580
   arxiv_ref: arXiv:2111.10580
@@ -105,70 +89,22 @@
   - cond-mat.str-el
   - cond-mat.mes-hall
   title: 'Unveiling the Kondo cloud: unitary RG study of the Kondo model'
-- abstract: "We unveil the microscopic origin of the topologically ordered counterpart of the s-wave superconductor in this work. For this, we employ the recently developed unitary renormalisation group (URG) method on a generalised model of 2D electrons attractive interactions. The effective Hamiltonian obtained at the stable low-energy fixed point of the RG flow corresponds to a gapped, insulating state of quantum matter we call the Cooper pair insulator (CPI). We show that the CPI ground state manifold displays several signatures of topological order, including a four-fold degeneracy when placed on the torus. Spectral flow arguments reveal the emergent gauge-theoretic structure of the effective Hamiltonian, as it can be written entirely in terms of non-local Wilson loops. It also contains a topological $\u03B8$-term whose coefficient is quantised, in keeping with the requirement of invariance of the ground state under large gauge transformations. We find that the long-ranged many-particle entanglement content of the CPI ground state is driven by inter-helicity two-particle scattering processes. Analysis of the passage from CPI to BCS superconducting ground state shows the RG flow promotes fluctuations in the number of condensed Cooper pairs and lowers those in the conjugate global phase. Consequently, the distinct signatures of long-ranged entanglement in the CPI are replaced by the well-known short-ranged entanglement of the BCS state. Finally, we study the renormalisation of the entanglement in $k$-space for both the CPI and BCS ground states. The topologically ordered CPI state is shown to possess an emergent hierarchy of scales of entanglement, and that this hierarchy collapses in the BCS state. Our work offers clear evidence for the microscopic origins of topological order in this prototypical system, and lays the foundation for similar investigations in other systems of correlated electrons."
-  arxiv_doi: https://arxiv.org/abs/2102.12193
-  arxiv_ref: arXiv:2102.12193
+- abstract: "It is well known that the topological entanglement entropy (\\(S_{topo}\\)) of a topologically ordered ground state in 2 spatial dimensions can be captured efficiently by measuring the tripartite quantum information (\\(I^{3}\\)) of a specific annular arrangement of three subsystems. However, the nature of the general N-partite information (\\(I^{N}\\)) and quantum correlation of a topologically ordered ground state remains unknown. In this work, we study such \\(I^N\\) measure and its nontrivial dependence on the arrangement of \\(N\\) subsystems. For the collection of subsystems (CSS) forming a closed annular structure, the \\(I^{N}\\) measure (\\(N\\geq 3\\)) is a topological invariant equal to the product of \\(S_{topo}\\) and the Euler characteristic of the CSS embedded on a planar manifold, \\(|I^{N}|=\u03C7S_{topo}\\). Importantly, we establish that \\(I^{N}\\) is robust against several deformations of the annular CSS, such as the addition of holes within individual subsystems and handles between nearest-neighbour subsystems. For a general CSS with multiple holes (\\(n_{h}>1\\)), we find that the sum of the distinct, multipartite informations measured on the annular CSS around those holes is given by the product of \\(S_{topo}\\), \\(\u03C7\\) and \\(n_{h}\\), \\(\\sum^{n_{h}}_{\u03BC_{i}=1}|I^{N_{\u03BC_{i}}}_{\u03BC_{i}}| = n_{h}\u03C7S_{topo}\\). The \\(N^{th}\\) order irreducible quantum correlations for an annular CSS of \\(N\\) subsystems is also found to be bounded from above by \\(|I^{N}|\\), which shows the presence of correlations among subsystems arranged in the form of closed loops of all sizes. Our results offer important insight into the nature of the many-particle entanglement and correlations within a topologically ordered state of matter."
+  arxiv_doi: https://arxiv.org/abs/2112.02253
+  arxiv_ref: arXiv:2112.02253
   authors:
   - Siddhartha Patra
+  - Somnath Basu
   - Siddhartha Lal
-  doi: https://doi.org/10.1103/PhysRevB.104.144514
-  journal_ref: Phys. Rev. B 104, 144514 (2021)
-  journal_ref_short: PRB 104, 144514
-  permalink: /2102.12193/
-  submit_date: 25 February, 2021
+  doi: https://doi.org/10.1103/PhysRevA.105.052428
+  journal_ref: Physical Review A 105, 052428 (2022)
+  journal_ref_short: PRA 105, 052428
+  permalink: /2112.02253/
+  submit_date: 4 December, 2021
   tags:
+  - quant-ph
   - cond-mat.str-el
-  - cond-mat.supr-con
-  title: Origin of Topological Order in a Cooper Pair Insulator
-- abstract: "We perform a unitary renormalization group (URG) study of the 1D fermionic Hubbard model. The formalism generates a family of effective Hamiltonians and many-body eigenstates arranged holographically across the tensor network from UV to IR. The URG is realized as a quantum circuit, leading to the entanglement holographic mapping (EHM) tensor network description. A topological $\u0398$-term of the projected Hilbert space of the degrees of freedom at the Fermi surface are shown to govern the nature of RG flow towards either the gapless Tomonaga-Luttinger liquid or gapped quantum liquid phases. This results in a nonperturbative version of the Berezenskii-Kosterlitz-Thouless (BKT) RG phase diagram, revealing a line of intermediate coupling stable fixed points, while the nature of RG flow around the critical point is identical to that obtained from the weak-coupling RG analysis. This coincides with a phase transition in the many-particle entanglement, as the entanglement entropy RG flow shows distinct features for the critical and gapped phases depending on the value of the topological $\u0398$-term. We demonstrate the Ryu-Takyanagi entropy bound for the many-body eigenstates comprising the EHM network, concretizing the relation to the holographic duality principle. The scaling of the entropy bound also distinguishes the gapped and gapless phases, implying the generation of very different holographic spacetimes across the critical point. Finally, we treat the Fermi surface as a quantum impurity coupled to the high energy electronic states. A thought-experiment is devised in order to study entanglement entropy generated by isolating the impurity, and propose ways by which to measure it by studying the quantum noise and higher order cumulants of the full counting statistics."
-  arxiv_doi: https://arxiv.org/abs/2005.02332
-  arxiv_ref: arXiv:2005.02332
-  authors:
-  - Anirban Mukherjee
-  - Siddhartha Patra
-  - Siddhartha Lal
-  doi: https://doi.org/10.1007/JHEP04(2021)148
-  journal_ref: Journal of High Energy Physics 04,148 (2021)
-  journal_ref_short: JHEP 04,148
-  permalink: /2005.02332/
-  submit_date: 5 May, 2020
-  tags:
-  - cond-mat.str-el
-  - cond-mat.supr-con
-  - hep-th
-  title: 'Fermionic criticality is shaped by Fermi surface topology: a case study of the Tomonaga-Luttinger liquid'
-- abstract: Capturing the interplay between electronic correlations and many-particle entanglement requires a unified framework for Hamiltonian and eigenbasis renormalization. In this work, we apply the unitary renormalization group (URG) scheme developed in a companion work (Ref.[1]) to the study of two archetypal models of stongly correlated lattice electrons, one with translation invariance and one without. We obtain detailed insight into the emergence of various gapless and gapped phases of quantum electronic matter by computing effective Hamiltonians as well as entanglement signatures through their respective tensor network descriptions. For the translationally invariant model of a single-band of interacting electrons, this includes results on gapless metallic phases such as the Fermi liquid and Marginal Fermi liquid, as well as gapped phases such as the reduced Bardeen-Cooper-Schrieffer, pair density-wave and Mott liquid phases. Additionally, a study of a generalised Sachdev-Ye model with disordered four-fermion interactions offers detailed results on many-body localised phases, as well as thermalised phase. We emphasise the distinctions between the various phases based on a combined analysis of their dynamical (obtained from the effective Hamiltonian) and entanglement properties. Importantly, the RG flow of the Hamiltonian vertex tensor network is shown to lead to emergent gauge theories for the gapped phases. Taken together with results on the holographic spacetime generated from the RG of the many-particle eigenstate (seen through, for instance, the holographic upper bound of the one-particle entanglement entropy), our analysis offer an ab-initio perspective of the gauge-gravity duality for quantum liquids that are emergent in systems of correlated electrons.
-  arxiv_doi: https://arxiv.org/abs/2004.06900
-  arxiv_ref: arXiv:2004.06900
-  authors:
-  - Anirban Mukherjee
-  - Siddhartha Lal
-  doi: https://doi.org/10.1016/j.nuclphysb.2020.115163
-  journal_ref: Nuclear Physics B 960, 115163 (2020)
-  journal_ref_short: Nuc. Phys. B 960, 115163
-  permalink: /2004.06900/
-  submit_date: 28 July, 2020
-  tags:
-  - cond-mat.str-el
-  - cond-mat.supr-con
-  - hep-th
-  title: 'Holographic unitary renormalization group for correlated electrons -- II: insights on fermionic criticality'
-- abstract: 'We present a unified framework for the renormalisation of the Hamiltonian and eigenbasis of a system of correlated electrons, unveiling thereby the interplay between electronic correlations and many-particle entanglement. For this, we extend substantially the unitary renormalization group (URG) scheme introduced in Refs.\cite{anirbanmotti,anirbanmott2,mukherjee2020}. We recast the RG as a discrete flow of the Hamiltonian tensor network, i.e., the collection of various $2n$-point scattering vertex tensors comprising the Hamiltonian. The renormalisation progresses via unitary transformations that block diagonalizes the Hamiltonian iteratively via the disentanglement of single-particle eigenstates. This procedure incorporates naturally the role of quantum fluctuations. The RG flow equations possess a non-trivial structure, displaying a feedback mechanism through frequency-dependent dynamical self-energies and correlation energies. The interplay between various UV energy scales enables the coupled RG equations to flow towards a stable fixed point in the IR. The effective Hamiltonian at the IR fixed point generically has a reduced parameter space, as well as number of degrees of freedom, compared to the microscopic Hamiltonian. Importantly, the vertex tensor network is observed to govern the RG flow of the tensor network that denotes the coefficients of the many-particle eigenstates. The RG evolution of various many-particle entanglement features of the eigenbasis are, in turn, quantified through the coefficient tensor network. In this way, we show that the URG framework provides a microscopic understanding of holographic renormalisation: the RG flow of the vertex tensor network generates a eigenstate coefficient tensor network possessing a many-particle entanglement metric. We find that the eigenstate tensor network accommodates sign factors arising from fermion exchange.'
-  arxiv_doi: https://arxiv.org/abs/2004.06897
-  arxiv_ref: arXiv:2004.06897
-  authors:
-  - Anirban Mukherjee
-  - Siddhartha Lal
-  doi: https://doi.org/10.1016/j.nuclphysb.2020.115170
-  journal_ref: Nuclear Physics B 960, 115170 (2020)
-  journal_ref_short: Nuc. Phys. B 960, 115170
-  permalink: /2004.06897/
-  submit_date: 28 July, 2020
-  tags:
-  - cond-mat.str-el
-  - cond-mat.supr-con
-  - hep-th
-  title: 'Holographic unitary renormalization group for correlated electrons -- I: a tensor network approach'
+  title: Unveiling topological order through multipartite entanglement
 - abstract: "We introduce a novel momentum space entanglement renormalization group (MERG) scheme for the topologically ordered (T.O.) ground state of the 2D Hubbard model on a square lattice (\\cite{anirbanmotti,anirbanmott2}) using a unitary quantum circuit comprised of non-local unitary gates. At each MERG step, the unitary quantum circuit disentangles a set of electronic states, thereby transforming the tensor network representation of the many-particle state. By representing the non-local unitary gate as a product of two-qubit disentangler gates, we provide an entanglement holographic mapping (EHM) representation for MERG. Using entanglement based measures from quantum information theory and complex network theory, we study the emergence of topological order in the bulk of the EHM. The MERG reveals distinct holographic entanglement features for the normal metallic, topologically ordered insulating quantum liquid and Ne\xE9l antiferromagnetic symmetry-broken ground states of the 2D Hubbard model at half-filling found in Ref.\\cite{anirbanmotti}. An MERG analysis of the quantum critical point of the hole-doped 2D Hubbard model found in Ref.\\cite{anirbanmott2} reveals the evolution of the many-particle entanglement of the quantum liquid ground state with hole-doping, as well as how the collapse of Mottness is responsible for the emergence of d-wave superconductivity. We perform an information theoretic analysis of the EHM network, demonstrating that the information bottleneck principle is responsible for the distillation of entanglement features in the heirarchical structure of the EHM network. As a result, we construct a deep neural network (DNN) architecture based on our EHM network, and employ it for predicting the onset of topological order. We also demonstrate that the DNN is capable of distinguishing between the topologically ordered and gapless normal metallic phases."
   arxiv_doi: https://arxiv.org/abs/2003.06118
   arxiv_ref: arXiv:2003.06118
@@ -185,51 +121,71 @@
   - hep-th
   - quant-ph
   title: Holographic entanglement renormalisation of topological order in a quantum liquid
-- abstract: We predict magnetisation plateaux ground states for $S=1/2$ Heisenberg antiferromagnets on pyrochlore lattices by formulating arguments based on gauge and spin-parity transformations. We derive a twist operator appropriate to the pyrochlore lattice, and show that it is equivalent to a large gauge transformation. Invariance under this large gauge transformation indicates the sensitivity of the ground state to changes in boundary conditions. This leads to the formulation of an Oshikawa-Yamanaka-Affleck (OYA)-like criterion at finite external magnetic field, enabling the prediction of plateaux in the magnetisation versus field diagram. We also develop an analysis based on the spin-parity operator, leading to a condition from which identical predictions are obtained of magnetisation plateaux ground states. Both analyses are based on the non-local nature of the transformations, and rely only on the symmetries of the Hamiltonian. This suggests that the plateaux ground states can possess properties arising from non-local entanglement between the spins. We also demonstrate that while a spin-lattice coupling stabilises plateaux in a system of quantum spins with antiferromagnetic exchange, it can compete with weak ferromagnetic spin exchange in leading to frustration-induced magnetisation plateaux.
-  arxiv_doi: https://arxiv.org/abs/1902.06475
-  arxiv_ref: arXiv:1902.06475
+- abstract: "We unveil the microscopic origin of the topologically ordered counterpart of the s-wave superconductor in this work. For this, we employ the recently developed unitary renormalisation group (URG) method on a generalised model of 2D electrons attractive interactions. The effective Hamiltonian obtained at the stable low-energy fixed point of the RG flow corresponds to a gapped, insulating state of quantum matter we call the Cooper pair insulator (CPI). We show that the CPI ground state manifold displays several signatures of topological order, including a four-fold degeneracy when placed on the torus. Spectral flow arguments reveal the emergent gauge-theoretic structure of the effective Hamiltonian, as it can be written entirely in terms of non-local Wilson loops. It also contains a topological \\(\u03B8\\)-term whose coefficient is quantised, in keeping with the requirement of invariance of the ground state under large gauge transformations. We find that the long-ranged many-particle entanglement content of the CPI ground state is driven by inter-helicity two-particle scattering processes. Analysis of the passage from CPI to BCS superconducting ground state shows the RG flow promotes fluctuations in the number of condensed Cooper pairs and lowers those in the conjugate global phase. Consequently, the distinct signatures of long-ranged entanglement in the CPI are replaced by the well-known short-ranged entanglement of the BCS state. Finally, we study the renormalisation of the entanglement in \\(k\\)-space for both the CPI and BCS ground states. The topologically ordered CPI state is shown to possess an emergent hierarchy of scales of entanglement, and that this hierarchy collapses in the BCS state. Our work offers clear evidence for the microscopic origins of topological order in this prototypical system, and lays the foundation for similar investigations in other systems of correlated electrons."
+  arxiv_doi: https://arxiv.org/abs/2102.12193
+  arxiv_ref: arXiv:2102.12193
   authors:
-  - Santanu Pal
+  - Siddhartha Patra
   - Siddhartha Lal
-  doi: https://doi.org/10.1103/PhysRevB.100.104421
-  journal_ref: Phys. Rev. B 100, 104421 (2019)
-  journal_ref_short: PRB 100, 104421
-  permalink: /1902.06475/
-  submit_date: 18 February, 2019
+  doi: https://doi.org/10.1103/PhysRevB.104.144514
+  journal_ref: Phys. Rev. B 104, 144514 (2021)
+  journal_ref_short: PRB 104, 144514
+  permalink: /2102.12193/
+  submit_date: 25 February, 2021
   tags:
   - cond-mat.str-el
-  title: Magnetisation plateaux of the quantum pyrochlore Heisenberg antiferromagnet
-- abstract: We analyse the antiferromagnetic spin-$1/2$ XXZ model on the kagome lattice at finite external magnetic field with the help of a nonperturbative zero-temperature renormalization group (RG) technique. Following the work of Kumar \emph{et al} (Phys. Rev. B {\bf 90}, 174409 (2014)), we use a Jordan-Wigner transformation to map the spin problem into one of spinless fermions (spinons) in the presence of a statistical gauge field, and with nearest-neighbour interactions. While the work of Kumar \emph{et al} was confined mostly to the plateau at $1/3$-filling (magnetisation per site) in the XY regime, we analyse the role of inter-spinon interactions in shaping the phases around this plateau in the entire XXZ model. The RG phase diagram obtained contains three spin liquid phases whose position is determined as a function of the exchange anisotropy and the energy scale for fluctuations arising from spinon scattering. Two of these spins liquids are topologically ordered states of matter with gapped, degenerate states on the torus. The gap for one of these phases corresponds to the one-spinon band gap of the Azbel-Hofstadter spectrum for the XY part of the Hamiltonian, while the other arises from two-spinon interactions. The Heisenberg point of this problem is found to lie within the interaction gapped spin liquid phase, in broad agreement with a recent experimental finding. The third phase is an algebraic spin liquid with a gapless Dirac spectrum for spinon excitations, and possess properties that show departures from the Fermi liquid paradigm. The three phase boundaries correspond to critical theories, and meet at a $SU(2)$-symmetric multicritical point. This special critical point agrees well with the gap-closing transition point predicted by Kumar \emph{et al}. We discuss the relevance of our findings to various recent experiments, as well as results obtained from other theoretical analyses.
-  arxiv_doi: https://arxiv.org/abs/1811.05222
-  arxiv_ref: arXiv:1811.05222
+  - cond-mat.supr-con
+  title: Origin of Topological Order in a Cooper Pair Insulator
+- abstract: Capturing the interplay between electronic correlations and many-particle entanglement requires a unified framework for Hamiltonian and eigenbasis renormalization. In this work, we apply the unitary renormalization group (URG) scheme developed in a companion work (Ref.[1]) to the study of two archetypal models of stongly correlated lattice electrons, one with translation invariance and one without. We obtain detailed insight into the emergence of various gapless and gapped phases of quantum electronic matter by computing effective Hamiltonians as well as entanglement signatures through their respective tensor network descriptions. For the translationally invariant model of a single-band of interacting electrons, this includes results on gapless metallic phases such as the Fermi liquid and Marginal Fermi liquid, as well as gapped phases such as the reduced Bardeen-Cooper-Schrieffer, pair density-wave and Mott liquid phases. Additionally, a study of a generalised Sachdev-Ye model with disordered four-fermion interactions offers detailed results on many-body localised phases, as well as thermalised phase. We emphasise the distinctions between the various phases based on a combined analysis of their dynamical (obtained from the effective Hamiltonian) and entanglement properties. Importantly, the RG flow of the Hamiltonian vertex tensor network is shown to lead to emergent gauge theories for the gapped phases. Taken together with results on the holographic spacetime generated from the RG of the many-particle eigenstate (seen through, for instance, the holographic upper bound of the one-particle entanglement entropy), our analysis offer an ab-initio perspective of the gauge-gravity duality for quantum liquids that are emergent in systems of correlated electrons.
+  arxiv_doi: https://arxiv.org/abs/2004.06900
+  arxiv_ref: arXiv:2004.06900
   authors:
-  - Santanu Pal
   - Anirban Mukherjee
   - Siddhartha Lal
-  doi: https://doi.org/10.1088/1367-2630/ab05ff
-  journal_ref: New J. Phys. 21, 023019 (2019)
-  journal_ref_short: New J. Phys. 21, 023019
-  permalink: /1811.05222/
-  submit_date: 13 November, 2018
+  doi: https://doi.org/10.1016/j.nuclphysb.2020.115163
+  journal_ref: Nuclear Physics B 960, 115163 (2020)
+  journal_ref_short: Nuc. Phys. B 960, 115163
+  permalink: /2004.06900/
+  submit_date: 28 July, 2020
   tags:
   - cond-mat.str-el
-  title: 'Correlated spin liquids in the quantum kagome antiferromagnet at finite field: a renormalisation group analysis'
-- abstract: We have formulated a twist operator argument for the geometrically frustrated quantum spin systems on the kagome and triangular lattices, thereby extending the application of the Lieb-Schultz-Mattis (LSM) and Oshikawa-Yamanaka-Affleck (OYA) theorems to these systems. The equivalent large gauge transformation for the geometrically frustrated lattice differs from that for non-frustrated systems due to the existence of multiple sublattices in the unit cell and non-orthogonal basis vectors. Our study for the $S=1/2$ kagome Heisenberg antiferromagnet at zero external magnetic field gives a criterion for the existence of a two-fold degenerate ground state with a finite excitation gap and fractionalized excitations. At finite field, we predict various plateaux at fractional magnetisation, in analogy with integer and fractional quantum Hall states of the primary sequence. These plateaux correspond to gapped quantum liquid ground states with a fixed number of singlets and spinons in the unit cell. A similar analysis for the triangular lattice predicts a single fractional magnetization plateau at $1/3$. Our results are in broad agreement with numerical and experimental studies.
-  arxiv_doi: https://arxiv.org/abs/1810.03935
-  arxiv_ref: arXiv:1810.03935
+  - cond-mat.supr-con
+  - hep-th
+  title: 'Holographic unitary renormalization group for correlated electrons -- II: insights on fermionic criticality'
+- abstract: 'We present a unified framework for the renormalisation of the Hamiltonian and eigenbasis of a system of correlated electrons, unveiling thereby the interplay between electronic correlations and many-particle entanglement. For this, we extend substantially the unitary renormalization group (URG) scheme introduced in Refs.\cite{anirbanmotti,anirbanmott2,mukherjee2020}. We recast the RG as a discrete flow of the Hamiltonian tensor network, i.e., the collection of various \(2n\)-point scattering vertex tensors comprising the Hamiltonian. The renormalisation progresses via unitary transformations that block diagonalizes the Hamiltonian iteratively via the disentanglement of single-particle eigenstates. This procedure incorporates naturally the role of quantum fluctuations. The RG flow equations possess a non-trivial structure, displaying a feedback mechanism through frequency-dependent dynamical self-energies and correlation energies. The interplay between various UV energy scales enables the coupled RG equations to flow towards a stable fixed point in the IR. The effective Hamiltonian at the IR fixed point generically has a reduced parameter space, as well as number of degrees of freedom, compared to the microscopic Hamiltonian. Importantly, the vertex tensor network is observed to govern the RG flow of the tensor network that denotes the coefficients of the many-particle eigenstates. The RG evolution of various many-particle entanglement features of the eigenbasis are, in turn, quantified through the coefficient tensor network. In this way, we show that the URG framework provides a microscopic understanding of holographic renormalisation: the RG flow of the vertex tensor network generates a eigenstate coefficient tensor network possessing a many-particle entanglement metric. We find that the eigenstate tensor network accommodates sign factors arising from fermion exchange.'
+  arxiv_doi: https://arxiv.org/abs/2004.06897
+  arxiv_ref: arXiv:2004.06897
   authors:
-  - Santanu Pal
   - Anirban Mukherjee
   - Siddhartha Lal
-  doi: https://doi.org/10.1088/1361-648X/ab670f
-  journal_ref: 'J. Phys.: Condens. Matter 32, 165805 (2020)'
-  journal_ref_short: JPCM. 32, 165805
-  permalink: /1810.03935/
-  submit_date: 10 October, 2019
+  doi: https://doi.org/10.1016/j.nuclphysb.2020.115170
+  journal_ref: Nuclear Physics B 960, 115170 (2020)
+  journal_ref_short: Nuc. Phys. B 960, 115170
+  permalink: /2004.06897/
+  submit_date: 28 July, 2020
   tags:
   - cond-mat.str-el
-  title: Non-perturbative approach to quantum liquid ground states on geometrically frustrated Heisenberg antiferromagnets
-- abstract: "We present a $T=0K$ renormalization group (RG) phase diagram for the electronic Hubbard model in two dimensions on the square lattice at, and away from, half filling. The RG procedure treats quantum fluctuations in the single particle occupation number nonperturbatively via the unitarily decoupling of one electronic state at every RG step. The resulting phase diagram thus possess the quantum fluctuation energy scale ($\u03C9$) as one of its axes. A relation is derived between $\u03C9$ and the effective temperature scale upto which gapless, as well as emergent gapped, phases can be obtained. We find that the transition in the half-filled Hubbard model involves, for any on-site repulsion, passage from a marginal Fermi liquid to a topologically-ordered gapped Mott liquid through a pseudogapped phase bookended by Fermi surface topology-changing Lifshitz transitions. Using effective Hamiltonians and wavefunctions for the low-energy many-body eigenstates for the doped Mott liquid obtained from the stable fixed point of the RG flow, we demonstrate the collapse of the pseudogap for charge excitations (Mottness) at a quantum critical point possessing a nodal non-Fermi liquid with superconducting fluctuations, and spin-pseudogapping near the antinodes. d-wave Superconducting order is shown to arise from this quantum critical state of matter. Benchmarking of the ground state energy per particle and the double-occupancy fraction against existing numerical results also yields excellent agreement. We present detailed insight into the $T=0$ origin of several experimentally observed findings in the cuprates, including Homes law and Planckian dissipation. Our results offer insight on the ubiquitous origin of superconductivity in doped Mott insulating states, and pave the way towards a systematic search for higher superconducting transition temperatures in such systems."
+  - cond-mat.supr-con
+  - hep-th
+  title: 'Holographic unitary renormalization group for correlated electrons -- I: a tensor network approach'
+- abstract: "We perform a unitary renormalization group (URG) study of the 1D fermionic Hubbard model. The formalism generates a family of effective Hamiltonians and many-body eigenstates arranged holographically across the tensor network from UV to IR. The URG is realized as a quantum circuit, leading to the entanglement holographic mapping (EHM) tensor network description. A topological \\(\u0398\\)-term of the projected Hilbert space of the degrees of freedom at the Fermi surface are shown to govern the nature of RG flow towards either the gapless Tomonaga-Luttinger liquid or gapped quantum liquid phases. This results in a nonperturbative version of the Berezenskii-Kosterlitz-Thouless (BKT) RG phase diagram, revealing a line of intermediate coupling stable fixed points, while the nature of RG flow around the critical point is identical to that obtained from the weak-coupling RG analysis. This coincides with a phase transition in the many-particle entanglement, as the entanglement entropy RG flow shows distinct features for the critical and gapped phases depending on the value of the topological \\(\u0398\\)-term. We demonstrate the Ryu-Takyanagi entropy bound for the many-body eigenstates comprising the EHM network, concretizing the relation to the holographic duality principle. The scaling of the entropy bound also distinguishes the gapped and gapless phases, implying the generation of very different holographic spacetimes across the critical point. Finally, we treat the Fermi surface as a quantum impurity coupled to the high energy electronic states. A thought-experiment is devised in order to study entanglement entropy generated by isolating the impurity, and propose ways by which to measure it by studying the quantum noise and higher order cumulants of the full counting statistics."
+  arxiv_doi: https://arxiv.org/abs/2005.02332
+  arxiv_ref: arXiv:2005.02332
+  authors:
+  - Anirban Mukherjee
+  - Siddhartha Patra
+  - Siddhartha Lal
+  doi: https://doi.org/10.1007/JHEP04(2021)148
+  journal_ref: Journal of High Energy Physics 04,148 (2021)
+  journal_ref_short: JHEP 04,148
+  permalink: /2005.02332/
+  submit_date: 5 May, 2020
+  tags:
+  - cond-mat.str-el
+  - cond-mat.supr-con
+  - hep-th
+  title: 'Fermionic criticality is shaped by Fermi surface topology: a case study of the Tomonaga-Luttinger liquid'
+- abstract: "We present a \\(T=0K\\) renormalization group (RG) phase diagram for the electronic Hubbard model in two dimensions on the square lattice at, and away from, half filling. The RG procedure treats quantum fluctuations in the single particle occupation number nonperturbatively via the unitarily decoupling of one electronic state at every RG step. The resulting phase diagram thus possess the quantum fluctuation energy scale (\\(\u03C9\\)) as one of its axes. A relation is derived between \\(\u03C9\\) and the effective temperature scale upto which gapless, as well as emergent gapped, phases can be obtained. We find that the transition in the half-filled Hubbard model involves, for any on-site repulsion, passage from a marginal Fermi liquid to a topologically-ordered gapped Mott liquid through a pseudogapped phase bookended by Fermi surface topology-changing Lifshitz transitions. Using effective Hamiltonians and wavefunctions for the low-energy many-body eigenstates for the doped Mott liquid obtained from the stable fixed point of the RG flow, we demonstrate the collapse of the pseudogap for charge excitations (Mottness) at a quantum critical point possessing a nodal non-Fermi liquid with superconducting fluctuations, and spin-pseudogapping near the antinodes. d-wave Superconducting order is shown to arise from this quantum critical state of matter. Benchmarking of the ground state energy per particle and the double-occupancy fraction against existing numerical results also yields excellent agreement. We present detailed insight into the \\(T=0\\) origin of several experimentally observed findings in the cuprates, including Homes law and Planckian dissipation. Our results offer insight on the ubiquitous origin of superconductivity in doped Mott insulating states, and pave the way towards a systematic search for higher superconducting transition temperatures in such systems."
   arxiv_doi: https://arxiv.org/abs/1802.06528
   arxiv_ref: arXiv:1802.06528
   authors:
@@ -244,7 +200,51 @@
   - cond-mat.str-el
   - cond-mat.supr-con
   title: Scaling theory for Mott-Hubbard transitions
-- abstract: Motivated by recent experiments, we present a comprehensive theoretical study of the geometrically frustrated strongly correlated magnetic insulator Mn$_3$O$_4$ spinel oxide based on a microscopic Hamiltonian involving lattice, spin and orbital degrees of freedom. Possessing the physics of degenerate e$_g$ orbitals, this system shows a strong Jahn-Teller effect at high temperatures. Further, careful attention is paid to the special nature of the superexchange physics arising from the 90$^o$ Mn-O-Mn bonding angle. The Jahn-Teller and superexchange-based orbital-spin Hamiltonians are then analysed in order to track the dynamics of orbital and spin ordering. We find that a high-temperature structural transition results in orbital ordering whose nature is mixed with respect to the two originally degenerate $e_{g}$ orbitals. This ordering of orbitals is shown to relieve the intrinsic geometric frustration of the spins on the spinel lattice, leading to ferrimagnetic Yafet-Kittel ordering at low-temperatures. Finally, we develop a model for a magnetoelastic coupling in Mn$_3$O$_4$, enabling a systematic understanding of the experimentally observed complexity in the low-temperature structural and magnetic phenomenology of this spinel. Our analysis predicts that a quantum fluctuation-driven orbital-spin liquid phase may be stabilised at low temperatures upon the application of pressure.
+- abstract: We have formulated a twist operator argument for the geometrically frustrated quantum spin systems on the kagome and triangular lattices, thereby extending the application of the Lieb-Schultz-Mattis (LSM) and Oshikawa-Yamanaka-Affleck (OYA) theorems to these systems. The equivalent large gauge transformation for the geometrically frustrated lattice differs from that for non-frustrated systems due to the existence of multiple sublattices in the unit cell and non-orthogonal basis vectors. Our study for the \(S=1/2\) kagome Heisenberg antiferromagnet at zero external magnetic field gives a criterion for the existence of a two-fold degenerate ground state with a finite excitation gap and fractionalized excitations. At finite field, we predict various plateaux at fractional magnetisation, in analogy with integer and fractional quantum Hall states of the primary sequence. These plateaux correspond to gapped quantum liquid ground states with a fixed number of singlets and spinons in the unit cell. A similar analysis for the triangular lattice predicts a single fractional magnetization plateau at \(1/3\). Our results are in broad agreement with numerical and experimental studies.
+  arxiv_doi: https://arxiv.org/abs/1810.03935
+  arxiv_ref: arXiv:1810.03935
+  authors:
+  - Santanu Pal
+  - Anirban Mukherjee
+  - Siddhartha Lal
+  doi: https://doi.org/10.1088/1361-648X/ab670f
+  journal_ref: 'J. Phys.: Condens. Matter 32, 165805 (2020)'
+  journal_ref_short: JPCM. 32, 165805
+  permalink: /1810.03935/
+  submit_date: 10 October, 2019
+  tags:
+  - cond-mat.str-el
+  title: Non-perturbative approach to quantum liquid ground states on geometrically frustrated Heisenberg antiferromagnets
+- abstract: We predict magnetisation plateaux ground states for \(S=1/2\) Heisenberg antiferromagnets on pyrochlore lattices by formulating arguments based on gauge and spin-parity transformations. We derive a twist operator appropriate to the pyrochlore lattice, and show that it is equivalent to a large gauge transformation. Invariance under this large gauge transformation indicates the sensitivity of the ground state to changes in boundary conditions. This leads to the formulation of an Oshikawa-Yamanaka-Affleck (OYA)-like criterion at finite external magnetic field, enabling the prediction of plateaux in the magnetisation versus field diagram. We also develop an analysis based on the spin-parity operator, leading to a condition from which identical predictions are obtained of magnetisation plateaux ground states. Both analyses are based on the non-local nature of the transformations, and rely only on the symmetries of the Hamiltonian. This suggests that the plateaux ground states can possess properties arising from non-local entanglement between the spins. We also demonstrate that while a spin-lattice coupling stabilises plateaux in a system of quantum spins with antiferromagnetic exchange, it can compete with weak ferromagnetic spin exchange in leading to frustration-induced magnetisation plateaux.
+  arxiv_doi: https://arxiv.org/abs/1902.06475
+  arxiv_ref: arXiv:1902.06475
+  authors:
+  - Santanu Pal
+  - Siddhartha Lal
+  doi: https://doi.org/10.1103/PhysRevB.100.104421
+  journal_ref: Phys. Rev. B 100, 104421 (2019)
+  journal_ref_short: PRB 100, 104421
+  permalink: /1902.06475/
+  submit_date: 18 February, 2019
+  tags:
+  - cond-mat.str-el
+  title: Magnetisation plateaux of the quantum pyrochlore Heisenberg antiferromagnet
+- abstract: We analyse the antiferromagnetic spin-\(1/2\) XXZ model on the kagome lattice at finite external magnetic field with the help of a nonperturbative zero-temperature renormalization group (RG) technique. Following the work of Kumar \emph{et al} (Phys. Rev. B {\bf 90}, 174409 (2014)), we use a Jordan-Wigner transformation to map the spin problem into one of spinless fermions (spinons) in the presence of a statistical gauge field, and with nearest-neighbour interactions. While the work of Kumar \emph{et al} was confined mostly to the plateau at \(1/3\)-filling (magnetisation per site) in the XY regime, we analyse the role of inter-spinon interactions in shaping the phases around this plateau in the entire XXZ model. The RG phase diagram obtained contains three spin liquid phases whose position is determined as a function of the exchange anisotropy and the energy scale for fluctuations arising from spinon scattering. Two of these spins liquids are topologically ordered states of matter with gapped, degenerate states on the torus. The gap for one of these phases corresponds to the one-spinon band gap of the Azbel-Hofstadter spectrum for the XY part of the Hamiltonian, while the other arises from two-spinon interactions. The Heisenberg point of this problem is found to lie within the interaction gapped spin liquid phase, in broad agreement with a recent experimental finding. The third phase is an algebraic spin liquid with a gapless Dirac spectrum for spinon excitations, and possess properties that show departures from the Fermi liquid paradigm. The three phase boundaries correspond to critical theories, and meet at a \(SU(2)\)-symmetric multicritical point. This special critical point agrees well with the gap-closing transition point predicted by Kumar \emph{et al}. We discuss the relevance of our findings to various recent experiments, as well as results obtained from other theoretical analyses.
+  arxiv_doi: https://arxiv.org/abs/1811.05222
+  arxiv_ref: arXiv:1811.05222
+  authors:
+  - Santanu Pal
+  - Anirban Mukherjee
+  - Siddhartha Lal
+  doi: https://doi.org/10.1088/1367-2630/ab05ff
+  journal_ref: New J. Phys. 21, 023019 (2019)
+  journal_ref_short: New J. Phys. 21, 023019
+  permalink: /1811.05222/
+  submit_date: 13 November, 2018
+  tags:
+  - cond-mat.str-el
+  title: 'Correlated spin liquids in the quantum kagome antiferromagnet at finite field: a renormalisation group analysis'
+- abstract: Motivated by recent experiments, we present a comprehensive theoretical study of the geometrically frustrated strongly correlated magnetic insulator Mn\(_3\)O\(_4\) spinel oxide based on a microscopic Hamiltonian involving lattice, spin and orbital degrees of freedom. Possessing the physics of degenerate e\(_g\) orbitals, this system shows a strong Jahn-Teller effect at high temperatures. Further, careful attention is paid to the special nature of the superexchange physics arising from the 90\(^o\) Mn-O-Mn bonding angle. The Jahn-Teller and superexchange-based orbital-spin Hamiltonians are then analysed in order to track the dynamics of orbital and spin ordering. We find that a high-temperature structural transition results in orbital ordering whose nature is mixed with respect to the two originally degenerate \(e_{g}\) orbitals. This ordering of orbitals is shown to relieve the intrinsic geometric frustration of the spins on the spinel lattice, leading to ferrimagnetic Yafet-Kittel ordering at low-temperatures. Finally, we develop a model for a magnetoelastic coupling in Mn\(_3\)O\(_4\), enabling a systematic understanding of the experimentally observed complexity in the low-temperature structural and magnetic phenomenology of this spinel. Our analysis predicts that a quantum fluctuation-driven orbital-spin liquid phase may be stabilised at low temperatures upon the application of pressure.
   arxiv_doi: https://arxiv.org/abs/1704.06026
   arxiv_ref: arXiv:1704.06026
   authors:
@@ -259,7 +259,7 @@
   - cond-mat.str-el
   - cond-mat.mtrl-sci
   title: Orbital and spin ordering physics of the Mn$_3$O$_4$ spinel
-- abstract: The thermal dynamics of the two-dimensional Ising model and quantum dynamics of the one-dimensional transverse-field Ising model (TFIM) are mapped to one another through the transfer-matrix formalism. We show that the fermionised TFIM undergoes a Fermi-surface topology-changing Lifshitz transition at its critical point. We identify the degree of freedom which tracks the Lifshitz transition via changes in topological quantum numbers (e.g., Chern number, Berry phase etc.). An emergent $SU(2)$ symmetry at criticality is observed to lead to a topological quantum number different from that which characterises the ordered phase. The topological transition is also understood via a spectral flow thought-experiment in a Thouless charge pump, revealing the bulk-boundary correspondence across the transition. The duality property of the phases and their entanglement content are studied, revealing a holographic relation with the entanglement at criticality. The effects of a non-zero longitudinal field and interactions that scatter across the singular Fermi surface are treated within the renormalisation group (RG) formalism. The analysis reveals that the critical point of the 1D TFIM and the 1D spin-1/2 Heisenberg chain are connected via a line of $SU(2)$-symmetric theories. We extend our analysis to show that the classical to quantum correspondence links the critical theories of Ising models in various dimensions holographically through the universal effective Hamiltonian that describes the Lifshitz transition of the 1D TFIM. We obtain in this way a unified perspective of transitions in Ising models that lie beyond the traditional Ginzburg-Landau-Wilson paradigm. We discuss the consequences of our results for similar topological transitions observed in classical spin models, topological insulators, superconductors and lattice gauge-field theories which are related to the Ising universality class.
+- abstract: The thermal dynamics of the two-dimensional Ising model and quantum dynamics of the one-dimensional transverse-field Ising model (TFIM) are mapped to one another through the transfer-matrix formalism. We show that the fermionised TFIM undergoes a Fermi-surface topology-changing Lifshitz transition at its critical point. We identify the degree of freedom which tracks the Lifshitz transition via changes in topological quantum numbers (e.g., Chern number, Berry phase etc.). An emergent \(SU(2)\) symmetry at criticality is observed to lead to a topological quantum number different from that which characterises the ordered phase. The topological transition is also understood via a spectral flow thought-experiment in a Thouless charge pump, revealing the bulk-boundary correspondence across the transition. The duality property of the phases and their entanglement content are studied, revealing a holographic relation with the entanglement at criticality. The effects of a non-zero longitudinal field and interactions that scatter across the singular Fermi surface are treated within the renormalisation group (RG) formalism. The analysis reveals that the critical point of the 1D TFIM and the 1D spin-1/2 Heisenberg chain are connected via a line of \(SU(2)\)-symmetric theories. We extend our analysis to show that the classical to quantum correspondence links the critical theories of Ising models in various dimensions holographically through the universal effective Hamiltonian that describes the Lifshitz transition of the 1D TFIM. We obtain in this way a unified perspective of transitions in Ising models that lie beyond the traditional Ginzburg-Landau-Wilson paradigm. We discuss the consequences of our results for similar topological transitions observed in classical spin models, topological insulators, superconductors and lattice gauge-field theories which are related to the Ising universality class.
   arxiv_doi: https://arxiv.org/abs/1610.09845
   arxiv_ref: arXiv:1610.09845
   authors:
@@ -304,22 +304,6 @@
   - cond-mat.str-el
   - cond-mat.mes-hall
   title: Charge Fractionalization in a Mesoscopic Ring
-- abstract: "We discuss the problem of competition between a superconducting (SC) ordered state with a charge density wave (CDW) state in stripe phases of high $T_c$ superconductors. We consider an effective model for each stripe motivated by studies of spin-gapped electronic ladder systems. We analyze the problem of dimensional crossover arising from inter-stripe SC and CDW couplings using non-Abelian bosonization and renormalization group (RG) arguments to derive an effective $O(4)$-symmetric nonlinear $\u03C3$-model in $D=2+1$ for the case of when both inter-stripe couplings are of equal magnitude as well as equally RG relevant. By studying the effects of various symmetry lowering perturbations, we determine the structure of the phase diagram and show that, in general, it has a broad regime in which both orders coexist. The quantum and thermal critical behavior is discussed in detail, and the phase coexistence region is found to end at associated $T=0$ as well as $T>0$ tetracritical points. The possible role of hedgehog topological excitations of the theory is considered and argued to be RG irrelevant at the spatially anisotropic higher dimensional low-energy fixed point theory. Our results are also relevant to the case of competing N\xE9el and valence bond solid (VBS) orders in quantum magnets on 2D isotropic square as well as rectangular lattices interacting via nearest neighbor Heisenberg exchange interactions."
-  arxiv_doi: https://arxiv.org/abs/1007.2187
-  arxiv_ref: arXiv:1007.2187
-  authors:
-  - Akbar Jaefari
-  - Siddhartha Lal
-  - Eduardo Fradkin
-  doi: https://doi.org/10.1103/PhysRevB.82.144531
-  journal_ref: Physical Review B 82, 144531 (2010)
-  journal_ref_short: PRB 82, 144531
-  permalink: /1007.2187/
-  submit_date: 13 July, 2010
-  tags:
-  - cond-mat.supr-con
-  - cond-mat.str-el
-  title: Charge-Density-Wave and Superconductor Competition in Stripe Phases of High Temperature Superconductors
 - abstract: Andreev reflection-where an electron in a normal metal backscatters off a superconductor into a hole-forms the basis of low energy transport through superconducting junctions. Andreev reflection in confined regions gives rise to discrete Andreev bound states (ABS), which can carry a supercurrent and have recently been proposed as the basis of qubits [1-3]. Although signatures of Andreev reflection and bound states in conductance have been widely reported [4], it has been difficult to directly probe individual ABS. Here, we report transport measurements of sharp, gate-tunable ABS formed in a superconductor-quantum dot (QD)-normal system, which incorporates graphene. The QD exists in the graphene under the superconducting contact, due to a work-function mismatch [5, 6]. The ABS form when the discrete QD levels are proximity coupled to the superconducting contact. Due to the low density of states of graphene and the sensitivity of the QD levels to an applied gate voltage, the ABS spectra are narrow, can be tuned to zero energy via gate voltage, and show a striking pattern in transport measurements.
   arxiv_doi: https://arxiv.org/abs/1005.2749
   arxiv_ref: arXiv:1005.2749
@@ -341,6 +325,22 @@
   - cond-mat.supr-con
   - cond-mat.str-el
   title: Transport Through Andreev Bound States in a Graphene Quantum Dot
+- abstract: "We discuss the problem of competition between a superconducting (SC) ordered state with a charge density wave (CDW) state in stripe phases of high \\(T_c\\) superconductors. We consider an effective model for each stripe motivated by studies of spin-gapped electronic ladder systems. We analyze the problem of dimensional crossover arising from inter-stripe SC and CDW couplings using non-Abelian bosonization and renormalization group (RG) arguments to derive an effective \\(O(4)\\)-symmetric nonlinear \\(\u03C3\\)-model in \\(D=2+1\\) for the case of when both inter-stripe couplings are of equal magnitude as well as equally RG relevant. By studying the effects of various symmetry lowering perturbations, we determine the structure of the phase diagram and show that, in general, it has a broad regime in which both orders coexist. The quantum and thermal critical behavior is discussed in detail, and the phase coexistence region is found to end at associated \\(T=0\\) as well as \\(T>0\\) tetracritical points. The possible role of hedgehog topological excitations of the theory is considered and argued to be RG irrelevant at the spatially anisotropic higher dimensional low-energy fixed point theory. Our results are also relevant to the case of competing N\xE9el and valence bond solid (VBS) orders in quantum magnets on 2D isotropic square as well as rectangular lattices interacting via nearest neighbor Heisenberg exchange interactions."
+  arxiv_doi: https://arxiv.org/abs/1007.2187
+  arxiv_ref: arXiv:1007.2187
+  authors:
+  - Akbar Jaefari
+  - Siddhartha Lal
+  - Eduardo Fradkin
+  doi: https://doi.org/10.1103/PhysRevB.82.144531
+  journal_ref: Physical Review B 82, 144531 (2010)
+  journal_ref_short: PRB 82, 144531
+  permalink: /1007.2187/
+  submit_date: 13 July, 2010
+  tags:
+  - cond-mat.supr-con
+  - cond-mat.str-el
+  title: Charge-Density-Wave and Superconductor Competition in Stripe Phases of High Temperature Superconductors
 - abstract: We report a combined experimental and theoretical study of KCuF3, which offers - because of this material's relatively simple lattice structure and valence configuration (d9, i.e., one hole in the d-shell) - a particularly clear view of the essential role of the orbital degree of freedom in governing the dynamical coupling between the spin and lattice degrees of freedom. We present Raman and x-ray scattering evidence that the phase behaviour of KCuF3 is dominated above the Neel temperature (T_N = 40 K) by coupled orbital/lattice fluctuations that are likely associated with rotations of the CuF6 octahedra, and we show that these orbital fluctuations are interrupted by a static structural distortion that occurs just above T_N. A detailed model of the orbital and magnetic phases of KCuF3 reveals that these orbital fluctuations - and the related frustration of in-plane spin-order-are associated with the presence of nearly degenerate low-energy spin-orbital states that are highly susceptible to thermal fluctuations over a wide range of temperatures. A striking implication of these results is that the ground state of KCuF3 at ambient pressure lies near a quantum critical point associated with an orbital/spin liquid phase that is obscured by emergent Neel ordering of the spins; this exotic liquid phase might be accessible via pressure studies.
   arxiv_doi: https://arxiv.org/abs/0911.0619
   arxiv_ref: arXiv:0911.0619
@@ -381,7 +381,7 @@
   - cond-mat.mes-hall
   - cond-mat.quant-gas
   title: 'Approaching multichannel Kondo physics using correlated bosons: Quantum phases and how to realize them'
-- abstract: "Motivated by surprises in recent experimental findings, we study transport in a model of a quantum Hall edge system with a gate-voltage controlled constriction. A finite backscattered current at finite edge-bias is explained from a Landauer-Buttiker analysis as arising from the splitting of edge current caused by the difference in the filling fractions of the bulk ($\u03BD_{1}$) and constriction ($\u03BD_{2}$) quantum Hall fluid regions. We develop a hydrodynamic theory for bosonic edge modes inspired by this model. The constriction region splits the incident long-wavelength chiral edge density-wave excitations among the transmitting and reflecting edge states encircling it. The competition between two interedge tunneling processes taking place inside the constriction, related by a quasiparticle-quasihole (qp-qh) symmetry, is accounted for by computing the boundary theories of the system. This competition is found to determine the strong coupling configuration of the system. A separatrix of qp-qh symmetric gapless critical states is found to lie between the relevant RG flows to a metallic and an insulating configuration of the constriction system. This constitutes an interesting generalisation of the Kane-Fisher quantum impurity model. The features of the RG phase diagram are also confirmed by computing various correlators and chiral linear conductances of the system. In this way, our results find excellent agreement with many recent puzzling experimental results for the cases of $\u03BD_{1}=1/3,~1$. We also discuss and make predictions for the case of a constriction system with $\u03BD_{2}=5/2$."
+- abstract: "Motivated by surprises in recent experimental findings, we study transport in a model of a quantum Hall edge system with a gate-voltage controlled constriction. A finite backscattered current at finite edge-bias is explained from a Landauer-Buttiker analysis as arising from the splitting of edge current caused by the difference in the filling fractions of the bulk (\\(\u03BD_{1}\\)) and constriction (\\(\u03BD_{2}\\)) quantum Hall fluid regions. We develop a hydrodynamic theory for bosonic edge modes inspired by this model. The constriction region splits the incident long-wavelength chiral edge density-wave excitations among the transmitting and reflecting edge states encircling it. The competition between two interedge tunneling processes taking place inside the constriction, related by a quasiparticle-quasihole (qp-qh) symmetry, is accounted for by computing the boundary theories of the system. This competition is found to determine the strong coupling configuration of the system. A separatrix of qp-qh symmetric gapless critical states is found to lie between the relevant RG flows to a metallic and an insulating configuration of the constriction system. This constitutes an interesting generalisation of the Kane-Fisher quantum impurity model. The features of the RG phase diagram are also confirmed by computing various correlators and chiral linear conductances of the system. In this way, our results find excellent agreement with many recent puzzling experimental results for the cases of \\(\u03BD_{1}=1/3,~1\\). We also discuss and make predictions for the case of a constriction system with \\(\u03BD_{2}=5/2\\)."
   arxiv_doi: https://arxiv.org/abs/0709.3164
   arxiv_ref: arXiv:0709.3164
   authors:
@@ -394,6 +394,17 @@
   tags:
   - cond-mat.mes-hall
   title: 'Transport through constricted quantum Hall edge systems: beyond the quantum point contact'
+- abstract: We study a one-dimensional extended Hubbard model with longer-range Coulomb interactions at quarter-filling in the strong coupling limit. We find two different charge-ordered (CO) ground states as the strength of the longer range interactions is varied. At lower energies, these CO states drive two different spin-ordered ground states. A variety of response functions computed here bear a remarkable resemblance to recent experimental observations for organic TMTSF systems, and so we propose that these systems are proximate to a QCP associated with T=0 charge order. For a ladder system relevant to \(Sr_{14}Cu_{24}O_{41}\), we find in-chain CO, rung-dimer, and orbital antiferromagnetic ordered phases with varying interchain couplings and superconductivity with hole-doping. RPA studies of many chains (ladders) coupled reveal a phase diagram with the ordered phase extended to finite temperatures and a phase boundary ending at a quantum critical point (QCP). Critical quantum fluctuations at the QCP are found to enhance the transverse dispersion, leading to a dimensional crossover and a T=0 decofinement transition.
+  arxiv_doi: https://arxiv.org/abs/0708.2156
+  arxiv_ref: arXiv:0708.2156
+  authors:
+  - Siddhartha Lal
+  - Mukul S. Laad
+  permalink: /0708.2156/
+  submit_date: 16 August, 2007
+  tags:
+  - cond-mat.str-el
+  title: Ordering from frustration in a strongly correlated one-dimensional system
 - abstract: A recent study revealed the dynamics of the charge sector of a one-dimensional quarter-filled electronic system with extended Hubbard interactions to be that of an effective pseudospin transverse-field Ising model (TFIM) in the strong coupling limit. With the twin motivations of studying the co-existing charge and spin order found in strongly correlated chain systems and the effects of inter-chain couplings, we investigate the phase diagram of coupled effective (TFIM) systems. A bosonisation and RG analysis for a two-leg TFIM ladder yields a rich phase diagram showing Wigner/Peierls charge order and Neel/dimer spin order. In a broad parameter regime, the orbital antiferromagnetic phase is found to be stable. An intermediate gapless phase of finite width is found to lie in between two charge-ordered gapped phases. Kosterlitz-Thouless transitions are found to lead from the gapless phase to either of the charge-ordered phases. A detailed analysis is also carried out for the dimensional crossover physics when many such pseudospin systems are coupled to one another. Importantly, the analysis reveals the key role of critical quantum fluctuations in driving the strong dispersion in the transverse directions, as well as a T=0 deconfinement transition. Our work is potentially relevant for a unified description of a class of strongly correlated, quarter-filled chain and ladder systems.
   arxiv_doi: https://arxiv.org/abs/0708.2159
   arxiv_ref: arXiv:0708.2159
@@ -405,18 +416,7 @@
   tags:
   - cond-mat.str-el
   title: 'From frustrated insulators to correlated anisotropic metals: charge ordering and quantum criticality in coupled chain systems'
-- abstract: We study a one-dimensional extended Hubbard model with longer-range Coulomb interactions at quarter-filling in the strong coupling limit. We find two different charge-ordered (CO) ground states as the strength of the longer range interactions is varied. At lower energies, these CO states drive two different spin-ordered ground states. A variety of response functions computed here bear a remarkable resemblance to recent experimental observations for organic TMTSF systems, and so we propose that these systems are proximate to a QCP associated with T=0 charge order. For a ladder system relevant to $Sr_{14}Cu_{24}O_{41}$, we find in-chain CO, rung-dimer, and orbital antiferromagnetic ordered phases with varying interchain couplings and superconductivity with hole-doping. RPA studies of many chains (ladders) coupled reveal a phase diagram with the ordered phase extended to finite temperatures and a phase boundary ending at a quantum critical point (QCP). Critical quantum fluctuations at the QCP are found to enhance the transverse dispersion, leading to a dimensional crossover and a T=0 decofinement transition.
-  arxiv_doi: https://arxiv.org/abs/0708.2156
-  arxiv_ref: arXiv:0708.2156
-  authors:
-  - Siddhartha Lal
-  - Mukul S. Laad
-  permalink: /0708.2156/
-  submit_date: 16 August, 2007
-  tags:
-  - cond-mat.str-el
-  title: Ordering from frustration in a strongly correlated one-dimensional system
-- abstract: "Motivated by recent experimental findings, we study transport in a simple phenomenological model of a quantum Hall edge system with a gate-voltage controlled constriction lowering the local filling factor. The current backscattered from the constriction is seen to arise from the matching of the properties of the edge-current excitations in the constriction ($\u03BD_{2}$) and bulk ($\u03BD_{1}$) regions. We develop a hydrodynamic theory for bosonic edge modes inspired by this model, finding that a competition between two tunneling process, related by a quasiparticle-quasihole symmetry, determines the fate of the low-bias transmission conductance. In this way, we find satisfactory explanations for many recent puzzling experimental results."
+- abstract: "Motivated by recent experimental findings, we study transport in a simple phenomenological model of a quantum Hall edge system with a gate-voltage controlled constriction lowering the local filling factor. The current backscattered from the constriction is seen to arise from the matching of the properties of the edge-current excitations in the constriction (\\(\u03BD_{2}\\)) and bulk (\\(\u03BD_{1}\\)) regions. We develop a hydrodynamic theory for bosonic edge modes inspired by this model, finding that a competition between two tunneling process, related by a quasiparticle-quasihole symmetry, determines the fate of the low-bias transmission conductance. In this way, we find satisfactory explanations for many recent puzzling experimental results."
   arxiv_doi: https://arxiv.org/abs/cond-mat/0611218
   arxiv_ref: arXiv:cond-mat/0611218
   authors:
@@ -512,22 +512,6 @@
   - cond-mat.str-el
   - cond-mat.stat-mech
   title: One-dimensional fermions with incommensuration
-- abstract: We study the spectrum of fermions hopping on a chain with a weak incommensuration close to dimerization; both q, the deviation of the wave number from pi, and delta, the strength of the incommensuration, are small. For free fermions, we use a continuum Dirac theory to show that there are an infinite number of bands which meet at zero energy as q approaches zero. In the limit that the ratio q/delta ---> 0, the number of states lying inside the q = 0 gap is nonzero and equal to 2 delta / pi^2. Thus the limit q ---> 0 differs from q = 0; this can be seen clearly in the behavior of the specific heat at low temperature. For interacting fermions or the XXZ spin-1/2 chain, we use bosonization to argue that similar results hold.
-  arxiv_doi: https://arxiv.org/abs/cond-mat/9811330
-  arxiv_ref: arXiv:cond-mat/9811330
-  authors:
-  - Diptiman Sen
-  - Siddhartha Lal
-  doi: https://doi.org/10.1209/epl/i2000-00444-0
-  journal_ref: Europhys.Lett. 52 (2000) 337-343
-  journal_ref_short: Europhys.Lett. 52 337-343
-  permalink: /cond-mat/9811330/
-  submit_date: 24 November, 1998
-  tags:
-  - cond-mat.stat-mech
-  - cond-mat.str-el
-  - hep-th
-  title: One-dimensional fermions with incommensurate hopping close to dimerization
 - abstract: 'The experimental realization of various spin ladder systems has prompted their detailed theoretical investigations. Here we study the evolution of ground state magnetization with an external magnetic field for two different antiferromagnetic systems: a three-legged spin-1/2 ladder, and a two-legged spin-1/2 ladder with an additional diagonal interaction. The finite system density-matrix renormalization group method is employed for numerical studies of the three-chain system, and an effective low-energy Hamiltonian is used in the limit of strong interchain coupling to study the two- and three-chain systems. The three-chain system has a magnetization plateau at one-third of the saturation magnetization. The two-chain system has a plateau at zero magnetization due to a gap above the singlet ground state. It also has a plateau at half of the saturation magnetization for a certain range of values of the couplings. We study the regions of transitions between plateaus numerically and analytically, and find that they are described, at first order in a strong-coupling expansion, by an XXZ spin-1/2 chain in a magnetic field; the second order terms give corrections to the XXZ model. We also study numerically some low-temperature properties of the three-chain system, such as the magnetization, magnetic susceptibility and specific heat.'
   arxiv_doi: https://arxiv.org/abs/cond-mat/9806111
   arxiv_ref: arXiv:cond-mat/9806111
@@ -546,3 +530,19 @@
   - cond-mat.str-el
   - cond-mat.stat-mech
   title: Magnetization Properties of Some Quantum Spin Ladders
+- abstract: We study the spectrum of fermions hopping on a chain with a weak incommensuration close to dimerization; both q, the deviation of the wave number from pi, and delta, the strength of the incommensuration, are small. For free fermions, we use a continuum Dirac theory to show that there are an infinite number of bands which meet at zero energy as q approaches zero. In the limit that the ratio q/delta ---> 0, the number of states lying inside the q = 0 gap is nonzero and equal to 2 delta / pi^2. Thus the limit q ---> 0 differs from q = 0; this can be seen clearly in the behavior of the specific heat at low temperature. For interacting fermions or the XXZ spin-1/2 chain, we use bosonization to argue that similar results hold.
+  arxiv_doi: https://arxiv.org/abs/cond-mat/9811330
+  arxiv_ref: arXiv:cond-mat/9811330
+  authors:
+  - Diptiman Sen
+  - Siddhartha Lal
+  doi: https://doi.org/10.1209/epl/i2000-00444-0
+  journal_ref: Europhys.Lett. 52 (2000) 337-343
+  journal_ref_short: Europhys.Lett. 52 337-343
+  permalink: /cond-mat/9811330/
+  submit_date: 24 November, 1998
+  tags:
+  - cond-mat.stat-mech
+  - cond-mat.str-el
+  - hep-th
+  title: One-dimensional fermions with incommensurate hopping close to dimerization
