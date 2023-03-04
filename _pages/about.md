@@ -40,6 +40,7 @@ For more information, please take a look at our [research work](/research/) and 
 
 A list of past and present members of EPQM can be found [here](/people/#group-members).
 
+
 ## <i class="fas fa-coins"></i>&nbsp;&nbsp;Openings
 EPQM is a family, and we take joy and pride in working together and helping one another's growth in their pursuits. If you think you will enjoy being part of EPQM, we want to hear from you. So please read and follow the instructions (relevant to you) given below (show more).
 
@@ -58,6 +59,7 @@ Please contact me by email to check whether EPQM has an opening. For your candid
 " %}
 {% include hidden_content.html content=content id="openingsepqm" %}
 
+
 ## <i class="fas fa-heart"></i>&nbsp;&nbsp;The good stuff
 
 - Check out the [gallery](/gallery/) for some photographs of our group as well as the IISER Kolkata campus.
@@ -65,6 +67,7 @@ Please contact me by email to check whether EPQM has an opening. For your candid
 - Take a look at our recommended [external resources](/external-resources/) for funny/interesting/useful links pertaining to academia in general or (condensed matter) physics in particular.
 
 - To pique your artistic side, each EPQM member has provided their recommendation for a single work of fiction which they believe should be experienced by everyone at least once. [Check them out!](/fiction-recommendations/)
+
 
 ## <i class="fab fa-instagram"></i>&nbsp;&nbsp;Contact Details
 

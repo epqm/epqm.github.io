@@ -24,20 +24,20 @@ layout: splash
 </div>
 <div class="home__column_skewed" markdown=1>
 
----
+<div class="epqm__summary" markdown=1>
 # Emergent Phenomena in Quantum Matter
 <span class="home__banner__abstract">{{ site.description }}</span>
 
 [EPQM in a nutshell](/about/#what-is-epqm){: .btn .btn--info }
 [Research](/research/#overview-of-our-research){: .btn .btn--info }
 [Members](/people){: .btn .btn--info }
+</div>
 
----
 </div>
 </div>
 
 
-## <i class="fas fa-bookmark"></i>&nbsp;&nbsp;Recent Articles/Preprints[[see all]](/posts/#publication-and-preprint-updates){: .btn }
+## <i class="fas fa-bookmark"></i>&nbsp;&nbsp;Recent Articles [[see all]](/posts/#publication-and-preprint-updates){: .btn }
 <div class="home__column__main" markdown=1>
 {% for post in site.categories["publications-and-preprints"] limit:2 %}
   <div class="home__column" markdown=1>

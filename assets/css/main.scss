@@ -101,9 +101,11 @@ a {
 // except lists
 .page__content {
 	text-align: justify;
-	@include breakpoint($medium) {
-		font-size: smaller;
+	@include breakpoint($small) {
+		// font-size: 0.8em;
+		font-size: 16px;
 	}
+	font-size: 13px;
 }
 
 // sets margin to set spacing between
@@ -290,7 +292,7 @@ a {
 	}
 }
 
-.page__title body {
+.page__title, body {
 	line-height: 1.4;
 }
 
@@ -344,6 +346,11 @@ a {
 		100% { opacity: 0; }
 }
 
+.btn {
+	font-size: 100%;
+}
+
+
 .btn--large {
 	padding: 0.4em;
 }
@@ -371,11 +378,8 @@ a {
 	font-style: italic;
 }
 
-.home__banner__abstract {
-	font-style: italic;
-	color: #666;
-	margin-top: 0;
-	font-size: x-small;
+body .home__banner__abstract {
+	color: #777;
 }
 
 .home_banner_image {
@@ -407,7 +411,7 @@ a {
 .page__content h2 {
 	padding-bottom: 0.3em;
 	margin-bottom: 0.5em;
-	font-size: 130%;
+	font-size: 150%;
 	margin: 0 0 0;
 }
 
@@ -416,7 +420,7 @@ a {
 }
 
 .slider__dot {
-	height: 25px;
+	height: 20px;
 	aspect-ratio: 1 / 1;
 	background-color: #555;
 	border-radius: 50%;
@@ -428,15 +432,13 @@ a {
 	opacity: 1;
 }
 
-.slider__dot:hover {
-	transform: scale(1.4);
-}
-
 .slider__dot + .slider__dot {
 	margin-left: 0.6em;
 }
 
 .slide__arrow {
+	position: relative;
+	top: 0.08em;
 	font-size: xx-large;
 	color: gray;
 }
@@ -451,4 +453,14 @@ a {
 
 #pub_slide_1 {
 	display: block;
+}
+
+.epqm__summary {
+	text-align: left;
+	margin-top: 0.5em;
+	padding: 1em;
+	padding-top: 0.5em;
+	padding-bottom: 0.1em;
+	background-color: #dde;
+	margin-bottom: 1em;
 }
