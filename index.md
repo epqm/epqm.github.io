@@ -25,7 +25,7 @@ layout: splash
 
 <div class="home__column__main" markdown=1>
 <div class="home__column_skewed" markdown=1>
-<span class="btn btn--success" onclick="show_highlight({{ prev_slide_num }})"><span class="fa-solid fa-chevron-left"></span>&nbsp;&nbsp;Prev</span>&nbsp;&nbsp;<span class="btn btn--success" onclick="show_highlight({{ next_slide_num }})">Next&nbsp;&nbsp;<span class="fa-solid fa-chevron-right"></span></span>
+<span class="btn btn--success" onclick="show_highlight({{ prev_slide_num }})"><span class="fas fa-chevron-left"></span>&nbsp;&nbsp;Prev</span>&nbsp;&nbsp;<span class="btn btn--success" onclick="show_highlight({{ next_slide_num }})">Next&nbsp;&nbsp;<span class="fas fa-chevron-right"></span></span>
 
 <div class="home__banner__title" markdown=1>{{ post.title }}
 </div>
