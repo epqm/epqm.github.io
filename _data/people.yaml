@@ -3,7 +3,7 @@ Principal Investigator:
     designation: "Associate Professor, IISER Kolkata."
     excerpt: "Interested in strongly correlated systems, criticality in interacting systems of fermions, quantum systems in low dimensions, quantum magnetism, etc."
     email: slal@iiserkol.ac.in
-    image_path: /assets/images/about/people/slal.jpg
+    image_path: /assets/images/people/leader1
     arxiv: "https://arxiv.org/search/?searchtype=author&query=Lal%2C+Siddhartha"
     CV_url: "/assets/pdfs/CV_SLal.pdf"
 Research scholars:
@@ -11,31 +11,31 @@ Research scholars:
     excerpt: "Working on quantum impurity models in relation to Mott MIT, and as auxiliary models. Also holographic nature of entanglement in metals."
     email: mukherjeeabhirup44@gmail.com
     website: https://abhirup-m.github.io
-    image_path: /assets/images/about/people/abhirup.png
+    image_path: /assets/images/people/abhirup.png
     time: "2020 - "
     arxiv: "https://arxiv.org/search/cond-mat?query=%22Abhirup+Mukherjee%22&searchtype=author&abstracts=hide&order=-announced_date_first&size=200"
   - title: Debraj Debata
     excerpt: "Studying the effects of projective/symmetry-breaking terms on quantum systems, in terms of quantum phase transitions and many-particle entanglement."
     email: dd20ip014@iiserkol.ac.in
-    image_path: /assets/images/about/people/debraj.png
+    image_path: /assets/images/people/debraj.png
     time: "2022 - "
   - title: Arnabesh Samadder
     excerpt: "Currently engaged in coursework and background reading."
     email: as22rs063@iiserkol.ac.in
-    image_path: /assets/images/about/people/arnabesh_sammader.jpg
+    image_path: /assets/images/people/arnabesh_sammader.jpg
     time: "2023 - "
 Alumni:
   - title: Santanu  Pal
     excerpt: "Developed spectral flow-based criteria for the existence of novel gapped quantum liquid ground states in frustrated quantum spin systems (e.g., the Heisenberg and XXZ models on the pyrochlore, kagome and triangular lattices). Studied the coupled orbital, spin and phonon dynamics in a prototypical magnetic insulating spinel."
     email: santanu1720@gmail.com
-    image_path: /assets/images/about/people/spal.jpg
+    image_path: /assets/images/people/spal.jpg
     time: "2014 - 2020"
     arxiv: "https://arxiv.org/search/cond-mat?query=%22Santanu+Pal%22&searchtype=author&abstracts=hide&order=-announced_date_first&size=200"
     thesis: "Orbital and spin dynamics in geometrically frustrated lattices"
   - title: Anirban Mukherjee
     excerpt: "Created a non-perturbative renormalisation group-based framework for the study of strongly correlated electronic systems. Obtained fresh insight from this framework on challenging open questions in several important models, e.g., d-wave superconducitvity in the hole-doped 2D Hubbard, how Fermi surface topology shapes fermionic criticality, a theory for the Kondo screening cloud etc."
     email: amukh1290@gmail.com
-    image_path: /assets/images/about/people/anirban.png
+    image_path: /assets/images/people/anirban.png
     time: "2014 - 2021"
     thesis: "Unitary renormalization group for correlated electrons"
     arxiv: "https://arxiv.org/search/cond-mat?query=%22Anirban+Mukherjee%22&searchtype=author&abstracts=hide&order=-announced_date_first&size=200"
@@ -43,7 +43,7 @@ Alumni:
     excerpt: "Studied the nature of multi-partite entanglement in various gapped and gapless liquid phases of quantum matter, leading to a deeper understanding of topological entanglement entropy. Also studied the nature of topological order in the Cooper pair insulating gapped quantum liquid."
     email: siddharthaptr@gmail.com
     website: https://siddharthaptr.wixsite.com/mysite/
-    image_path: /assets/images/about/people/spatra.jpg
+    image_path: /assets/images/people/spatra.jpg
     time: "2016 - 2022"
     thesis: "Entanglement signatures of correlated electron systems"
     arxiv: "https://arxiv.org/search/cond-mat?query=%22Siddhartha+Patra%22&searchtype=author&abstracts=hide&order=-announced_date_first&size=200"

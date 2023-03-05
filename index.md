@@ -15,7 +15,7 @@ layout: splash
 {% if forloop.index == num_slides %}{% assign next_slide_num = 1 %}{% endif %}
 {% if forloop.index == 1 %}{% assign prev_slide_num = num_slides %}{% endif %}
 
-<div class="pub_slide" id="pub_slide_{{ forloop.index }}" markdown=1>
+<div class="pub_slide fade" id="pub_slide_{{ forloop.index }}" markdown=1>
 [![]({% if post.header["overlay_image"] %}{{ post.header["overlay_image"] }}{% else %}{{ post.header["image"] }}{% endif %})]({{ post.url }}){: .home_banner_image }
 
 <div class="home__column__main" markdown=1>

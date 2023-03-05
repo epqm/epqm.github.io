@@ -120,3 +120,13 @@ function readless_abstract() {
 }
 </script>
 
+<script>
+var allImages = document.getElementsByTagName('img');
+
+for(var i = 0; i < allImages.length ; i++) {
+	if (allImages[i].getAttribute('src') == "/assets/images/people/leader1") {
+		allImages[i].onmouseover = function() { event.target.setAttribute("src", "/assets/images/people/leader2"); };
+		allImages[i].onmouseout = function() { event.target.setAttribute("src", "/assets/images/people/leader1"); };
+	}
+}
+</script>
