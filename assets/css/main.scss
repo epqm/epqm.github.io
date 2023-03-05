@@ -363,7 +363,7 @@ a {
 }
 
 
-.home__banner__title {
+.page__content .home__banner__title {
 	text-align: left;
 	margin-top: -0.5em;
 	margin-bottom: -1em;
@@ -380,6 +380,7 @@ a {
 }
 
 body .home__banner__abstract {
+	margin-top: 2em;
 	color: #777;
 }
 

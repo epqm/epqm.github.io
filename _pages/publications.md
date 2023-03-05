@@ -20,7 +20,6 @@ header:
 {% assign num_slides = site.data.publications.size | divided_by:slides_per_page | plus: 1 %}
 {% endif %}
 
-<div class="publication_slider">
 <div class="slider__dots">
 <a class="slide__arrow" id="slide__prev__1"><i class="fas fa-chevron-left" onclick="switch_slide(-1)"></i></a>&nbsp;
 {% for i in (1..num_slides) %}
@@ -36,4 +35,3 @@ header:
 {% for work in site.data.publications offset:off_set limit:slides_per_page %}<hr>{% include publication_info.html %}{% endfor %}
 </div>
 {% endfor %}
-</div>

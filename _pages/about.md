@@ -19,7 +19,7 @@ header:
 
 ---
 
-## <i class="fas fa-atom"></i>&nbsp;&nbsp;What is EPQM?
+## What is EPQM?
 
 **EPQM** (Emergent Phenomena in Quantum Matter) is a research group at IISER Kolkata led by Dr. **Siddhartha Lal** in the Department of Physical Sciences at the Indian Institute of Science Education and Research (IISER) Kolkata, India. We engage in theoretical research on various topics in the **condensed matter physics of quantum matter**, ranging from strongly-correlated electronic systems, quantum magnetism, topological phases of matter, non-Fermi liquids and low-dimensional systems.
 
@@ -35,13 +35,7 @@ In keeping with this, our work has often involved the development of non-perturb
 
 For more information, please take a look at our [research work](/research/) and our [publications](/publications/).
 
-
-## <i class="fas fa-user-graduate"></i>&nbsp;&nbsp;Members of EPQM
-
-A list of past and present members of EPQM can be found [here](/people/#group-members).
-
-
-## <i class="fas fa-coins"></i>&nbsp;&nbsp;Openings
+## Openings
 EPQM is a family, and we take joy and pride in working together and helping one another's growth in their pursuits. If you think you will enjoy being part of EPQM, we want to hear from you. So please read and follow the instructions (relevant to you) given below (show more).
 
 {% assign content = "
@@ -60,16 +54,20 @@ Please contact me by email to check whether EPQM has an opening. For your candid
 {% include hidden_content.html content=content id="openingsepqm" %}
 
 
-## <i class="fas fa-heart"></i>&nbsp;&nbsp;The good stuff
+## The good stuff
 
 - Check out the [gallery](/gallery/) for some photographs of our group as well as the IISER Kolkata campus.
 
-- Take a look at our recommended [external resources](/external-resources/) for funny/interesting/useful links pertaining to academia in general or (condensed matter) physics in particular.
+- Take a look at our suggested [external resources](/external-resources/) for funny/interesting/useful links pertaining to academia in general or (condensed matter) physics in particular.
 
-- To pique your artistic side, each EPQM member has provided their recommendation for a single work of fiction which they believe should be experienced by everyone at least once. [Check them out!](/fiction-recommendations/)
+- Check out our [recommendations](/fiction-recommendations/) for "a single work of fiction that should be experienced by everyone at least once".
+
+[Gallery](/gallery/){: .btn .btn--info }
+[External Links](/external-resources/){: .btn .btn--info }
+[Fiction Suggestions](/fiction-recommendations/){: .btn .btn--info }
 
 
-## <i class="fab fa-instagram"></i>&nbsp;&nbsp;Contact Details
+## Contact Details
 
 **Email**: slal@iiserkol.ac.in
 
@@ -81,5 +79,8 @@ Department of Physical Sciences,<br>
 IISER Kolkata<br>
 Mohanpur-741246, West Bengal, India.
 
-{% include gallery %}
+## Members of EPQM
 
+A list of past and present members of EPQM can be found [here](/people/#group-members).
+
+{% include gallery %}

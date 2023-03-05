@@ -23,7 +23,7 @@ header:
 # Publication and preprint updates
 {% for post in site.posts %}
 {% if post.categories[0] == "publications-and-preprints" %}
-{% include feature_row_posts type="left" show_tags="true" %}
+{% include feature_row_posts.html type="left" show_tags="true" %}
 {% endif %}
 {% endfor %}
 
