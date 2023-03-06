@@ -5,8 +5,8 @@
 <div style="overflow: hidden;" markdown=1>
 **{{ f.title | upcase }}**{% if f.time %}
 [{{ f.time }}]{% endif %}
-<span>[[Email]]("mailto:{{ f.email }}"){: .btn .btn--large .u-email }</span>
-<span>{%- if f.website -%}[[Web]]("{{ f.website }}"){: .btn .btn--large }{%- endif -%}</span>
+<span>[[Email]](mailto:{{ f.email }}){: .btn .btn--large .u-email }</span>
+<span>{%- if f.website -%}[[Web]]({{ f.website }}){: .btn .btn--large }{%- endif -%}</span>
 <span>{%- if f.arxiv -%}[[Arxiv]]({{ f.arxiv }}){: .btn .btn--large }{%- endif -%}</span>
 <span>{%- if f.CV_url -%}[[CV]]({{ f.CV_url }}){: .btn .btn--large }{%- endif -%}</span>
 
