@@ -62,7 +62,7 @@ layout: splash
 
 ## <i class="fas fa-bolt"></i>&nbsp;&nbsp;Miscellaneous News[[see all]](/posts/#miscellaneous-news){: .btn .btn--small }
 
-{% for post in site.categories["updates"] limit:2 %}
+{% for post in site.categories["updates"] limit:3 %}
 - {{ post.date | date: "%b %d, %Y" | upcase }}. **{{ post.title }}**&nbsp;&nbsp;<a href="{{ post.url | relative_url }}" class="btn btn--danger">{{ post.btn_label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a>
 {% endfor %}
 <br>
@@ -86,9 +86,9 @@ layout: splash
 ## <i class="fas fa-mug-hot"></i>&nbsp;&nbsp;Like what you see so far?
 - Take a look at our [research interests](/research/) and [publications](/publications/) to get a better idea of what we do. 
 
-- We have also uploaded a number of our [seminars](/seminars/) on various topics in quantum condensed matter physics.
+- We have also uploaded some of our [seminars](/seminars/) on various topics in quantum condensed matter physics.
 
-- If you want to get in touch with us for any reason, here are out [contact details](/about/#contact-details). Students who are interested in joining us can take a look at our [openings](/about/#openings).
+- If you want to get in touch with us, here are our [contact details](/about/#contact-details). If you are interested in joining us, please look at [openings](/about/#openings).
 
 [Research](/research/){: .btn .btn--info }
 [Seminars](/seminars/){: .btn .btn--info }
