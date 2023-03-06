@@ -412,9 +412,10 @@ body .home__banner__abstract {
 
 .page__content h2 {
 	padding-bottom: 0.3em;
-	margin-bottom: 0.5em;
+	// margin-bottom: 0.5em;
 	font-size: 150%;
-	margin: 0 0 0;
+	// margin: 0 0 0;
+	border-bottom: 0.15em solid $text-color;
 }
 
 .slider__dots {
@@ -465,4 +466,13 @@ a {
 	padding-bottom: 0.1em;
 	background-color: #dde;
 	margin-bottom: 1em;
+}
+
+[class^="notice"] .btn {
+	color: white;
+}
+
+
+[class^="notice"] h1 {
+	font-size: x-large;
 }

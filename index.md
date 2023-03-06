@@ -32,9 +32,10 @@ layout: splash
 
 <div class="home__column_skewed" markdown=1>
 
-<div class="epqm__summary" markdown=1>
+<div class="notice--info" markdown=1>
 # Emergent Phenomena in Quantum Matter
-<span class="home__banner__abstract">{{ site.description }}</span>
+
+{{ site.description }}
 
 [EPQM in a nutshell](/about/#what-is-epqm){: .btn .btn--info }
 [Research](/research/#overview-of-our-research){: .btn .btn--info }
@@ -43,7 +44,10 @@ layout: splash
 </div></div></div></div>
 {% endfor %}
 
-## <i class="fas fa-bookmark"></i>&nbsp;&nbsp;Recent Articles [[see all]](/posts/#publication-and-preprint-updates){: .btn }
+## <i class="fas fa-bookmark"></i>&nbsp;&nbsp;Publication News
+
+[See all news](/posts/#publication-and-preprint-updates){: .btn .btn--info }
+
 <div class="home__column__main" markdown=1>
 {% for post in site.categories["publications-and-preprints"] limit:2 %}
   <div class="home__column" markdown=1>
@@ -59,13 +63,13 @@ layout: splash
   {% endfor %}
 </div>
 
+## <i class="fas fa-bolt"></i>&nbsp;&nbsp;Miscellaneous News
 
-## <i class="fas fa-bolt"></i>&nbsp;&nbsp;Miscellaneous News[[see all]](/posts/#miscellaneous-news){: .btn .btn--small }
+[See all news](/posts/#miscellaneous-news){: .btn .btn--info }
 
 {% for post in site.categories["updates"] limit:3 %}
 - {{ post.date | date: "%b %d, %Y" | upcase }}. **{{ post.title }}**&nbsp;&nbsp;<a href="{{ post.url | relative_url }}" class="btn btn--danger">{{ post.btn_label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a>
 {% endfor %}
-<br>
 
 <div class="home__column__main" markdown=1>
 <div class="home__column" markdown=1>
