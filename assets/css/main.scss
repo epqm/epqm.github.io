@@ -98,8 +98,7 @@ a {
 .page__content {
 	text-align: justify;
 	@include breakpoint($small) {
-		// font-size: 0.8em;
-		font-size: 16px;
+		font-size: 17px;
 	}
 	font-size: 13px;
 }
@@ -220,8 +219,8 @@ a {
 }
 
 .people_row_excerpt, .archive__item-excerpt {
-	font-size: 85%;
-	color: gray;
+	font-size: 100%;
+	color: #666;
 }
 
 
@@ -343,15 +342,6 @@ a {
 		100% { opacity: 0; }
 }
 
-.btn {
-	font-size: 100%;
-}
-
-
-.btn--large {
-	padding: 0.4em;
-}
-
 
 .feature__wrapper {
 	border-bottom: 0;
@@ -362,7 +352,7 @@ a {
 .page__content .home__banner__title {
 	text-align: left;
 	margin-top: -0.5em;
-	margin-bottom: -1em;
+	// margin-bottom: -1em;
 	font-weight: bold;
 	font-size: x-large;
 	@include breakpoint($medium) {
@@ -466,6 +456,10 @@ a {
 	padding-bottom: 0.1em;
 	background-color: #dde;
 	margin-bottom: 1em;
+}
+
+.people_row [class^="notice"] {
+	font-size: 100% !important;
 }
 
 [class^="notice"] .btn {
