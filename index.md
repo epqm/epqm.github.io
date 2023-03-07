@@ -45,7 +45,7 @@ layout: splash
 </div></div></div></div>
 {% endfor %}
 
-## <i class="fas fa-bookmark"></i>&nbsp;&nbsp;Publication News
+## <i class="fas fa-bookmark" style="color: #0092ca;"></i>&nbsp;&nbsp;Publication News
 
 [See all news](/posts/#publication-and-preprint-updates){: .btn .btn--info }
 
@@ -64,7 +64,7 @@ layout: splash
   {% endfor %}
 </div>
 
-## <i class="fas fa-bolt"></i>&nbsp;&nbsp;Miscellaneous News
+## <i class="fas fa-bolt" style="color: #0092ca"></i>&nbsp;&nbsp;Miscellaneous News
 
 [See all news](/posts/#miscellaneous-news){: .btn .btn--info }
 
@@ -74,7 +74,7 @@ layout: splash
 
 <div class="home__column__main" markdown=1>
 <div class="home__column" markdown=1>
-## <i class="fas fa-heart"></i>&nbsp;&nbsp;The good stuff
+## <i class="fas fa-heart" style="color: #0092ca;"></i>&nbsp;&nbsp;The good stuff
 
 - Check out the [gallery](/gallery/) for some photographs of our group as well as the IISER Kolkata campus.
 
@@ -88,7 +88,7 @@ layout: splash
 
 </div>
 <div class="home__column" markdown=1>
-## <i class="fas fa-mug-hot"></i>&nbsp;&nbsp;Like what you see so far?
+## <i class="fas fa-mug-hot" style="color: #0092ca;"></i>&nbsp;&nbsp;Like what you see so far?
 - Take a look at our [research interests](/research/) and [publications](/publications/) to get a better idea of what we do. 
 
 - We have also uploaded some of our [seminars](/seminars/) on various topics in quantum condensed matter physics.
