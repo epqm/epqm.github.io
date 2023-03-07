@@ -1,6 +1,8 @@
 <div class="pub__global" markdown=1>
+{% assign readmore = include.readmore %}
+
 {%- unless show_publication_title -%}
-**{{ work["title"] }}**
+**{{ work["title"] | upcase }}**{%- if readmore -%}{% for post in site.categories["publications-and-preprints"] %}{%- if post.permalink == work["permalink"] -%}&nbsp;[[Read More]]({{ work["permalink"] }}){: .btn .btn--large }{% break %}{% endif %}{% endfor %}{%- endif -%}
 {%- endunless -%}
 {%- if include.show_tags -%}
 &nbsp;&nbsp;&nbsp;

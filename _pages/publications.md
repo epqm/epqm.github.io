@@ -10,7 +10,7 @@ header:
 
 ---
 
-<span class="pub__external__links">[ARXIV LINK]({{ site.author["links"][2]["url"] }}){: .btn .btn--warning } [G. SCHOLAR]({{ site.author["links"][3]["url"] }}){: .btn .btn--success }</span>
+<span class="pub__external__links">[ARXIV LINK](https://arxiv.org/search/?searchtype=author&query=Lal%2C+Siddhartha){: .btn .btn--success } [G. SCHOLAR](https://scholar.google.co.in/citations?user=QRSxh6kAAAAJ&hl=en){: .btn .btn--success }</span>
 
 {% assign slides_per_page = 6 %}
 {% assign rem = site.data.publications.size | modulo:slides_per_page %}
@@ -32,6 +32,6 @@ header:
 <div class="pub_slide" id="pub_slide_{{ forloop.index }}" markdown=1>
 [ **{{ off_set | plus:1 }} - {{ off_set | plus:slides_per_page }}** ]
 {: .text-center }
-{% for work in site.data.publications offset:off_set limit:slides_per_page %}<hr>{% include publication_info.html %}{% endfor %}
+{% for work in site.data.publications offset:off_set limit:slides_per_page %}<hr>{% include publication_info.html readmore="True" %}{% endfor %}
 </div>
 {% endfor %}
