@@ -31,10 +31,13 @@ a {
 }
 
 .body__img {
-	color: #444;
-	text-align: justify;
+	text-align: center;
 	padding: 1em;
-	background-color: #dde;
+	background-color: white;
+	> img {
+		margin-bottom: 1em;
+	}
+	border: 2px solid gray;
 }
 
 
