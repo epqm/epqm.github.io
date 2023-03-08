@@ -64,7 +64,13 @@ a {
 	width:100%;
 	display: block; 
 	overflow:hidden; 
-	margin-bottom: 1em;
+	margin-bottom: 3em;
+}
+
+
+.people_row p {
+	// margin-top: -0.8em !important;
+	margin-bottom: 0;
 }
 
 // sets width, margin and left float for people images,
@@ -74,7 +80,6 @@ a {
 	width:200px;
 	display: block;
 	margin: auto;
-	margin-bottom: 1em;
 	@include breakpoint($small) {
 		float:left; 
 		overflow: hidden; 
@@ -405,7 +410,6 @@ body .home__banner__abstract {
 
 .page__content h2 {
 	padding-bottom: 0.3em;
-	// margin-bottom: 0.5em;
 	font-size: 150%;
 	// margin: 0 0 0;
 	border-bottom: 0.15em solid $text-color;
@@ -461,8 +465,14 @@ a {
 	margin-bottom: 1em;
 }
 
+[class^="notice"] {
+	font-size: larger;
+}
+
+
 .people_row [class^="notice"] {
 	font-size: 100% !important;
+	margin-top: 0 !important;
 }
 
 [class^="notice"] .btn {

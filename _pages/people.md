@@ -1,6 +1,6 @@
 ---
 permalink: /people/
-layout: single
+layout: splash
 title: "EPQM Members: Present Team and Alumni"
 classes: wide
 header:

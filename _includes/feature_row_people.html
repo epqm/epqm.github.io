@@ -2,22 +2,25 @@
 
 <div class="people_row" markdown=1>
 <div class="people_img"><img src="{{ f.image_path }}"></div>
-<div style="overflow: hidden;" markdown=1>
-**{{ f.title | upcase }}**{% if f.time %}
-[{{ f.time }}]{% endif %}
+<div style="overflow:hidden;" markdown=1>
+**{{ f.title | upcase }}**{% if f.time %}&nbsp;&nbsp;[{{ f.time }}]{% endif %}
 <span>[[Email]](mailto:{{ f.email }}){: .btn .btn--large .u-email }</span>
 <span>{%- if f.website -%}[[Web]]({{ f.website }}){: .btn .btn--large }{%- endif -%}</span>
 <span>{%- if f.arxiv -%}[[Arxiv]]({{ f.arxiv }}){: .btn .btn--large }{%- endif -%}</span>
 <span>{%- if f.CV_url -%}[[CV]]({{ f.CV_url }}){: .btn .btn--large }{%- endif -%}</span>
 
-{% if f.designation %}<i class="fas fa-user-tie"></i>&nbsp;&nbsp;{{ f.designation }}{% endif %}
+{% if f.thesis %}
+**THESIS TITLE**: {{ f.thesis }}<br>
+{% endif %}
 
-{% if f.thesis %}<span class="notice--info">**THESIS TITLE**: {{ f.thesis }}</span>{% endif %}
+{% if f.designation %}<i class="fas fa-user-tie"></i>&nbsp;&nbsp;{{ f.designation }}{% endif %}
 
 <span class="archive__item-excerpt" markdown=1>{{ f.excerpt }}</span>
 
 </div>
 </div>
+
+
 <span class="people_divider"></span>
 
 {% endfor %}
