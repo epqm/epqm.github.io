@@ -101,16 +101,6 @@ a {
 }
 
 
-// justifies all the text in the page body, 
-// except lists
-.page__content {
-	text-align: justify;
-	@include breakpoint($small) {
-		font-size: 17px;
-	}
-	font-size: 13px;
-}
-
 // sets margin to set spacing between
 // the recent posts on the home page 
 .archive__item {
@@ -126,16 +116,6 @@ a {
 .masthead__inner-wrap {
 	padding-top: 0.4em;
 	padding-bottom: 0.4em;
-}
-
-
-// makes the font of the top panel 
-// navigation links slightly smaller
-.greedy-nav .visible-links a {
-	font-size: normal;
-	@include breakpoint($small) {
-		font-size: smaller;
-	}
 }
 
 
@@ -180,20 +160,6 @@ a {
 	display: block;
 }
 
-// styles the "Full image" indicator 
-// on overlay_images
-.page__hero-caption2 {
-	top: 0;
-	width: fit-content; 
-	height: fit-content;
-}
-
-
-.page__hero-caption {
-	opacity: 0.7;
-}
-
-
 .feature__item--center .archive__item-teaser, .feature__item--center .archive__item-body {
 	width: 100%;
 }
@@ -220,14 +186,7 @@ a {
 }
 
 
-.yt__embed {
-	max-width: 700px;
-	margin: auto;
-	display: block;
-}
-
 .archive__item-excerpt {
-	font-size: 100%;
 	color: #666;
 }
 
@@ -244,40 +203,6 @@ a {
 }
 
 
-* {box-sizing:border-box}
-
-/* Slideshow container */
-.slideshow-container {
-	width: 100%;
-	position: relative;
-	margin: auto;
-}
-
-/* Hide the images by default */
-.mySlides {
-	display: none;
-}
-
-/* The dots/bullets/indicators */
-.dot {
-	cursor: pointer;
-	height: 15px;
-	width: 15px;
-	margin: 0 2px;
-	background-color: #bbb;
-	border-radius: 50%;
-	display: inline-block;
-	transition: background-color 0.6s ease;
-}
-
-.active__dot, .dot:hover {
-	background-color: #444;
-}
-
-.dot__sliding {
-	text-align: center;
-}
-
 /* Fading animation */
 .fade {
   animation-name: fade;
@@ -287,35 +212,6 @@ a {
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
-}
-
-.page__hero--overlay {
-	@include breakpoint($small) {
-		height: 25em;
-	}
-}
-
-.page__title, body {
-	line-height: 1.4;
-}
-
-.page__hero--overlay .wrapper .page__lead {
-	font-style: italic;
-}
-
-.page__hero--overlay .wrapper a {
-	@include breakpoint($small) {
-		margin-top: 1em;
-	}
-}
-
-.sidebar .nav__title {
-	font-weight: bold;
-	font-size: larger;
-}
-
-.nav__sub-title .sidebar li {
-	font-size: 50%;
 }
 
 .pub__external__links {
@@ -401,17 +297,14 @@ body .home__banner__abstract {
 	margin-top: 1em;
 }
 
-.btn--info {
-	background-color: $link-color;
-}
-.btn--info:visited {
+.btn--info, .btn--info:visited {
 	background-color: $link-color;
 }
 
 .page__content h2 {
 	padding-bottom: 0.3em;
 	font-size: 150%;
-	// margin: 0 0 0;
+	margin-top: 0;
 	border-bottom: 0.15em solid $text-color;
 }
 
@@ -443,8 +336,6 @@ body .home__banner__abstract {
 	color: gray;
 }
 
-a {
-}
 
 .pub_slide {
 	margin-top: 1em;
@@ -455,31 +346,12 @@ a {
 	display: block;
 }
 
-.epqm__summary {
+.epqm__description {
 	text-align: left;
-	margin-top: 0.5em;
 	padding: 1em;
-	padding-top: 0.5em;
+	padding-top: 0.8em;
 	padding-bottom: 0.1em;
-	background-color: #dde;
+	background-color: rgba($primary-color, 0.4);
+	font-size: 90%;
 	margin-bottom: 1em;
-}
-
-[class^="notice"] {
-	font-size: larger;
-}
-
-
-.people_row [class^="notice"] {
-	font-size: 100% !important;
-	margin-top: 0 !important;
-}
-
-[class^="notice"] .btn {
-	color: white;
-}
-
-
-[class^="notice"] h1 {
-	font-size: x-large;
 }

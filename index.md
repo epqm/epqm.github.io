@@ -33,19 +33,19 @@ layout: splash
 
 <div class="home__column_skewed" markdown=1>
 
-<div class="notice--info" markdown=1>
+<div class="epqm__description" markdown=1>
 # Emergent Phenomena in Quantum Matter
 
 {{ site.description }}
 
-[EPQM in a nutshell](/about/#what-is-epqm){: .btn .btn--info }
-[Research](/research/#overview-of-our-research){: .btn .btn--info }
-[Members](/people){: .btn .btn--info }
+[EPQM in a nutshell](/about/#what-is-epqm){: .btn .btn--primary }
+[Research](/research/#overview-of-our-research){: .btn .btn--primary }
+[Members](/people){: .btn .btn--primary }
 
 </div></div></div></div>
 {% endfor %}
 
-## <i class="fas fa-bookmark" style="color: #05014a;"></i>&nbsp;&nbsp;Publication News
+## <i class="fas fa-bookmark"></i>&nbsp;&nbsp;Publication News
 
 [See all news](/posts/#publication-and-preprint-updates){: .btn .btn--info }
 
@@ -74,7 +74,7 @@ layout: splash
 
 <div class="home__column__main" markdown=1>
 <div class="home__column" markdown=1>
-## <i class="fas fa-heart" style="color: #05014a;"></i>&nbsp;&nbsp;The good stuff
+## <i class="fas fa-heart"></i>&nbsp;&nbsp;The good stuff
 
 - Check out the [gallery](/gallery/) for some photographs of our group as well as the IISER Kolkata campus.
 
@@ -88,7 +88,7 @@ layout: splash
 
 </div>
 <div class="home__column" markdown=1>
-## <i class="fas fa-mug-hot" style="color: #05014a;"></i>&nbsp;&nbsp;Like what you see so far?
+## <i class="fas fa-mug-hot"></i>&nbsp;&nbsp;Like what you see so far?
 - Take a look at our [research interests](/research/) and [publications](/publications/) to get a better idea of what we do. 
 
 - We have also uploaded some of our [seminars](/seminars/) on various topics in quantum condensed matter physics.
