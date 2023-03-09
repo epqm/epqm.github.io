@@ -20,6 +20,8 @@ It is quite remarkable that a host of very powerful analytical and numerical met
 
 Despite such a rich history, a puzzle at the very heart of the Kondo problem has remained open till now: what is the structure of the Kondo cloud (e.g., the many- particle entanglement encoded within it), and how should we describe it in terms of an effective theory? We have provided some answers to these questions by employing an analytic non-perturbative renormalisation group method that we have developed recently. Our approach unveils how spin-flip scattering off the magnetic impurity by the conduction electrons leads to their entanglement, and the formation of the Kondo cloud. The effective Hamiltonian obtained by us has been used to compute several thermodynamic quantities, and these are found to be in very good agreement with results obtained in the past. In this way, our work opens the door to further investigations of other paradigmatic quantum impurity problems and beyond.
 
+You can also watch a seminar on this work [here](https://www.youtube.com/watch?v=C0cPoWahzLA&ab_channel=DepartmentofTheoreticalPhysics%2CTIFR).
+
 ## Link to publication/preprint
 
 {% include insert_publication_info.html %}

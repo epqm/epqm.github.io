@@ -37,6 +37,8 @@ In a recent work [5], we take the game deeper by probing for answers by looking 
 
 At the same time, we have also demonstrated (for interested readers) how the MERG approach (i) is equivalent to a holographic spatial dimension containing emergent topologically ordered quantum liquids, (ii) is connected to quantum circuits that emulate a topological quantum error-correcting code, and (iii) enables the creation of a deep neural network that verifies the information bottleneck principle for machine learning, and is very efficient at identifying the emergence of topological states of quantum matter. Details of these are provided in a Supplementary Materials writeup available online at the journal site of the work.
 
+You can also see a seminar on this topic [here](https://www.youtube.com/live/slghUn1h0KY?feature=share&t=3155).
+
 **References**:
 1. The ubiquity of superconductivity. A. J. Leggett. Annu. Rev. Condens. Matter Phys. 2, 11-30 (2011).
 2. Scaling theory for Mott-Hubbard transitions – I: T=0 phase diagram of the ½-filled Hubbard model. A. Mukherjee and S. Lal. New Journal of Physics. 22, 063007 (2020).
