@@ -45,8 +45,3 @@ You can also see a seminar on this topic [here](https://www.youtube.com/live/slg
 3. Scaling theory for Mott-Hubbard transitions – II: Quantum Criticality of the doped Mott insulator. A. Mukherjee and S. Lal. New Journal of Physics. 22, 063008 (2020).
 4. From quantum matter to high-temperature superconductivity in copper oxides. B. Keimer, S. A. Kivelson, M. R. Norman, S. Uchida and J. Zaanen. Nature 518, 179 (2015).
 5. Superconductivity from repulsion in the doped 2D electronic Hubbard model: an entanglement perspective. A. Mukherjee and S. Lal. J. Phys.:Condens. Matter 34, 275601(2022).
-
-
-## Link to publication/preprint
-
-{% include insert_publication_info.html %}

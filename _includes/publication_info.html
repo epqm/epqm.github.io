@@ -1,18 +1,9 @@
-<div class="pub__global" markdown=1>
 {% assign readmore = include.readmore %}
 
 {%- unless show_publication_title -%}
-**{{ work["title"] | upcase }}**{%- if readmore -%}{% for post in site.categories["publications-and-preprints"] %}{%- if post.permalink == work["permalink"] -%}&nbsp;[[Read More]]({{ work["permalink"] }}){: .btn .btn--large }{% break %}{% endif %}{% endfor %}{%- endif -%}
-{%- endunless -%}
-{%- if include.show_tags -%}
-&nbsp;&nbsp;&nbsp;
-{%- for tag in work["tags"] -%}
-<span class="btn btn--success tag__highlight">{{ tag | replace: "cond-mat.","" }}</span>
-{%- endfor -%}
-{%- endif -%}
-<br>
+**{{ work["title"] }}**{%- if readmore -%}{% for post in site.categories["publications-and-preprints"] %}{%- if post.permalink == work["permalink"] -%}&nbsp;&nbsp;[[Learn More]]({{ work["permalink"] }}){% break %}{% endif %}{% endfor %}{%- endif -%}
+{% endunless %}
 <span class='pub__authors'>{{ work["authors"] | join:", " | replace: "Siddhartha Lal", "<b>Siddhartha Lal</b>" }}</span>
 {{ work["submit_date"] | strip | date: "%b %-d, %Y" }}&nbsp;&nbsp;&nbsp;
 {%- if work["doi"] -%}<a href="{{ work["doi"] }}" class="btn btn--danger tag__highlight">{{ work["journal_ref_short"] }}</a>{% endif %}
-<a href="{{ work["arxiv_doi"] }}" class="btn btn--info tag__highlight">{{ work["arxiv_ref"] | replace: "cond-mat/","" }}</a>
-</div>
+<a href="{{ work["arxiv_doi"] }}" class="btn btn--success tag__highlight">{{ work["arxiv_ref"] | replace: "cond-mat/","" }}</a>

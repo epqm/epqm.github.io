@@ -10,7 +10,7 @@ header:
 
 ---
 
-<span class="pub__external__links">[ARXIV LINK](https://arxiv.org/search/?searchtype=author&query=Lal%2C+Siddhartha){: .btn .btn--success } [G. SCHOLAR](https://scholar.google.co.in/citations?user=QRSxh6kAAAAJ&hl=en){: .btn .btn--success }</span>
+<span class="pub__external__links">[ARXIV LINK](https://arxiv.org/search/?searchtype=author&query=Lal%2C+Siddhartha){: .btn .btn--info } [G. SCHOLAR](https://scholar.google.co.in/citations?user=QRSxh6kAAAAJ&hl=en){: .btn .btn--info }</span>
 
 {% assign slides_per_page = 6 %}
 {% assign rem = site.data.publications.size | modulo:slides_per_page %}

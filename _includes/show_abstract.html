@@ -1,6 +1,7 @@
 {% for pub in site.data.publications %}
 {% if pub["permalink"] == page.permalink %}
-<div class="home__banner__abstract">
+{% include insert_publication_info.html %}
+<div class="archive__item-excerpt">
 <div id="short_abstract" class="archive__item-excerpt">{{ pub["abstract"] | split:". " | first | append:"..." }}</div>
 <div id="full_abstract" class="archive__item-excerpt">{{ pub["abstract"] }}</div>
 <div id="readmore_abstract" class="btn btn--info" onclick="readmore_abstract()">Show excerpt</div>

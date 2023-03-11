@@ -162,11 +162,9 @@ a {
 
 .feature__item--center .archive__item-teaser, .feature__item--center .archive__item-body {
 	width: 100%;
-}
-
-.feature__wrapper .archive__item-teaser, .feature__wrapper .archive__item-body, .pub__global, li {
 	text-align: left;
 }
+
 
 .feature__wrapper .archive__item-teaser {
 	:hover {
@@ -175,13 +173,10 @@ a {
 	}
 }
 
-.feature__item--left .feature__wrapper .archive__item-body {
-	margin-top: -2em;
+.feature__item--left .archive__item-body {
+	padding: 0;
 	@include breakpoint($small) {
 		margin-top: -0.2em;
-	}
-	> .archive__item-title {
-		font-size: 120%;
 	}
 }
 
@@ -254,7 +249,6 @@ a {
 
 
 .page__content .home__banner__title {
-	text-align: left;
 	margin-top: -0.5em;
 	// margin-bottom: -1em;
 	font-weight: bold;
@@ -267,11 +261,6 @@ a {
 .home__banner__title::first-letter, .page__title::first-letter {
 	font-size: 150%;
 	font-style: italic;
-}
-
-body .home__banner__abstract {
-	margin-top: 2em;
-	color: #777;
 }
 
 .home_banner_image {
@@ -303,7 +292,7 @@ body .home__banner__abstract {
 
 .page__content h2 {
 	padding-bottom: 0.3em;
-	font-size: 150%;
+	font-size: 130%;
 	margin-top: 0;
 	border-bottom: 0.15em solid $text-color;
 }
@@ -347,11 +336,10 @@ body .home__banner__abstract {
 }
 
 .epqm__description {
-	text-align: left;
 	padding: 1em;
 	padding-top: 0.8em;
 	padding-bottom: 0.1em;
-	background-color: rgba($primary-color, 0.4);
+	background-color: rgba($primary-color, 0.2);
 	font-size: 90%;
 	margin-bottom: 1em;
 }

@@ -10,8 +10,6 @@ main:
     url: /seminars/
   - title: Teaching
     url: /teaching/
-  - title: People
-    url: /people/
   - title: About
     url: /about/
 

@@ -38,7 +38,3 @@ Towards achieving these goals, we study a model of two-dimensional massive non-i
 In order to study the boundary condition sensitivity of the multipartite entanglement, we thread an Aharonov-Bohm flux through the torus. In the presence of the flux, the entanglement gains a geometry-independent piece that is shown to be topological,  and can be related to the Luttinger volume of the system of electrons. In the presence of a strong transverse magnetic field, the system attains an integer quantum Hall insulating ground state, and Luttinger's theorem does not hold. We show instead that the entanglement contains a term that can be related to the Chern numbers of the integer quantum Hall states. This yields a relation between the topological invariants of the metallic and the integer quantum Hall systems.
 
 Thus, our work offers an ab initio demonstration of the holographic principle in a prototypical condensed matter system, and sheds new light on geometrical and topological aspects of entanglement in metals.
-
-## Link to publication/preprint
-
-{% include insert_publication_info.html %}

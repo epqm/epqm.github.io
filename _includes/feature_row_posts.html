@@ -35,7 +35,7 @@
   {% endif %}
   <div>{{ post.date | date: "%b %Y" | upcase }}&nbsp;&nbsp;<a href="{{ post.url | relative_url }}" class="btn btn--danger">{{ post.btn_label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a></div>
   {% if post.excerpt %}
-      {{ post.excerpt | markdownify }}
+      {{ post.excerpt | truncate:100 }}
   {%- endif -%}
   </div>
 
