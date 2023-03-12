@@ -130,3 +130,18 @@ for(var i = 0; i < allImages.length ; i++) {
 	}
 }
 </script>
+
+
+<script>
+	function showpitch(id) {
+		if (event.target.textContent == "Show More") {
+			event.target.textContent="Show Less";
+			document.getElementById(id).style.display = "block";
+			document.getElementById(id).scrollIntoView();
+		}
+		else {
+			event.target.textContent="Show More";
+			document.getElementById(id).style.display = "none";
+		}
+	}
+</script>
