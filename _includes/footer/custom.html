@@ -137,7 +137,7 @@ for(var i = 0; i < allImages.length ; i++) {
 		if (event.target.textContent == "Show More") {
 			event.target.textContent="Show Less";
 			document.getElementById(id).style.display = "block";
-			document.getElementById(id).scrollIntoView();
+			document.getElementById(id).scrollIntoView({ behavior: "smooth"});
 		}
 		else {
 			event.target.textContent="Show More";

@@ -1,7 +1,7 @@
 ---
 permalink: /fiction-recommendations/
 classes: wide
-title: "EPQM recommendations: Fiction"
+title: "EPQM recommendations: Remarkable works of fiction"
 excerpt: "Works of fiction that we feel everyone should experience at least once"
 header:
     overlay_image: /assets/images/fiction/fiction_header.svg
@@ -11,18 +11,26 @@ header:
 We asked EPQM members to contribute a single work of fiction that they feel is remarkable and should be watched/read by everyone. Here is what they came up with.
 
 {% for rec in site.data.fiction %}
+## Contributor: {{ rec["Contributor."] }}
+<div class="home__column__main">
 <div class="home__column" markdown=1>
-{% for field in rec limit:4 %}
-**{{ field[0] }}** {% if field[0] != "Work." %}{{ field[1] }}{% else %}[{{ field[1] }}]({{ rec["link"] }}){% endif %}
-{% endfor %}
-<span class="btn btn--danger" onclick="showpitch('slal')">Show More</span>
+**Work**. [{{ rec["Work."] }}]({{ rec["link"] }})
+
+**Category**. {{ rec["Category."] }}
+
+**Why watch this?** {{ rec["Why watch this?"] }}
+
+{% if rec["Pitch"].size > 0 %}
+{% assign id = "'" | append:rec["id"] | append:"'" %}
+<span class="btn btn--danger" onclick="showpitch({{ id }})">Show More</span>
+{% endif %}
 </div>
 <div class="home__column" markdown=1>
 [![](/assets/images/fiction/{{ rec["image"] }})]({{ rec["link"] }})
 </div>
-{% if rec["Pitch"] %}
-<div class="fiction__pitch" id="slal" markdown=1>
-**Why watch this?** {{ rec["Pitch"] }}
 </div>
-{% endif %}
+<div class="fiction__pitch" id={{ id }} markdown=1>
+<span class={{ rec["id"] }}><span>
+{{ rec["Pitch"] }}
+</div>
 {% endfor %}
