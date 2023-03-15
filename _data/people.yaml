@@ -24,6 +24,7 @@ Research scholars:
     email: as22rs063@iiserkol.ac.in
     image_path: /assets/images/people/arnabesh_sammader.jpg
     time: "2023 - "
+    CV_url: "../assets/pdfs/arnabesh_CV.pdf"
 Alumni:
   - title: Santanu  Pal
     excerpt: "Developed spectral flow-based criteria for the existence of novel gapped quantum liquid ground states in frustrated quantum spin systems (e.g., the Heisenberg and XXZ models on the pyrochlore, kagome and triangular lattices). Studied the coupled orbital, spin and phonon dynamics in a prototypical magnetic insulating spinel."
