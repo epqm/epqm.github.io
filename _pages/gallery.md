@@ -11,6 +11,8 @@ gallery_milestones1:
   - image_path: /assets/images/gallery/spa_presub.jpeg
 gallery_milestones2:
   - image_path: /assets/images/gallery/anirban-defence.png
+gallery_milestones3:
+  - image_path: /assets/images/gallery/AbhirupDPSDay2023.jpeg.jpeg
 gallery_general1:
   - image_path: /assets/images/gallery/gen1.png
   - image_path: /assets/images/gallery/gen2.jpeg
@@ -26,6 +28,7 @@ header:
 ## Milestones for EPQM 
 {% include gallery id="gallery_milestones1" layout="third" caption="Left: Santanu Pal receives his doctorate degree. Right: Thesis presubmission seminar of Siddhartha Patra"%}
 {% include gallery id="gallery_milestones2" layout="" caption="Thesis defence presentation of Anirban Mukherjee."%}
+{% include gallery id="gallery_milestones3" layout="" caption="Abhirup (second from right with the winners of the best poster awards at DPS Day 2023 (18th March, 2023). Prof. Ayan Banerjee (DPS Chair, 6th from right) and Prof. Goutam Dev Mukherjee (DPS faculty, Chief Organiser of DPS Day 2023, extreme left) are also in the photo."%}
 
 ## Some other snapshots of our group
 {% include gallery id="gallery_general1" layout="third" caption="Left: EPQM at the research complex. Middle: Dinner outing in celebration of Santanu Pal's thesis defence. Right: Another dinner, at the same restaurant coincidentally."%}
