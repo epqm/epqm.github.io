@@ -26,7 +26,7 @@ header:
 ---
 
 ## Scenes within the IISER Kolkata campus
-{% include gallery id="gallery_campus" layout="" caption="1. Research Complex. 2. Lecture Hall Complex (LHC). 3. Surrounding area from atop the LHC. Credits: SP and AM." %}
+{% include gallery id="gallery_campus" layout="" caption="1. Research Complex. 2. Lecture Hall Complex (LHC). 3. View from atop the lecture hall complex. Credits: SP and AM." %}
 
 ## Milestones for EPQM 
 {% include gallery id="gallery_milestones1" layout="third" caption="Left: Santanu Pal receives his doctorate degree. Right: Thesis presubmission seminar of Siddhartha Patra"%}
@@ -35,4 +35,4 @@ header:
 
 ## Some other snapshots of our group
 {% include gallery id="gallery_general1" layout="third" caption="Left: EPQM at the research complex. Middle: Dinner outing in celebration of Santanu Pal's thesis defence. Right: Another dinner, at the same restaurant coincidentally."%}
-{% include gallery id="gallery_general2" layout="third" caption="Left: Our friend and collaborator, Prof. Somnath Basu (Chair, DMS, IISER Kolkata) talking about his collaboration with Siddhartha Patra and Siddhartha Lal on Graph Polynomials and Topological Entanglement Entropy at DPS Day, 2023. Right: Prof. Somnath Basu being felicitated by Prof. Ayan Banerjee (right, Chair, DPS, IISER Kolkata) after his talk. Prof. Narayan Banerjee (DPS, IISER Kolkata) is visible on the left foreground."%}
+{% include gallery id="gallery_general2" layout="half" caption="Left: Our friend and collaborator, Prof. Somnath Basu (Chair, DMS, IISER Kolkata) talking about his collaboration with Siddhartha Patra and Siddhartha Lal on Graph Polynomials and Topological Entanglement Entropy at DPS Day, 2023. Right: Prof. Somnath Basu being felicitated by Prof. Ayan Banerjee (right, Chair, DPS, IISER Kolkata) after his talk. Prof. Narayan Banerjee (DPS, IISER Kolkata) is visible on the left foreground."%}
