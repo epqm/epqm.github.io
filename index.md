@@ -7,7 +7,7 @@ layout: splash
 {% for post in site.categories["publications-and-preprints"] limit:num_slides %}
 
 {% for work in site.data.publications %}
-{% if work["permalink"] == post.permalink %}{% assign abstract = work["abstract"] %}{% endif %}
+{% if work.last["permalink"] == post.permalink %}{% assign abstract = work.last["abstract"] %}{% endif %}
 {% endfor %}
 
 {% assign next_slide_num = forloop.index | plus:1 %}

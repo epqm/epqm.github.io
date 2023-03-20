@@ -1,9 +1,8 @@
 {% assign readmore = include.readmore %}
-
 {%- unless show_publication_title -%}
-**{{ work["title"] }}**{%- if readmore -%}{% for post in site.categories["publications-and-preprints"] %}{%- if post.permalink == work["permalink"] -%}&nbsp;&nbsp;[[Learn More]]({{ work["permalink"] }}){% break %}{% endif %}{% endfor %}{%- endif -%}
+**{{ work.first }}**{%- if readmore -%}{% for post in site.categories["publications-and-preprints"] %}{%- if post.permalink == work.last["permalink"] -%}&nbsp;&nbsp;[[Learn More]]({{ work.last["permalink"] }}){% break %}{% endif %}{% endfor %}{%- endif -%}
 {% endunless %}
-<span class='pub__authors'>{{ work["authors"] | join:", " | replace: "Siddhartha Lal", "<b>Siddhartha Lal</b>" }}</span>
-{{ work["submit_date"] | strip | date: "%b %-d, %Y" }}&nbsp;&nbsp;&nbsp;
-{%- if work["doi"] -%}<a href="{{ work["doi"] }}" class="btn btn--danger tag__highlight">{{ work["journal_ref_short"] }}</a>{% endif %}
-<a href="{{ work["arxiv_doi"] }}" class="btn btn--success tag__highlight">{{ work["arxiv_ref"] | replace: "cond-mat/","" }}</a>
+<span class='pub__authors'>{{ work.last["authors"] | join:", " | replace: "Siddhartha Lal", "<b>Siddhartha Lal</b>" }}</span>
+{{ work.last["submit_date"] | strip | date: "%b %-d, %Y" }}&nbsp;&nbsp;&nbsp;
+{%- if work.last["doi"] -%}<a href="{{ work.last["doi"] }}" class="btn btn--danger tag__highlight">{{ work.last["journal_ref_short"] }}</a>{% endif %}
+<a href="{{ work.last["arxiv_doi"] }}" class="btn btn--success tag__highlight">{{ work.last["arxiv_ref"] | replace: "cond-mat/","" }}</a>

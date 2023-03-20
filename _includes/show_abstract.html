@@ -1,9 +1,9 @@
-{% for pub in site.data.publications %}
-{% if pub["permalink"] == page.permalink %}
+{% for work in site.data.publications %}
+{% if work.last["permalink"] == page.permalink %}
 {% include insert_publication_info.html %}
 <div>
-<div id="short_abstract" class="archive__item-excerpt">{{ pub["abstract"] | split:". " | first | append:"..." }}</div>
-<div id="full_abstract" class="archive__item-excerpt">{{ pub["abstract"] }}</div>
+<div id="short_abstract" class="archive__item-excerpt">{{ work.last["abstract"] | split:". " | first | append:"..." }}</div>
+<div id="full_abstract" class="archive__item-excerpt">{{ work.last["abstract"] }}</div>
 <div id="readmore_abstract" class="btn btn--info" onclick="readmore_abstract()">Show excerpt</div>
 <div id="readless_abstract" class="btn btn--info" onclick="readless_abstract()">Hide excerpt</div>
 </div>

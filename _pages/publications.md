@@ -13,11 +13,12 @@ header:
 <span class="pub__external__links">[ARXIV LINK](https://arxiv.org/search/?searchtype=author&query=Lal%2C+Siddhartha){: .btn .btn--info } [G. SCHOLAR](https://scholar.google.co.in/citations?user=QRSxh6kAAAAJ&hl=en){: .btn .btn--info }</span>
 
 {% assign slides_per_page = 6 %}
-{% assign rem = site.data.publications.size | modulo:slides_per_page %}
+{% assign pub_data = site.data.publications %}
+{% assign rem = pub_data.size | modulo:slides_per_page %}
 {% if rem == 0 %}
-{% assign num_slides = site.data.publications.size | divided_by:slides_per_page %}
+{% assign num_slides = pub_data.size | divided_by:slides_per_page %}
 {% else %}
-{% assign num_slides = site.data.publications.size | divided_by:slides_per_page | plus: 1 %}
+{% assign num_slides = pub_data.size | divided_by:slides_per_page | plus: 1 %}
 {% endif %}
 
 <div class="slider__dots">
@@ -32,6 +33,6 @@ header:
 <div class="pub_slide" id="pub_slide_{{ forloop.index }}" markdown=1>
 [ **{{ off_set | plus:1 }} - {{ off_set | plus:slides_per_page }}** ]
 {: .text-center }
-{% for work in site.data.publications offset:off_set limit:slides_per_page %}<hr>{% include publication_info.html readmore="True" %}{% endfor %}
+{% for work in pub_data offset:off_set limit:slides_per_page %}<hr>{% include publication_info.html readmore="True" %}{% endfor %}
 </div>
 {% endfor %}
