@@ -21,16 +21,11 @@ header:
 - [MISCELLANEOUS NEWS](/posts/#miscellaneous-news)
 
 # Publication and preprint updates
-{% for post in site.posts %}
-{% if post.categories[0] == "publications-and-preprints" %}
-{% include feature_row_posts.html type="left" show_tags="true" %}
-{% endif %}
+{% for post in site.categories["publications-and-preprints"] %}
+{% include feature_row_posts.html type="left" %}
 {% endfor %}
 
 # Miscellaneous news
-{% for post in site.posts %}
-{% if post.categories[0] == "updates" %}
+{% for post in site.categories["updates"] %}
 - **{{ post.title }}**&nbsp;&nbsp;<a href="{{ post.url | relative_url }}" class="btn btn--danger">{{ post.btn_label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a><br>{{ post.date | date: "%b %d, %Y" | upcase }}
-
-{% endif %}
 {% endfor %}

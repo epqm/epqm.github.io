@@ -22,11 +22,11 @@ layout: splash
 <div class="home__column_skewed" markdown=1>
 <span class="btn btn--success" onclick="show_highlight({{ prev_slide_num }})"><span class="fas fa-chevron-left"></span>&nbsp;&nbsp;Prev</span>&nbsp;&nbsp;<span class="btn btn--success" onclick="show_highlight({{ next_slide_num }})">Next&nbsp;&nbsp;<span class="fas fa-chevron-right"></span></span>
 
-<div class="home__banner__title">{{ post.title }}
-</div>
+{{ post.title }}
+{: .home__banner__title}
 
-<div class="archive__item-excerpt" markdown=1>{{ abstract | split:". " | slice: 0,2 | join: ". " | append: "." }}
-</div>
+{{ abstract | split:". " | slice: 0,2 | join: ". " | append: "." }}
+{: .archive__item-excerpt }
 
 [Learn More]({{ post.url }}){: .btn .btn--danger }
 </div>
@@ -69,7 +69,7 @@ layout: splash
 [See all news](/posts/#miscellaneous-news){: .btn .btn--info }
 
 {% for post in site.categories["updates"] limit:3 %}
-- {{ post.date | date: "%b %d, %Y" | upcase }}. **{{ post.title }}**&nbsp;&nbsp;<a href="{{ post.url | relative_url }}" class="btn btn--danger">{{ post.btn_label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a>
+- **{{ post.title }}**&nbsp;&nbsp;<a href="{{ post.url | relative_url }}" class="btn btn--danger">{{ post.btn_label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a><br>{{ post.date | date: "%b %d, %Y" | upcase }}
 {% endfor %}
 
 <div class="home__column__main" markdown=1>

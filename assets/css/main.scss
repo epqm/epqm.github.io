@@ -181,8 +181,14 @@ a {
 }
 
 
+p.archive__item-excerpt {
+	margin-top: 0;
+	font-size: smaller;
+}
+
 .archive__item-excerpt {
 	color: #666;
+	font-style: italic;
 }
 
 
@@ -250,7 +256,7 @@ a {
 
 .page__content .home__banner__title {
 	margin-top: -0.5em;
-	// margin-bottom: -1em;
+	margin-bottom: 0;
 	font-weight: bold;
 	font-size: x-large;
 	@include breakpoint($medium) {

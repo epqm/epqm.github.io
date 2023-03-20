@@ -86,8 +86,9 @@ Strongly correlated systems often show the proximity of unconventional supercond
 - Can we formulate a language for the exploration of non-local (or topological) ordering of matter?
 
 ![](/assets/images/research/keimer_cuprate_phases.jpg)
+
 'The discovery of high-temperature superconductivity in the copper oxides in 1986 triggered a huge amount of innovative scientific inquiry. Unresolved issues include the astonishing complexity of the phase diagram, ..., the ‘normal’ state at elevated temperatures.'[[Source]](https://www.nature.com/articles/nature14165)
-{: .body__img }
+{: .archive__item-excerpt }
 " %}
 {% include hidden_content.html content=content id="supercond" %}
 
