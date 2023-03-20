@@ -192,14 +192,14 @@
   - Anirban Mukherjee
   - Siddhartha Lal
   doi: https://doi.org/10.1088/1367-2630/ab890c
-  journal_ref: New J. Phys. 22, 063007 (2020)
+  journal_ref: New J. Phys. 22, 063008 (2020)
   journal_ref_short: New J. Phys. 22, 063008
   permalink: /1802.06528/
   submit_date: 9 November, 2019
   tags:
   - cond-mat.str-el
   - cond-mat.supr-con
-  title: Scaling theory for Mott-Hubbard transitions-II: quantum criticality of the doped Mott insulator 
+  title: 'Scaling theory for Mott-Hubbard transitions-II: quantum criticality of the doped Mott insulator' 
   - abstract: "We present a \\(T=0K\\) renormalization group (RG) phase diagram for the electronic Hubbard model in two dimensions on the square lattice at, and away from, half filling. The RG procedure treats quantum fluctuations in the single particle occupation number nonperturbatively via the unitarily decoupling of one electronic state at every RG step. The resulting phase diagram thus possess the quantum fluctuation energy scale (\\(\u03C9\\)) as one of its axes. A relation is derived between \\(\u03C9\\) and the effective temperature scale upto which gapless, as well as emergent gapped, phases can be obtained. We find that the transition in the half-filled Hubbard model involves, for any on-site repulsion, passage from a marginal Fermi liquid to a topologically-ordered gapped Mott liquid through a pseudogapped phase bookended by Fermi surface topology-changing Lifshitz transitions. Using effective Hamiltonians and wavefunctions for the low-energy many-body eigenstates for the doped Mott liquid obtained from the stable fixed point of the RG flow, we demonstrate the collapse of the pseudogap for charge excitations (Mottness) at a quantum critical point possessing a nodal non-Fermi liquid with superconducting fluctuations, and spin-pseudogapping near the antinodes. d-wave Superconducting order is shown to arise from this quantum critical state of matter. Benchmarking of the ground state energy per particle and the double-occupancy fraction against existing numerical results also yields excellent agreement. We present detailed insight into the \\(T=0\\) origin of several experimentally observed findings in the cuprates, including Homes law and Planckian dissipation. Our results offer insight on the ubiquitous origin of superconductivity in doped Mott insulating states, and pave the way towards a systematic search for higher superconducting transition temperatures in such systems."
   arxiv_doi: https://arxiv.org/abs/1802.06528
   arxiv_ref: arXiv:1802.06528
@@ -214,7 +214,7 @@
   tags:
   - cond-mat.str-el
   - cond-mat.supr-con
-  title: Scaling theory for Mott-Hubbard transitions-I: T = 0 phase diagram of the 1/2-filled Hubbard model
+  title: 'Scaling theory for Mott-Hubbard transitions-I: T = 0 phase diagram of the 1/2-filled Hubbard model'
 - abstract: We have formulated a twist operator argument for the geometrically frustrated quantum spin systems on the kagome and triangular lattices, thereby extending the application of the Lieb-Schultz-Mattis (LSM) and Oshikawa-Yamanaka-Affleck (OYA) theorems to these systems. The equivalent large gauge transformation for the geometrically frustrated lattice differs from that for non-frustrated systems due to the existence of multiple sublattices in the unit cell and non-orthogonal basis vectors. Our study for the \(S=1/2\) kagome Heisenberg antiferromagnet at zero external magnetic field gives a criterion for the existence of a two-fold degenerate ground state with a finite excitation gap and fractionalized excitations. At finite field, we predict various plateaux at fractional magnetisation, in analogy with integer and fractional quantum Hall states of the primary sequence. These plateaux correspond to gapped quantum liquid ground states with a fixed number of singlets and spinons in the unit cell. A similar analysis for the triangular lattice predicts a single fractional magnetization plateau at \(1/3\). Our results are in broad agreement with numerical and experimental studies.
   arxiv_doi: https://arxiv.org/abs/1810.03935
   arxiv_ref: arXiv:1810.03935
