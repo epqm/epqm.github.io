@@ -340,6 +340,25 @@ Charge Fractionalization in a Mesoscopic Ring:
   tags:
   - cond-mat.str-el
   - cond-mat.mes-hall
+  
+Inelastic Light Scattering Measurements of a Pressure-Induced Quantum Liquid in KCuF3: 
+  abstract:
+  arxiv_doi:
+  arxiv_ref:
+  authors:
+  - S. Yuan
+  - M. Kim
+  - J. T. Seeley
+  - J. C. T. Lee
+  - S. Lal 
+  - P. Abbamonte
+  - S. L. Cooper
+  doi: https://doi.org/10.1103/PhysRevLett.109.217402
+  journal_ref: Phys. Rev. Lett. 109, 217402 (2012)
+  journal_ref_short: PRLett. 109, 217402
+  permalink:
+  submit_date:
+  tags:
 
 Transport Through Andreev Bound States in a Graphene Quantum Dot:
   abstract: Andreev reflection-where an electron in a normal metal backscatters off a superconductor into a hole-forms the basis of low energy transport through superconducting junctions. Andreev reflection in confined regions gives rise to discrete Andreev bound states (ABS), which can carry a supercurrent and have recently been proposed as the basis of qubits [1-3]. Although signatures of Andreev reflection and bound states in conductance have been widely reported [4], it has been difficult to directly probe individual ABS. Here, we report transport measurements of sharp, gate-tunable ABS formed in a superconductor-quantum dot (QD)-normal system, which incorporates graphene. The QD exists in the graphene under the superconducting contact, due to a work-function mismatch [5, 6]. The ABS form when the discrete QD levels are proximity coupled to the superconducting contact. Due to the low density of states of graphene and the sensitivity of the QD levels to an applied gate voltage, the ABS spectra are narrow, can be tuned to zero energy via gate voltage, and show a striking pattern in transport measurements.
@@ -515,6 +534,21 @@ On charge and spin ordering in a one-dimensional model with frustrating interact
   tags:
   - cond-mat.str-el
   - cond-mat.mes-hall
+  
+Transport in quantum wires:
+  abstract:
+  arxiv_doi:
+  arxiv_ref:
+  authors:
+  - S. Lal
+  - S. Rao
+  - D. Sen
+  doi: https://doi.org/10.1007/s12043-002-0007-z
+  journal_ref: Pramana 58, 205 (2002)
+  journal_ref_short: Pramana 58, 205
+  permalink:
+  submit_date:
+  tags:
 
 Conductance through contact barriers of a finite length quantum wire:
   abstract: We use the technique of bosonization to understand a variety of recent experimental results on the conductivity of a quantum wire. The quantum wire is taken to be a finite-length Luttinger liquid connected on two sides to semi-infinite Fermi liquids through contacts. The contacts are modeled as (short) Luttinger liquids bounded by localized one-body potentials. We use effective actions and the renormalization group to study the effects of electronic interactions within the wire, the length of the wire, finite temperature and a magnetic field on the conductivity. We explain the deviations of the conductivity away from 2Ne^2/h in wires which are not too short as arising from renormalization effects caused by the repulsive interactions. We also explain the universal conductance corrections observed in different channels at higher temperatures. We study the effects of an external magnetic field on electronic transport through this system and explain why odd and even spin split bands show different renormalizations from the universal conductance values. We discuss the case of resonant transmission and of the possibility of producing a spin-valve which only allows electrons of one value of the spin to go through. We compare our results for the conductance corrections with experimental observations. We also propose an experimental test of our model of the contact regions.
@@ -546,6 +580,21 @@ Conductance through contact barriers of a finite length quantum wire:
   tags:
   - cond-mat.str-el
   - cond-mat.mes-hall
+  
+Electron transport through ballistic quantum channels: 
+  abstract:
+  arxiv_doi:
+  arxiv_ref:
+  authors:
+  - S. Lal
+  - S. Rao
+  - D. Sen
+  doi: https://doi.org/10.1016/S0169-4332(01)00452-4
+  journal_ref: Applied Surface Science 182, 377 (2001)
+  journal_ref_short: Applied Surface Science 182, 377
+  permalink:
+  submit_date:
+  tags: 
 
 One-dimensional fermions with incommensuration:
   abstract: "We study the spectrum of fermions hopping on a chain with a weak incommensuration close to dimerization; both q, the deviation of the wave number from pi, and delta, the strength of the incommensuration, are small. For free fermions, we use a continuum Dirac theory to show that there are an infinite number of bands which meet at zero energy as q approaches zero. In the limit that the ratio q/ \u03B4--> 0, the number of states lying inside the q=0 gap is nonzero and equal to 2 \u03B4/\u03C0^2. Thus the limit q --> 0 differs from q=0; this can be seen clearly in the behavior of the specific heat at low temperature. For interacting fermions or the XXZ spin-1/2 chain close to dimerization, we use bosonization to argue that similar results hold; as q --> 0, we find a nontrivial density of states near zero energy. However, the limit q --> 0 and q=0 give the same results near commensurate wave numbers which are different from pi. We apply our results to the Azbel-Hofstadter problem of electrons hopping on a two-dimensional lattice in the presence of a magnetic field. Finally, we discuss the complete energy spectrum of noninteracting fermions with incommensurate hopping by going up to higher orders in delta."
@@ -559,25 +608,6 @@ One-dimensional fermions with incommensuration:
   journal_ref_short: PRB 61 9001 - 9013
   permalink: /cond-mat/9905165/
   submit_date: 12 May, 1999
-  tags:
-  - cond-mat.str-el
-  - cond-mat.stat-mech
-
-Magnetization Properties of Some Quantum Spin Ladders:
-  abstract: 'The experimental realization of various spin ladder systems has prompted their detailed theoretical investigations. Here we study the evolution of ground state magnetization with an external magnetic field for two different antiferromagnetic systems: a three-legged spin-1/2 ladder, and a two-legged spin-1/2 ladder with an additional diagonal interaction. The finite system density-matrix renormalization group method is employed for numerical studies of the three-chain system, and an effective low-energy Hamiltonian is used in the limit of strong interchain coupling to study the two- and three-chain systems. The three-chain system has a magnetization plateau at one-third of the saturation magnetization. The two-chain system has a plateau at zero magnetization due to a gap above the singlet ground state. It also has a plateau at half of the saturation magnetization for a certain range of values of the couplings. We study the regions of transitions between plateaus numerically and analytically, and find that they are described, at first order in a strong-coupling expansion, by an XXZ spin-1/2 chain in a magnetic field; the second order terms give corrections to the XXZ model. We also study numerically some low-temperature properties of the three-chain system, such as the magnetization, magnetic susceptibility and specific heat.'
-  arxiv_doi: https://arxiv.org/abs/cond-mat/9806111
-  arxiv_ref: arXiv:cond-mat/9806111
-  authors:
-  - Kunj Tandon
-  - Siddhartha Lal
-  - Swapan K. Pati
-  - S. Ramasesha
-  - Diptiman Sen
-  doi: https://doi.org/10.1103/PhysRevB.59.396
-  journal_ref: Phys. Rev. B 59 (1999) 396 - 410
-  journal_ref_short: PRB 59 396 - 410
-  permalink: /cond-mat/9806111/
-  submit_date: 24 February, 1999
   tags:
   - cond-mat.str-el
   - cond-mat.stat-mech
@@ -598,3 +628,22 @@ One-dimensional fermions with incommensurate hopping close to dimerization:
   - cond-mat.stat-mech
   - cond-mat.str-el
   - hep-th
+
+Magnetization Properties of Some Quantum Spin Ladders:
+  abstract: 'The experimental realization of various spin ladder systems has prompted their detailed theoretical investigations. Here we study the evolution of ground state magnetization with an external magnetic field for two different antiferromagnetic systems: a three-legged spin-1/2 ladder, and a two-legged spin-1/2 ladder with an additional diagonal interaction. The finite system density-matrix renormalization group method is employed for numerical studies of the three-chain system, and an effective low-energy Hamiltonian is used in the limit of strong interchain coupling to study the two- and three-chain systems. The three-chain system has a magnetization plateau at one-third of the saturation magnetization. The two-chain system has a plateau at zero magnetization due to a gap above the singlet ground state. It also has a plateau at half of the saturation magnetization for a certain range of values of the couplings. We study the regions of transitions between plateaus numerically and analytically, and find that they are described, at first order in a strong-coupling expansion, by an XXZ spin-1/2 chain in a magnetic field; the second order terms give corrections to the XXZ model. We also study numerically some low-temperature properties of the three-chain system, such as the magnetization, magnetic susceptibility and specific heat.'
+  arxiv_doi: https://arxiv.org/abs/cond-mat/9806111
+  arxiv_ref: arXiv:cond-mat/9806111
+  authors:
+  - Kunj Tandon
+  - Siddhartha Lal
+  - Swapan K. Pati
+  - S. Ramasesha
+  - Diptiman Sen
+  doi: https://doi.org/10.1103/PhysRevB.59.396
+  journal_ref: Phys. Rev. B 59 (1999) 396 - 410
+  journal_ref_short: PRB 59 396 - 410
+  permalink: /cond-mat/9806111/
+  submit_date: 24 February, 1999
+  tags:
+  - cond-mat.str-el
+  - cond-mat.stat-mech
