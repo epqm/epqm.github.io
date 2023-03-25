@@ -6,7 +6,6 @@ title: "EPQM: Seminars and Other Presentations"
 excerpt: "Includes slides and video when available"
 header:
     overlay_image: /assets/images/seminars/seminars_header.svg
-    caption: "[Source](https://phdcomics.com/comics/archive.php/archive_print.php?comicid=1630)"
 
 ---
 

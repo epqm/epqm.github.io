@@ -5,8 +5,7 @@ title: "EPQM recommendations: Fun, interesting and useful external resources"
 toc: true
 toc_sticky: true
 header:
-    overlay_image: /assets/images/teaching/teaching_header.svg
-    caption: "[Source](https://phdcomics.com/comics.php?f=1598)"
+    overlay_image: /assets/images/seminars/seminars_header.svg
 
 ---
 

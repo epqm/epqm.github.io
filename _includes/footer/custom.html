@@ -12,7 +12,7 @@ for (var i = 0; i < anchorTags.length; i++) {
     }
     anchorTags[i].onmouseover = function() {
         try {
-            this.getElementsByTagName( 'span' )[0].innerHTML = "Click to copy"
+            this.getElementsByTagName( 'span' )[0].innerHTML = "Copy!"
         }
         finally {
             event.preventDefault();
@@ -30,55 +30,17 @@ for (var i = 0; i < anchorTags.length; i++) {
 </script>
 
 
+
 <script>
+var allImages = document.getElementsByTagName('img');
 
-function hide_all() {
-	var dots = [].slice.call(document.querySelectorAll('[id^="slider__dot__"]'));
-	for(i = 0; i < dots.length; i++) { 
-		dots[i].style.opacity = 0.3;
+for(var i = 0; i < allImages.length ; i++) {
+	if (allImages[i].getAttribute('src') == "/assets/images/people/leader1") {
+		allImages[i].onmouseover = function() { event.target.setAttribute("src", "/assets/images/people/leader2"); };
+		allImages[i].onmouseout = function() { event.target.setAttribute("src", "/assets/images/people/leader1"); };
 	}
-	var slides = [].slice.call(document.querySelectorAll('[id^="pub_slide_"]'));
-	for(i = 0; i < slides.length; i++) { 
-		slides[i].style.display = "none";
-	}
-}
-
-function show_slide() {
-	hide_all();
-	event.target.style.opacity = 1;
-	var new_slide_num = event.target.getAttribute('id').replace("slider__dot__", "");
-	document.getElementById("pub_slide_" + new_slide_num).style.display = "block";
-	document.querySelectorAll('[id^="slide__prev__"]')[0].id = "slide__prev__" + new_slide_num;
-	document.querySelectorAll('[id^="slide__next__"]')[0].id = "slide__next__" + new_slide_num;
-	document.getElementsByClassName("slider__dots")[0].scrollIntoView();
-}
-
-function switch_slide(sign) {
-	hide_all();
-	if (sign == -1) {
-		var new_slide_num = parseInt(event.target.parentNode.getAttribute('id').replace("slide__prev__", "")) - 1;
-		if (new_slide_num < 1) {
-			new_slide_num = [].slice.call(document.querySelectorAll('[id^="slider__dot__"]')).length;
-		}
-	}
-	else {
-		var new_slide_num = parseInt(event.target.parentNode.getAttribute('id').replace("slide__next__", "")) + 1;
-		if (new_slide_num > [].slice.call(document.querySelectorAll('[id^="slider__dot__"]')).length) {
-			new_slide_num = 1;
-		}
-	}
-	event.target.parentNode.id = event.target.parentNode.id.slice(0, 13) + new_slide_num;
-	document.getElementById("pub_slide_" + new_slide_num).style.display = "block";
-	document.getElementById("slider__dot__" + new_slide_num).style.opacity = 1;
-	document.getElementsByClassName("slider__dots")[0].scrollIntoView();
-}
-
-function show_highlight(n) {
-	hide_all();
-	document.getElementById("pub_slide_" + n).style.display = "block";
 }
 </script>
-
 
 <script>
 function readmore() {
@@ -98,50 +60,4 @@ function readless() {
     hiddenelement.style.display = "none";
     event.target.style.display = "none";
 }
-</script>
-
-
-<script>
-var shortabstract = document.getElementById("short_abstract");
-var fullabstract = document.getElementById("full_abstract");
-function readmore_abstract() {
-    shortabstract.style.display = "none";
-    fullabstract.style.display = "inline-block";
-    event.target.style.display = "none";
-    var readlesselement = document.getElementById("readless_abstract");
-    readlesselement.style.display = "inline-block";
-}
-
-function readless_abstract() {
-    fullabstract.style.display = "none";
-    event.target.style.display = "none";
-    var readmoreelement = document.getElementById("readmore_abstract");
-    readmoreelement.style.display = "inline-block";
-}
-</script>
-
-<script>
-var allImages = document.getElementsByTagName('img');
-
-for(var i = 0; i < allImages.length ; i++) {
-	if (allImages[i].getAttribute('src') == "/assets/images/people/leader1") {
-		allImages[i].onmouseover = function() { event.target.setAttribute("src", "/assets/images/people/leader2"); };
-		allImages[i].onmouseout = function() { event.target.setAttribute("src", "/assets/images/people/leader1"); };
-	}
-}
-</script>
-
-
-<script>
-	function showpitch(id) {
-		if (event.target.textContent == "Show More") {
-			event.target.textContent="Show Less";
-			document.getElementById(id).style.display = "block";
-			document.getElementById(id).scrollIntoView({ behavior: "smooth"});
-		}
-		else {
-			event.target.textContent="Show More";
-			document.getElementById(id).style.display = "none";
-		}
-	}
 </script>

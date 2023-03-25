@@ -21,7 +21,7 @@ gallery_general2:
   - image_path: /assets/images/gallery/somnath1.jpeg
   - image_path: /assets/images/gallery/somnath2.jpeg
 header:
-    overlay_image: /assets/images/gallery/gallery_header.svg
+    overlay_image: /assets/images/seminars/seminars_header.svg
 
 ---
 

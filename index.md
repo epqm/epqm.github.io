@@ -99,3 +99,5 @@ layout: splash
 [Seminars](/seminars/){: .btn .btn--info }
 [Contact](/about/#contact-details){: .btn .btn--info }
 </div>
+
+{% include footer/home_slides.html %}

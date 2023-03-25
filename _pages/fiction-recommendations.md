@@ -4,7 +4,7 @@ classes: wide
 title: "EPQM recommendations: Remarkable works of fiction"
 excerpt: "Works of fiction that we feel everyone should experience at least once"
 header:
-    overlay_image: /assets/images/fiction/fiction_header.svg
+    overlay_image: /assets/images/seminars/seminars_header.svg
 
 ---
 
@@ -34,3 +34,5 @@ We asked EPQM members to contribute a single work of fiction that they feel is r
 {{ rec["Pitch"] }}
 </div>
 {% endfor %}
+
+{% include footer/show_pitch.html %}

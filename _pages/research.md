@@ -7,8 +7,7 @@ author_profile: true
 toc: true
 toc_sticky: true
 header:
-    overlay_image: /assets/images/research/research_header.svg
-    caption: "[Source](https://phdcomics.com/comics/archive.php?comicid=1648)"
+    overlay_image: /assets/images/seminars/seminars_header.svg
 
 ---
 

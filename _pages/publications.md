@@ -5,8 +5,7 @@ classes: wide
 title: "EPQM: Publications and Preprints"
 excerpt: "Click on the journal DOI or the arxiv link of the work to access the manuscript."
 header:
-    overlay_image: /assets/images/publications/publications_header.svg
-    overlay_filter: 0.3
+    overlay_image: /assets/images/seminars/seminars_header.svg
 
 ---
 

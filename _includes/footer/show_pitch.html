@@ -1,0 +1,13 @@
+<script>
+	function showpitch(id) {
+		if (event.target.textContent == "Show More") {
+			event.target.textContent="Show Less";
+			document.getElementById(id).style.display = "block";
+			document.getElementById(id).scrollIntoView({ behavior: "smooth"});
+		}
+		else {
+			event.target.textContent="Show More";
+			document.getElementById(id).style.display = "none";
+		}
+	}
+</script>
