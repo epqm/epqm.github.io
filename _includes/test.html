@@ -4,6 +4,10 @@
 	export const octokit = new Octokit({
 	  auth: TOKEN,
 	});
+	window.octokit = octokit;
+</script>
+
+<script>
 	async function pushData(new_data) {
 		await octokit.request('PATCH /gists/{gist_id}', {
 		  gist_id: '01a4ae959b58308b498e0b0d7c5667f7',
@@ -17,10 +21,31 @@
 		  },
 		});
 	}
-	async function updateTable(args) {
+	function fetch_tabledata(){ 
+	fetch('https://api.github.com/gists/01a4ae959b58308b498e0b0d7c5667f7').then(response => {
+
+	  if (response.ok)
+	    return response.json();
+	  return Promise.reject(response);
+
+	}).then(data => {
+		var content = data["files"]["EPQMLibrary.tsv"]["content"];
+		const tableData = [];
+		for (var i = 0; i < content.split('\n').length; i++) { 
+			tableData[i] = content.split('\n')[i].split('\t');
+		}
+		createTable(tableData);
+	}).catch(err => {
+	  console.error(err); // Error
+	});
+	}
+	fetch_tabledata();
+
+	function updateTable(args) {
 	var index = args.index;
 	var initials = args.initials;
-	var new_data = "";
+	var new_data = [];
+	var new_tabledata = [];
 	//window.new_data = new_data;
 	fetch('https://api.github.com/gists/01a4ae959b58308b498e0b0d7c5667f7').then(response => {
 	  if (response.ok)
@@ -30,85 +55,83 @@
 	}).then(data => {
 		var content = data["files"]["EPQMLibrary.tsv"]["content"];
 		for (var i = 0; i < content.split('\n').length; i++) { 
-			if (i != args.index) {
-				var terms = content.split('\n')[i] + "\n";
-			} else {
-				var terms = ""
-				for (var j = 0; j < content.split('\n')[i].split('\t').length - 1; j++) { 
-					terms = terms + content.split('\n')[i].split('\t')[j] + "\t";
-				}
-				terms = terms + args.initials + "({{ site.time | date: '%d/%m/%Y' }})\n";
+			var terms = content.split('\n')[i].split('\t');
+			if (i == args.index) {
+				terms[terms.length - 1] = args.initials;
 			}
-			new_data = new_data + terms;
+			new_tabledata.push(terms);
+			terms = terms.join("\t");
+			new_data.push(terms);
 		}
+		new_data = new_data.join("\n");
 		pushData(new_data);
+		createTable(new_tabledata);
 	}).catch(err => {
 	  console.error(err); // Error
 	});
 	}
-	function fetch_tabledata(){ 
-	fetch('https://api.github.com/gists/01a4ae959b58308b498e0b0d7c5667f7').then(response => {
 
-	  // Success
-	  if (response.ok)
-	    return response.json(); // Returns to then()
-
-	  // Error
-	  return Promise.reject(response);
-
-	}).then(data => {
-		var content = data["files"]["EPQMLibrary.tsv"]["content"];
-		const tableData = [];
-		for (var i = 0; i < content.split('\n').length; i++) { 
-			tableData[i] = [];
-			for (var j = 0; j < content.split('\n')[i].split('\t').length; j++) { 
-				tableData[i][j] = content.split('\n')[i].split('\t')[j];
-			}
-		}
-		createTable(tableData);
-	}).catch(err => {
-	  console.error(err); // Error
-	});
-	}
-	fetch_tabledata();
-	window.updateTable = updateTable;
-	window.octokit = octokit;
-</script>
-
-<script>
 function createTable(tableData) {
   var table = document.createElement('table');
+  table.classList.add("EPQMLibraryTable");
   var tableBody = document.createElement('tbody');
-  
-  var count = 0;
-  tableData.forEach(function(rowData) {
+  tableData.forEach(function(rowData, idx_, array) {
     var row = document.createElement('tr');
-    rowData.forEach(function(cellData) {
-      var cell = document.createElement('td');
-      cell.appendChild(document.createTextNode(cellData));
-      row.appendChild(cell);
-    });
-    if (row.lastChild.textContent == "") {
-	var span_ele = document.createElement("span");
-        index = tableBody.childElementCount;
-	span_ele.classList.add("add_" + index);
-	span_ele.classList.add("btn");
-	span_ele.classList.add("btn--info");
-	span_ele.innerHTML = 'Borrow'
-	row.lastChild.appendChild(span_ele);
-	span_ele.onclick = function() {
-		index = event.target.className.split(" ")[0].replace("add_","")
-		initials = prompt("Enter initials.");
-		updateTable({"index": index, "initials": initials});
-	};
+    var cell = document.createElement('td');
+    if (idx_ == 0) {
+	    cell.appendChild(document.createTextNode("Id"));
+    } else {
+	    cell.appendChild(document.createTextNode(idx_));
     }
+    row.appendChild(cell);
+    rowData.forEach(function(cellData, idx, array) {
+      var cell = document.createElement('td');
+      cell_text = cellData.length <= 40 ? cellData : cellData.substring(0, 40) + "...";
+      if (idx == rowData.length - 1 && idx_ > 0) {
+		var span_ele = document.createElement('i');
+	      if (cell_text == "") {
+		  span_ele.classList.add("far");
+		  span_ele.classList.add("fa-heart");
+		  cell.appendChild(span_ele);
+		  span_ele.onclick = function() {
+		    	initials = prompt("Enter initials.");
+		    	updateTable({"index": idx_, "initials": initials + "({{ site.time | date: '%d/%m/%Y' }})"});
+		  };
+	      } else {
+		  span_ele.classList.add("fas");
+		  span_ele.classList.add("fa-heart");
+		  span_ele.onclick = function() {
+			  info_ele = document.getElementById("borrow__info__" + idx_);
+			  if (info_ele.style.display == "block") {
+				info_ele.style.display = "none";
+			  } else {
+				info_ele.style.display = "block";
+				info_ele.onclick = function() {
+					if (confirm("Choose OK to return the book.")) {
+						updateTable({"index": idx_, "initials": ""});
+					}
+				}
+			  }
+		  };
+		  var div_ele = document.createElement('div')
+		  div_ele.setAttribute("id", "borrow__info__" + idx_);
+		  div_ele.style.display = 'none';
+		  div_ele.innerHTML = cell_text;
+		  cell.appendChild(span_ele);
+		  cell.appendChild(div_ele);
+	      }
+      } else {
+	      cell.appendChild(document.createTextNode(cell_text));
+      }
+      row.appendChild(cell);
+    })
 
     tableBody.appendChild(row);
-    var count = count + 1;
   });
 
   tableBody.firstChild.classList.add("epqm_library_head");
   table.appendChild(tableBody);
+  document.getElementById("EpqmLibraryTable").innerHTML = '';
   document.getElementById("EpqmLibraryTable").appendChild(table);
 }
 </script>
