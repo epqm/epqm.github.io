@@ -15,7 +15,7 @@
 
 {% if f.designation %}<i class="fas fa-user-tie"></i>&nbsp;&nbsp;{{ f.designation }}{% endif %}
 
-<span class="archive__item-excerpt" markdown=1>{{ f.excerpt }}</span>
+<span class="archive__item-excerpt" markdown=1>{% if class[0] == "Principal Investigator" %}{{ f.excerpt | replace: "This is the Way","This <a href='/epqmlibrary/' class='lib_link'>is</a> the Way" }}{% else %}{{ f.excerpt }}{% endif %}</span>
 
 </div>
 </div>
