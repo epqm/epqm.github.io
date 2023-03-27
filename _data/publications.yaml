@@ -10,6 +10,22 @@
   submit_date: 21 February, 2023
   tags:
   - cond-mat.str-el
+  
+'Kondo frustration via charge fluctuations: a route to Mott localisation':
+  abstract: We propose a minimal effective impurity model that captures the phenomenology of the Mott-Hubbard metal-insulator transition (MIT) of the half-filled Hubbard model on the Bethe lattice in infinite dimensions as observed by dynamical mean field theory (DMFT). This involves extending the standard Anderson impurity model Hamiltonian to include an explicit Kondo coupling \(J\), as well as a local on-site correlation \(U_b\) on the conduction bath site connected directly to the impurity. For the case of attractive local bath correlations (\(U_{b}<0\)), the extended Anderson impurity model (e-SIAM) sheds new light on several aspects of the DMFT phase diagram. For example, the \(T=0\) metal-to-insulator quantum phase transition (QPT) is preceded by an excited state quantum phase transition (ESQPT) where the local moment eigenstates are emergent in the low-lying spectrum. Long-ranged fluctuations are observed near both the QPT and ESQPT, suggesting that they are the origin of the quantum critical scaling observed recently at high temperatures in DMFT simulations. The \(T=0\) gapless excitations at the QCP display particle-hole interconversion processes, and exhibit power-law behaviour in self-energies and two-particle correlations. These are signatures of non-Fermi liquid behaviour that emerge from the partial breakdown of the Kondo screening.
+  arxiv_doi: https://arxiv.org/abs/2302.02328
+  arxiv_ref: arXiv:2302.02328
+  authors:
+  - Abhirup Mukherjee
+  - N. S. Vidhyadhiraja
+  - A. Taraphder
+  - Siddhartha Lal
+  permalink: /2302.02328/
+  submit_date: 5 February, 2023
+  tags:
+  - cond-mat.str-el
+  - cond-mat.mes-hall
+  - quant-ph  
 
 Universal entanglement signatures of quantum liquids as a guide to fermionic criticality:
   abstract: "An outstanding challenge involves understanding the many-particle entanglement of liquid states of quantum matter that arise in systems of interacting electrons. The Fermi liquid (FL) in \\(D\\) spatial dimensions shows a violation of the area-law in real-space entanglement entropy of a subsystem (of length \\(L\\)), \\(S_{EE} \\sim L^{D-1}\\ln L\\), widely believed to be a hallmark signature of the ground state of a gapless quantum critical system of interacting fermions. In this work, we apply a \\(T=0\\) renormalisation group approach to a prototype of the FL in momentum (or, \\(k\\))-space, unveiling thereby the RG relevant quantum fluctuations (due to forward and tangential scattering) from which long-range entanglement arises. A similar analysis of non-Fermi liquids such as the 2D marginal Fermi liquid (MFL) and the 1D Tomonaga-Luttinger liquid (TLL) reveals a universal logarithmic violation of the area-law in gapless electronic liquids for a subsystem defined within a \\(k\\)-space window (of size \\(\u039B\\)) proximate to the Fermi surface, with a proportionality constant that depends on the nature of the underlying Fermi surface. We extend this analysis to the gapped quantum liquids emergent from the destabilisation of the Fermi surface by quantum fluctuations arising from backscattering processes. Indeed, we find that the \\(k\\)-space entanglement signatures of gapped quantum liquids appear to be governed by the nature of the Fermi surface (e.g., nested or not) from which they emerge, as well as the nature of their parent gapless metallic liquid (e.g., FL, MFL etc.). This is confirmed by our finding an enhanced entanglement entropy for the nodal MFL present at the quantum critical point recently discovered in the 2D Hubbard model at optimal hole-doping. Our work thus paves the way for an entanglement based classification of quantum liquids emergent from the criticality of interacting fermionic matter."
@@ -25,22 +41,6 @@ Universal entanglement signatures of quantum liquids as a guide to fermionic cri
   - cond-mat.str-el
   - cond-mat.stat-mech
   - cond-mat.supr-con
-
-'Kondo frustration via charge fluctuations: a route to Mott localisation':
-  abstract: We propose a minimal effective impurity model that captures the phenomenology of the Mott-Hubbard metal-insulator transition (MIT) of the half-filled Hubbard model on the Bethe lattice in infinite dimensions as observed by dynamical mean field theory (DMFT). This involves extending the standard Anderson impurity model Hamiltonian to include an explicit Kondo coupling \(J\), as well as a local on-site correlation \(U_b\) on the conduction bath site connected directly to the impurity. For the case of attractive local bath correlations (\(U_{b}<0\)), the extended Anderson impurity model (e-SIAM) sheds new light on several aspects of the DMFT phase diagram. For example, the \(T=0\) metal-to-insulator quantum phase transition (QPT) is preceded by an excited state quantum phase transition (ESQPT) where the local moment eigenstates are emergent in the low-lying spectrum. Long-ranged fluctuations are observed near both the QPT and ESQPT, suggesting that they are the origin of the quantum critical scaling observed recently at high temperatures in DMFT simulations. The \(T=0\) gapless excitations at the QCP display particle-hole interconversion processes, and exhibit power-law behaviour in self-energies and two-particle correlations. These are signatures of non-Fermi liquid behaviour that emerge from the partial breakdown of the Kondo screening.
-  arxiv_doi: https://arxiv.org/abs/2302.02328
-  arxiv_ref: arXiv:2302.02328
-  authors:
-  - Abhirup Mukherjee
-  - N. S. Vidhyadhiraja
-  - A. Taraphder
-  - Siddhartha Lal
-  permalink: /2302.02328/
-  submit_date: 5 February, 2023
-  tags:
-  - cond-mat.str-el
-  - cond-mat.mes-hall
-  - quant-ph
 
 'Frustration shapes multi-channel Kondo physics: a star graph perspective':
   abstract: We study the overscreened multi-channel Kondo (MCK) model using the recently developed unitary renormalization group (URG) technique. Our results display the importance of ground state degeneracy in explaining various important properties like the breakdown of screening and the presence of local non-Fermi liquids. The impurity susceptibility of the intermediate coupling fixed point Hamiltonian in the zero-bandwidth (or star graph) limit shows a power-law divergence at low temperature, signalling its critical nature. Despite the absence of inter-channel coupling in the MCK fixed point Hamiltonian, the study of mutual information between any two channels shows non-zero correlation between them. A spectral flow analysis of the star graph reveals that the degenerate ground state manifold possesses topological quantum numbers. The low energy effective Hamiltonian obtained upon adding a finite non-zero conduction bath dispersion to the star graph Hamiltonian for both the two and three-channel cases displays the presence of local non-Fermi liquids arising from inter-channel quantum fluctuations. Discontinuous behaviour is observed in several measures of ground state entanglement, signalling the underlying orthogonality catastrophe associated with the degenerate ground state manifold. We extend our results to underscreened and perfectly screened MCK models through duality arguments. A study of channel anisotropy under renormalisation flow reveals a series of quantum phase transitions due to the change in ground state degeneracy. Our work thus presents a template for the study of how a degenerate ground state manifold arising from symmetry and duality properties in a multichannel quantum impurity model can lead to novel multicritical phases at intermediate coupling.
