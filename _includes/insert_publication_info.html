@@ -1,6 +1,6 @@
 {% for work in site.data.publications %}
-{% if work["permalink"] == page.permalink %}
-{% include publication_info.html %}
+{% if work.last["permalink"] == page.permalink %}
+{% include publication_info.html show_publication_title=include.show_publication_title %}
 {% break %}
 {% endif %}
 {% endfor %}

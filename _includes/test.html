@@ -89,7 +89,7 @@ function createTable(tableData) {
       cell_text = cellData.length <= 40 ? cellData : cellData.substring(0, 40) + "...";
       if (idx == rowData.length - 1 && idx_ > 0) {
 		var span_ele = document.createElement('i');
-	      if (cell_text == "") {
+	      if (cell_text.replace(" ","") == "") {
 		  span_ele.classList.add("far");
 		  span_ele.classList.add("fa-heart");
 		  cell.appendChild(span_ele);

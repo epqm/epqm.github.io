@@ -1,5 +1,5 @@
 {% assign readmore = include.readmore %}
-{%- unless show_publication_title -%}
+{%- unless include.show_publication_title == "False" -%}
 **{{ work.first }}**{%- if readmore -%}{% for post in site.categories["publications-and-preprints"] %}{%- if post.permalink == work.last["permalink"] -%}&nbsp;&nbsp;[[Learn More]]({{ work.last["permalink"] }}){% break %}{% endif %}{% endfor %}{%- endif -%}
 {% endunless %}
 <span class='pub__authors'>{{ work.last["authors"] | join:", " | replace: "Siddhartha Lal", "<b>Siddhartha Lal</b>" }}</span>

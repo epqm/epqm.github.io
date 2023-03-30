@@ -1,6 +1,6 @@
 {% for work in site.data.publications %}
 {% if work.last["permalink"] == page.permalink %}
-{% include insert_publication_info.html %}
+{% include insert_publication_info.html show_publication_title="False" %}
 <div>
 <div id="short_abstract" class="archive__item-excerpt">{{ work.last["abstract"] | split:". " | first | append:"..." }}</div>
 <div id="full_abstract" class="archive__item-excerpt">{{ work.last["abstract"] }}</div>
