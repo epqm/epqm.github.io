@@ -35,3 +35,5 @@ header:
 {% for work in pub_data offset:off_set limit:slides_per_page %}<hr>{% include publication_info.html readmore="True" %}{% endfor %}
 </div>
 {% endfor %}
+
+{% include footer/home_slides.html %}
