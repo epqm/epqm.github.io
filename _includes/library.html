@@ -1,0 +1,75 @@
+<script src="https://www.kryogenix.org/code/browser/sorttable/sorttable.js"></script>
+
+<script type="module">
+import { Octokit } from "https://cdn.skypack.dev/octokit";
+const TOKEN = "ghp_WlT9ynmrsXSPKYd" + "yQSgcGr7sQfAblH1VF0is";
+export const octokit = new Octokit({
+  auth: TOKEN,
+});
+export async function pushToGist(payload) {
+	await octokit.request('PATCH /gists/{gist_id}', {
+		  gist_id: 'eeb902027f046bab4ab5643380e6f430',
+		  description: payload.description,
+		  files: { 'EPQMLibrary.tsv': { content: payload.content}},
+		  headers: {}
+	})
+}
+export async function getFromGist() {
+}
+window.octokit = octokit;
+window.pushToGist = pushToGist;
+</script>
+
+<script>
+async function updateGist(newData) {
+	const response = await octokit.request('GET /gists/{gist_id}', {gist_id: 'eeb902027f046bab4ab5643380e6f430',headers: {}});
+	var content = response["data"]["files"]["EPQMLibrary.tsv"]["content"].split("\n");
+	for (i = 0; i < content.length; i++) {
+		var line = content[i].split("\t");
+		if (line[0] == newData.title) {
+			content[i] = newData.data;
+			content = content.join("\n");
+			description = newData.data.split("\t")[3] == "" ? line[3] + " returned " + line[0] : newData.data.split("\t")[3] + " borrowed " + newData.data.split("\t")[0];
+			pushToGist({"description": description, "content": content})
+			return;
+		}
+	}
+}
+
+
+function modifyTable(newData) {
+	if (newData.info === null ) {
+		return;
+	}
+	row = document.getElementById("EpqmLibraryTable").rows[newData.index];
+	if (newData.info == "") {
+	    row.cells[4].children[0].style.display = "block";
+	    row.cells[4].children[1].style.display = "none";
+	    row.cells[4].children[2].style.display = "none";
+	    row.cells[4].children[2].innerHTML = newData.info;
+	}
+	else {
+	    row.cells[4].children[0].style.display = "none";
+	    row.cells[4].children[1].style.display = "block";
+	    row.cells[4].children[2].innerHTML = newData.info + "({{ site.time | date: '%d/%m/%Y' }})";
+	}
+	gistData = row.cells[1].textContent + "\t" + row.cells[2].textContent + "\t" + row.cells[3].textContent + "\t" + row.cells[4].children[2].textContent;
+	updateGist({"title": row.cells[1].textContent, "data": gistData});
+}
+
+function borrowBook(index) {
+	initials = prompt("Enter initials.");
+	modifyTable({"index": index, "info": initials});
+}
+
+function releaseBook(index) {
+	if (confirm("Want to return the book?")) {
+		modifyTable({"index": index, "info": ""});
+	}
+}
+
+function toggleInfo(index) {
+	var element = document.getElementById("book__info__" + index);
+	element.style.display = element.style.display == "none" ? "block" : "none";
+}
+</script>

@@ -354,16 +354,37 @@ p.archive__item-excerpt {
 	display: none;
 }
 
-.epqm_library_head {
+thead {
 	font-weight: bold;
+	color: #FFFF66;
 }
 
-table.EPQMLibraryTable {
-    text-align: center;
-    margin: auto;
+.EPQMLibraryTable {
+    margin: 0px auto;
     display: table;
+    width: max-content;
+}
+
+tbody tr:nth-child(even),thead {
+    background-color: #26333b;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #26333bee;
+}
+
+td {
+    border-bottom: 0;
+}
+
+tbody {
+    color: lightgray;
 }
 
 a.lib_link {
 	color: #666;
+}
+
+.epqm__table__center { 
+	text-align: center; 
 }
