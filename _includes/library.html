@@ -6,6 +6,7 @@ const TOKEN = "ghp_WlT9ynmrsXSPKYd" + "yQSgcGr7sQfAblH1VF0is";
 export const octokit = new Octokit({
   auth: TOKEN,
 });
+
 export async function pushToGist(payload) {
 	await octokit.request('PATCH /gists/{gist_id}', {
 		  gist_id: 'eeb902027f046bab4ab5643380e6f430',
@@ -14,13 +15,22 @@ export async function pushToGist(payload) {
 		  headers: {}
 	})
 }
-export async function getFromGist() {
-}
+
 window.octokit = octokit;
 window.pushToGist = pushToGist;
 </script>
 
 <script>
+window.onload = refreshTable;
+
+function getDate() {
+	var today = new Date();
+	var dd = String(today.getDate()).padStart(2, '0');
+	var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
+	var yyyy = today.getFullYear();
+	return (dd + '/' + mm + '/' + yyyy);
+}
+
 async function updateGist(newData) {
 	const response = await octokit.request('GET /gists/{gist_id}', {gist_id: 'eeb902027f046bab4ab5643380e6f430',headers: {}});
 	var content = response["data"]["files"]["EPQMLibrary.tsv"]["content"].split("\n");
@@ -36,6 +46,18 @@ async function updateGist(newData) {
 	}
 }
 
+async function refreshTable() {
+	const response = await octokit.request('GET /gists/{gist_id}', {gist_id: 'eeb902027f046bab4ab5643380e6f430',headers: {}});
+	var content = response["data"]["files"]["EPQMLibrary.tsv"]["content"].split('\n');
+	tableRows = document.getElementById("EpqmLibraryTable").rows
+	for (i = 1; i < content.length; i++) {
+		for (j = 1; j < tableRows.length; j++) {
+			if (tableRows[j].cells[1].textContent == content[i].split('\t')[0]) {
+				modifyTable({"index": j, "info": content[i].split('\t')[3]});
+			}
+		}
+	}
+}
 
 function modifyTable(newData) {
 	if (newData.info === null ) {
@@ -51,20 +73,23 @@ function modifyTable(newData) {
 	else {
 	    row.cells[4].children[0].style.display = "none";
 	    row.cells[4].children[1].style.display = "block";
-	    row.cells[4].children[2].innerHTML = newData.info + "({{ site.time | date: '%d/%m/%Y' }})";
+	    row.cells[4].children[2].innerHTML = newData.info;
 	}
 	gistData = row.cells[1].textContent + "\t" + row.cells[2].textContent + "\t" + row.cells[3].textContent + "\t" + row.cells[4].children[2].textContent;
-	updateGist({"title": row.cells[1].textContent, "data": gistData});
+	payload = {"title": row.cells[1].textContent, "data": gistData}
+	return payload;
 }
 
 function borrowBook(index) {
 	initials = prompt("Enter initials.");
-	modifyTable({"index": index, "info": initials});
+	payload = modifyTable({"index": index, "info": initials + getDate()});
+	updateGist(payload);
 }
 
 function releaseBook(index) {
 	if (confirm("Want to return the book?")) {
-		modifyTable({"index": index, "info": ""});
+		payload = modifyTable({"index": index, "info": ""});
+		updateGist(payload);
 	}
 }
 
@@ -72,4 +97,5 @@ function toggleInfo(index) {
 	var element = document.getElementById("book__info__" + index);
 	element.style.display = element.style.display == "none" ? "block" : "none";
 }
+
 </script>

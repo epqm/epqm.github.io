@@ -10,15 +10,15 @@ header:
 
 <table id="EpqmLibraryTable" class="sortable">
 <thead>
-<td class="epqm__table__center">Id</td>
-<td>Book</td>
-<td>Authors</td>
-<td class="epqm__table__center">Spot</td>
-<td class="epqm__table__center">Status</td>
+<td class="epqm__table__center">ID</td>
+<td>BOOK</td>
+<td>AUTHORS</td>
+<td class="epqm__table__center">SPOT</td>
+<td class="epqm__table__center">STATUS</td>
 </thead>
 {% for entry in site.data.EPQMLibrary %}
 <tr id="epqm__library__{{ forloop.index }}">
-<td class="epqm__table__center">{{ forloop.index }}</td><td><strong>{{ entry["title"] }}</strong></td><td>{{ entry["authors"] }}</td>
+<td class="epqm__table__center">{{ forloop.index }}</td><td>{{ entry["title"] }}</td><td>{{ entry["authors"] }}</td>
 <td class="epqm__table__center">{{ entry["spot"] }}</td>
 <td class="epqm__table__center">
 <i class="far fa-heart" onclick="borrowBook({{ forloop.index }})" style="display:{% if entry["status"] == nil %}block{% else %}none{% endif %}"></i>

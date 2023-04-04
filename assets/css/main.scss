@@ -354,23 +354,14 @@ p.archive__item-excerpt {
 	display: none;
 }
 
-thead {
-	font-weight: bold;
-	color: #FFFF66;
-}
-
-.EPQMLibraryTable {
+table {
     margin: 0px auto;
     display: table;
     width: max-content;
 }
 
-tbody tr:nth-child(even),thead {
-    background-color: #26333b;
-}
-
-tbody tr:nth-child(odd) {
-    background-color: #26333bee;
+tbody tr:nth-child(even) {
+    background-color: rgba($primary-color, 0.4);
 }
 
 td {
@@ -378,7 +369,7 @@ td {
 }
 
 tbody {
-    color: lightgray;
+    color: black;
 }
 
 a.lib_link {
@@ -388,3 +379,10 @@ a.lib_link {
 .epqm__table__center { 
 	text-align: center; 
 }
+
+thead {
+	font-weight: bold;
+	color: white;
+	background-color: $primary-color;
+}
+
