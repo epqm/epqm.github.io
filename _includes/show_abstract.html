@@ -4,8 +4,8 @@
 <div>
 <div id="short_abstract" class="archive__item-excerpt">{{ work.last["abstract"] | split:". " | first | append:"..." }}</div>
 <div id="full_abstract" class="archive__item-excerpt">{{ work.last["abstract"] }}</div>
-<div id="readmore_abstract" class="btn btn--info" onclick="readmore_abstract()">Show excerpt</div>
-<div id="readless_abstract" class="btn btn--info" onclick="readless_abstract()">Hide excerpt</div>
+<div id="readmore_abstract" class="btn btn--danger" onclick="readmore_abstract()">Show excerpt</div>
+<div id="readless_abstract" class="btn btn--danger" onclick="readless_abstract()">Hide excerpt</div>
 </div>
 {% break %}
 {% endif %}

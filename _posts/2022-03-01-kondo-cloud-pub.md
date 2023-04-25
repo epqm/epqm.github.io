@@ -7,6 +7,7 @@ categories:
 tags:
   - Kondo-effect
   - impurity-models
+  - MERG
 header:
     image: /assets/images/posts/kondo.jpg
 

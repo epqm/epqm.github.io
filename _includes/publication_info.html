@@ -3,6 +3,10 @@
 **{{ work.first }}**{%- if readmore -%}{% for post in site.categories["publications-and-preprints"] %}{%- if post.permalink == work.last["permalink"] -%}&nbsp;&nbsp;[[Learn More]]({{ work.last["permalink"] }}){% break %}{% endif %}{% endfor %}{%- endif -%}
 {% endunless %}
 <span class='pub__authors'>{{ work.last["authors"] | join:", " | replace: "Siddhartha Lal", "<b>Siddhartha Lal</b>" }}</span>
+{%- for tag in work.last["tags"] -%}
+<span class="btn btn--info">{{ tag }}</span>&nbsp;&nbsp;
+{%- endfor -%}
+<br>
 {{ work.last["submit_date"] | strip | date: "%b %-d, %Y" }}
 {%- if work.last["doi"] -%}<a href="{{ work.last["doi"] }}" class="btn btn--danger">{{ work.last["journal_ref_short"] }}</a>{% endif %}
 {% if work.last["arxiv_doi"] %}<a href="{{ work.last["arxiv_doi"] }}" class="btn btn--success">{{ work.last["arxiv_ref"] | replace: "cond-mat/","" }}</a>{% endif %}

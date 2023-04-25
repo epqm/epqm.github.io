@@ -91,6 +91,9 @@ Strongly correlated systems often show the proximity of unconventional supercond
 " %}
 {% include hidden_content.html content=content id="supercond" %}
 
+**Relevant works**
+{% include relevant_publications.html tags="d-wave superconductivity" %}
+
 ### Topological phases, symmetry breaking and entanglement
 
 Topological states of matter are known to be governed by rules that depart from the traditional Ginzburg-Landau-Wilson paradigm of local order parameters and spontaneous symmetry breaking. The entanglement properties of the many-body Hilbert space are believed to be key to the ongoing search for topological order in quantum matter. We are presently focussed on asking how topological order can arise in correlated fermionic quantum matter.
@@ -110,6 +113,8 @@ Topological states of matter are known to be governed by rules that depart from 
 " %}
 {% include hidden_content.html content=content id="topent" %}
 
+**Relevant works**
+{% include relevant_publications.html tags="topological order" %}
 
 ### Fermionic criticality and models of correlated electrons
 
@@ -124,6 +129,9 @@ Carbon nanotubes are one-dimensional structures with special properties, renderi
 {:.body__img }
 " %}
 {% include hidden_content.html content=content id="fermcrit" %}
+
+**Relevant works**
+{% include relevant_publications.html tags="fermionic criticality,strongly-correlated electrons" %}
 
 ### Fustrated magnetism and spin liquids	
 
@@ -140,6 +148,9 @@ The study of frustrated magnetism is at the heart of the search for liquid-like 
 " %}
 {% include hidden_content.html content=content id="liquid" %}
 
+**Relevant works**
+{% include relevant_publications.html tags="frustrated quantum magnetism,spin liquids" %}
+
 ### Quantum impurities & auxiliary models
 
 Correlated quantum impurity models serve as fertile grounds for the emergence of various quantum-mechanical properties like entanglement, frustration, non-Fermi liquid physics and quantum phase transitions. They also find use as auxiliary models in methods like dynamical mean-field theory. The rich physics in these models often means that different methods lead to new insights on already-solved problems.
@@ -154,6 +165,9 @@ Correlated quantum impurity models serve as fertile grounds for the emergence of
 {:.body__img }
 " %}
 {% include hidden_content.html content=content id="impurity" %}
+
+**Relevant works**
+{% include relevant_publications.html tags="impurity models,auxiliary models" %}
 
 ### Many-particle entanglement & holography
 
@@ -174,6 +188,9 @@ Further, a subdominant topological term in the entanglement entropy quantifies t
 {:.body__img }
 " %}
 {% include hidden_content.html content=content id="holography" %}
+
+**Relevant works**
+{% include relevant_publications.html tags="holography" %}
 
 ### Quantum transport
 

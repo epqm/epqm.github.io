@@ -1,0 +1,9 @@
+{%- assign tags = include.tags | split:"," -%}
+{%- for work in site.data.publications -%}
+{%- for tag in tags -%}
+{%- if work.last["tags"] contains tag -%}
+- [{{ work.first }}]({{ work.last["doi"] }})
+{% break -%}
+{% endif  -%}
+{% endfor -%}
+{%- endfor %}

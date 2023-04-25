@@ -9,7 +9,7 @@ tags:
   - gapped-liquids
   - entanglement
   - MERG
-  - Hubbard
+  - Hubbard-model
 header:
   image: /assets/images/posts/mott_MERG.jpg
 
