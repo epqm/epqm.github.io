@@ -1,5 +1,22 @@
 ---
 layout: splash
+feature_row:
+feature_row:
+  - image_path: /assets/images/thumb1.jpeg
+    excerpt: "Check out the gallery for some photographs of our group as well as the IISER Kolkata campus."
+    url: /gallery/
+    btn_label: "Read More"
+    btn_class: "btn btn--danger"
+  - image_path: /assets/images/thumb2.jpeg
+    excerpt: "Take a look at our suggested external resources for interesting content pertaining to physics or academia in general."
+    url: /external-resources/
+    btn_label: "Read More"
+    btn_class: "btn btn--danger"
+  - image_path: /assets/images/thumb3.jpg
+    excerpt: "Check out our recommendations for \"a single work of fiction that should be experienced by everyone at least once\"."
+    url: /fiction-recommendations/
+    btn_label: "Read More"
+    btn_class: "btn btn--danger"
 
 ---
 
@@ -64,30 +81,17 @@ layout: splash
   {% endfor %}
 </div>
 
-## <i class="fas fa-bolt" style="color: #05014a"></i>&nbsp;&nbsp;Miscellaneous News
+## <i class="fas fa-bolt"></i>&nbsp;&nbsp;Miscellaneous News
 
 [See all news](/posts/#miscellaneous-news){: .btn .btn--info }
 
 {% for post in site.categories["updates"] limit:3 %}
-- **{{ post.title }}**&nbsp;&nbsp;<a href="{{ post.url | relative_url }}" class="btn btn--danger">{{ post.btn_label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a><br>{{ post.date | date: "%b %d, %Y" | upcase }}
+- **{{ post.title }}**&nbsp;&nbsp;<a href="{{ post.url | relative_url }}" class="btn btn--danger">Learn More</a>&nbsp;&nbsp;{{ post.date | date: "%b %d, %Y" | upcase }}
 {% endfor %}
 
-<div class="home__column__main" markdown=1>
-<div class="home__column" markdown=1>
 ## <i class="fas fa-heart"></i>&nbsp;&nbsp;The good stuff
+{% include feature_row %}
 
-- Check out the [gallery](/gallery/) for some photographs of our group as well as the IISER Kolkata campus.
-
-- Take a look at our suggested [external resources](/external-resources/) for funny/interesting/useful links pertaining to academia in general or (condensed matter) physics in particular.
-
-- Check out our [recommendations](/fiction-recommendations/) for "a single work of fiction that should be experienced by everyone at least once".
-
-[Gallery](/gallery/){: .btn .btn--info }
-[External Links](/external-resources/){: .btn .btn--info }
-[Fiction Suggestions](/fiction-recommendations/){: .btn .btn--info }
-
-</div>
-<div class="home__column" markdown=1>
 ## <i class="fas fa-mug-hot"></i>&nbsp;&nbsp;Like what you see so far?
 - Take a look at our [research interests](/research/) and [publications](/publications/) to get a better idea of what we do. 
 
@@ -98,6 +102,5 @@ layout: splash
 [Research](/research/){: .btn .btn--info }
 [Seminars](/seminars/){: .btn .btn--info }
 [Contact](/about/#contact-details){: .btn .btn--info }
-</div>
 
 {% include footer/home_slides.html %}
