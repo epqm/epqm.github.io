@@ -9,7 +9,7 @@
    id="svg5"
    inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
    sodipodi:docname="mckondo.svg"
-   inkscape:export-filename="mckondo.png"
+   inkscape:export-filename="mckondo.webp"
    inkscape:export-xdpi="250.23"
    inkscape:export-ydpi="250.23"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
@@ -27,13 +27,13 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="1.2705464"
-     inkscape:cx="321.12168"
-     inkscape:cy="172.36679"
-     inkscape:window-width="1920"
-     inkscape:window-height="1019"
-     inkscape:window-x="1920"
-     inkscape:window-y="151"
+     inkscape:zoom="0.83280029"
+     inkscape:cx="366.83465"
+     inkscape:cy="277.37743"
+     inkscape:window-width="1916"
+     inkscape:window-height="1048"
+     inkscape:window-x="0"
+     inkscape:window-y="28"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1" />
   <defs
@@ -323,8 +323,8 @@
        inkscape:collect="always"
        style="color-interpolation-filters:sRGB"
        id="filter4589"
-       x="-0.02128981"
-       y="-0.035941346"
+       x="-0.021289815"
+       y="-0.035941344"
        width="1.0425796"
        height="1.0718827">
       <feGaussianBlur
@@ -644,33 +644,33 @@
        y="0"><tspan
          x="-11.941406"
          y="208.64138"
-         id="tspan72891"><tspan
+         id="tspan8857"><tspan
            dx="0 0 0 0 0 0 0 0 0 0 0.78222561 0 0 0.78221798 0 0.78222561 0 0 0 0 0 0 0 0 0 0 0 0 0.78222561 0 0 0 0 0 0.78222561 0 0 0 0 0 0 0.78222561 0 0 0 0.78222561 0 0 0 0 0 0 0 0.78225613 0 0 0 0 0 0 0 0 0.78225613 0 0 0 0 0.78219509 0.78225613 0.78219509 0.78225613 0.78219509 0.78225613"
            style="text-align:justify;opacity:1;fill:#505050"
-           id="tspan72889">Schematic of a multichannel Kondo model. The central impurity spin       </tspan></tspan><tspan
+           id="tspan8855">Schematic of a multichannel Kondo model. The central impurity spin       </tspan></tspan><tspan
          x="-11.941406"
          y="234.24134"
-         id="tspan72895"><tspan
+         id="tspan8861"><tspan
            dx="0 0 0 0 0 0 0 0 0 0 1.4737158 0 0 0 0 1.4737082 0 0 0 1.4737082 0 0 0 0 0 0 0 0 0 0 1.4737234 0 0 0 0 1.4737234 0 0 0 0 0 0 0 0 1.4737234 0 1.4737234 1.4737234 1.4736929 1.4737234 1.4737234 1.4736929 1.4737234 1.4737234 1.4736929 0 0 0 1.4737234 1.4737234 1.4737234 1.4736624 1.4737234 1.4737234 1.4737234 1.4737234 1.4737234 0 1.4737234"
            style="text-align:justify;opacity:1;fill:#505050"
-           id="tspan72893">interacts with two conduction bath channels (         and         ) through </tspan></tspan><tspan
+           id="tspan8859">interacts with two conduction bath channels (         and         ) through </tspan></tspan><tspan
          x="-11.941406"
          y="259.8413"
-         id="tspan72899"><tspan
+         id="tspan8865"><tspan
            dx="0 0 0 0 0 0 0 0 0 0 6.264884 0 0 0 0 0 0 0 0 0 0 0 0 0 6.2648916 0 0 0 6.2648916 0 0 0 6.2648916 0 0 0 0 0 0 0 0 6.2648916 0 0 0 0 0 0 0 6.2649221 0 0 0 0 6.2648611 0 0 0 0 6.2648611 0 0 0 0 0 6.2648611"
            style="text-align:justify;opacity:1;fill:#505050"
-           id="tspan72897">spin-flip interactions. The two channels compete with each other in </tspan></tspan><tspan
+           id="tspan8863">spin-flip interactions. The two channels compete with each other in </tspan></tspan><tspan
          x="-11.941406"
          y="285.44124"
-         id="tspan72903"><tspan
+         id="tspan8869"><tspan
            dx="0 0 0 0 0 0 0 0.81888103 0 0 0.81887722 0 0 0 0 0.81887722 0 0.81889248 0 0 0 0 0 0 0 0.81887722 0 0 0 0 0.81887722 0 0 0 0.81887722 0 0 0 0 0 0 0.81890774 0 0 0 0 0 0 0 0 0.81887722 0 0 0 0 0 0.81887722 0 0 0 0 0 0 0 0 0 0.81887722 0 0 0.81887722 0 0.81887722"
            style="text-align:justify;opacity:1;fill:#505050"
-           id="tspan72901">trying to form a singlet with the single impurity spin, resulting in a novel </tspan></tspan><tspan
+           id="tspan8867">trying to form a singlet with the single impurity spin, resulting in a novel </tspan></tspan><tspan
          x="-11.941406"
          y="311.04122"
-         id="tspan72907"><tspan
+         id="tspan8873"><tspan
            style="text-align:justify;opacity:1;fill:#505050"
-           id="tspan72905">frustrated ground-state.</tspan></tspan></text>
+           id="tspan8871">frustrated ground-state.</tspan></tspan></text>
     <g
        id="g18733"
        transform="translate(-0.0386642,0.982337)">
@@ -702,7 +702,7 @@
        style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:24px;font-family:'Fira Math';-inkscape-font-specification:'Fira Math Medium';font-variant-caps:all-small-caps;white-space:pre;shape-inside:url(#rect9075);display:inline;opacity:0.857485;fill:#000000;fill-opacity:1;stroke:none;stroke-width:7.55906;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"><tspan
          x="306.50391"
          y="-11.173047"
-         id="tspan72909">impurity spin</tspan></text>
+         id="tspan8875">impurity spin</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,-77.556289,112.44183)"
@@ -712,10 +712,10 @@
        y="0"><tspan
          x="362.22319"
          y="-11.173047"
-         id="tspan72911">spin-flip </tspan><tspan
+         id="tspan8877">spin-flip </tspan><tspan
          x="347.85923"
          y="18.826953"
-         id="tspan72913">interaction</tspan></text>
+         id="tspan8879">interaction</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,23.654483,84.174219)"
@@ -725,15 +725,15 @@
        y="0"><tspan
          x="351.8413"
          y="-11.173047"
-         id="tspan72917"><tspan
+         id="tspan8883"><tspan
            style="text-align:center;text-anchor:middle"
-           id="tspan72915">conduction 
+           id="tspan8881">conduction 
 </tspan></tspan><tspan
          x="372.8053"
          y="18.826953"
-         id="tspan72921"><tspan
+         id="tspan8887"><tspan
            style="text-align:center;text-anchor:middle"
-           id="tspan72919">channel</tspan></tspan></text>
+           id="tspan8885">channel</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,-125.23584,112.44183)"
@@ -743,15 +743,15 @@
        y="0"><tspan
          x="351.8413"
          y="-11.173047"
-         id="tspan72925"><tspan
+         id="tspan8891"><tspan
            style="text-align:center;text-anchor:middle"
-           id="tspan72923">conduction 
+           id="tspan8889">conduction 
 </tspan></tspan><tspan
          x="372.8053"
          y="18.826953"
-         id="tspan72929"><tspan
+         id="tspan8895"><tspan
            style="text-align:center;text-anchor:middle"
-           id="tspan72927">channel</tspan></tspan></text>
+           id="tspan8893">channel</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,-28.872952,112.44183)"
@@ -761,17 +761,9 @@
        y="0"><tspan
          x="362.22319"
          y="-11.173047"
-         id="tspan72931">spin-flip </tspan><tspan
+         id="tspan8897">spin-flip </tspan><tspan
          x="347.85923"
          y="18.826953"
-         id="tspan72933">interaction</tspan></text>
-    <text
-       xml:space="preserve"
-       transform="matrix(0.53465042,0,0,0.53465042,-45.23904,79.275575)"
-       id="text69933"
-       style="font-weight:bold;font-size:24px;line-height:0;font-family:'Fira Math';-inkscape-font-specification:'Fira Math Bold';font-variant-caps:all-small-caps;text-align:justify;white-space:pre;shape-inside:url(#rect69935);display:inline;fill:#404040;fill-opacity:1;stroke:none;stroke-width:0.377953;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"><tspan
-         x="2.5253906"
-         y="9.7253906"
-         id="tspan72935">Fig 3.</tspan></text>
+         id="tspan8899">interaction</tspan></text>
   </g>
 </svg>
