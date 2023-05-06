@@ -3,8 +3,8 @@
 
 <svg
    width="173.67729mm"
-   height="168.16911mm"
-   viewBox="0 0 173.6773 168.16912"
+   height="106.38471mm"
+   viewBox="0 0 173.6773 106.38472"
    version="1.1"
    id="svg5"
    inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
@@ -475,14 +475,14 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(28.843705,-54.971946)">
+     transform="translate(28.843703,-54.971947)">
     <rect
-       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#404040;stroke-width:1.30626;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#404040;stroke-width:1.03871;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect16919"
-       width="172.37103"
-       height="166.86285"
-       x="-28.190575"
-       y="55.625076" />
+       width="172.63858"
+       height="105.346"
+       x="-28.324348"
+       y="55.491302" />
     <g
        id="g27234"
        transform="rotate(-45,44.337132,116.09058)">
@@ -632,54 +632,6 @@
        style="font-size:37.3333px;font-family:'Fira Math';-inkscape-font-specification:'Fira Math';font-variant-caps:all-small-caps;white-space:pre;shape-inside:url(#rect6026);display:inline;fill:#333333;fill-opacity:1;stroke:none;stroke-width:15.1181;stroke-linejoin:bevel;stroke-dasharray:6.20357, 6.20357;stroke-dashoffset:0;stroke-opacity:1" />
     <text
        xml:space="preserve"
-       transform="matrix(0.26458333,0,0,0.26458333,-20.665813,114.30485)"
-       id="text6072"
-       style="font-size:24px;line-height:1.2;font-family:'Fira Math';-inkscape-font-specification:'Fira Math';font-variant-caps:all-small-caps;white-space:pre;shape-inside:url(#rect6074);display:inline;fill:#333333;fill-opacity:1;stroke:#333333;stroke-width:0.377953;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       x="0"
-       y="0"><tspan
-         x="-11.941406"
-         y="211.04141"
-         id="tspan29059"><tspan
-           dx="0 0 13.303127 0 0 0 0 0 0 0 0 0 13.303131 0 0 13.303131 0 0 0 13.303131 0 0 0 0 0 0 0 0 0 13.303146 0 0 0 0 0 0 13.303116 0 0 0 13.303116"
-           style="text-align:justify;opacity:1;fill:#505050"
-           id="tspan29057">A schematic of the stargraph model, the skeletal </tspan></tspan><tspan
-         x="-11.941406"
-         y="239.84141"
-         id="tspan29063"><tspan
-           dx="0 0 0 0 0 0 0 0 0.052314758 0 0 0 0 0 0 0 0 0 0 0.052307129 0 0 0 0 0.05229187 0 0 0 0.052322388 0 0 0 0 0 0 0 0 0 0 0 0 0.052322388 0 0 0 0 0 0.052322388"
-           style="text-align:justify;opacity:1;fill:#505050"
-           id="tspan29061">problem associated with any multichannel Kondo model. </tspan></tspan><tspan
-         x="-11.941406"
-         y="268.64141"
-         id="tspan29067"><tspan
-           dx="0 0 0 0 1.8482094 0 0 0 0 0 1.8482056 0 0 0 0 0 0 0 0 1.8482056 0 0 1.8482056 0 1.8482208 0 0 0 0 0 0 0 1.8482208 0 0 0 0 1.8481903 0 0 0 0 1.8481903 0 0 0 0 0 0 0 0 1.8482208"
-           style="text-align:justify;opacity:1;fill:#505050"
-           id="tspan29065">The graph consists of a central node (the impurity spin) </tspan></tspan><tspan
-         x="-11.941406"
-         y="297.4414"
-         id="tspan29071"><tspan
-           dx="0 0 0 0 0 0 0 0 0 0 0.41355133 0 0 0 0 0.41355896 0 0.4135437 0 0 0 0 0 0 0.41355896 0 0 0.41352844 0 0 0 0 0 0.41352844 0 0 0 0 0 0.41355896 0 0 0 0 0.41355896 0 0 0 0 0 0.41352844"
-           style="text-align:justify;opacity:1;fill:#505050"
-           id="tspan29069">connected with a number of outer nodes (the local spins </tspan></tspan><tspan
-         x="-11.941406"
-         y="326.24139"
-         id="tspan29075"><tspan
-           dx="0 0 0 3.089407 0 0 0 3.0894089 0 0 0 0 0 0 0 0 0 0 3.0894012 0 0 0 0 0 0 0 0 0 0 3.0894012 0 0 0 3.0894318 0 0 0 0 0 3.0894012 0 0 0 0 0 0 0 0 0 0 3.0893707"
-           style="text-align:justify;opacity:1;fill:#505050"
-           id="tspan29073">of the conduction channels). The bonds connecting the </tspan></tspan><tspan
-         x="-11.941406"
-         y="355.04138"
-         id="tspan29079"><tspan
-           dx="0 0 0 0 0 0 6.6883163 0 0 0 0 0 0 6.6883087 0 0 0 6.6883087 0 0 0 0 0 0 0 0 0 0 6.6883087 0 0 0 0 0 0 0 0 0 0 0 6.6883087 0 0 0 0 0 0 0 6.6883087"
-           style="text-align:justify;opacity:1;fill:#505050"
-           id="tspan29077">nodes depict the Heisenberg interaction between the </tspan></tspan><tspan
-         x="-11.941406"
-         y="383.84136"
-         id="tspan29083"><tspan
-           style="text-align:justify;opacity:1;fill:#505050"
-           id="tspan29081">impurity spin and the conduction bath spins. </tspan></tspan></text>
-    <text
-       xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,-19.953912,109.40205)"
        id="text9073"
        style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:24px;font-family:'Fira Math';-inkscape-font-specification:'Fira Math Medium';font-variant-caps:all-small-caps;text-align:center;white-space:pre;shape-inside:url(#rect9075);display:inline;opacity:0.857485;fill:#000000;fill-opacity:1;stroke:none;stroke-width:7.55906;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -687,11 +639,11 @@
        y="0"><tspan
          x="331.66681"
          y="-11.173047"
-         id="tspan29085">impurity 
+         id="tspan31632">impurity 
 </tspan><tspan
          x="357.67078"
          y="18.826953"
-         id="tspan29087">spin</tspan></text>
+         id="tspan31634">spin</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,-86.719791,96.099136)"
@@ -701,10 +653,10 @@
        y="0"><tspan
          x="362.22319"
          y="-11.173047"
-         id="tspan29089">spin-flip </tspan><tspan
+         id="tspan31636">spin-flip </tspan><tspan
          x="347.85923"
          y="18.826953"
-         id="tspan29091">interaction</tspan></text>
+         id="tspan31638">interaction</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,-114.30028,66.78296)"
@@ -714,15 +666,15 @@
        y="0"><tspan
          x="351.8413"
          y="-11.173047"
-         id="tspan29095"><tspan
+         id="tspan31642"><tspan
            style="text-align:center;text-anchor:middle"
-           id="tspan29093">conduction 
+           id="tspan31640">conduction 
 </tspan></tspan><tspan
          x="346.80128"
          y="18.826953"
-         id="tspan29099"><tspan
+         id="tspan31646"><tspan
            style="text-align:center;text-anchor:middle"
-           id="tspan29097">channel spin</tspan></tspan></text>
+           id="tspan31644">channel spin</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,11.082514,69.506699)"
@@ -732,14 +684,14 @@
        y="0"><tspan
          x="351.8413"
          y="-11.173047"
-         id="tspan29103"><tspan
+         id="tspan31650"><tspan
            style="text-align:center;text-anchor:middle"
-           id="tspan29101">conduction 
+           id="tspan31648">conduction 
 </tspan></tspan><tspan
          x="346.80128"
          y="18.826953"
-         id="tspan29107"><tspan
+         id="tspan31654"><tspan
            style="text-align:center;text-anchor:middle"
-           id="tspan29105">channel spin</tspan></tspan></text>
+           id="tspan31652">channel spin</tspan></tspan></text>
   </g>
 </svg>

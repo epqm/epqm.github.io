@@ -3,8 +3,8 @@
 
 <svg
    width="200.39191mm"
-   height="88.497948mm"
-   viewBox="0 0 200.39191 88.497948"
+   height="66.036194mm"
+   viewBox="0 0 200.39191 66.036194"
    version="1.1"
    id="svg5"
    inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
@@ -27,9 +27,9 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="0.83280029"
-     inkscape:cx="366.83465"
-     inkscape:cy="277.37743"
+     inkscape:zoom="0.78253008"
+     inkscape:cx="142.48654"
+     inkscape:cy="153.34874"
      inkscape:window-width="1916"
      inkscape:window-height="1048"
      inkscape:window-x="0"
@@ -323,8 +323,8 @@
        inkscape:collect="always"
        style="color-interpolation-filters:sRGB"
        id="filter4589"
-       x="-0.021289815"
-       y="-0.035941344"
+       x="-0.02128981"
+       y="-0.035941346"
        width="1.0425796"
        height="1.0718827">
       <feGaussianBlur
@@ -366,49 +366,11 @@
        id="path-effect1775-7"
        is_visible="true"
        lpeversion="1" />
-    <marker
-       style="overflow:visible"
-       id="RoundedArrow-3-6"
-       refX="0"
-       refY="0"
-       orient="auto-start-reverse"
-       inkscape:stockid="RoundedArrow"
-       markerWidth="4.1350002"
-       markerHeight="3.9973247"
-       viewBox="0 0 6.1347524 5.9304951"
-       inkscape:isstock="true"
-       inkscape:collect="always"
-       preserveAspectRatio="xMidYMid">
-      <path
-         transform="scale(0.7)"
-         d="m -0.21114562,-4.1055728 6.42229122,3.21114561 a 1,1 90 0 1 0,1.78885438 L -0.21114562,4.1055728 A 1.236068,1.236068 31.717474 0 1 -2,3 v -6 a 1.236068,1.236068 148.28253 0 1 1.78885438,-1.1055728 z"
-         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
-         id="path1367-6-2" />
-    </marker>
     <inkscape:path-effect
        effect="spiro"
        id="path-effect1775-7-9"
        is_visible="true"
        lpeversion="1" />
-    <marker
-       style="overflow:visible"
-       id="RoundedArrow-7"
-       refX="0"
-       refY="0"
-       orient="auto-start-reverse"
-       inkscape:stockid="RoundedArrow"
-       markerWidth="4.1350002"
-       markerHeight="3.9973247"
-       viewBox="0 0 6.1347524 5.9304951"
-       inkscape:isstock="true"
-       inkscape:collect="always"
-       preserveAspectRatio="xMidYMid">
-      <path
-         transform="scale(0.7)"
-         d="m -0.21114562,-4.1055728 6.42229122,3.21114561 a 1,1 90 0 1 0,1.78885438 L -0.21114562,4.1055728 A 1.236068,1.236068 31.717474 0 1 -2,3 v -6 a 1.236068,1.236068 148.28253 0 1 1.78885438,-1.1055728 z"
-         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
-         id="path1367-0" />
-    </marker>
     <inkscape:path-effect
        effect="spiro"
        id="path-effect1775-9"
@@ -454,14 +416,14 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(45.120293,-72.46442)">
+     transform="translate(45.120291,-64.244272)">
     <rect
-       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#404040;stroke-width:1.01722;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#404040;stroke-width:0.878201;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect16919"
-       width="199.37468"
-       height="87.480728"
-       x="-44.611683"
-       y="72.97303" />
+       width="199.5137"
+       height="65.15799"
+       x="-44.68119"
+       y="64.683372" />
     <circle
        style="fill:#c93b4f;stroke:none;stroke-width:2.57258"
        id="path234"
@@ -514,11 +476,11 @@
        inkscape:original-d="m 12.4225,100.63098 c 2.16e-4,-4.835788 2.16e-4,-5.873248 0,-10.708598"
        sodipodi:nodetypes="cc" />
     <path
-       style="fill:#c93b4f;stroke:#000000;stroke-width:1.64136;stroke-opacity:1;marker-start:url(#RoundedArrow-3)"
-       d="M 54.675497,94.690458 V 105.39906"
+       style="fill:#c93b4f;stroke:#000000;stroke-width:2.6465;stroke-opacity:1;marker-start:url(#RoundedArrow-3)"
+       d="M 54.675906,94.193358 V 108.77731"
        id="path1769-5"
        inkscape:path-effect="#path-effect1775-7"
-       inkscape:original-d="m 54.675497,94.690458 c 2.16e-4,4.83579 2.16e-4,5.873252 0,10.708602"
+       inkscape:original-d="m 54.675906,94.193358 c 4.12e-4,6.585822 4.12e-4,7.998732 0,14.583952"
        sodipodi:nodetypes="cc" />
     <path
        style="fill:#c93b4f;stroke:#000000;stroke-width:1.64136;stroke-opacity:1;marker-start:url(#RoundedArrow-9)"
@@ -591,110 +553,6 @@
        transform="matrix(0.26458333,0,0,0.26458333,-41.804148,81.878291)"
        id="text6024"
        style="font-size:37.3333px;font-family:'Fira Math';-inkscape-font-specification:'Fira Math';font-variant-caps:all-small-caps;white-space:pre;shape-inside:url(#rect6026);display:inline;fill:#333333;fill-opacity:1;stroke:none;stroke-width:15.1181;stroke-linejoin:bevel;stroke-dasharray:6.20357, 6.20357;stroke-dashoffset:0;stroke-opacity:1" />
-    <g
-       id="g12589"
-       transform="translate(110.82804,-27.881723)">
-      <g
-         id="g8944"
-         transform="translate(-31.520667,11.356852)">
-        <path
-           style="fill:#505050;fill-opacity:1;stroke:#404040;stroke-width:2;stroke-dasharray:none;stroke-opacity:1"
-           d="M 9.9521525,151.01521 H 1.7023147"
-           id="path2065-6"
-           inkscape:path-effect="#path-effect2067-3"
-           inkscape:original-d="m 9.9521525,151.01521 c -2.7499014,1.2e-4 -5.4998473,1.2e-4 -8.2498378,0" />
-        <circle
-           style="fill:#a0754f;fill-opacity:1;stroke:none;stroke-width:0.740383"
-           id="circle1767-0"
-           cx="12.204027"
-           cy="151.01521"
-           r="4.4275098" />
-        <path
-           style="fill:#c93b4f;stroke:#000000;stroke-width:0.828148;stroke-opacity:1;marker-start:url(#RoundedArrow-7)"
-           d="m 12.232489,152.61966 v -5.40301"
-           id="path1769-62"
-           inkscape:path-effect="#path-effect1775-9"
-           inkscape:original-d="m 12.232489,152.61966 c 1.09e-4,-2.43989 1.09e-4,-2.96334 0,-5.40301"
-           sodipodi:nodetypes="cc" />
-      </g>
-    </g>
-    <g
-       id="g6780"
-       transform="translate(155.84933,-6.1358028)">
-      <circle
-         style="fill:#c93b4f;stroke:none;stroke-width:0.725722"
-         id="path234-1"
-         cx="-12.480122"
-         cy="133.16292"
-         r="4.3398366" />
-      <path
-         style="fill:#c93b4f;stroke:#000000;stroke-width:0.826335;stroke-opacity:1;marker-start:url(#RoundedArrow-3-6)"
-         d="m -12.480123,131.8681 v 5.3912"
-         id="path1769-5-2"
-         inkscape:path-effect="#path-effect1775-7-9"
-         inkscape:original-d="m -12.480123,131.8681 c 1.09e-4,2.43456 1.09e-4,2.95686 0,5.3912"
-         sodipodi:nodetypes="cc" />
-    </g>
-    <text
-       xml:space="preserve"
-       transform="matrix(0.26458333,0,0,0.26458333,-35.092779,74.291885)"
-       id="text6072"
-       style="font-size:21.3333px;line-height:1.2;font-family:'Fira Math';-inkscape-font-specification:'Fira Math';font-variant-caps:all-small-caps;white-space:pre;shape-inside:url(#rect6074);display:inline;fill:#333333;fill-opacity:1;stroke:#333333;stroke-width:0.377953;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       x="0"
-       y="0"><tspan
-         x="-11.941406"
-         y="208.64138"
-         id="tspan8857"><tspan
-           dx="0 0 0 0 0 0 0 0 0 0 0.78222561 0 0 0.78221798 0 0.78222561 0 0 0 0 0 0 0 0 0 0 0 0 0.78222561 0 0 0 0 0 0.78222561 0 0 0 0 0 0 0.78222561 0 0 0 0.78222561 0 0 0 0 0 0 0 0.78225613 0 0 0 0 0 0 0 0 0.78225613 0 0 0 0 0.78219509 0.78225613 0.78219509 0.78225613 0.78219509 0.78225613"
-           style="text-align:justify;opacity:1;fill:#505050"
-           id="tspan8855">Schematic of a multichannel Kondo model. The central impurity spin       </tspan></tspan><tspan
-         x="-11.941406"
-         y="234.24134"
-         id="tspan8861"><tspan
-           dx="0 0 0 0 0 0 0 0 0 0 1.4737158 0 0 0 0 1.4737082 0 0 0 1.4737082 0 0 0 0 0 0 0 0 0 0 1.4737234 0 0 0 0 1.4737234 0 0 0 0 0 0 0 0 1.4737234 0 1.4737234 1.4737234 1.4736929 1.4737234 1.4737234 1.4736929 1.4737234 1.4737234 1.4736929 0 0 0 1.4737234 1.4737234 1.4737234 1.4736624 1.4737234 1.4737234 1.4737234 1.4737234 1.4737234 0 1.4737234"
-           style="text-align:justify;opacity:1;fill:#505050"
-           id="tspan8859">interacts with two conduction bath channels (         and         ) through </tspan></tspan><tspan
-         x="-11.941406"
-         y="259.8413"
-         id="tspan8865"><tspan
-           dx="0 0 0 0 0 0 0 0 0 0 6.264884 0 0 0 0 0 0 0 0 0 0 0 0 0 6.2648916 0 0 0 6.2648916 0 0 0 6.2648916 0 0 0 0 0 0 0 0 6.2648916 0 0 0 0 0 0 0 6.2649221 0 0 0 0 6.2648611 0 0 0 0 6.2648611 0 0 0 0 0 6.2648611"
-           style="text-align:justify;opacity:1;fill:#505050"
-           id="tspan8863">spin-flip interactions. The two channels compete with each other in </tspan></tspan><tspan
-         x="-11.941406"
-         y="285.44124"
-         id="tspan8869"><tspan
-           dx="0 0 0 0 0 0 0 0.81888103 0 0 0.81887722 0 0 0 0 0.81887722 0 0.81889248 0 0 0 0 0 0 0 0.81887722 0 0 0 0 0.81887722 0 0 0 0.81887722 0 0 0 0 0 0 0.81890774 0 0 0 0 0 0 0 0 0.81887722 0 0 0 0 0 0.81887722 0 0 0 0 0 0 0 0 0 0.81887722 0 0 0.81887722 0 0.81887722"
-           style="text-align:justify;opacity:1;fill:#505050"
-           id="tspan8867">trying to form a singlet with the single impurity spin, resulting in a novel </tspan></tspan><tspan
-         x="-11.941406"
-         y="311.04122"
-         id="tspan8873"><tspan
-           style="text-align:justify;opacity:1;fill:#505050"
-           id="tspan8871">frustrated ground-state.</tspan></tspan></text>
-    <g
-       id="g18733"
-       transform="translate(-0.0386642,0.982337)">
-      <path
-         style="fill:#505050;fill-opacity:1;stroke:#404040;stroke-width:2;stroke-dasharray:none;stroke-opacity:1"
-         d="m 115.37801,133.73243 h 8.24984"
-         id="path9000"
-         inkscape:path-effect="#path-effect9010"
-         inkscape:original-d="m 115.37801,133.73243 c 2.7499,-1.2e-4 5.49985,-1.2e-4 8.24984,0" />
-      <circle
-         style="fill:#3190b7;fill-opacity:1;stroke:none;stroke-width:0.740383"
-         id="circle9002"
-         cx="-113.12614"
-         cy="-133.73241"
-         r="4.4275098"
-         transform="scale(-1)" />
-      <path
-         style="fill:#c93b4f;stroke:#000000;stroke-width:0.828148;stroke-opacity:1;marker-start:url(#RoundedArrow-7)"
-         d="m 113.09768,132.12798 v 5.40301"
-         id="path9004"
-         inkscape:path-effect="#path-effect9014"
-         inkscape:original-d="m 113.09768,132.12798 c -1.1e-4,2.43989 -1.1e-4,2.96334 0,5.40301"
-         sodipodi:nodetypes="cc" />
-    </g>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,-45.267129,82.268252)"
@@ -702,7 +560,7 @@
        style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:24px;font-family:'Fira Math';-inkscape-font-specification:'Fira Math Medium';font-variant-caps:all-small-caps;white-space:pre;shape-inside:url(#rect9075);display:inline;opacity:0.857485;fill:#000000;fill-opacity:1;stroke:none;stroke-width:7.55906;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"><tspan
          x="306.50391"
          y="-11.173047"
-         id="tspan8875">impurity spin</tspan></text>
+         id="tspan30762">impurity spin</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,-77.556289,112.44183)"
@@ -712,10 +570,10 @@
        y="0"><tspan
          x="362.22319"
          y="-11.173047"
-         id="tspan8877">spin-flip </tspan><tspan
+         id="tspan30764">spin-flip </tspan><tspan
          x="347.85923"
          y="18.826953"
-         id="tspan8879">interaction</tspan></text>
+         id="tspan30766">interaction</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,23.654483,84.174219)"
@@ -725,33 +583,33 @@
        y="0"><tspan
          x="351.8413"
          y="-11.173047"
-         id="tspan8883"><tspan
+         id="tspan30770"><tspan
            style="text-align:center;text-anchor:middle"
-           id="tspan8881">conduction 
+           id="tspan30768">conduction 
 </tspan></tspan><tspan
          x="372.8053"
          y="18.826953"
-         id="tspan8887"><tspan
+         id="tspan30774"><tspan
            style="text-align:center;text-anchor:middle"
-           id="tspan8885">channel</tspan></tspan></text>
+           id="tspan30772">channel</tspan></tspan></text>
     <text
        xml:space="preserve"
-       transform="matrix(0.26458333,0,0,0.26458333,-125.23584,112.44183)"
+       transform="matrix(0.26458333,0,0,0.26458333,-130.06614,82.166652)"
        id="text12417"
        style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:24px;font-family:'Fira Math';-inkscape-font-specification:'Fira Math Medium';font-variant-caps:all-small-caps;white-space:pre;shape-inside:url(#rect12419);display:inline;opacity:0.857485;fill:#000000;fill-opacity:1;stroke:none;stroke-width:7.55906;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        x="60.072006"
        y="0"><tspan
          x="351.8413"
          y="-11.173047"
-         id="tspan8891"><tspan
+         id="tspan30778"><tspan
            style="text-align:center;text-anchor:middle"
-           id="tspan8889">conduction 
+           id="tspan30776">conduction 
 </tspan></tspan><tspan
          x="372.8053"
          y="18.826953"
-         id="tspan8895"><tspan
+         id="tspan30782"><tspan
            style="text-align:center;text-anchor:middle"
-           id="tspan8893">channel</tspan></tspan></text>
+           id="tspan30780">channel</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,-28.872952,112.44183)"
@@ -761,9 +619,9 @@
        y="0"><tspan
          x="362.22319"
          y="-11.173047"
-         id="tspan8897">spin-flip </tspan><tspan
+         id="tspan30784">spin-flip </tspan><tspan
          x="347.85923"
          y="18.826953"
-         id="tspan8899">interaction</tspan></text>
+         id="tspan30786">interaction</tspan></text>
   </g>
 </svg>

@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="284.88348mm"
-   height="107.46707mm"
-   viewBox="0 0 284.88349 107.46707"
+   width="177.21228mm"
+   height="109.34867mm"
+   viewBox="0 0 177.21228 109.34867"
    version="1.1"
    id="svg5"
    inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
@@ -28,8 +28,8 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="1.0215448"
-     inkscape:cx="723.90366"
-     inkscape:cy="153.68881"
+     inkscape:cx="363.66491"
+     inkscape:cy="306.3987"
      inkscape:window-width="1916"
      inkscape:window-height="1048"
      inkscape:window-x="0"
@@ -39,9 +39,9 @@
   <defs
      id="defs2">
     <rect
-       x="2.5250267"
-       y="2.5250267"
-       width="158.85209"
+       x="2.5250268"
+       y="2.5250268"
+       width="158.8521"
        height="57.648094"
        id="rect69935" />
     <inkscape:path-effect
@@ -464,7 +464,7 @@
     <rect
        x="-11.941989"
        y="189.44174"
-       width="276.8687"
+       width="276.86871"
        height="171.08759"
        id="rect6074-8" />
     <inkscape:path-effect
@@ -561,8 +561,8 @@
     <rect
        x="-11.941989"
        y="189.44174"
-       width="383.52755"
-       height="378.88243"
+       width="383.52756"
+       height="378.88242"
        id="rect6074-5" />
     <inkscape:path-effect
        effect="spiro"
@@ -585,14 +585,14 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(97.093541,-62.97985)">
+     transform="translate(97.093541,-62.039047)">
     <rect
-       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#404040;stroke-width:1.33616;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#404040;stroke-width:1.06376;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect16919"
-       width="283.54733"
-       height="106.13091"
-       x="-96.425461"
-       y="63.64793" />
+       width="176.14851"
+       height="108.28491"
+       x="-96.561661"
+       y="62.570927" />
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,-41.804148,81.878291)"
@@ -605,83 +605,6 @@
        style="font-size:37.3333px;font-family:'Fira Math';-inkscape-font-specification:'Fira Math';font-variant-caps:all-small-caps;white-space:pre;shape-inside:url(#rect6026);display:inline;fill:#333333;fill-opacity:1;stroke:none;stroke-width:15.1181;stroke-linejoin:bevel;stroke-dasharray:6.20357, 6.20357;stroke-dashoffset:0;stroke-opacity:1" />
     <text
        xml:space="preserve"
-       transform="matrix(0.26458333,0,0,0.26458333,86.559486,16.049172)"
-       id="text6072-9"
-       style="font-size:29.3333px;line-height:1;font-family:'Fira Math';-inkscape-font-specification:'Fira Math';font-variant-caps:all-small-caps;text-align:justify;white-space:pre;shape-inside:url(#rect6074-5);display:inline;fill:#333333;fill-opacity:1;stroke:#333333;stroke-width:0.377953;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       x="193.79953"
-       y="0"><tspan
-         x="-11.941406"
-         y="212.90805"
-         id="tspan13266"><tspan
-           dx="0 0 0 25.087906 0 0 0 0 0 0 0 25.087921 0 0 25.087906"
-           id="tspan13264">An example of classical </tspan></tspan><tspan
-         x="-11.941406"
-         y="242.24134"
-         id="tspan13270"><tspan
-           dx="0 0 0 0 0 0 0 0 0 0 0 0 0 3.5992575 0 0 0 0 0 3.5992575 0 0 0 0 0 3.5992575 0 0 3.5992575"
-           id="tspan13268">frustration: three spins on a </tspan></tspan><tspan
-         x="-11.941406"
-         y="271.57464"
-         id="tspan13274"><tspan
-           dx="0 0 0 0 0 0 0 0 0 0 44.583839 0 0 0 0 0 0 0 0 0 44.583847"
-           id="tspan13272">triangle, connected by </tspan></tspan><tspan
-         x="-11.941406"
-         y="300.90795"
-         id="tspan13278"><tspan
-           dx="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 75.850281"
-           id="tspan13276">antiferromagnetic Ising </tspan></tspan><tspan
-         x="-11.941406"
-         y="330.24127"
-         id="tspan13282"><tspan
-           dx="0 0 0 0 0 0 0 0 0 0 0 0 35.431824 0 0 0 0 35.431824"
-           id="tspan13280">interaction that favours </tspan></tspan><tspan
-         x="-11.941406"
-         y="359.57458"
-         id="tspan13286"><tspan
-           dx="0 0 0 0 0 0 0 0 0 0 0 0 0 1.9927816 0 0 0 0 0 0 0 0 0 0 1.9927816 0 0 1.9927816"
-           id="tspan13284">antiparallel alignment. If the </tspan></tspan><tspan
-         x="-11.941406"
-         y="388.90789"
-         id="tspan13290"><tspan
-           dx="0 0 0 0 0 0.35088253 0 0 0 0.35088253 0 0 0 0 0 0.3508749 0 0 0 0 0 0.3508749 0 0 0 0 0 0.3508749"
-           id="tspan13288">blue and green spins align in </tspan></tspan><tspan
-         x="-11.941406"
-         y="418.24121"
-         id="tspan13294"><tspan
-           dx="0 0 0 0 0 0 0 0 0 34.434532 0 0 0 0 0 0 0 0 0 0 0 34.434525"
-           id="tspan13292">opposite directions, the </tspan></tspan><tspan
-         x="-11.941406"
-         y="447.57452"
-         id="tspan13298"><tspan
-           dx="0 0 0 0 0 0 8.4950361 0 0 0 0 8.4950399 0 0 0 0 8.4950399"
-           id="tspan13296">third gray spin experiences </tspan></tspan><tspan
-         x="-11.941406"
-         y="476.90783"
-         id="tspan13302"><tspan
-           dx="0 0 0 0 0 0 0 0 0 0 0 0 4.1918631 0 0 0 0 0 0 0 0 0 0 0 0 4.1918478"
-           id="tspan13300">conflicting interactions from </tspan></tspan><tspan
-         x="-11.941406"
-         y="506.24115"
-         id="tspan13306"><tspan
-           dx="0 0 0 0 13.953925 0 0 0 0 13.953925 0 0 0 13.953918 0 0 0 0 0 13.953933"
-           id="tspan13304">the blue and green spins </tspan></tspan><tspan
-         x="-11.941406"
-         y="535.57443"
-         id="tspan13310"><tspan
-           dx="0 0 0 0 0 30.930557 0 0 0 0 30.930557 0 0 30.930573 0 0 0 0 0 30.930557"
-           id="tspan13308">that want to align it </tspan></tspan><tspan
-         x="-11.941406"
-         y="564.90774"
-         id="tspan13314"><tspan
-           dx="0 0 0 0 0 0 0 0 0 0 41.503891 0 41.503876"
-           id="tspan13312">downwards &amp; upwards </tspan></tspan><tspan
-         x="-11.941406"
-         y="591.79086"
-         id="tspan13318"><tspan
-           dx="0 11.146629 15.898643 13.639988 17.101318 15.898647 13.962646 10.471992 8.0373306 14.285301 15.898643 8.594635 14.255981"
-           id="tspan13316">respectively.</tspan></tspan></text>
-    <text
-       xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,-91.616132,50.936666)"
        id="text6072-8"
        style="font-size:26.6667px;line-height:1;font-family:'Fira Math';-inkscape-font-specification:'Fira Math';font-variant-caps:all-small-caps;text-align:start;white-space:pre;shape-inside:url(#rect6074-8);display:inline;fill:#333333;fill-opacity:1;stroke:none;stroke-width:15.1181;stroke-linejoin:bevel;stroke-dasharray:6.20357, 6.20357;stroke-dashoffset:0;stroke-opacity:1"
@@ -689,25 +612,25 @@
        y="0"><tspan
          x="-11.941406"
          y="210.77477"
-         id="tspan13322"><tspan
+         id="tspan30348"><tspan
            style="font-weight:500;-inkscape-font-specification:'Fira Math Medium'"
-           id="tspan13320">Antiferromagnetic </tspan></tspan><tspan
+           id="tspan30346">Antiferromagnetic </tspan></tspan><tspan
          x="-11.941406"
          y="237.44147"
-         id="tspan13326"><tspan
+         id="tspan30352"><tspan
            style="font-weight:500;-inkscape-font-specification:'Fira Math Medium'"
-           id="tspan13324">interaction favors </tspan></tspan><tspan
+           id="tspan30350">interaction favors </tspan></tspan><tspan
          x="-11.941406"
          y="264.10817"
-         id="tspan13330"><tspan
+         id="tspan30356"><tspan
            style="font-weight:500;-inkscape-font-specification:'Fira Math Medium'"
-           id="tspan13328">antiparallel alignment
+           id="tspan30354">antiparallel alignment
 </tspan></tspan><tspan
          x="-11.941406"
          y="290.77486"
-         id="tspan13334"><tspan
+         id="tspan30360"><tspan
            style="font-weight:500;-inkscape-font-specification:'Fira Math Medium'"
-           id="tspan13332">between     and        </tspan></tspan></text>
+           id="tspan30358">between     and        </tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,25.599662,13.752192)"
@@ -717,32 +640,32 @@
        y="0"><tspan
          x="-2.8541492"
          y="210.77477"
-         id="tspan13338"><tspan
+         id="tspan30364"><tspan
            style="font-weight:500;-inkscape-font-specification:'Fira Math Medium'"
-           id="tspan13336">This interaction </tspan></tspan><tspan
+           id="tspan30362">This interaction </tspan></tspan><tspan
          x="-8.054173"
          y="237.44147"
-         id="tspan13348"><tspan
+         id="tspan30374"><tspan
            style="font-weight:500;-inkscape-font-specification:'Fira Math Medium'"
-           id="tspan13340">tries </tspan><tspan
+           id="tspan30366">tries </tspan><tspan
            style="font-weight:500;-inkscape-font-specification:'Fira Math Medium'"
-           id="tspan13342">to align 3</tspan><tspan
+           id="tspan30368">to align 3</tspan><tspan
            style="font-weight:500;-inkscape-font-specification:'Fira Math Medium';baseline-shift:super"
-           id="tspan13344">rd</tspan><tspan
+           id="tspan30370">rd</tspan><tspan
            style="font-weight:500;-inkscape-font-specification:'Fira Math Medium'"
-           id="tspan13346"> </tspan></tspan><tspan
+           id="tspan30372"> </tspan></tspan><tspan
          x="-6.5341668"
          y="264.10817"
-         id="tspan13354"><tspan
+         id="tspan30380"><tspan
            style="font-weight:500;-inkscape-font-specification:'Fira Math Medium'"
-           id="tspan13350">spin </tspan><tspan
+           id="tspan30376">spin </tspan><tspan
            style="font-weight:500;-inkscape-font-specification:'Fira Math Medium'"
-           id="tspan13352">downwards </tspan></tspan><tspan
+           id="tspan30378">downwards </tspan></tspan><tspan
          x="66.665973"
          y="290.77486"
-         id="tspan13358"><tspan
+         id="tspan30384"><tspan
            style="font-weight:500;-inkscape-font-specification:'Fira Math Medium'"
-           id="tspan13356">(     )</tspan></tspan></text>
+           id="tspan30382">(     )</tspan></tspan></text>
     <g
        id="g20776"
        transform="translate(126.74085,-72.431763)">
@@ -833,9 +756,9 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:96px;line-height:0;font-family:'Fira Math';-inkscape-font-specification:'Fira Math';font-variant-caps:all-small-caps;text-align:justify;white-space:pre;shape-inside:url(#rect21856);display:inline;opacity:1;fill:#c00040;fill-opacity:1;stroke:none;stroke-width:3.77953;stroke-linejoin:bevel;stroke-dasharray:15.1181, 7.55906;stroke-dashoffset:0;stroke-opacity:1"><tspan
          x="-319.55469"
          y="438.22383"
-         id="tspan13362"><tspan
+         id="tspan30388"><tspan
            style="font-weight:bold;-inkscape-font-specification:'Fira Math Bold'"
-           id="tspan13360">?</tspan></tspan></text>
+           id="tspan30386">?</tspan></tspan></text>
     <path
        style="fill:none;fill-opacity:1;stroke:#707070;stroke-width:2.65349;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#RoundedArrow-37)"
        d="m 54.920132,105.46614 v 13.08544"
@@ -864,28 +787,28 @@
        y="0"><tspan
          x="1.909193"
          y="210.77477"
-         id="tspan13366"><tspan
+         id="tspan30392"><tspan
            style="font-weight:500;-inkscape-font-specification:'Fira Math Medium'"
-           id="tspan13364">This interaction 
+           id="tspan30390">This interaction 
 </tspan></tspan><tspan
          x="0.042506661"
          y="237.44147"
-         id="tspan13372"><tspan
+         id="tspan30398"><tspan
            style="font-weight:500;-inkscape-font-specification:'Fira Math Medium'"
-           id="tspan13368">tries to align 3</tspan><tspan
+           id="tspan30394">tries to align 3</tspan><tspan
            style="font-weight:500;-inkscape-font-specification:'Fira Math Medium';baseline-shift:super"
-           id="tspan13370">rd
+           id="tspan30396">rd
 </tspan></tspan><tspan
          x="15.9092"
          y="264.10817"
-         id="tspan13376"><tspan
+         id="tspan30402"><tspan
            style="font-weight:500;-inkscape-font-specification:'Fira Math Medium'"
-           id="tspan13374"> spin upwards </tspan></tspan><tspan
+           id="tspan30400"> spin upwards </tspan></tspan><tspan
          x="74.762653"
          y="290.77486"
-         id="tspan13380"><tspan
+         id="tspan30406"><tspan
            style="font-weight:500;-inkscape-font-specification:'Fira Math Medium'"
-           id="tspan13378">(     )</tspan></tspan></text>
+           id="tspan30404">(     )</tspan></tspan></text>
     <path
        style="fill:none;fill-opacity:1;stroke:#707070;stroke-width:1.744;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#RoundedArrow-4-1)"
        d="m 49.030091,169.17366 v -5.65257"
@@ -893,13 +816,5 @@
        inkscape:path-effect="#path-effect30539"
        inkscape:original-d="m 49.030091,169.17366 c 2.7e-4,-3.0712 0,-5.65257 0,-5.65257"
        sodipodi:nodetypes="cc" />
-    <text
-       xml:space="preserve"
-       transform="matrix(0.53465042,0,0,0.53465042,-96.914385,70.912693)"
-       id="text69933-6"
-       style="font-weight:bold;font-size:24px;line-height:0;font-family:'Fira Math';-inkscape-font-specification:'Fira Math Bold';font-variant-caps:all-small-caps;text-align:justify;white-space:pre;shape-inside:url(#rect69935-7);display:inline;fill:#404040;fill-opacity:1;stroke:none;stroke-width:0.377953;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"><tspan
-         x="2.5253906"
-         y="9.7253906"
-         id="tspan13382">Fig 1.</tspan></text>
   </g>
 </svg>
