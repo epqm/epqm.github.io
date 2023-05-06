@@ -51,11 +51,9 @@ a {
 // publication entries (to distinguish it from the rest).
 // also makes the author list disappear on small screens
 .pub__authors {
-	display: none;
-	color: gray;
-	@include breakpoint($small) {
-		display: block;
-	}
+	display: block;
+	color: #666;
+	margin-bottom: 0.2em;
 }
 
 // makes each entry on the people page occupy
