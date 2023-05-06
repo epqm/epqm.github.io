@@ -9,7 +9,8 @@ tags:
   - impurity-models
   - MERG
 header:
-    image: /assets/images/posts/kondo.jpg
+    overlay_image: /assets/images/posts/kondo.jpg
+    overlay_filter: 0.6
 
 ---
 

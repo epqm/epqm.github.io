@@ -248,6 +248,8 @@ defaults:
       path: ""
       type: posts
     values:
+      toc_sticky: true
+      toc: true
       layout: single
       author_profile: true
       read_time: false
@@ -255,11 +257,23 @@ defaults:
       share: true
       related: true
       mathjax: true
+      header:
+        actions:
+        - label: Contacts
+          url: /about/#contact-details
+        - label: About EPQM
+          url: /about/
+        - label: Research overview
+          url: /research/#overview-of-our-research
+        - label: Publications
+          url: /publications/
   - scope:
       path: ""
       type: pages
     values:
       layout: single
+      toc_sticky: true
+      toc: true
       author_profile: false
       read_time: false
       comments: # true

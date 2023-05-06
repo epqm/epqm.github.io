@@ -11,7 +11,8 @@ tags:
   - MERG
   - Hubbard-model
 header:
-  image: /assets/images/posts/mott_MERG.jpg
+    overlay_image: /assets/images/posts/mott_MERG.jpg
+    overlay_filter: 0.6
 
 ---
 

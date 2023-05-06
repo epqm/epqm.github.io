@@ -12,8 +12,8 @@ tags:
   - holography
   - renormalisation-group
 header:
-    image: /assets/images/posts/metals_holgphy.jpg
-    overlay_filter: 0
+    overlay_image: /assets/images/posts/metals_holgphy.jpg
+    overlay_filter: 0.7
 
 ---
 
