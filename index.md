@@ -3,17 +3,20 @@ layout: splash
 feature_row:
 feature_row:
   - image_path: /assets/images/thumb1.jpeg
+    title: Gallery
     excerpt: "Check out the gallery for some photographs of our group as well as the IISER Kolkata campus."
     url: /gallery/
     btn_label: "Read More"
     btn_class: "btn btn--danger"
   - image_path: /assets/images/thumb2.jpeg
+    title: External resources
     excerpt: "Take a look at our suggested external resources for interesting content pertaining to physics or academia in general."
     url: /external-resources/
     btn_label: "Read More"
     btn_class: "btn btn--danger"
   - image_path: /assets/images/thumb3.jpg
-    excerpt: "Check out our recommendations for \"a single work of fiction that should be experienced by everyone at least once\"."
+    title: Fiction suggestions
+    excerpt: "Check out our recommendations for a single work of fiction that should be experienced by everyone at least once."
     url: /fiction-recommendations/
     btn_label: "Read More"
     btn_class: "btn btn--danger"

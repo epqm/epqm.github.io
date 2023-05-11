@@ -1,5 +1,5 @@
 ---
-title: "Our latest work on holographic renormalisation of entanglement in metals is now available on the arxiv."
+title: "Can space emerge from quantum mechanics? We demonstrate this in a simple model of fermions!"
 excerpt: "We show the emergence of an additional dimension arising out of the scaling of multipartite entanglement upon applying RG transformations on 2D noninteracting electrons placed on a torus."
 toc: true
 toc_sticky: true
