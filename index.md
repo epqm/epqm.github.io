@@ -58,7 +58,7 @@ feature_row:
 
 {{ site.description }}
 
-![](./assets/images/about/epqm_logo.svg){: .align-left}
+![](./assets/images/about/epqm_logo_combined.svg){: .align-left}
 
 [EPQM in a nutshell](/about/#what-is-epqm){: .btn .btn--primary }
 [Research](/research/#overview-of-our-research){: .btn .btn--primary }

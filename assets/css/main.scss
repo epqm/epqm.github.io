@@ -387,3 +387,16 @@ thead {
 .page__hero--overlay {
 	min-height: 30em;
 }
+
+.flex {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1em;
+}
+
+.flex-item {
+	max-height: 200px;
+	// flex-grow: 1;
+	flex-basis: 0;
+	// max-width: 200px;
+}

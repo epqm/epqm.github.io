@@ -1,16 +1,16 @@
 ---
 permalink: /about/
 layout: single
+classes: wide
 title: "All About EPQM: Purpose, Members, Contacts Details, etc"
 excerpt: "For those who are interested in finding out more about who we are and what we do."
 author_profile: true
-toc: true
-toc_sticky: true
+toc: false
 gallery:
-    - image_path: /assets/images/about/epqm_logo.svg
+    - image_path: /assets/images/about/epqm_logo_combined.svg
       url: /
     - url: https://www.iiserkol.ac.in/web/en/
-      image_path: /assets/images/about/IISER-K_Logo.svg
+      image_path: /assets/images/about/IISER-K_Logo.png
     - url: https://physics.iiserkol.ac.in/
       image_path: /assets/images/about/dps-logo.svg
 header:
@@ -65,6 +65,9 @@ Please contact me by email to check whether EPQM has an opening. For your candid
 [External Links](/external-resources/){: .btn .btn--info }
 [Fiction Suggestions](/fiction-recommendations/){: .btn .btn--info }
 
+## Members of EPQM
+
+A list of past and present members of EPQM can be found [here](/people/#group-members).
 
 ## Contact Details
 
@@ -78,8 +81,8 @@ Department of Physical Sciences,<br>
 IISER Kolkata<br>
 Mohanpur-741246, West Bengal, India.
 
-## Members of EPQM
-
-A list of past and present members of EPQM can be found [here](/people/#group-members).
-
-{% include gallery %}
+<div class="flex">
+<img class="flex-item" src="/assets/images/about/epqm_logo_combined.svg"/>
+<img class="flex-item" src="/assets/images/about/IISER-K_Logo.png"/>
+<img class="flex-item" src="/assets/images/about/dps-logo.svg"/>
+</div>
