@@ -14,6 +14,10 @@ search: false
 	display: none;
 }
 
+#footer {
+	font-size: larger;
+}
+
 
 // remove permanent underline on links, 
 // now underline only shows on hover
@@ -396,7 +400,19 @@ thead {
 
 .flex-item {
 	max-height: 200px;
-	// flex-grow: 1;
 	flex-basis: 0;
-	// max-width: 200px;
+}
+
+a.site-title {
+	display: none;
+}
+
+a.acronym-logo {
+	max-width:70px;
+	@include breakpoint($small) {
+		max-width: 100px;
+	}
+	@include breakpoint($medium) {
+		max-width: 120px;
+	}
 }
