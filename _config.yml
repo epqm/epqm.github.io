@@ -274,7 +274,7 @@ defaults:
     values:
       layout: single
       toc_sticky: true
-      toc: true
+      toc: false
       author_profile: false
       read_time: false
       comments: # true
