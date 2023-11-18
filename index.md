@@ -53,18 +53,20 @@ feature_row:
 
 <div class="home__column_skewed" markdown=1>
 
-<div class="epqm__description" markdown=1>
+<div class="notice--info " markdown=1>
 # Emergent Phenomena in Quantum Matter
 
-{{ site.description }}
+<span class="epqm__description">{{ site.description }}</span>
 
-![](./assets/images/about/epqm_logo_combined.svg){: .align-left}
+</div>
 
 [EPQM in a nutshell](/about/#what-is-epqm){: .btn .btn--primary }
 [Research](/research/#overview-of-our-research){: .btn .btn--primary }
 [Members](/people){: .btn .btn--primary }
 
-</div></div></div></div>
+![](./assets/images/about/epqm_logo_combined.svg){: .align-center}
+
+</div></div></div>
 {% endfor %}
 
 ## <i class="fas fa-bookmark"></i>&nbsp;&nbsp;Publication News
