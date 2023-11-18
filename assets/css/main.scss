@@ -375,7 +375,8 @@ tbody {
 }
 
 a.lib_link {
-	color: #666;
+	text-decoration: none;
+	color: black;
 }
 
 .epqm__table__center { 
@@ -415,4 +416,8 @@ a.acronym-logo {
 	@include breakpoint($medium) {
 		max-width: 120px;
 	}
+}
+.thesis-title {
+	// text-decoration: underline;
+	font-weight: bold;
 }
