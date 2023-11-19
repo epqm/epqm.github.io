@@ -16,7 +16,7 @@ feature_row:
     btn_class: "btn btn--danger"
   - image_path: /assets/images/thumb3.jpg
     title: Fiction suggestions
-    excerpt: "Check out our recommendations for a single work of fiction that should be experienced by everyone at least once."
+    excerpt: "Check out our recommendations for works of fiction that should be experienced by everyone at least once."
     url: /fiction-recommendations/
     btn_label: "Read More"
     btn_class: "btn btn--danger"

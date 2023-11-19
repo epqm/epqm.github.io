@@ -15,3 +15,4 @@ layout: splash
 ### Modifying members database to update email id, personal website, CV or research focus
 ### Updating the "Teaching" page
 ### Updating the "Seminars" page
+### Updating the "Fiction recommendations" page
