@@ -67,7 +67,12 @@ Please contact me by email to check whether EPQM has an opening. For your candid
 
 ## Members of EPQM
 
-A list of past and present members of EPQM can be found [here](/people/#group-members).
+This is a list of the present members of EPQM.
+{% for member in site.data.people["Research scholars"] %}
+**{{ member["title"] }}** [{{ member["time"] }}]
+{% endfor %}
+
+A more detailed and exhaustive list can be found [here](/people/#group-members).
 
 ## Contact Details
 
