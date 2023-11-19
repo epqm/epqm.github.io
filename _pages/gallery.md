@@ -6,6 +6,7 @@ gallery_campus:
   - image_path: /assets/images/gallery/campus1.jpg
   - image_path: /assets/images/gallery/campus3.jpg
   - image_path: /assets/images/gallery/campus4.jpg
+  - image_path: /assets/images/gallery/diwali.png
 gallery_milestones1:
   - image_path: /assets/images/gallery/spal_thesis.jpeg
   - image_path: /assets/images/gallery/spa_presub.jpeg
@@ -26,7 +27,7 @@ header:
 ---
 
 ## Scenes within the IISER Kolkata campus
-{% include gallery id="gallery_campus" layout="" caption="1. Research Complex. 2. Lecture Hall Complex (LHC). 3. View from atop the lecture hall complex. Credits: SP and AM." %}
+{% include gallery id="gallery_campus" layout="" caption="1. Research Complex. 2. Lecture Hall Complex (LHC). 3. View from atop the lecture hall complex. 4. Diwali decorations. Credits: SP and AM." %}
 
 ## Milestones for EPQM 
 {% include gallery id="gallery_milestones1" layout="third" caption="Left: Santanu Pal receives his doctorate degree. Right: Thesis presubmission seminar of Siddhartha Patra"%}
