@@ -1,11 +1,6 @@
 ---
 permalink: /teaching/
-layout: single
 title: "Siddhartha Lal: Courses taught at IISER Kolkata"
-author_profile: true
-header:
-    overlay_image: /assets/images/seminars/seminars_header.svg
-
 ---
 
 ## Advanced Condensed Matter Physics 
