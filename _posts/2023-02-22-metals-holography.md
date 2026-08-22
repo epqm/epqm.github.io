@@ -1,32 +1,15 @@
 ---
 title: "Can space emerge from quantum mechanics? We demonstrate this in a simple model of fermions!"
 excerpt: "We show the emergence of an additional dimension arising out of the scaling of multipartite entanglement upon applying RG transformations on 2D noninteracting electrons placed on a torus."
-toc: true
-toc_sticky: true
-permalink: /2302.10590/
-categories:
-  - publications-and-preprints
-tags:
-  - metals
-  - entanglement
-  - holography
-  - renormalisation-group
-header:
-    overlay_image: /assets/images/posts/metals_holgphy.jpg
-    overlay_filter: 0.7
-
+permalink: /holography-metals/
+category: manuscript
 ---
-
-{% include show_abstract.html %}
 
 ## A bit of background
 
 In the last few decades, quantum entanglement has become very important for studying the nature of quantum condensed matter systems. For instance, gapped interacting many-body systems typically display an area-law scaling of the subsystem entanglement entropy with subsystem size, while quantum critical systems are expected to display a volume law scaling of the same. Further, a subdominant topological term in the entanglement entropy quantifies the long-ranged nature of correlations in topologically ordered insulating states of matter. Much less is known on the entanglement features of gapless metallic systems. Further, the holographic principle posits that the renormalisation group evolution of the many-particle entanglement of an interacting quantum field theory can be visualised as the emergence of an emergent spatial dimension. 
 
-![](../assets/images/holog-renorm/holography.jpg)
-
-[[Source]](https://seereal.com/how-does-it-work-holography)
-{: .archive__item-excerpt }
+{% include figure.html image="holography.jpg" caption='[[Source]](https://seereal.com/how-does-it-work-holography)' %}
 
 ## Questions addressed
 
