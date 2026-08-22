@@ -1,0 +1,13 @@
+@use 'constants';
+
+.epqm-description {
+  // max-width: 500px;
+  margin: auto;
+  background-color: constants.$accent-color;
+  > *, strong { 
+    color: white; //constants.$h1-color;
+    font-weight: bold;
+  }
+  border-radius: 10px;
+  padding: 3px 20px;
+}

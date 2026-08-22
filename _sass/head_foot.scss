@@ -1,0 +1,139 @@
+@use 'constants';
+
+header {
+  background-color: constants.$hn-color;
+  width: 100%;
+}
+
+footer {
+  background-color: constants.$hn-color;
+  height: constants.$bar-height;
+  display: flex;
+  gap: constants.$bar-ele-gap;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  margin: auto;
+  > a, b {
+    color: constants.$bg-color;
+    font-size: 0.9em;
+    text-decoration: none;
+    font-family: constants.$hn-font;
+  }
+}
+
+.navbar {
+  max-width: constants.$width;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  // gap: constants.$bar-ele-gap;
+  height: constants.$bar-height;
+  > a {
+    display: flex;
+    justify-content: start;
+    gap: 1em;
+    > img 
+    {
+      height: 40px;
+      width: auto;
+    }
+  }
+  > * {
+    color: constants.$bg-color;
+    font-weight: 700;
+    font-size: 0.9em;
+    text-decoration: none;
+    text-decoration: none;
+    font-family: constants.$hn-font;
+  }
+}
+
+@media (max-width: constants.$breakpoint2)  {
+  footer {
+    height: 2 * constants.$bar-height;
+    flex-direction: column;
+    row-gap: 0.7em;
+  }
+}
+
+@media (max-width: constants.$breakpoint1)  {
+  .navbar {
+    padding: 0px 10px;
+  }
+  #acronym {
+    display: none;
+  }
+}
+
+#menu-toggle {
+    display: none;
+}
+
+.nav {
+    position: relative;
+    width: fit-content;
+}
+
+.hamburger {
+    font-size: 2rem;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    row-gap: 6px;
+}
+.horizontal-line {
+  height: 4px;
+  width: 30px;
+  background-color: white;
+  transition: rotate 0.3s ease; 
+  // transition: translate 0.3s ease; 
+}
+
+.menu {
+    position: absolute;
+    background-color: constants.$hn-color;
+    > a {
+      font-size: 1rem;
+      text-decoration: none;
+      color: constants.$bg-color;
+      padding: 0.3em;
+    }
+    > a:hover {
+      padding: 0.2em;
+      border: 0.1em solid white;
+    }
+    top: 1em;
+    width: 280px;
+    left: calc(-280px);
+
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.3em;
+    margin: 0.2em;
+}
+
+#menu-toggle:checked ~ .nav .menu {
+  display: flex;
+}
+
+#menu-toggle:checked ~ .nav #hb1 {
+  // translate: 0px 5px;
+  rotate: -45deg;
+  width: 80%;
+}
+
+#menu-toggle:checked ~ .nav #hb2 {
+  translate: 8px 0px;
+  // width: 150%;
+  rotate: 90deg;
+}
+
+#menu-toggle:checked ~ .nav #hb3 {
+  // translate: 0px -5px;
+  rotate: 45deg;
+  width: 80%;
+}
