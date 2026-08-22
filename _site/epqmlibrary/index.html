@@ -1,0 +1,2282 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.27.3 by Michael Rose
+  Copyright 2013-2025 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+
+<html lang="en-GB" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>EPQM Library - EPQM @ Siddhartha Lal</title>
+<meta name="description" content="Database and maintainence system for our books">
+
+
+  <meta name="author" content="Siddhartha Lal">
+  
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_GB">
+<meta property="og:site_name" content="EPQM @ Siddhartha Lal">
+<meta property="og:title" content="EPQM Library">
+<meta property="og:url" content="http://localhost:4000/epqmlibrary/">
+
+
+  <meta property="og:description" content="Database and maintainence system for our books">
+
+
+
+  <meta property="og:image" content="http://localhost:4000/assets/images/seminars/seminars_header.svg">
+
+
+
+  <meta name="twitter:site" content="@EPQM">
+  <meta name="twitter:title" content="EPQM Library">
+  <meta name="twitter:description" content="Database and maintainence system for our books">
+  <meta name="twitter:url" content="http://localhost:4000/epqmlibrary/">
+
+  
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="http://localhost:4000/assets/images/seminars/seminars_header.svg">
+  
+
+  
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="http://localhost:4000/epqmlibrary/">
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="EPQM @ Siddhartha Lal Feed">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+  
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css"></noscript>
+
+
+
+    <script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+<meta name="google-site-verification" content="jzOKJP-9RO0rrIkK-dppx0YqM9_Cdf9E7J-Nvrt4IiY" />
+
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/favicons/favicon-16x16.png">
+<link rel="manifest" href="/assets/favicons/site.webmanifest">
+<link rel="mask-icon" href="/assets/favicons/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+
+  </head>
+
+  <body class="layout--splash" dir="ltr">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/"><img src="/assets/images/home/epqm_logo_home.svg" alt="EPQM"></a>
+          <a class="site-logo acronym-logo" href="/about/"><img src="/assets/images/acronym.svg" alt="EPQM"></a>
+        
+        <a class="site-title" href="/">
+          EPQM
+          <span class="site-subtitle">IISER Kolkata</span>
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/posts/">Updates</a>
+            </li><li class="masthead__menu-item">
+              <a href="/research/">Research</a>
+            </li><li class="masthead__menu-item">
+              <a href="/publications/">Publications</a>
+            </li><li class="masthead__menu-item">
+              <a href="/seminars/">Seminars</a>
+            </li><li class="masthead__menu-item">
+              <a href="/teaching/">Teaching</a>
+            </li><li class="masthead__menu-item">
+              <a href="/about/">About</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+  
+
+
+
+
+
+
+
+<div class="page__hero--overlay"
+  style=" background-image: url('/assets/images/seminars/seminars_header.svg');"
+>
+  
+    <div class="wrapper">
+      <h1 id="page-title" class="page__title" itemprop="headline">
+        
+          EPQM Library
+
+        
+      </h1>
+      
+        <p class="page__lead">Database and maintainence system for our books
+</p>
+      
+      
+
+
+      
+        <p>
+        
+          <a href="/about/#openings" class="btn btn--light-outline btn--large">Openings</a>
+        
+          <a href="/about/#contact-details" class="btn btn--light-outline btn--large">Contacts</a>
+        
+          <a href="/about/#what-is-epqm" class="btn btn--light-outline btn--large">EPQM in a nutshell</a>
+        
+          <a href="/research/#overview-of-our-research" class="btn btn--light-outline btn--large">Research overview</a>
+        
+        </p>
+      
+    </div>
+  
+  
+</div>
+
+
+
+<div id="main" role="main">
+  <article class="splash" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="EPQM Library">
+    <meta itemprop="description" content="Database and maintainence system for our books">
+    
+    
+
+    <section class="page__content" itemprop="text">
+      <table id="EpqmLibraryTable" class="sortable">
+<thead>
+<td class="epqm__table__center">ID</td>
+<td>BOOK</td>
+<td>AUTHORS</td>
+<td class="epqm__table__center">SPOT</td>
+<td class="epqm__table__center">STATUS</td>
+</thead>
+
+<tr id="epqm__library__1">
+<td class="epqm__table__center">1</td><td>Handbook of mathematical functions</td><td>Abramowitz, Stegun</td>
+<td class="epqm__table__center">1-1</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(1)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(1)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(1)" id="book__info__1"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__2">
+<td class="epqm__table__center">2</td><td>Vol 1: Mechanics</td><td>Landau &amp; Lifshitz</td>
+<td class="epqm__table__center">1-1</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(2)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(2)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(2)" id="book__info__2"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__3">
+<td class="epqm__table__center">3</td><td>Vol 2: Classical theory of fields</td><td>Landau &amp; Lifshitz</td>
+<td class="epqm__table__center">1-1</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(3)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(3)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(3)" id="book__info__3"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__4">
+<td class="epqm__table__center">4</td><td>Vol 3: Quantum mechanics</td><td>Landau &amp; Lifshitz</td>
+<td class="epqm__table__center">1-1</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(4)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(4)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(4)" id="book__info__4"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__5">
+<td class="epqm__table__center">5</td><td>Vol 4: Quantum electrodynamics</td><td>Landau &amp; Lifshitz</td>
+<td class="epqm__table__center">1-1</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(5)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(5)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(5)" id="book__info__5"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__6">
+<td class="epqm__table__center">6</td><td>Vol 5: Statistical physics</td><td>Landau &amp; Lifshitz</td>
+<td class="epqm__table__center">1-1</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(6)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(6)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(6)" id="book__info__6"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__7">
+<td class="epqm__table__center">7</td><td>Vol 6: Fluid mechanics</td><td>Landau &amp; Lifshitz</td>
+<td class="epqm__table__center">1-1</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(7)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(7)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(7)" id="book__info__7"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__8">
+<td class="epqm__table__center">8</td><td>Vol 7: Theory of elasticity</td><td>Landau &amp; Lifshitz</td>
+<td class="epqm__table__center">1-1</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(8)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(8)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(8)" id="book__info__8"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__9">
+<td class="epqm__table__center">9</td><td>Vol 8: Electrodynamics of continuous media</td><td>Landau &amp; Lifshitz</td>
+<td class="epqm__table__center">1-1</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(9)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(9)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(9)" id="book__info__9"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__10">
+<td class="epqm__table__center">10</td><td>Lectures on Physics Vol 1 </td><td>Feynman</td>
+<td class="epqm__table__center">1-1</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(10)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(10)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(10)" id="book__info__10"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__11">
+<td class="epqm__table__center">11</td><td>Lectures on Physics Vol 2</td><td>Feynman</td>
+<td class="epqm__table__center">1-1</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(11)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(11)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(11)" id="book__info__11"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__12">
+<td class="epqm__table__center">12</td><td>Lectures on Physics Vol 3</td><td>Feynman</td>
+<td class="epqm__table__center">1-1</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(12)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(12)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(12)" id="book__info__12"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__13">
+<td class="epqm__table__center">13</td><td>Surprises in theoretical physics</td><td>Rudolf Peierls</td>
+<td class="epqm__table__center">1-1</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(13)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(13)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(13)" id="book__info__13"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__14">
+<td class="epqm__table__center">14</td><td>More surprises in theoretical physics</td><td>Rudolf Peierls</td>
+<td class="epqm__table__center">1-1</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(14)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(14)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(14)" id="book__info__14"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__15">
+<td class="epqm__table__center">15</td><td>Aspects of symmetry</td><td>Sidney Coleman</td>
+<td class="epqm__table__center">1-1</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(15)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(15)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(15)" id="book__info__15"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__16">
+<td class="epqm__table__center">16</td><td>Solitons &amp; Instantons</td><td>R Rajaraman</td>
+<td class="epqm__table__center">1-1</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(16)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(16)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(16)" id="book__info__16"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__17">
+<td class="epqm__table__center">17</td><td>The Physics of quantum fields</td><td>Michael Stone</td>
+<td class="epqm__table__center">1-1</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(17)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(17)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(17)" id="book__info__17"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__18">
+<td class="epqm__table__center">18</td><td>Quantum field theory and critical phenomena</td><td>Jean Zinn-Justin</td>
+<td class="epqm__table__center">1-1</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(18)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(18)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(18)" id="book__info__18"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__19">
+<td class="epqm__table__center">19</td><td>Quantum field theory</td><td>Mandl &amp; Shaw</td>
+<td class="epqm__table__center">1-1</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(19)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(19)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(19)" id="book__info__19"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__20">
+<td class="epqm__table__center">20</td><td>A first book of quantum field theory</td><td>Amitabha Lahiri,Palash B. Pal</td>
+<td class="epqm__table__center">1-1</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(20)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(20)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(20)" id="book__info__20"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__21">
+<td class="epqm__table__center">21</td><td>Functional integrals and collective excitations</td><td>V. N. Popov</td>
+<td class="epqm__table__center">1-1</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(21)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(21)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(21)" id="book__info__21"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__22">
+<td class="epqm__table__center">22</td><td>Quantum electrodynamics</td><td>Feynman</td>
+<td class="epqm__table__center">1-1</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(22)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(22)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(22)" id="book__info__22"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__23">
+<td class="epqm__table__center">23</td><td>Particles, sources and fields</td><td>Julian Schwinger</td>
+<td class="epqm__table__center">1-1</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(23)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(23)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(23)" id="book__info__23"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__24">
+<td class="epqm__table__center">24</td><td>Statistical field theory (Vol 1)</td><td>Itzykson &amp; Drouffe</td>
+<td class="epqm__table__center">1-1</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(24)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(24)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(24)" id="book__info__24"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__25">
+<td class="epqm__table__center">25</td><td>Statistical field theory (Vol 2)</td><td>Itzykson &amp; Drouffe</td>
+<td class="epqm__table__center">1-1</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(25)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(25)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(25)" id="book__info__25"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__26">
+<td class="epqm__table__center">26</td><td>Quantum field theory</td><td>L H Ryder</td>
+<td class="epqm__table__center">1-1</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(26)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(26)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(26)" id="book__info__26"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__27">
+<td class="epqm__table__center">27</td><td>Finite temparature field theory</td><td>Ashok Das</td>
+<td class="epqm__table__center">1-1</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(27)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(27)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(27)" id="book__info__27"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__28">
+<td class="epqm__table__center">28</td><td>Quantum field theory</td><td>Mark Srednicki</td>
+<td class="epqm__table__center">1-1</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(28)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(28)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(28)" id="book__info__28"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__29">
+<td class="epqm__table__center">29</td><td>Theoretical physics</td><td>David Feldman</td>
+<td class="epqm__table__center">1-1</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(29)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(29)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(29)" id="book__info__29"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__30">
+<td class="epqm__table__center">30</td><td>PhD Thesis</td><td>S. Lal</td>
+<td class="epqm__table__center">1-1</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(30)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(30)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(30)" id="book__info__30"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__31">
+<td class="epqm__table__center">31</td><td>PhD Thesis</td><td>B. Trauzettel</td>
+<td class="epqm__table__center">1-1</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(31)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(31)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(31)" id="book__info__31"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__32">
+<td class="epqm__table__center">32</td><td>PhD Thesis</td><td>I. Safi</td>
+<td class="epqm__table__center">1-1</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(32)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(32)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(32)" id="book__info__32"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__33">
+<td class="epqm__table__center">33</td><td>Int J Mod Phys</td><td>S. Lal and M. Laad</td>
+<td class="epqm__table__center">1-1</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(33)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(33)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(33)" id="book__info__33"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__34">
+<td class="epqm__table__center">34</td><td>Condensed matter physics</td><td>Michael Marder</td>
+<td class="epqm__table__center">1-2</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(34)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(34)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(34)" id="book__info__34"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__35">
+<td class="epqm__table__center">35</td><td>Basic aspects of the quantum theory of solids</td><td>Daniel I Khomskii</td>
+<td class="epqm__table__center">1-2</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(35)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(35)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(35)" id="book__info__35"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__36">
+<td class="epqm__table__center">36</td><td>Elementary Solid state physics</td><td>Omar</td>
+<td class="epqm__table__center">1-2</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(36)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(36)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(36)" id="book__info__36"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__37">
+<td class="epqm__table__center">37</td><td>Quantum theory of solids</td><td>R E Peierls</td>
+<td class="epqm__table__center">1-2</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(37)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(37)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(37)" id="book__info__37"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__38">
+<td class="epqm__table__center">38</td><td>Concepts in solids</td><td>Anderson</td>
+<td class="epqm__table__center">1-2</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(38)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(38)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(38)" id="book__info__38"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__39">
+<td class="epqm__table__center">39</td><td>Principle of the theory of solids</td><td>J.M.Ziman</td>
+<td class="epqm__table__center">1-2</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(39)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(39)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(39)" id="book__info__39"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__40">
+<td class="epqm__table__center">40</td><td>Theory of magnetism</td><td>K Yosida</td>
+<td class="epqm__table__center">1-2</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(40)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(40)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(40)" id="book__info__40"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__41">
+<td class="epqm__table__center">41</td><td>Interacting electrons and quantum magnetism</td><td>Assa Auerbach</td>
+<td class="epqm__table__center">1-2</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(41)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(41)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(41)" id="book__info__41"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__42">
+<td class="epqm__table__center">42</td><td>Many body quantum theory in condensed matter physics</td><td>Bruus &amp; Flensberg</td>
+<td class="epqm__table__center">1-2</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(42)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(42)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(42)" id="book__info__42"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__43">
+<td class="epqm__table__center">43</td><td>Solid state physics</td><td>G. Grosso and G. P. Paravicini</td>
+<td class="epqm__table__center">1-2</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(43)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(43)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(43)" id="book__info__43"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__44">
+<td class="epqm__table__center">44</td><td>Condensed matter physics</td><td>Akira Isihara</td>
+<td class="epqm__table__center">1-2</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(44)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(44)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(44)" id="book__info__44"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__45">
+<td class="epqm__table__center">45</td><td>Theory of superconductivity</td><td>J R Schrieffer</td>
+<td class="epqm__table__center">1-2</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(45)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(45)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(45)" id="book__info__45"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__46">
+<td class="epqm__table__center">46</td><td>Quantum field theory in condensed matter physics</td><td>Tsvelik</td>
+<td class="epqm__table__center">1-2</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(46)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(46)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(46)" id="book__info__46"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__47">
+<td class="epqm__table__center">47</td><td>Electron correlation in metals</td><td>Yamada</td>
+<td class="epqm__table__center">1-2</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(47)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(47)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(47)" id="book__info__47"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__48">
+<td class="epqm__table__center">48</td><td>Introduction to superconductivity</td><td>Tinkham</td>
+<td class="epqm__table__center">1-2</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(48)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(48)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(48)" id="book__info__48"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__49">
+<td class="epqm__table__center">49</td><td>Quantum theory of electron liquid</td><td>Giuliani and Vignale</td>
+<td class="epqm__table__center">1-2</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(49)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(49)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(49)" id="book__info__49"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__50">
+<td class="epqm__table__center">50</td><td>Band theory and electronic properties of solids </td><td>Singleton </td>
+<td class="epqm__table__center">1-2</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(50)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(50)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(50)" id="book__info__50"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__51">
+<td class="epqm__table__center">51</td><td>Defects and geometry in condensed matter physics</td><td>D. Nelson</td>
+<td class="epqm__table__center">1-2</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(51)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(51)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(51)" id="book__info__51"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__52">
+<td class="epqm__table__center">52</td><td>Nonequilibrium many body theory of quantum systems</td><td>Stefanucci &amp; van Leeuwen</td>
+<td class="epqm__table__center">1-2</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(52)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(52)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(52)" id="book__info__52"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__53">
+<td class="epqm__table__center">53</td><td>A guide to feynman diagrams in the many body problems</td><td>Mattuck</td>
+<td class="epqm__table__center">1-2</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(53)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(53)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(53)" id="book__info__53"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__54">
+<td class="epqm__table__center">54</td><td>Low dimensional QFT for condensed matter physicists</td><td>S Lundqvist, Morandy, Lu</td>
+<td class="epqm__table__center">1-2</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(54)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(54)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(54)" id="book__info__54"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__55">
+<td class="epqm__table__center">55</td><td>The quantum hall effect</td><td>D Yoshioka</td>
+<td class="epqm__table__center">1-2</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(55)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(55)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(55)" id="book__info__55"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__56">
+<td class="epqm__table__center">56</td><td>The electron gas</td><td>M Pollak, M Ortuno, A Frydman</td>
+<td class="epqm__table__center">1-2</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(56)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(56)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(56)" id="book__info__56"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__57">
+<td class="epqm__table__center">57</td><td>Advanced solid state physics (2 copies of 2nd Ed.)</td><td>Philip Philips</td>
+<td class="epqm__table__center">1-2</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(57)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(57)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(57)" id="book__info__57"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__58">
+<td class="epqm__table__center">58</td><td>Quantum field theory of many body systems</td><td>Xiao-Gang Wen</td>
+<td class="epqm__table__center">1-2</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(58)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(58)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(58)" id="book__info__58"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__59">
+<td class="epqm__table__center">59</td><td>Kibble at 80</td><td>Tom Kibble</td>
+<td class="epqm__table__center">1-2</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(59)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(59)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(59)" id="book__info__59"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__60">
+<td class="epqm__table__center">60</td><td>Composite fermions</td><td>Jainendra K Jain</td>
+<td class="epqm__table__center">1-2</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(60)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(60)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(60)" id="book__info__60"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__61">
+<td class="epqm__table__center">61</td><td>The quantum hall effect </td><td>Prange, Girvin</td>
+<td class="epqm__table__center">1-2</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(61)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(61)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(61)" id="book__info__61"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__62">
+<td class="epqm__table__center">62</td><td>Magnetism and superconductivity </td><td>L P Levy</td>
+<td class="epqm__table__center">1-2</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(62)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(62)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(62)" id="book__info__62"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__63">
+<td class="epqm__table__center">63</td><td>Quantum theory of many body systems</td><td>A Zagoskin</td>
+<td class="epqm__table__center">1-2</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(63)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(63)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(63)" id="book__info__63"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__64">
+<td class="epqm__table__center">64</td><td>Electronic transport in mesoscopic systems</td><td>Supriyo Datta</td>
+<td class="epqm__table__center">1-2</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(64)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(64)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(64)" id="book__info__64"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__65">
+<td class="epqm__table__center">65</td><td>Introduction to mesoscopic physics</td><td>Imry</td>
+<td class="epqm__table__center">1-2</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(65)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(65)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(65)" id="book__info__65"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__66">
+<td class="epqm__table__center">66</td><td>Condensed matter field theory (1st Edition)</td><td>Altland and Simons</td>
+<td class="epqm__table__center">1-2</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(66)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(66)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(66)" id="book__info__66"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__67">
+<td class="epqm__table__center">67</td><td>Condensed matter field theory (2nd Edition)</td><td>Altland and Simons</td>
+<td class="epqm__table__center">1-2</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(67)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(67)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(67)" id="book__info__67"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__68">
+<td class="epqm__table__center">68</td><td>Statistical mechanics and applications in condensed matter</td><td>C. Di Castro and R. Raimondi</td>
+<td class="epqm__table__center">1-2</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(68)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(68)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(68)" id="book__info__68"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__69">
+<td class="epqm__table__center">69</td><td>Symmetry and condensed matter physics </td><td>Batanouny and Wooten</td>
+<td class="epqm__table__center">1-3</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(69)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(69)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(69)" id="book__info__69"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__70">
+<td class="epqm__table__center">70</td><td>A quantum approach to condensed matter physics</td><td>Taylor &amp; Heinonen</td>
+<td class="epqm__table__center">1-3</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(70)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(70)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(70)" id="book__info__70"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__71">
+<td class="epqm__table__center">71</td><td>Field theory of non-equilibrium systems </td><td>Alex Kamenev</td>
+<td class="epqm__table__center">1-3</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(71)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(71)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(71)" id="book__info__71"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__72">
+<td class="epqm__table__center">72</td><td>Nanophysics coherence and transport</td><td>Bouchiat</td>
+<td class="epqm__table__center">1-3</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(72)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(72)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(72)" id="book__info__72"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__73">
+<td class="epqm__table__center">73</td><td>Feynmann diagram techniques in CMP</td><td>Radi A Jishi</td>
+<td class="epqm__table__center">1-3</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(73)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(73)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(73)" id="book__info__73"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__74">
+<td class="epqm__table__center">74</td><td>Bose-Einstein condensation in dilute gases</td><td>Pethick &amp; Smith</td>
+<td class="epqm__table__center">1-3</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(74)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(74)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(74)" id="book__info__74"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__75">
+<td class="epqm__table__center">75</td><td>Soft matter physics</td><td>Masao Doi</td>
+<td class="epqm__table__center">1-3</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(75)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(75)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(75)" id="book__info__75"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__76">
+<td class="epqm__table__center">76</td><td>Electrical transport in nanoscale systems</td><td>Massimiliano Di Ventra</td>
+<td class="epqm__table__center">1-3</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(76)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(76)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(76)" id="book__info__76"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__77">
+<td class="epqm__table__center">77</td><td>Quantum liquids </td><td>A J Leggett</td>
+<td class="epqm__table__center">1-3</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(77)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(77)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(77)" id="book__info__77"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__78">
+<td class="epqm__table__center">78</td><td>Quantum physics in one dimension</td><td>Thierry Giamarchi</td>
+<td class="epqm__table__center">1-3</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(78)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(78)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(78)" id="book__info__78"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__79">
+<td class="epqm__table__center">79</td><td>Magnetism in condensed matter</td><td>Blundell</td>
+<td class="epqm__table__center">1-3</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(79)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(79)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(79)" id="book__info__79"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__80">
+<td class="epqm__table__center">80</td><td>Lecture on complex metals</td><td>Dorogovtsev</td>
+<td class="epqm__table__center">1-3</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(80)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(80)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(80)" id="book__info__80"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__81">
+<td class="epqm__table__center">81</td><td>Soft condensed matter</td><td>Jones</td>
+<td class="epqm__table__center">1-3</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(81)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(81)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(81)" id="book__info__81"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__82">
+<td class="epqm__table__center">82</td><td>Quantum theory of magnetism</td><td>White</td>
+<td class="epqm__table__center">1-3</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(82)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(82)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(82)" id="book__info__82"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__83">
+<td class="epqm__table__center">83</td><td>Green's functions for solid state physicists</td><td>Doniach &amp; Sondheimer</td>
+<td class="epqm__table__center">1-3</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(83)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(83)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(83)" id="book__info__83"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__84">
+<td class="epqm__table__center">84</td><td>Methods of quantum field theory in statistical physics</td><td>Abrikosov, Gorkov, Dzyalonskii</td>
+<td class="epqm__table__center">1-3</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(84)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(84)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(84)" id="book__info__84"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__85">
+<td class="epqm__table__center">85</td><td>Solid state theory</td><td>W.A Harrison</td>
+<td class="epqm__table__center">1-3</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(85)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(85)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(85)" id="book__info__85"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__86">
+<td class="epqm__table__center">86</td><td>Lecture notes on field theory in CMT</td><td>C. Mudry</td>
+<td class="epqm__table__center">1-3</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(86)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(86)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(86)" id="book__info__86"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__87">
+<td class="epqm__table__center">87</td><td>Lecture notes on electron correlation and magnetism</td><td>Fazekas</td>
+<td class="epqm__table__center">1-3</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(87)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(87)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(87)" id="book__info__87"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__88">
+<td class="epqm__table__center">88</td><td>Quantum field theory in strongly correlated electronic systems</td><td>N Nagaosa</td>
+<td class="epqm__table__center">1-3</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(88)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(88)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(88)" id="book__info__88"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__89">
+<td class="epqm__table__center">89</td><td>Quantum field theory in condensed matter physics</td><td>N Nagaosa</td>
+<td class="epqm__table__center">1-3</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(89)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(89)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(89)" id="book__info__89"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__90">
+<td class="epqm__table__center">90</td><td>Field theory of condensed matter physics-(2nd edition)</td><td>Eduardo Fradkin</td>
+<td class="epqm__table__center">1-3</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(90)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(90)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(90)" id="book__info__90"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__91">
+<td class="epqm__table__center">91</td><td>Quantum transport</td><td>Nazarov and Blanter</td>
+<td class="epqm__table__center">1-3</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(91)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(91)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(91)" id="book__info__91"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__92">
+<td class="epqm__table__center">92</td><td>Transport in nanostructures</td><td>Ferry,Goopdnick and Bird</td>
+<td class="epqm__table__center">1-3</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(92)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(92)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(92)" id="book__info__92"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__93">
+<td class="epqm__table__center">93</td><td>Field theory in condensed matter physics -</td><td>Sumathi Rao</td>
+<td class="epqm__table__center">1-3</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(93)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(93)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(93)" id="book__info__93"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__94">
+<td class="epqm__table__center">94</td><td>Solid state physics</td><td>Ashcroft &amp; Mermin</td>
+<td class="epqm__table__center">1-3</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(94)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(94)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(94)" id="book__info__94"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__95">
+<td class="epqm__table__center">95</td><td>Quantum mechanics</td><td>Robert Scherrer</td>
+<td class="epqm__table__center">1-4</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(95)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(95)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(95)" id="book__info__95"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__96">
+<td class="epqm__table__center">96</td><td>Quantum mechanics</td><td>Eugen Merzbacher</td>
+<td class="epqm__table__center">1-4</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(96)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(96)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(96)" id="book__info__96"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__97">
+<td class="epqm__table__center">97</td><td>Principle of Quantum mechanics</td><td>R Shankar</td>
+<td class="epqm__table__center">1-4</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(97)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(97)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(97)" id="book__info__97"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__98">
+<td class="epqm__table__center">98</td><td>Advanced Quantum Mechanics</td><td>Nazarov and Danon</td>
+<td class="epqm__table__center">1-4</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(98)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(98)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(98)" id="book__info__98"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__99">
+<td class="epqm__table__center">99</td><td>The principles of quantum mechanics</td><td>P.Dirac</td>
+<td class="epqm__table__center">1-4</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(99)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(99)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(99)" id="book__info__99"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__100">
+<td class="epqm__table__center">100</td><td>Quantum mechanics(vol-1)</td><td>Albert Messiah</td>
+<td class="epqm__table__center">1-4</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(100)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(100)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(100)" id="book__info__100"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__101">
+<td class="epqm__table__center">101</td><td>Quantum mechanics</td><td>John L Powell &amp; Bernd Crasemann</td>
+<td class="epqm__table__center">1-4</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(101)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(101)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(101)" id="book__info__101"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__102">
+<td class="epqm__table__center">102</td><td>Modern Quantum Mechanics</td><td>J J Sakurai</td>
+<td class="epqm__table__center">1-4</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(102)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(102)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(102)" id="book__info__102"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__103">
+<td class="epqm__table__center">103</td><td>Advanced quantum mechanics</td><td>J J Sakurai</td>
+<td class="epqm__table__center">1-4</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(103)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(103)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(103)" id="book__info__103"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__104">
+<td class="epqm__table__center">104</td><td>Quantum Mechanics</td><td>Ballentine</td>
+<td class="epqm__table__center">1-4</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(104)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(104)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(104)" id="book__info__104"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__105">
+<td class="epqm__table__center">105</td><td>Geometric phases in physics</td><td>Shapere and Wilczek</td>
+<td class="epqm__table__center">1-4</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(105)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(105)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(105)" id="book__info__105"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__106">
+<td class="epqm__table__center">106</td><td>Quantum Mechanics</td><td>Band and Avishai</td>
+<td class="epqm__table__center">1-4</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(106)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(106)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(106)" id="book__info__106"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__107">
+<td class="epqm__table__center">107</td><td>Quantum Optics</td><td>G. S. Agarwal</td>
+<td class="epqm__table__center">1-4</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(107)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(107)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(107)" id="book__info__107"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__108">
+<td class="epqm__table__center">108</td><td>Introduction to percolation theory</td><td>Strauffer &amp; Aharony</td>
+<td class="epqm__table__center">1-4</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(108)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(108)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(108)" id="book__info__108"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__109">
+<td class="epqm__table__center">109</td><td>A modern course in statistical physics</td><td>Linda E.Reichl</td>
+<td class="epqm__table__center">1-4</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(109)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(109)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(109)" id="book__info__109"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__110">
+<td class="epqm__table__center">110</td><td>Statistical Mechanics</td><td>S K Ma</td>
+<td class="epqm__table__center">1-4</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(110)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(110)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(110)" id="book__info__110"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__111">
+<td class="epqm__table__center">111</td><td>Equilibrium statistical physics</td><td>Plischke and Bergersen</td>
+<td class="epqm__table__center">1-4</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(111)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(111)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(111)" id="book__info__111"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__112">
+<td class="epqm__table__center">112</td><td>A modern approach to critical phenomena</td><td>Igor Herbut</td>
+<td class="epqm__table__center">1-4</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(112)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(112)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(112)" id="book__info__112"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__113">
+<td class="epqm__table__center">113</td><td>Renormalization Methods</td><td>Mccomb</td>
+<td class="epqm__table__center">1-4</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(113)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(113)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(113)" id="book__info__113"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__114">
+<td class="epqm__table__center">114</td><td>Scaling and renormalization in Statistical physics</td><td>John Cardy</td>
+<td class="epqm__table__center">1-4</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(114)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(114)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(114)" id="book__info__114"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__115">
+<td class="epqm__table__center">115</td><td>Statistical mechanics</td><td>Kerson Huang</td>
+<td class="epqm__table__center">1-4</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(115)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(115)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(115)" id="book__info__115"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__116">
+<td class="epqm__table__center">116</td><td>Statistical Mechanics</td><td>Kubo</td>
+<td class="epqm__table__center">1-4</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(116)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(116)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(116)" id="book__info__116"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__117">
+<td class="epqm__table__center">117</td><td>Understanding quantum phase transitions</td><td>Lincoln D Carr</td>
+<td class="epqm__table__center">1-4</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(117)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(117)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(117)" id="book__info__117"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__118">
+<td class="epqm__table__center">118</td><td>Quantum phase transitions</td><td>Subir Sachdev</td>
+<td class="epqm__table__center">1-4</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(118)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(118)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(118)" id="book__info__118"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__119">
+<td class="epqm__table__center">119</td><td>Statistical physics of particles</td><td>Mehran Kardar</td>
+<td class="epqm__table__center">1-4</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(119)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(119)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(119)" id="book__info__119"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__120">
+<td class="epqm__table__center">120</td><td>Statistical physics of fields</td><td>Mehran Kardar</td>
+<td class="epqm__table__center">1-4</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(120)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(120)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(120)" id="book__info__120"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__121">
+<td class="epqm__table__center">121</td><td>Lectures on phase transitions and the renormalization group</td><td>Nigel Goldenfeld</td>
+<td class="epqm__table__center">1-4</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(121)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(121)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(121)" id="book__info__121"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__122">
+<td class="epqm__table__center">122</td><td>Principles of condensed matter physics</td><td>Chaikin &amp; Lubensky</td>
+<td class="epqm__table__center">1-4</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(122)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(122)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(122)" id="book__info__122"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__123">
+<td class="epqm__table__center">123</td><td>Mathematical mnethods for physics and engineering</td><td>Riley,Hobson,Bence</td>
+<td class="epqm__table__center">2-1</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(123)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(123)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(123)" id="book__info__123"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__124">
+<td class="epqm__table__center">124</td><td>Mathematical mnethodsin the physical sciences</td><td>Mary L.Boas</td>
+<td class="epqm__table__center">2-1</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(124)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(124)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(124)" id="book__info__124"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__125">
+<td class="epqm__table__center">125</td><td>Further pure mathematics</td><td>Bostock,Chandler,Rourke</td>
+<td class="epqm__table__center">2-1</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(125)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(125)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(125)" id="book__info__125"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__126">
+<td class="epqm__table__center">126</td><td>Basic training in mathematics</td><td>R.Shankar</td>
+<td class="epqm__table__center">2-1</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(126)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(126)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(126)" id="book__info__126"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__127">
+<td class="epqm__table__center">127</td><td>Linear algebra problem book</td><td>Paul R Halmos</td>
+<td class="epqm__table__center">2-1</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(127)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(127)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(127)" id="book__info__127"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__128">
+<td class="epqm__table__center">128</td><td>A course of pure mathematics</td><td>G.H.Hardy</td>
+<td class="epqm__table__center">2-1</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(128)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(128)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(128)" id="book__info__128"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__129">
+<td class="epqm__table__center">129</td><td>Problems and solutionbs in theoritical and mathematical physics</td><td>Willi-Hans Steeb</td>
+<td class="epqm__table__center">2-1</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(129)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(129)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(129)" id="book__info__129"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__130">
+<td class="epqm__table__center">130</td><td>Complex variables</td><td>Ablowitz &amp; Fokas</td>
+<td class="epqm__table__center">2-1</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(130)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(130)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(130)" id="book__info__130"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__131">
+<td class="epqm__table__center">131</td><td>Introduction to topology and modern analysis</td><td>GF Simmons</td>
+<td class="epqm__table__center">2-1</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(131)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(131)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(131)" id="book__info__131"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__132">
+<td class="epqm__table__center">132</td><td>Differential equations -theory,technique,practice</td><td>Simmons &amp; Krantz</td>
+<td class="epqm__table__center">2-1</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(132)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(132)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(132)" id="book__info__132"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__133">
+<td class="epqm__table__center">133</td><td>Finite Dimensional Vector Spaces</td><td>Halmos</td>
+<td class="epqm__table__center">2-1</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(133)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(133)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(133)" id="book__info__133"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__134">
+<td class="epqm__table__center">134</td><td>Mathematical methods for physicists</td><td>Arfken,Weber,Haris</td>
+<td class="epqm__table__center">2-1</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(134)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(134)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(134)" id="book__info__134"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__135">
+<td class="epqm__table__center">135</td><td>Mathematical methods for physicists</td><td>Arfken,Weber</td>
+<td class="epqm__table__center">2-1</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(135)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(135)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(135)" id="book__info__135"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__136">
+<td class="epqm__table__center">136</td><td>Geometry,topology and physics</td><td>M Nakahara</td>
+<td class="epqm__table__center">2-1</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(136)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(136)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(136)" id="book__info__136"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__137">
+<td class="epqm__table__center">137</td><td>Topology for physicists</td><td>Albert S.Schwarz</td>
+<td class="epqm__table__center">2-1</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(137)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(137)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(137)" id="book__info__137"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__138">
+<td class="epqm__table__center">138</td><td>Statistical Data Analysis</td><td>Adrian Bevan</td>
+<td class="epqm__table__center">2-1</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(138)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(138)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(138)" id="book__info__138"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__139">
+<td class="epqm__table__center">139</td><td>Complex variables</td><td>Spiegel,Lipschutz,Schiller,Spellman</td>
+<td class="epqm__table__center">2-1</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(139)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(139)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(139)" id="book__info__139"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__140">
+<td class="epqm__table__center">140</td><td>Group theory for physicists</td><td>A.W.Joshi</td>
+<td class="epqm__table__center">2-1</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(140)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(140)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(140)" id="book__info__140"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__141">
+<td class="epqm__table__center">141</td><td>Linear Algebra and its applications</td><td>Gilbert Strang</td>
+<td class="epqm__table__center">2-1</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(141)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(141)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(141)" id="book__info__141"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__142">
+<td class="epqm__table__center">142</td><td>Complex variables and applications</td><td>Brown &amp; Churchill</td>
+<td class="epqm__table__center">2-1</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(142)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(142)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(142)" id="book__info__142"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__143">
+<td class="epqm__table__center">143</td><td>Mathematical methods of classical mechanics</td><td>Arnold</td>
+<td class="epqm__table__center">2-1</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(143)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(143)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(143)" id="book__info__143"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__144">
+<td class="epqm__table__center">144</td><td>Mathematical methods for physics</td><td>Stone &amp; Goldbart</td>
+<td class="epqm__table__center">2-1</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(144)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(144)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(144)" id="book__info__144"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__145">
+<td class="epqm__table__center">145</td><td>Introduction to elementary particles</td><td>D. J. Griffiths</td>
+<td class="epqm__table__center">2-2</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(145)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(145)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(145)" id="book__info__145"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__146">
+<td class="epqm__table__center">146</td><td>Particle physics</td><td>Martin &amp; Shaw</td>
+<td class="epqm__table__center">2-2</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(146)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(146)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(146)" id="book__info__146"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__147">
+<td class="epqm__table__center">147</td><td>The phases of Quantum Chromodynamics</td><td>Kogut, Stephanov</td>
+<td class="epqm__table__center">2-2</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(147)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(147)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(147)" id="book__info__147"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__148">
+<td class="epqm__table__center">148</td><td>Non Perturbative Field Theory</td><td>Frishman, Sonneschein</td>
+<td class="epqm__table__center">2-2</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(148)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(148)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(148)" id="book__info__148"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__149">
+<td class="epqm__table__center">149</td><td>Quarks &amp; Leptons</td><td>Francis Halzen &amp; Alan D.Martin</td>
+<td class="epqm__table__center">2-2</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(149)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(149)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(149)" id="book__info__149"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__150">
+<td class="epqm__table__center">150</td><td>Gauge theory of elementary particle physics</td><td>Cheng &amp; Li</td>
+<td class="epqm__table__center">2-2</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(150)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(150)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(150)" id="book__info__150"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__151">
+<td class="epqm__table__center">151</td><td>Finite Temparature Field Theory Principles and Applications</td><td>Gale &amp; Kapusta</td>
+<td class="epqm__table__center">2-2</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(151)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(151)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(151)" id="book__info__151"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__152">
+<td class="epqm__table__center">152</td><td>Classical mechanics</td><td>Herbert Goldstein</td>
+<td class="epqm__table__center">2-2</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(152)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(152)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(152)" id="book__info__152"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__153">
+<td class="epqm__table__center">153</td><td>Optics</td><td>A Ghatak</td>
+<td class="epqm__table__center">2-2</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(153)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(153)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(153)" id="book__info__153"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__154">
+<td class="epqm__table__center">154</td><td>Nuclear Physics</td><td>I. Kaplan</td>
+<td class="epqm__table__center">2-2</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(154)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(154)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(154)" id="book__info__154"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__155">
+<td class="epqm__table__center">155</td><td>Classical Electrodynamics</td><td>J. D. Jackson</td>
+<td class="epqm__table__center">2-2</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(155)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(155)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(155)" id="book__info__155"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__156">
+<td class="epqm__table__center">156</td><td>Electronic principles</td><td>A. P. Malvino</td>
+<td class="epqm__table__center">2-2</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(156)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(156)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(156)" id="book__info__156"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__157">
+<td class="epqm__table__center">157</td><td>Heat &amp; Theormodynamics</td><td>Zemansky &amp; Dittman</td>
+<td class="epqm__table__center">2-2</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(157)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(157)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(157)" id="book__info__157"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__158">
+<td class="epqm__table__center">158</td><td>A- level Physics</td><td>R. Muncaster</td>
+<td class="epqm__table__center">2-2</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(158)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(158)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(158)" id="book__info__158"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__159">
+<td class="epqm__table__center">159</td><td>Space, Time and Gravitation</td><td>Vladimirov, Mitskievich and Horsky</td>
+<td class="epqm__table__center">2-2</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(159)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(159)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(159)" id="book__info__159"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__160">
+<td class="epqm__table__center">160</td><td>Introduction to Cosmology</td><td>J.V.Narlikar</td>
+<td class="epqm__table__center">2-2</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(160)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(160)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(160)" id="book__info__160"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__161">
+<td class="epqm__table__center">161</td><td>Cosmology</td><td>Steven Weinberg</td>
+<td class="epqm__table__center">2-2</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(161)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(161)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(161)" id="book__info__161"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__162">
+<td class="epqm__table__center">162</td><td>Gravity (An intro to Einstein's general relativity)</td><td>James B.Hartle</td>
+<td class="epqm__table__center">2-2</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(162)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(162)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(162)" id="book__info__162"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__163">
+<td class="epqm__table__center">163</td><td>Unix for you</td><td>P. Koparkar</td>
+<td class="epqm__table__center">2-2</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(163)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(163)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(163)" id="book__info__163"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__164">
+<td class="epqm__table__center">164</td><td>The C-programming Language</td><td>The C-programming Language</td>
+<td class="epqm__table__center">2-2</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(164)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(164)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(164)" id="book__info__164"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__165">
+<td class="epqm__table__center">165</td><td>Practical C programming</td><td>S. Ouallin</td>
+<td class="epqm__table__center">2-2</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(165)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(165)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(165)" id="book__info__165"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__166">
+<td class="epqm__table__center">166</td><td>Introductory Economics</td><td>G. F. Stanlake</td>
+<td class="epqm__table__center">2-2</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(166)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(166)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(166)" id="book__info__166"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__167">
+<td class="epqm__table__center">167</td><td>20th Century World Affairs</td><td>J. Murray</td>
+<td class="epqm__table__center">2-2</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(167)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(167)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(167)" id="book__info__167"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__168">
+<td class="epqm__table__center">168</td><td>Swamy's Handbook</td><td>Swamy</td>
+<td class="epqm__table__center">2-2</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(168)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(168)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(168)" id="book__info__168"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__169">
+<td class="epqm__table__center">169</td><td>An appraisal of J. V. Stalin</td><td>S. Bose</td>
+<td class="epqm__table__center">2-2</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(169)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(169)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(169)" id="book__info__169"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__170">
+<td class="epqm__table__center">170</td><td>Goedel, Escher and Bach</td><td>D. Hofstdater</td>
+<td class="epqm__table__center">2-2</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(170)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(170)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(170)" id="book__info__170"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__171">
+<td class="epqm__table__center">171</td><td>Sri Ramkrishna and his Unique message</td><td>Swami Ghanananda</td>
+<td class="epqm__table__center">2-2</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(171)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(171)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(171)" id="book__info__171"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__172">
+<td class="epqm__table__center">172</td><td>Selections from the complete works of Swami Vivekanada</td><td>Swami Ghanananda</td>
+<td class="epqm__table__center">2-2</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(172)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(172)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(172)" id="book__info__172"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__173">
+<td class="epqm__table__center">173</td><td>Coping with faculty stress</td><td>Gmelch</td>
+<td class="epqm__table__center">2-2</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(173)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(173)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(173)" id="book__info__173"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__174">
+<td class="epqm__table__center">174</td><td>Even a geek can speak</td><td>Joey Asher</td>
+<td class="epqm__table__center">2-2</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(174)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(174)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(174)" id="book__info__174"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__175">
+<td class="epqm__table__center">175</td><td>First order principles for college teachers</td><td>Robert Boice</td>
+<td class="epqm__table__center">2-2</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(175)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(175)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(175)" id="book__info__175"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__176">
+<td class="epqm__table__center">176</td><td>Tomorrow's professor</td><td>Richard M Reis</td>
+<td class="epqm__table__center">2-2</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(176)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(176)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(176)" id="book__info__176"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__177">
+<td class="epqm__table__center">177</td><td>One hundred reason to be a scientist</td><td>Abdus Salam</td>
+<td class="epqm__table__center">2-2</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(177)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(177)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(177)" id="book__info__177"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__178">
+<td class="epqm__table__center">178</td><td>Science, Spirituality and the nature of Reality</td><td>T. D. Singh and R. Penrose</td>
+<td class="epqm__table__center">2-2</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(178)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(178)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(178)" id="book__info__178"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__179">
+<td class="epqm__table__center">179</td><td>Getting funded</td><td>Mary Hall</td>
+<td class="epqm__table__center">2-2</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(179)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(179)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(179)" id="book__info__179"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__180">
+<td class="epqm__table__center">180</td><td>A Phd is not enough </td><td>P J Feibelman </td>
+<td class="epqm__table__center">2-2</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(180)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(180)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(180)" id="book__info__180"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__181">
+<td class="epqm__table__center">181</td><td>Why things are the way they are </td><td>B.s.Chandrasekhar </td>
+<td class="epqm__table__center">2-2</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(181)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(181)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(181)" id="book__info__181"></div>
+</td>
+</tr>
+
+<tr id="epqm__library__182">
+<td class="epqm__table__center">182</td><td>Philips Modern School Atlas</td><td></td>
+<td class="epqm__table__center">2-2</td>
+<td class="epqm__table__center">
+<i class="far fa-heart" onclick="borrowBook(182)" style="display:block"></i>
+<i class="fas fa-heart" onclick="toggleInfo(182)" style="display:none"></i>
+<div style="display: none;" onclick="releaseBook(182)" id="book__info__182"></div>
+</td>
+</tr>
+
+</table>
+
+<script src="https://www.kryogenix.org/code/browser/sorttable/sorttable.js"></script>
+
+<script type="module">
+import { Octokit } from "https://cdn.skypack.dev/octokit";
+const TOKEN = "ghp_WlT9ynmrsXSPKYd" + "yQSgcGr7sQfAblH1VF0is";
+export const octokit = new Octokit({
+  auth: TOKEN,
+});
+
+export async function pushToGist(payload) {
+	await octokit.request('PATCH /gists/{gist_id}', {
+		  gist_id: 'eeb902027f046bab4ab5643380e6f430',
+		  description: payload.description,
+		  files: { 'EPQMLibrary.tsv': { content: payload.content}},
+		  headers: {}
+	})
+}
+
+window.octokit = octokit;
+window.pushToGist = pushToGist;
+</script>
+
+<script>
+window.onload = refreshTable;
+
+function getDate() {
+	var today = new Date();
+	var dd = String(today.getDate()).padStart(2, '0');
+	var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
+	var yyyy = today.getFullYear();
+	return (dd + '/' + mm + '/' + yyyy);
+}
+
+async function updateGist(newData) {
+	const response = await octokit.request('GET /gists/{gist_id}', {gist_id: 'eeb902027f046bab4ab5643380e6f430',headers: {}});
+	var content = response["data"]["files"]["EPQMLibrary.tsv"]["content"].split("\n");
+	for (i = 0; i < content.length; i++) {
+		var line = content[i].split("\t");
+		if (line[0] == newData.title) {
+			content[i] = newData.data;
+			content = content.join("\n");
+			description = newData.data.split("\t")[3] == "" ? line[3] + " returned " + line[0] : newData.data.split("\t")[3] + " borrowed " + newData.data.split("\t")[0];
+			pushToGist({"description": description, "content": content})
+			return;
+		}
+	}
+}
+
+async function refreshTable() {
+	const response = await octokit.request('GET /gists/{gist_id}', {gist_id: 'eeb902027f046bab4ab5643380e6f430',headers: {}});
+	var content = response["data"]["files"]["EPQMLibrary.tsv"]["content"].split('\n');
+	tableRows = document.getElementById("EpqmLibraryTable").rows
+	for (i = 1; i < content.length; i++) {
+		for (j = 1; j < tableRows.length; j++) {
+			if (tableRows[j].cells[1].textContent == content[i].split('\t')[0]) {
+				modifyTable({"index": j, "info": content[i].split('\t')[3]});
+			}
+		}
+	}
+}
+
+function modifyTable(newData) {
+	if (newData.info === null ) {
+		return;
+	}
+	row = document.getElementById("EpqmLibraryTable").rows[newData.index];
+	if (newData.info == "") {
+	    row.cells[4].children[0].style.display = "block";
+	    row.cells[4].children[1].style.display = "none";
+	    row.cells[4].children[2].style.display = "none";
+	    row.cells[4].children[2].innerHTML = newData.info;
+	}
+	else {
+	    row.cells[4].children[0].style.display = "none";
+	    row.cells[4].children[1].style.display = "block";
+	    row.cells[4].children[2].innerHTML = newData.info;
+	}
+	gistData = row.cells[1].textContent + "\t" + row.cells[2].textContent + "\t" + row.cells[3].textContent + "\t" + row.cells[4].children[2].textContent;
+	payload = {"title": row.cells[1].textContent, "data": gistData}
+	return payload;
+}
+
+function borrowBook(index) {
+	initials = prompt("Enter initials.");
+	payload = modifyTable({"index": index, "info": initials + getDate()});
+	updateGist(payload);
+}
+
+function releaseBook(index) {
+	if (confirm("Want to return the book?")) {
+		payload = modifyTable({"index": index, "info": ""});
+		updateGist(payload);
+	}
+}
+
+function toggleInfo(index) {
+	var element = document.getElementById("book__info__" + index);
+	element.style.display = element.style.display == "none" ? "block" : "none";
+}
+
+</script>
+
+
+    </section>
+  </article>
+</div>
+
+      
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';" role="search">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <script type="text/javascript">
+var anchorTags = document.querySelectorAll('.u-email');
+for (var i = 0; i < anchorTags.length; i++) {
+    anchorTags[i].onclick = function() {
+        try {
+            navigator.clipboard.writeText(String(event.currentTarget).replace('mailto:',''));
+            this.getElementsByTagName( 'span' )[0].innerHTML = "Copied!"
+        }
+        finally {
+            event.preventDefault();
+        }
+    }
+    anchorTags[i].onmouseover = function() {
+        try {
+            this.getElementsByTagName( 'span' )[0].innerHTML = "Copy!"
+        }
+        finally {
+            event.preventDefault();
+        }
+    }
+    anchorTags[i].onmouseout = function() {
+        try {
+            this.getElementsByTagName( 'span' )[0].innerHTML = "Email"
+        }
+        finally {
+            event.preventDefault();
+        }
+    }
+}
+</script>
+
+
+
+<script>
+var allImages = document.getElementsByTagName('img');
+
+for(var i = 0; i < allImages.length ; i++) {
+	if (allImages[i].getAttribute('src') == "/assets/images/people/leader1") {
+		allImages[i].onmouseover = function() { event.target.setAttribute("src", "/assets/images/people/leader2"); };
+		allImages[i].onmouseout = function() { event.target.setAttribute("src", "/assets/images/people/leader1"); };
+	}
+}
+</script>
+
+<script>
+function readmore() {
+    var buttonid = event.target.getAttribute('id');
+    var hiddenelement = document.getElementById(buttonid + "__hidden");
+    hiddenelement.style.display = "block";
+    hiddenelement.style.animation="opac 0.5s linear";
+    event.target.style.display = "none";
+}
+
+function readless() {
+    var buttonid = event.target.getAttribute('id');
+    var hiddenelement = document.getElementById(buttonid.replace("__less","") + "__hidden");
+    var readmoreelement = document.getElementById(buttonid.replace("__less",""));
+    readmoreelement.style.display = "inline-block";
+    readmoreelement.scrollIntoView({block: "center"});
+    hiddenelement.style.display = "none";
+    event.target.style.display = "none";
+}
+</script>
+
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2025 Siddhartha Lal. EPQM logo designed by Santanu Pal & <a href="https://siddharthaptr.wixsite.com/mysite">Siddhartha Patra</a>. EPQM acronym logo designed by <a href="https://mayankshreshthai.myportfolio.com/">Mayank Shreshtha</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/assets/js/lunr/lunr.min.js"></script>
+<script src="/assets/js/lunr/lunr-store.js"></script>
+<script src="/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+
+
+  </body>
+</html>
