@@ -7,30 +7,23 @@ layout: default
 </div>
 
 
-# Publication News
-
-<a class="button notice" href="/updates/">See All News</a>
-
+<div class="home-header"><h1>Publication News</h1><a class="button notice" href="/posts#research-updates">See All News</a>
+</div>
 {% for post in site.categories["manuscript"] limit:4 %}
-### {{ post.title }}
-**{{ post.date | date: "%b %d, %Y" }}.**
-{{ post.excerpt }} <a class="button" href="{{ post.url }}">Read More</a>
+{% include update-item.html post=post full=false %}
 {% endfor %}
 
-# Miscellaneous News
 
-
-<a class="button notice" href="/updates/">See All News</a>
+<div class="home-header"><h1> Miscellaneous News</h1><a class="button notice" href="/posts#miscellaneous-news">See All Updates</a>
+</div>
 
 {% for post in site.categories["news"] limit:4 %}
-### {{ post.title }}
-**{{ post.date | date: "%b %d, %Y" }}.**
-{{ post.excerpt }} <a class="button" href="{{ post.url }}">Read More</a>
+{% include update-item.html post=post %}
 {% endfor %}
 
-# The good stuff
+# The Good Stuff
 
-# Like what you see so far?
+# Like What You see so far?
 - Take a look at our [research interests](/research/) and [publications](/publications/) to get a better idea of what we do. 
 
 - We have also uploaded some of our [seminars](/seminars/) on various topics in quantum condensed matter physics.

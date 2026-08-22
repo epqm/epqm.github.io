@@ -1,12 +1,12 @@
 @use 'constants';
 
 header {
-  background-color: constants.$hn-color;
+  background-color: constants.$bar-color;
   width: 100%;
 }
 
 footer {
-  background-color: constants.$hn-color;
+  background-color: constants.$bar-color;
   height: constants.$bar-height;
   display: flex;
   gap: constants.$bar-ele-gap;

@@ -7,6 +7,8 @@ layout: default
 {% if page.toc %}
 {% include toc.html content=content %}
 {% endif %}
+{% if page.title != nil %}
 <hr>
+{% endif %}
 
 {{ content }}

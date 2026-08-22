@@ -1,0 +1,14 @@
+{% assign post = include.post %}
+{% assign full = include.full %}
+{% assign first = post.title | split: " " | slice: 0, 2 | join: " " | strip %}
+{% assign rest = post.title | remove_first: first | strip %}
+{% if full == false %}
+{% assign excerpt = post.excerpt | remove: '<p>' | remove: '</p>' | strip_html | truncatewords: 12 %}
+{% else %}
+{% assign excerpt = post.excerpt | remove: '<p>' | remove: '</p>' %}
+{% endif %}
+<div class="home-article" markdown="0">
+<div><a href="{{ post.url }}" class="first">{{ first }}</a> <a class="rest" href="{{ post.url }}">{{ rest }}</a> 
+</div>
+<b>{{ post.date | date: "%b, %Y" | upcase }}</b> <span class="home-excerpt">{{ excerpt }}</span>
+</div>

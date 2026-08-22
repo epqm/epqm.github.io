@@ -6,12 +6,14 @@ h1 {
   font-family: constants.$hn-font;
   line-height: 1.2em;
   text-align: left;
+  text-transform: capitalize;
 }
 
 h2 {
+  text-transform: capitalize;
   line-height: 1.2em;
   color: constants.$h2-color;
-  margin-bottom: 0.1em;
+  // margin-bottom: 0.1em;
   font-weight: 600;
   font-family: constants.$hn-font;
   text-align: left;
@@ -30,14 +32,14 @@ b, strong {
 }
 
 a {
-  color: constants.$link-color;
-  text-decoration-thickness: 2px;
-  text-underline-offset: 3px;
-  font-weight: bold;
+  color: constants.$accent-color;
+  font-weight: 500;
+  text-decoration: none;
 }
 a:hover {
   text-decoration: underline;
-  text-decoration: none;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 3px;
 }
 
 ul > li {
@@ -53,11 +55,12 @@ ol {
   margin: 0;
 }
 
-.toc-entry {
-  padding-top: 1em;
+a.toc-entry {
+  margin-top: 0.4em;
   display: block;
-  text-decoration: none;
-  color: constants.$hn-color;
+  // text-decoration: none;
+  color: constants.$fg-color;
+  font-weight: normal;
 }
 
 .seminar-details > p {

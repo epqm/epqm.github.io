@@ -1,13 +1,55 @@
 @use 'constants';
 
 .epqm-description {
-  // max-width: 500px;
   margin: auto;
-  background-color: constants.$accent-color;
+  background-color: constants.$button-color;
   > *, strong { 
-    color: white; //constants.$h1-color;
-    font-weight: bold;
+    color: white;
+    // font-weight: bold;
   }
   border-radius: 10px;
   padding: 3px 20px;
+}
+
+.home-article {
+  margin-bottom: 1em;
+  > div  {
+    font-weight: 500;
+    font-size: 1.1em;
+    display: block;
+    text-align: left;
+  }
+  // padding-left: 1em;
+  // border-left: 0.3em solid constants.$h2-color;
+}
+
+.rest {
+  color: constants.$h1-color;
+  text-decoration: none;
+}
+.first{
+  color: constants.$h2-color;
+  text-decoration: none;
+}
+.home-article > b, .home-excerpt {
+  font-size: 0.9em;
+  color: constants.$h1-color;
+  opacity: 0.6;
+}
+
+.first:hover {
+  text-decoration-thickness: 3px;
+  text-underline-offset: 3px;
+  text-decoration-color: constants.$fg-color;
+}
+.rest:hover {
+  text-decoration-thickness: 3px;
+  text-underline-offset: 3px;
+  text-decoration-color: constants.$h2-color;
+}
+
+.home-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }

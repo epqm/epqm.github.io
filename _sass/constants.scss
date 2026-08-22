@@ -1,15 +1,15 @@
 $bg-color: #eff1f5;
 $fg-color: #4c4f69;
-$h1-color: #363636;
-$h2-color: #1e66f5;
-$hn-color: #363636;
-$accent-color: #179299;
-$button-color: $fg-color;
+$h1-color: #272343;
+$h2-color: #be3144;
+$hn-color: #22313f;
+$accent-color: #424874;
+$button-color: $accent-color;
 
 $bold-color: $fg-color;
-$link-color: $button-color;
+$link-color: $accent-color;
 $code-color: $fg-color;
-$bar-color: $fg-color;
+$bar-color: $hn-color;
 $google: #1976D2;
 $github: white;
 $email: #F44F5A;
@@ -20,7 +20,7 @@ $bar-height: 60px;
 $bar-ele-gap: 2rem;
 $fig-pad: 1rem;
 
-$font: "Go";
+$font: "Rubik";
 $hn-font: "Go";
 $math-font: "Fira Math";
 $emoji-font: "Noto Color Emoji";

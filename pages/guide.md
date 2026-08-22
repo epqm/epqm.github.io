@@ -1,7 +1,5 @@
 ---
 permalink: /guide/
-layout: splash
-
 ---
 
 # Guide to maintaining the website
