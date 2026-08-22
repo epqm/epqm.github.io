@@ -1,0 +1,26 @@
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <title>{{ site.title }}</title>
+  <link rel="stylesheet" href={{ "assets/css/styles.css" | relative_url }}>
+
+  {% for file in site.static_files %}
+  {% if file.path contains "/assets/fonts/" %}
+  {% if file.path contains "/stylesheet.css" %}
+  <link rel="stylesheet" href={{ file.path | relative_url }}>
+  {% endif %}
+  {% endif %}
+  {% endfor %}
+  <meta name="description" content={{ site.description }}>
+
+  <meta property="og:title" content={{ page.title }}>
+  <meta property="og:url" content={{ page.url }}>
+  <meta property="og:image" content={{ page.image }}>
+
+  <link rel="icon" href="/assets/images/favicon.svg" type="image/x-icon">
+
+  <!-- KaTeX -->
+  {% if page.katex %}
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">
+  {% endif %}
+</head>

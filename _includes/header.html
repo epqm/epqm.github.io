@@ -1,0 +1,28 @@
+<header>
+<nav class="navbar">
+<a href="/">
+  <img id="logo-home" src="/assets/logos/epqm_logo_home.svg"/>
+  <img id="acronym" src="/assets/logos/acronymLight.svg"/>
+</a>
+{% for pair in site.navbar %}
+<a href={{ pair[1] | relative_url }}>{{ pair[0] }}</a>
+{% endfor %}
+<div class="hamburger">
+  <input type="checkbox" id="menu-toggle">
+  
+  <div class="nav">
+  	<label for="menu-toggle" class="hamburger">
+	<div id="hb1" class="horizontal-line"></div>
+	<div id="hb2" class="horizontal-line"></div>
+	<div id="hb3" class="horizontal-line"></div>
+	</label>
+  
+  	<nav class="menu">
+	{% for pair in site.navbarLong %}
+	<a href={{ pair[1] | relative_url }}>{{ pair[0] }}</a>
+	{% endfor %}
+  	</nav>
+  </div>
+</div>
+</nav>
+</header>
