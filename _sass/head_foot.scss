@@ -86,9 +86,8 @@ footer {
 .horizontal-line {
   height: 4px;
   width: 30px;
-  background-color: white;
+  background: linear-gradient(to right, white 0%, white 66%, red 66%, red 100%);
   transition: rotate 0.3s ease; 
-  // transition: translate 0.3s ease; 
 }
 
 .menu {
@@ -122,18 +121,10 @@ footer {
 
 #menu-toggle:checked ~ .nav #hb1 {
   // translate: 0px 5px;
-  rotate: -45deg;
-  width: 80%;
-}
-
-#menu-toggle:checked ~ .nav #hb2 {
-  translate: 8px 0px;
-  // width: 150%;
-  rotate: 90deg;
+  rotate: 180deg;
+  // width: 80%;
 }
 
 #menu-toggle:checked ~ .nav #hb3 {
-  // translate: 0px -5px;
-  rotate: 45deg;
-  width: 80%;
+  rotate: 180deg;
 }

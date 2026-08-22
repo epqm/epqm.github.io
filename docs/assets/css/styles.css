@@ -146,7 +146,7 @@ footer > a, footer b {
 .horizontal-line {
   height: 4px;
   width: 30px;
-  background-color: white;
+  background: linear-gradient(to right, white 0%, white 66%, red 66%, red 100%);
   transition: rotate 0.3s ease;
 }
 
@@ -181,18 +181,11 @@ footer > a, footer b {
 }
 
 #menu-toggle:checked ~ .nav #hb1 {
-  rotate: -45deg;
-  width: 80%;
-}
-
-#menu-toggle:checked ~ .nav #hb2 {
-  translate: 8px 0px;
-  rotate: 90deg;
+  rotate: 180deg;
 }
 
 #menu-toggle:checked ~ .nav #hb3 {
-  rotate: 45deg;
-  width: 80%;
+  rotate: 180deg;
 }
 
 h1 {
