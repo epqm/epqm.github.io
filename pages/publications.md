@@ -7,7 +7,6 @@ title: "EPQM: Publications and Preprints"
 <a class="button" href="https://scholar.google.co.in/citations?user=QRSxh6kAAAAJ&hl=en">Google Scholar</a>
 
 {% for item in site.data.publications %}
-- {{ item.title }}.
-<br><a href="{{ item.url }}" class="button">{{ item.reference }}</a>
-<br>{{ item.authors | join: ", " }}
+{% assign authors = item.authors | join: ", " %}
+{% include update-item.html title=item.title date=item.reference url=item.url excerpt=authors %}
 {% endfor %}

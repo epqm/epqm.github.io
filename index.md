@@ -7,18 +7,20 @@ layout: default
 </div>
 
 
-<div class="home-header"><h1>Publication News</h1><a class="button notice" href="/posts#research-updates">See All News</a>
+<div class="home-header"><h1>Publication News</h1><a class="button notice" href="/posts#publication-news">See All News</a>
 </div>
 {% for post in site.categories["manuscript"] limit:4 %}
-{% include update-item.html post=post full=false %}
+{% assign date = post.date | date: "%b %Y" | upcase %}
+{% include update-item.html title=post.title date=date url=post.url excerpt=post.excerpt full=false %}
 {% endfor %}
 
 
-<div class="home-header"><h1>Updates</h1><a class="button notice" href="/posts#miscellaneous-news">See All Updates</a>
+<div class="home-header"><h1>Updates</h1><a class="button notice" href="/posts#updates">See All Updates</a>
 </div>
 
 {% for post in site.categories["news"] limit:4 %}
-{% include update-item.html post=post %}
+{% assign date = post.date | date: "%b %Y" | upcase %}
+{% include update-item.html title=post.title date=date url=post.url excerpt=post.excerpt full=false %}
 {% endfor %}
 
 # The Good Stuff
