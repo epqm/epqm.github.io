@@ -1,5 +1,6 @@
 ---
 layout: default
+title: EPQM@IISER Kolkata
 ---
 
 {% assign post = site.posts | find: "permalink", site.featured %}
@@ -20,7 +21,7 @@ layout: default
  {{ post.excerpt | strip_html | truncatewords: 35 }}
 </span>
 
-<a class="featured-link" href="{{ post.url }}"> Read the research →</a>
+<a class="featured-link" href="{{ post.url }}"> Read the research <span class="nf nf-fa-arrow_right"></span></a>
 </section>
 
 <div class="epqm-description">
@@ -36,18 +37,21 @@ layout: default
 {% include update-item.html title=post.title date=date url=post.url excerpt=post.excerpt full=false %}
 {% endfor %}
 
-
 <div class="home-header"><h1>Updates</h1><a class="button notice" href="/posts#updates">See All Updates</a>
 </div>
-
 {% for post in site.categories["news"] limit:4 %}
 {% assign date = post.date | date: "%b %Y" | upcase %}
 {% include update-item.html title=post.title date=date url=post.url excerpt=post.excerpt full=false %}
 {% endfor %}
 
-# The Good Stuff
+<div class="home-header"><h1>The Good Stuff</h1></div>
+<div class="gallery">
+{% include gallery.html image="/assets/home/thumb1.jpeg" caption="Check out the gallery for some photographs of our group as well as the IISER Kolkata campus." %}
+{% include gallery.html image="/assets/home/thumb2.jpeg" caption="Take a look at our suggested external resources for interesting content pertaining to physics or academia in general." %}
+{% include gallery.html image="/assets/home/thumb3.jpg" caption="Check out our recommendations for works of fiction that should be experienced by everyone at least once." %}
+</div>
 
-# Like What You see so far?
+<div class="home-header"><h1>Like What You see so far?</h1></div>
 - Take a look at our [research interests](/research/) and [publications](/publications/) to get a better idea of what we do. 
 
 - We have also uploaded some of our [seminars](/seminars/) on various topics in quantum condensed matter physics.

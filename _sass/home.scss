@@ -59,6 +59,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-top: 2em;
 }
 
 ////////////////////////////////////////
@@ -96,4 +97,27 @@
 .featured h2 {
   text-decoration: none;
   color: constants.$h1-color;
+}
+
+.gallery-item {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  flex: 1;
+  > .home-excerpt {
+    height: 4em;
+  }
+}
+.gallery-item img {
+  width: 100%;
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+  display: block;
+}
+
+.gallery {
+  display: flex;
+  justify-content: space-between;
+  gap: 1em;
+  overflow: hidden;
 }

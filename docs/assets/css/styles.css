@@ -494,6 +494,7 @@ figcaption {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-top: 2em;
 }
 
 .featured {
@@ -528,6 +529,30 @@ figcaption {
 .featured h2 {
   text-decoration: none;
   color: #272343;
+}
+
+.gallery-item {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  flex: 1;
+}
+.gallery-item > .home-excerpt {
+  height: 4em;
+}
+
+.gallery-item img {
+  width: 100%;
+  aspect-ratio: 3/2;
+  object-fit: cover;
+  display: block;
+}
+
+.gallery {
+  display: flex;
+  justify-content: space-between;
+  gap: 1em;
+  overflow: hidden;
 }
 
 /*# sourceMappingURL=styles.css.map */
