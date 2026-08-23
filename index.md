@@ -14,7 +14,7 @@ layout: default
 {% endfor %}
 
 
-<div class="home-header"><h1> Miscellaneous News</h1><a class="button notice" href="/posts#miscellaneous-news">See All Updates</a>
+<div class="home-header"><h1>Updates</h1><a class="button notice" href="/posts#miscellaneous-news">See All Updates</a>
 </div>
 
 {% for post in site.categories["news"] limit:4 %}

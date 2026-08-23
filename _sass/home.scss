@@ -2,9 +2,9 @@
 
 .epqm-description {
   margin: auto;
-  background-color: constants.$button-color;
+  background-color: rgba(constants.$h2-color, 0.5);
   > *, strong { 
-    color: white;
+    color: constants.$h1-color;
     // font-weight: bold;
   }
   border-radius: 10px;
@@ -31,10 +31,16 @@
   color: constants.$h2-color;
   text-decoration: none;
 }
-.home-article > b, .home-excerpt {
+.home-excerpt {
   font-size: 0.9em;
   color: constants.$h1-color;
-  opacity: 0.6;
+  opacity: 0.4;
+}
+.home-article > b {
+  font-size: 0.9em;
+  color: constants.$h1-color;
+  margin-right: 1em;
+  opacity: 0.7;
 }
 
 .first:hover {

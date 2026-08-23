@@ -42,9 +42,14 @@ kramdown:
   parse_block_html: true
 plugins:
   - jekyll-sitemap
+navbarShort:
+  Updates: "/posts/"
+  Research: "/research/"
+  About: "/about/"
 navbar:
   Updates: "/posts/"
   Research: "/research/"
+  Publications: "/publications/"
   Teaching: "/teaching/"
   About: "/about/"
 navbarLong:

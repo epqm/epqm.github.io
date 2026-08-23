@@ -10,5 +10,5 @@
 <div class="home-article" markdown="0">
 <div><a href="{{ post.url }}" class="first">{{ first }}</a> <a class="rest" href="{{ post.url }}">{{ rest }}</a> 
 </div>
-<b>{{ post.date | date: "%b, %Y" | upcase }}</b> <span class="home-excerpt">{{ excerpt }}</span>
+<b>{{ post.date | date: "%b %Y" | upcase }}</b><span class="home-excerpt">{{ excerpt }}</span>
 </div>

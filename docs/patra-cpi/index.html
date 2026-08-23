@@ -861,27 +861,39 @@
 <body>
 	<header>
 <nav class="navbar">
-<a href="/">
-  <img id="logo-home" src="/assets/logos/epqm_logo_home.svg"/>
-  <img id="acronym" src="/assets/logos/acronymLight.svg"/>
+<a href="/" class="logo">
+<img id="home" src="/assets/logos/epqm_logo_home.svg"/>
+<img id="acronym" src="/assets/logos/acronymLight.svg"/>
 </a>
 
-<a href=/posts/>Updates</a>
+<a class="full-nav" href=/posts/>Updates</a>
 
-<a href=/research/>Research</a>
+<a class="full-nav" href=/research/>Research</a>
 
-<a href=/teaching/>Teaching</a>
+<a class="full-nav" href=/publications/>Publications</a>
 
-<a href=/about/>About</a>
+<a class="full-nav" href=/teaching/>Teaching</a>
 
-<div class="hamburger">
+<a class="full-nav" href=/about/>About</a>
+
+
+<a class="short-nav" href=/posts/>Updates</a>
+
+<a class="short-nav" href=/research/>Research</a>
+
+<a class="short-nav" href=/about/>About</a>
+
+<div>
   <input type="checkbox" id="menu-toggle">
   
   <div class="nav">
   	<label for="menu-toggle" class="hamburger">
-	<div id="hb1" class="horizontal-line"></div>
-	<div id="hb2" class="horizontal-line"></div>
-	<div id="hb3" class="horizontal-line"></div>
+	<div class="horizontal-line" id="hb1"></div>
+	<div class="horizontal-line" id="hb2"></div>
+	<div class="horizontal-line red" id="hb3"></div>
+	<div class="horizontal-line red" id="hb4"></div>
+	<div class="horizontal-line grey" id="hb5"></div>
+	<div class="horizontal-line grey" id="hb6"></div>
 	</label>
   
   	<nav class="menu">
