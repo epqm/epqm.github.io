@@ -496,4 +496,38 @@ figcaption {
   justify-content: space-between;
 }
 
+.featured {
+  margin: 0 0 3.5rem;
+}
+
+.featured-image {
+  display: block;
+  width: 100%;
+  overflow: hidden;
+}
+
+.featured-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: transform 600ms ease;
+}
+
+.featured-image:hover img {
+  transform: scale(1.15);
+}
+
+.featured-label {
+  color: #be3144;
+  font-size: 0.85rem;
+  font-weight: bold;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.featured h2 {
+  text-decoration: none;
+  color: #272343;
+}
+
 /*# sourceMappingURL=styles.css.map */

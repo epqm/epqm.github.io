@@ -1,6 +1,28 @@
 ---
 layout: default
 ---
+
+{% assign post = site.posts | find: "permalink", site.featured %}
+
+<section class="featured">
+<a class="featured-image" href="{{ post.url }}">
+<img src="/assets{{ post.permalink }}{{ post.hero-image }}" alt="{{ post.title }}">
+</a>
+
+<div class="featured-label">Featured Research
+</div>
+<h2>{{ post.title }}</h2>
+
+<span class="date">
+{{ post.date | date: "%b %Y" | upcase }}
+</span>
+<span class="home-excerpt">
+ {{ post.excerpt | strip_html | truncatewords: 35 }}
+</span>
+
+<a class="featured-link" href="{{ post.url }}"> Read the research →</a>
+</section>
+
 <div class="epqm-description">
 ## Emergent Phenomena in Quantum Matter
 {{ site.description }}

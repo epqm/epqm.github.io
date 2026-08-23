@@ -3,6 +3,7 @@ title: "Can space emerge from quantum mechanics? We demonstrate this in a simple
 excerpt: "We show the emergence of an additional dimension arising out of the scaling of multipartite entanglement upon applying RG transformations on 2D noninteracting electrons placed on a torus."
 permalink: /holography-metals/
 category: manuscript
+hero-image: "metals_holgphy.jpg"
 ---
 
 ## A bit of background
