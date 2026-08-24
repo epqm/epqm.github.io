@@ -58,18 +58,22 @@ kramdown:
   parse_block_html: true
   highlighter: rouge
 plugins:
-  - jekyll-sitemap
-  - kramdown-math-katex
+  - jekyll-sitemap # generates sitemap (list of all pages, etc for crawlers)
+  - kramdown-math-katex # renders math
+
+## list of items to display in short (for mobile) navbar
 navbarShort:
   Updates: "/posts/"
   Research: "/research/"
   About: "/about/"
+## list of items to display in normal (for desktop) navbar
 navbar:
   Updates: "/posts/"
   Research: "/research/"
   Publications: "/publications/"
   Teaching: "/teaching/"
   About: "/about/"
+## list of items to display under hamburger menu (all devices, meant to contain everything, add more if needed)
 navbarLong:
   Updates: "/posts/"
   Research: "/research/"
@@ -81,10 +85,10 @@ navbarLong:
   Gallery: "/gallery/"
   External Resources: "/external-resources/"
   Fiction Recommendations: "/fiction-recommendations/"
+
+## this cannot be moved into a datafile 
+## because it is read by a plugin (members.rb) 
+## and must be available before any processing
 membersdata: "https://docs.google.com/spreadsheets/d/e/2PACX-1vQ3R8ASd0_9z41UXir7TE6FoQ6qUKJwWRrg_stP_QDnC3qb2rDN8SJiQrKWUmafvwyWHgXjwDUcUWKI/pub?output=tsv"
-facebook: https://www.facebook.com/inscightmagazine
-instagram: https://www.instagram.com/inscight_iiserkolkata/
-twitter: https://x.com/InScightIISERK
 exclude:
   - scripts
-featured: /esiam/

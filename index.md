@@ -1,9 +1,10 @@
 ---
 layout: default
 title: EPQM@IISER Kolkata
+featured: /pseudogapMottmetal/
 ---
 
-{% assign post = site.posts | find: "permalink", site.featured %}
+{% assign post = site.posts | find: "permalink", page.featured %}
 
 <section class="featured">
 <a class="featured-image" href="{{ post.url }}">
