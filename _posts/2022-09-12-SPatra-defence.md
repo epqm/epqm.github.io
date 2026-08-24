@@ -2,11 +2,7 @@
 title: "Siddhartha Patra has successfully defended his thesis."
 excerpt: ""
 permalink: /spatra-defence/
-categories:
-  - updates
-tags:
-  - thesis-defence
-
+category: news
 ---
 
 Siddhartha Patra successfully defended his doctoral thesis today, and has been recommended for a PhD degree. His thesis is titled **Entanglement signatures of correlated electron systems**. He will soon be starting his post-doctoral duties at the Donostia International Physics Center in San Sebastián, Basque Country, Spain. We wish him all the  best in his future endeavours.
