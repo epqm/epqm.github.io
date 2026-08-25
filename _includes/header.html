@@ -10,7 +10,7 @@
 {% for pair in site.navbarShort %}
 <a class="short-nav" href={{ pair[1] | relative_url }}>{{ pair[0] }}</a>
 {% endfor %}
-<div>
+<div id="menu">
   <input type="checkbox" id="menu-toggle">
   
   <div class="nav">

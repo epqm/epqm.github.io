@@ -3,7 +3,7 @@
 html {
   background-color: constants.$bg-color;
   color: constants.$fg-color;
-  font-family: constants.$font, constants.$emoji-font !important;
+  font-family: constants.$font, constants.$hn-font, constants.$math-font, constants.$nerd-font !important;
   font-size: constants.$size;
   font-weight: constants.$weight;
   text-align: justify;

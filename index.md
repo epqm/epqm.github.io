@@ -22,7 +22,7 @@ featured: /pseudogapMottmetal/
  {{ post.excerpt | strip_html | truncatewords: 35 }}
 </span>
 
-<a class="featured-link" href="{{ post.url }}"> Read the research <span class="nf nf-fa-arrow_right"></span></a>
+<a class="featured-link" href="{{ post.url }}"> Read the research </a>
 </section>
 
 <div class="epqm-description">

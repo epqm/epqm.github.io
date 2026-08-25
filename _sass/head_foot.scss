@@ -19,11 +19,11 @@ footer {
     font-size: 0.9em;
     text-decoration: none;
   }
-  font-family: constants.$font;
+  font-family: constants.$hn-font;
 }
 
 .navbar {
-  font-family: constants.$font;
+  font-family: constants.$hn-font;
   max-width: constants.$width;
   margin: auto;
   display: flex;
@@ -97,8 +97,8 @@ footer {
   background: constants.$h2-color;
 }
 .horizontal-line.grey {
-  background: constants.$bg-color;
-  opacity: 0.7;
+  background: color-mix(in srgb, constants.$bg-color, gray);
+  // opacity: 0.7;
 }
 
 
@@ -139,25 +139,25 @@ footer {
 
 #menu-toggle:checked ~ .nav #hb1 {
   rotate: -60deg;
-  translate: -13px 9px;
+  translate: -12px 9px;
   width: 15px;
 }
 
 #menu-toggle:checked ~ .nav #hb2 {
   rotate: 60deg;
-  translate: -13px 14px;
+  translate: -12px 14px;
   width: 15px;
 }
 
 #menu-toggle:checked ~ .nav #hb3 {
   rotate: 60deg;
-  translate: 23px -2px;
+  translate: 20px -3px;
   width: 15px;
 }
 
 #menu-toggle:checked ~ .nav #hb4 {
   rotate: -60deg;
-  translate: 23px 1px;
+  translate: 20px 3px;
   width: 15px;
 }
 
