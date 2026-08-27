@@ -1,1 +1,23 @@
---- []
+---
+- Timestamp: 8/27/2026 16:10:36
+  Name: A M
+  Email: a@g
+  Category: Student
+  Designation: a
+  Short Introduction: a
+  Image (Your Photo): https://drive.google.com/open?id=1bjSsmdBxEIecAuddZKQnq9-4P4RILyCa
+  Start Of Tenure: A
+  End Of Tenure: A
+  Publications:
+  Curriculum Vitae:
+- Timestamp: 8/27/2026 16:46:14
+  Name: Siddhartha Lal
+  Email: slal@iiserkol.ac.in
+  Category: Leader
+  Designation: Professor
+  Short Introduction: Hello World!
+  Image (Your Photo): https://drive.google.com/open?id=1eWQnFxvkiHwW42bFxZHW0xFcSOsA4w5K
+  Start Of Tenure: '2010'
+  End Of Tenure:
+  Publications:
+  Curriculum Vitae:
