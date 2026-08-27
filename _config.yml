@@ -89,6 +89,6 @@ navbarLong:
 ## this cannot be moved into a datafile 
 ## because it is read by a plugin (members.rb) 
 ## and must be available before any processing
-membersdata: "https://docs.google.com/spreadsheets/d/e/2PACX-1vQ3R8ASd0_9z41UXir7TE6FoQ6qUKJwWRrg_stP_QDnC3qb2rDN8SJiQrKWUmafvwyWHgXjwDUcUWKI/pub?output=tsv"
+membersdata: "https://docs.google.com/spreadsheets/d/e/2PACX-1vRM4YdgYYBW0mn_qZ6DHFNUCNpGfhlSyLpNVrYVF2_U3YzkNvB48Ux6ErpjVby5BNaBEHVlYihwDs5r/pub?output=tsv"
 exclude:
   - scripts
